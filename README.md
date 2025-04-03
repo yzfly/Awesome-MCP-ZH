@@ -5,9 +5,7 @@
 
 [![简体中文](https://img.shields.io/badge/中文文档-点击查看-orange)](README.md) [![English](https://img.shields.io/badge/English-Click-yellow)](README.md)
 
-- 作者：云中江树
-
-- 微信公众号：云中江树
+- 作者：云中江树 （微信公众号：云中江树）
 
 ---
 
