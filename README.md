@@ -1,5 +1,7 @@
 # Awesome-MCP-ZH
 
+![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3aabd8804251c0364cbde9d2e4be6dc8e8c2faec-2880x1620.png)
+
 欢迎来到 `Awesome-MCP-ZH`，一个专为中文用户打造的 MCP（模型上下文协议）资源合集！
 这里有 MCP 的基础介绍、玩法、客户端、服务器和社区资源，帮你快速上手这个 AI 界的“万能插头”。
 
@@ -103,7 +105,6 @@ MCP 服务器是 AI 的“工具箱”，以下是精选服务器列表：
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
   - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
   - [web目录](https://glama.ai/mcp/servers)。
-
 
 - **社区资源**  
   - [GitHub MCP 仓库](https://github.com/anthropic/model-context-protocol)：官方代码和示例。  
