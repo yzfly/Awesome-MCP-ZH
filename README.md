@@ -70,6 +70,7 @@ MCP 服务器是 AI 的“工具箱”，以下是精选服务器列表：
 | 名称                                                                 | 中文介绍                                                                 | 备注                                                                 |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|
 | [yzfly/mcp-python-interpreter](https://github.com/yzfly/mcp-python-interpreter) | 安全、标准化的 Python 环境交互服务器，支持代码执行、环境管理和包管理 | 轻量级 Python 执行环境，适合开发和数据分析 |
+| [yzfly/mcp-excel-server](https://github.com/yzfly/mcp-excel-server) | 通过自然语言与 Excel 交互的 MCP 服务器 | Excel 读写、分析、可视化,灵活集成 |
 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream)    | 一站式连接 2500+ API，集成 8000+ 工具，支持云端和本地管理。              | 云+本地，功能超全，适合需要多工具集成的用户。                        |
 | [abhiemj/manim-mcp-server](https://github.com/abhiemj/manim-mcp-server) | 用 Manim 生成动画，适合做数学、科技类可视化内容。                        | 本地运行，Windows/Linux 支持，动画爱好者必试。                       |
 | [burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp) | 视频编辑神器，支持添加、分析、搜索和生成视频剪辑。                      | Python 开发，适合视频内容创作者。                                    |
