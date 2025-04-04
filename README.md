@@ -41,12 +41,13 @@ MCP 能让 AI 从“嘴炮王”变成“实干家”，以下是几个例子：
 
 MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
-- **Cursor**  
-  - **简介**：代码编辑器，装上 MCP 变“全能选手”。  
-  - **功能**：写代码、发 Slack、生成图片。  
-  - **链接**：[官网](https://cursor.sh/)  
-  - **Tips**：程序员必备，试试连 GitHub MCP。
-
+- **Claude Desktop**  
+  - **简介**：Claude 桌面版，普通人也能用。  
+  - **功能**：连 Blender MCP，用自然语言建 3D 模型。  
+  - **链接**：[Anthropic 官网](https://docs.anthropic.com)  
+  - **截图**：
+    ![Claude Desktop](https://files.mdnice.com/user/43439/8e500f0e-e4c3-453e-9439-ddc6735a6cbc.png)
+  - **Tips**：不写代码也能玩，新手友好。
 
 - **Cherry Studio**  
   - **简介**：新兴客户端，支持可视化配置。  
@@ -56,11 +57,30 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![Cherry Studio 配置 MCP](https://files.mdnice.com/user/43439/d3a71dcd-5ac6-4548-8200-30a793d46255.png)  
   - **Tips**：开发中，关注社区动态。
 
-- **Claude Desktop**  
-  - **简介**：Claude 桌面版，普通人也能用。  
-  - **功能**：连 Blender MCP，用自然语言建 3D 模型。  
-  - **链接**：[Anthropic 官网](https://docs.anthropic.com)  
-  - **Tips**：不写代码也能玩，新手友好。
+- **Cursor**  
+  - **简介**：代码编辑器，装上 MCP 变“全能选手”。  
+  - **功能**：写代码、发 Slack、生成图片。  
+  - **链接**：[官网](https://cursor.sh/)  
+  - **截图**：
+    ![Cursor](https://files.mdnice.com/user/43439/3971db3e-2a0d-4128-b6e5-bcc487034d47.png)
+  - **Tips**：程序员必备，试试连 GitHub MCP。
+
+- **DeepChat**  
+  - **简介**：连接强大 AI 与个人世界的智能助手。  
+  - **功能**：支持多模型云服务（如 DeepSeek、OpenAI 等）和本地模型部署（如 Ollama），具备多通道聊天并发支持、完整的 Markdown 渲染、本地文件处理、MCP 支持等特性。  
+  - **链接**：[DeepChat 官网](https://deepchat.thinkinai.xyz/) | [GitHub 仓库](https://github.com/ThinkInAIXYZ/deepchat)  
+  - **截图**：  
+    ![DeepChat](https://files.mdnice.com/user/43439/802fc73d-6fd6-46ca-9e7c-9aff38715a88.png)
+  - **Tips**：适合开发者与非开发者使用，支持多种平台（Windows、macOS、Linux），可通过 MCP 快速集成到现有工作流中。  
+
+- **ChatWise**  
+  - **简介**：功能强大且注重隐私保护。  
+  - **功能**：支持任意 LLM 模型（如 GPT-4、Claude、Gemini 等），具备多模态聊天（音频、PDF、图片、文本等）、网页搜索（Tavily API 或本地浏览器）、MCP 工具集成（如 Notion、Google Sheets 等）以及实时渲染 HTML/React/图表等功能。  
+  - **链接**：[ChatWise 官网](https://chatwise.app/) | [文档](https://docs.chatwise.app/)  
+  - **截图**：  
+    ![ChatWise](https://files.mdnice.com/user/43439/306e535a-7b7b-43c5-b6ba-02c83d167485.jpg)
+  - **Tips**：数据完全本地存储，适合需要高效工具的用户；通过 MCP 扩展其功能！
+
 ---
 
 ## MCP 服务器
