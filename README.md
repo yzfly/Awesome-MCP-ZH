@@ -61,6 +61,14 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![Cherry Studio 配置 MCP](https://files.mdnice.com/user/43439/d3a71dcd-5ac6-4548-8200-30a793d46255.png)  
   - **Tips**：开发中，关注社区动态。
 
+- **5ire**  
+  - **简介**：一款现代化的 AI 助手和 MCP 客户端，支持多种主流服务提供商。  
+  - **功能**：通过 MCP 协议连接工具与数据源，提供文件系统访问、数据库交互、远程数据获取等功能；支持本地知识库、使用分析、提示库、书签、快速搜索等特性。  
+  - **链接**：[5ire 官网](https://5ire.app/) | [GitHub 仓库](https://github.com/nanbingxyz/5ire)  
+  - **截图**：  
+    ![5ire](https://files.mdnice.com/user/43439/0c1c47ad-689d-4302-824e-9dd5e2706e2c.png)
+  - **Tips**：适合开发者与非开发者使用，支持多平台（Windows、macOS、Linux）。
+
 - **Cursor**  
   - **简介**：代码编辑器，装上 MCP 变“全能选手”。  
   - **功能**：写代码、发 Slack、生成图片。  
