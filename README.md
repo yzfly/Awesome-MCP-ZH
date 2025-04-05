@@ -418,6 +418,47 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - [a16z 深度解读MCP](https://a16z.com/a-deep-dive-into-mcp-and-the-future-of-ai-tooling/)
   - [MCP 与 ANP 对比](https://github.com/agent-network-protocol/AgentNetworkProtocol/blob/main/blogs/cn/MCP%E4%B8%8EANP%E5%AF%B9%E6%AF%94%EF%BC%9A%E6%99%BA%E8%83%BD%E4%BD%93%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE.md)  
 
+## MCP Server 开发
+
+
+### **1. 使用 LLM 构建 MCP 服务器**
+
+利用像 Claude 这样的大语言模型（LLM）来加速你的 MCP 开发进程！
+
+本指南将帮助你使用 LLM 来构建自定义的模型上下文协议（MCP）服务器和客户端。本教程以 Claude 为例，但任何先进的大语言模型都适用。
+
+#### **准备文档资料**
+
+在开始之前，请收集必要的文档资料，以帮助 Claude 理解 MCP：
+
+1.  访问 [https://modelcontextprotocol.io/llms-full.txt](https://modelcontextprotocol.io/llms-full.txt) 并复制完整的文档文本。
+2.  前往 [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) 或 [Python SDK](https://github.com/modelcontextprotocol/python-sdk) 的代码仓库。
+3.  复制 README 文件和其他相关文档。
+4.  将这些文档粘贴到你与 Claude 的对话中。
+
+#### **描述你的服务器需求**
+
+提供文档后，清晰地向 Claude 描述你想要构建什么样的服务器。请具体说明：
+
+* 你的服务器将**开放哪些资源**
+* 它将**提供哪些工具**
+* 它应该**提供哪些提示（Prompts）**
+* 它需要与**哪些外部系统交互**
+
+例如：
+
+```
+构建一个 MCP 服务器，要求：
+- 连接到我公司的 PostgreSQL 数据库
+- 将表结构作为资源开放出来
+- 提供运行只读 SQL 查询的工具
+- 包含用于常见数据分析任务的提示（Prompts）
+```
+
+#### 2. 更多MCP编程资源
+
+- [Model Context Protocol(MCP) 编程极速入门](http://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide)
+
 ---
 
 ## Star History
