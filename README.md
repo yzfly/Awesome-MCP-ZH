@@ -47,7 +47,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 - **Claude Desktop**  
   - **简介**：Claude 桌面版，普通人也能用。  
-  - **功能**：连 Blender MCP，用自然语言建 3D 模型。  
+  - **功能**：官方客户端，连接各种MCP服务器，例如连 Blender MCP，用自然语言建 3D 模型。  
   - **链接**：[Anthropic 官网](https://docs.anthropic.com)  
   - **截图**：
     ![Claude Desktop](https://files.mdnice.com/user/43439/8e500f0e-e4c3-453e-9439-ddc6735a6cbc.png)
@@ -55,7 +55,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 - **Cherry Studio**  
   - **简介**：新兴客户端，支持可视化配置。  
-  - **功能**：拖拽连服务器，简单上手。  
+  - **功能**：点选即可配置MCP服务器，简单上手。  
   - **链接**：[Cherry Studio](https://github.com/CherryHQ/cherry-studio)  
   - **截图**：  
     ![Cherry Studio 配置 MCP](https://files.mdnice.com/user/43439/d3a71dcd-5ac6-4548-8200-30a793d46255.png)  
