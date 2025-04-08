@@ -161,6 +161,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | 名称                                                                 | 中文介绍                                                                 | 备注                                                                 |
 | :------------------------------------------------------------------- | :----------------------------------------------------------------------- | :------------------------------------------------------------------- |
 | [modelcontextprotocol/server-github](https://github.com/modelcontextprotocol/servers) | 官方参考实现，集成 GitHub API，管理仓库、文件、PR 和 Issues。           | 官方参考，TypeScript 开发，GitHub 重度用户必备。                      |
+| [github/github-mcp-server](https://github.com/github/github-mcp-server) | GitHub 官方出品，让 AI 通过 API 深度集成 GitHub，实现自动化工作流，管理仓库、PR、Issues，搜索代码，分析数据，甚至进行代码扫描等操作。 | 官方实现，Go 开发。功能全面，覆盖用户、仓库、代码、Issues、PRs、搜索、代码扫描等。推荐使用 Docker 部署。 |
 | [modelcontextprotocol/server-git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) | 官方参考实现，直接操作本地 Git 仓库，进行读取、搜索和分析。              | 官方参考，Python 开发，本地 Git 仓库操作。                            |
 | [modelcontextprotocol/server-gitlab](https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab) | 官方参考实现，集成 GitLab API，进行项目管理和 CI/CD 操作。              | 官方参考，TypeScript 开发，GitLab 用户适用。                         |
 | [Gitee](https://github.com/oschina/mcp-gitee)                        | Gitee 官方集成，管理 Gitee 仓库、Issues 和 Pull Requests。              | 官方实现，Go 开发，Gitee 用户必备。                                  |
