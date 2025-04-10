@@ -127,6 +127,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [RAG Web Browser](https://github.com/apify/mcp-server-rag-web-browser) | Apify 开源工具，执行网页搜索、抓取 URL 并以 Markdown 格式返回内容。       | 社区实现 (Apify)，TypeScript 开发，结合 RAG 的网页浏览。                |
 | [scrapling-fetch](https://github.com/cyberchitta/scrapling-fetch-mcp) | 从有反爬虫措施的网站获取文本内容。                                       | 社区实现，Python 开发，突破反爬。                                      |
 | [jae-jae/fetcher-mcp](https://github.com/jae-jae/fetcher-mcp)        | 使用 Playwright 无头浏览器获取网页内容，支持 JS 渲染和智能提取。            | 社区实现，TypeScript 开发，Playwright 网页内容提取。                 |
+| [ryoppippi/sitemcp](https://github.com/ryoppippi/sitemcp)           | 抓取整个网站并将其作为 MCP 服务器使用。                                 | 支持 TypeScript，提供工具命名策略、页面匹配、内容选择器等功能。可通过 NPM、Bun 等安装和运行。 |
+
 
 ---
 
