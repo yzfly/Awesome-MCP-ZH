@@ -153,6 +153,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [vivekVells/mcp-pandoc](https://github.com/vivekVells/mcp-pandoc)    | 使用 Pandoc 进行无缝文档格式转换（Markdown, HTML, PDF, DOCX等）。        | 社区实现，Python 开发，文档格式转换。                                |
 | [iTerm MCP](https://github.com/ferrislucas/iterm-mcp)                | 集成 macOS 的 iTerm2 终端，让 AI 执行和监控终端命令。                   | 社区实现，Python 开发，macOS 终端控制。                              |
 | [Windows CLI](https://github.com/SimonB97/win-cli-mcp-server)        | 在 Windows 系统上安全执行命令行（PowerShell, CMD, Git Bash）。          | 社区实现，Python 开发，Windows 命令行控制。                          |
+| [EdgeOne Pages MCP](https://github.com/TencentEdgeOne/edgeone-pages-mcp)        | 使用 EdgeOne Pages 将代码部署为可公开访问的在线页面。          | 官方实现，TypeScript 开发，独立开发者必备。                          |
 
 ---
 
