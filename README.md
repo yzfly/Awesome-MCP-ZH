@@ -13,6 +13,12 @@
 
 - LLM 选型我的使用体感是： Claude3.7 > Qwen2.5-Max > DeepSeek
 
+分析文章：
+- [ 10分钟搞定高德地图MCP！我用AI解决了约会地点选择难题 ](https://mp.weixin.qq.com/s/SUifLfJIBX_JNIZesTm8CA)
+- [ 因为Manus爆火的 Claude MCP，90%人的认知可能都是错的](https://mp.weixin.qq.com/s/mT43PSiyO9ZsXKCbiVsWzQ)
+- [ 刚官宣支持MCP，就发布自家Agent协议（A2A），扒一扒Google暗藏的小心思](https://mp.weixin.qq.com/s/Zoq2bgPfJIERAzPiN1l0QA)
+- [阿里云拥抱 MCP 这步棋，太多人都没有真正看懂](https://mp.weixin.qq.com/s/GrEWFqpmvp1LfURAT1XzZw)
+- [ 详解 MCP 传输机制 ](https://mp.weixin.qq.com/s/gmgo_glOzbvdFwePP1yQ9g)
 ---
 
 ## MCP 是什么？
@@ -93,6 +99,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![ChatWise](https://files.mdnice.com/user/43439/306e535a-7b7b-43c5-b6ba-02c83d167485.jpg)
   - **Tips**：数据完全本地存储，适合需要高效工具的用户；通过 MCP 扩展其功能！
 
+- **其他MCP客户端资源**  
+  - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
 ---
 
@@ -403,6 +411,16 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ---
 
+### 更多 MCP Server 资源
+
+* [MCP.so](https://mcp.so/) 收录了近 8000 MCP Servers
+
+![](https://files.mdnice.com/user/43439/4f1c6e0d-f1b3-423c-b069-fa2c502d8557.png)
+
+* [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
+* [web目录](https://glama.ai/mcp/servers)。
+
+
 ## MCP 资源
 
 想玩转 MCP？这些资源帮你省时间：
@@ -411,10 +429,6 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - [MCP 官网](https://www.claudemcp.com/)  
   - [Anthropic MCP 介绍](https://www.anthropic.com/news/model-context-protocol)  
 
-- **开源文档**  
-  - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
-  - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
-  - [web目录](https://glama.ai/mcp/servers)。
 
 - **社区资源**  
   - [GitHub MCP 仓库](https://github.com/anthropic/model-context-protocol)：官方代码和示例。  
