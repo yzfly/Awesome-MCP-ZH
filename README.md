@@ -99,6 +99,14 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![ChatWise](https://files.mdnice.com/user/43439/306e535a-7b7b-43c5-b6ba-02c83d167485.jpg)
   - **Tips**：数据完全本地存储，适合需要高效工具的用户；通过 MCP 扩展其功能！
 
+- **eechat**  
+  - **简介**：简单易用的本地部署 LLM 工具，注重隐私、安全和性能。  
+  - **功能**：一键集成、管理、运行多种 MCP 工具，可视化配置 + 自动读取 Readme MCP 配置信息，内置 Node, Python 运行环境，兼容 Claude, Cursor 配置，同时支持本地化部署模型。
+  - **链接**：[eechat 官网](https://ee.chat/) | [GitHub 仓库](https://github.com/Lucassssss/eechat)  
+  - **截图**：  
+    ![eechat](https://www.ee.chat/img/mcp_chat.png)
+  - **Tips**：低门槛适合小白。
+
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
