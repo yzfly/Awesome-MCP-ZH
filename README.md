@@ -783,6 +783,11 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 * [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
 * [web目录](https://glama.ai/mcp/servers)。
+* [MCP.ing](https://mcp.ing) 一个资源丰富的 MCP Server库。
+
+![mcp ing](https://youjb.com/images/2025/04/25/mcp-ingb03704c206230a97.png)
+
+
 
 
 ## MCP 资源
