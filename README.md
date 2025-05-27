@@ -5,7 +5,8 @@
 欢迎来到 `Awesome-MCP-ZH`，一个专为中文用户打造的 MCP（模型上下文协议）资源合集！
 这里有 MCP 的基础介绍、玩法、客户端、服务器和社区资源，帮你快速上手这个 AI 界的“万能插头”。
 
-[![简体中文](https://img.shields.io/badge/中文文档-点击查看-orange)](README.md) [![English](https://img.shields.io/badge/English-Click-yellow)](README.md)
+[![Join Our Discord Community](https://img.shields.io/badge/🚀%20Join%20Discord%20Community-Join%20Now-7289da?style=for-the-badge&logo=discord&logoColor=white&labelColor=2c2f33)](https://discord.gg/EXT6TpW3) [![简体中文](https://img.shields.io/badge/中文文档-点击查看-orange)](README.md) 
+
 
 - 作者：云中江树 （微信公众号：云中江树）
 
@@ -378,6 +379,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Tomatio13/mcp-server-tavily](https://github.com/Tomatio13/mcp-server-tavily) | Tavily AI 搜索 API (社区实现版本)。                                                    | 社区实现, Python 开发 🐍, 云服务 ☁️, Tavily 搜索 (社区 Py 版)。                            |
 | [zhsama/duckduckgo-mcp-server](https://github.com/zhsama/duckduckgo-mpc-server) | 提供 DuckDuckGo 搜索功能的基于 TypeScript 的 MCP 服务器。                               | 社区实现, TypeScript 开发 📇, 本地/云端 🏠☁️, DuckDuckGo 搜索 (TypeScript)。             |
 | [mcp-local-rag](https://github.com/nkapila6/mcp-local-rag)           | 本地运行的 RAG 式网页搜索，使用 MediaPipe Embedder 和 DuckDuckGo。                               | 社区实现, Python 开发, 本地 RAG 搜索 (无需 API Key)。                                        |
+| [douyin-mcp-server](https://github.com/yzfly/douyin-mcp-server)           | 提取抖音无水印视频链接，视频文案，douyin-mcp-server  | 社区实现, Python 开发, API 默认使用 [SiliconFlow API](https://cloud.siliconflow.cn/i/TxUlXG3u)                              |
 
 ---
 
