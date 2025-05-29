@@ -799,6 +799,10 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 ![mcp ing](https://youjb.com/images/2025/04/25/mcp-ingb03704c206230a97.png)
 
 
+## MCP 更多玩法
+
+* [mcp-agent](https://github.com/lastmile-ai/mcp-agent): Build effective agents using Model Context Protocol and simple workflow patterns
+
 
 
 ## MCP 资源
