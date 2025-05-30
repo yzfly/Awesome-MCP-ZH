@@ -124,6 +124,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ---
 
+
 ### 🌐 浏览器自动化与网页交互
 
 *(让 AI 能够像人一样浏览网页、提取信息、填写表单等)*
@@ -803,6 +804,15 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 * [mcp-agent](https://github.com/lastmile-ai/mcp-agent): Build effective agents using Model Context Protocol and simple workflow patterns
 
+
+### 亲测优质Server
+
+发现很多server 可用性不够，单开一个模块推荐自己使用过的优质 Server，欢迎大家在这个板块提交自己测试后的优质Server，提交的时候请同步提交使用 Server截图。
+
+* [notion-mcp-server](https://github.com/makenotion/notion-mcp-server) Official Notion MCP Server
+* [douyin-mcp-server](https://github.com/yzfly/douyin-mcp-server) 提取抖音无水印视频链接，视频文案
+* [mcp-hotnews-server](https://github.com/wopal-cn/mcp-hotnews-server) A Model Context Protocol server that provides real-time hot trending topics from major Chinese social platforms and news sites.
+* [mcp-github-trending](https://github.com/hetaoBackend/mcp-github-trending) MCP server for getting github trending repos & developers
 
 
 ## MCP 资源
