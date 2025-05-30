@@ -803,6 +803,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 ## MCP 更多玩法
 
 * [mcp-agent](https://github.com/lastmile-ai/mcp-agent): Build effective agents using Model Context Protocol and simple workflow patterns
+* [mcsmcp](https://github.com/microsoft/mcsmcp) Lab for creating an MCP Server and using it in Microsoft Copilot Studio.
 
 
 ### 亲测优质Server
