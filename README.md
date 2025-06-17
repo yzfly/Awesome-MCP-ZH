@@ -598,6 +598,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [samuelgursky/davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) | DaVinci Resolve 的 MCP 服务器集成，提供视频编辑、调色、媒体管理和项目控制的强大工具。                     | 社区实现, Python 开发 🐍, DaVinci Resolve 视频编辑。                                                     |
 | [YouTube](https://github.com/ZubeidHendricks/youtube-mcp-server)                 | 全面的 YouTube API 集成，用于视频管理、Shorts 创建和分析。                                                   | 社区实现, Python 开发, YouTube 管理与分析。                                                             |
 | [anaisbetts/mcp-youtube](https://github.com/anaisbetts/mcp-youtube)              | 获取 YouTube 字幕 (另一版本)。                                                                    | 社区实现, TypeScript 开发 📇, 云服务 ☁️, YouTube 字幕。                                                  |
+| [IDEA-Research/DINO-X-MCP](https://github.com/IDEA-Research/DINO-X-MCP)              |  让 AI 具备细粒度的图像理解能力：识别、定位、描述你看到的任何目标。                                                                     | 官方实现（IDEA-Research）, TypeScript 开发 📇, 本地运行 🏠, 图像识别理解。                                                  |
 
 ---
 
