@@ -678,6 +678,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [SaintDoresh/Weather-MCP-ClaudeDesktop](https://github.com/SaintDoresh/Weather-MCP-ClaudeDesktop.git) | 使用 OpenWeatherMap API 提供实时天气数据、预报和历史天气信息的 MCP 工具。                      | 社区实现, Python 开发 🐍, 云服务 ☁️, OpenWeatherMap 天气数据。                               |
 | [SecretiveShell/MCP-timeserver](https://github.com/SecretiveShell/MCP-timeserver)    | 访问任何时区的本地时间和获取当前本地时间。 (已在“其他”部分列出Time)                               | 社区实现, Python 开发 🐍, 本地运行 🏠, 时间/时区工具。                                          |
 | [webcoderz/MCP-Geo](https://github.com/webcoderz/MCP-Geo)                        | 用于 nominatim, ArcGIS, Bing 的地理编码 MCP 服务器。                                         | 社区实现, Python 开发 🐍, 本地运行 🏠, 地理编码服务。                                           |
+| [ip2location/mcp-ip2location-io](https://github.com/ip2location/mcp-ip2location-io) | 使用 IP2Location.io API 获取 IP 地址地理位置和网络信息。                                                 | 官方参考, Python 开发 🐍, 云服务 ☁️, IP 地址信息 (IP2Location.io)。                                   |
 
 ---
 
