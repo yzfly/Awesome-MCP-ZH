@@ -192,6 +192,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [tgeselle/bugsnag-mcp](https://github.com/tgeselle/bugsnag-mcp)        | 用于与 Bugsnag 交互的 MCP 服务器。                                         | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Bugsnag 集成。                              |
 | [jordandalton/restcsv-mcp-server](https://github.com/JordanDalton/RestCsvMcpServer) | 用于 CSV 文件的 MCP 服务器。                                               | 社区实现, TypeScript 开发 📇, 云服务 ☁️, CSV 处理。                                 |
 | [jjsantos01/jupyter-notebook-mcp](https://github.com/jjsantos01/jupyter-notebook-mcp) | 将 Jupyter Notebook 连接到 Claude AI，允许 Claude 直接交互和控制 Jupyter。 | 社区实现, Python 开发 🐍, 本地运行 🏠, Jupyter 集成。                               |
+| [Lstmxx/yapi-mcp-server](https://github.com/Lstmxx/yapi-mcp-server) | 一个用 LLM 将 Yapi 的 API 定义自动化生成为 TypeScript 代码的MCP服务                               |社区实现, TypeScript 开发 📇,本地运行 🏠
+
 
 ---
 
