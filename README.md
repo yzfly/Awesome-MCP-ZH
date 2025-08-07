@@ -381,6 +381,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [zhsama/duckduckgo-mcp-server](https://github.com/zhsama/duckduckgo-mpc-server) | 提供 DuckDuckGo 搜索功能的基于 TypeScript 的 MCP 服务器。                               | 社区实现, TypeScript 开发 📇, 本地/云端 🏠☁️, DuckDuckGo 搜索 (TypeScript)。             |
 | [mcp-local-rag](https://github.com/nkapila6/mcp-local-rag)           | 本地运行的 RAG 式网页搜索，使用 MediaPipe Embedder 和 DuckDuckGo。                               | 社区实现, Python 开发, 本地 RAG 搜索 (无需 API Key)。                                        |
 | [douyin-mcp-server](https://github.com/yzfly/douyin-mcp-server)           | 提取抖音无水印视频链接，视频文案，douyin-mcp-server  | 社区实现, Python 开发, API 默认使用 [SiliconFlow API](https://cloud.siliconflow.cn/i/TxUlXG3u)                              |
+| [Aas-ee/open-webSearch](https://github.com/Aas-ee/open-webSearch)           | 一个基于多引擎搜索结果的模型上下文协议(MCP)服务器，支持免费网络搜索，无需API密钥。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 云服务 ☁️ , 支持 Bing, Baidu, DuckDuckGo, Brave, Exa, Github, and CSDN.                            |
 
 ---
 
