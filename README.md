@@ -108,6 +108,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![eechat](https://www.ee.chat/img/mcp_chat.png)
   - **Tips**：低门槛适合小白。
 
+- **Agent-cli**
+  - **简介**：简单易用的命令行模型工具，支持 TUI、stdio、napcat、mcp 工具调用
+  - **功能**：根据本地配置文件连接大模型 api 并调用配置好的 mcp server；同时可以作为服务端监听 NapCat 的 QQ @对话；或者作为命令行工具单独使用，提供终端交互或者直接输出
+  - **截图**：![](https://youke1.picui.cn/s1/2025/08/27/68af102a9be41.png)
+  - **链接**：[Agent-cli](https://github.com/belowthetree/agent-cli)
+
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
