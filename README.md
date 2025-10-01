@@ -830,6 +830,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 * [douyin-mcp-server](https://github.com/yzfly/douyin-mcp-server) 提取抖音无水印视频链接，视频文案
 * [mcp-hotnews-server](https://github.com/wopal-cn/mcp-hotnews-server) A Model Context Protocol server that provides real-time hot trending topics from major Chinese social platforms and news sites.
 * [mcp-github-trending](https://github.com/hetaoBackend/mcp-github-trending) MCP server for getting github trending repos & developers
+* [roundtable-ai](https://github.com/askbudi/roundtable) 经过全面测试的统一AI编程助手MCP服务器，零配置安装，专为多AI工具集成和自主代理开发优化。一键pip安装即可使用，支持Claude Desktop、Cursor等主流客户端，为中国开发者提供稳定可靠的AI编程工作流。
 
 
 ## MCP 资源
