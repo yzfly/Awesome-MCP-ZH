@@ -12,7 +12,7 @@
 
 - 如果国内的朋友想免费快速的体验MCP能力，推荐 Cherry Studio（客户端） + 阿里 Qwen (大模型）的组合，优势是免费、操作简单、LLM无需魔法、无需充值。
 
-- LLM 选型我的使用体感是： Claude3.7 > Qwen2.5-Max > DeepSeek
+- LLM 选型我的使用体感是： Claude4.5 > GPT-5 > Gemini-2.5 > Qwen3-Max > DeepSeek
 
 分析文章：
 - [ 10分钟搞定高德地图MCP！我用AI解决了约会地点选择难题 ](https://mp.weixin.qq.com/s/SUifLfJIBX_JNIZesTm8CA)
@@ -32,6 +32,9 @@ MCP 全称 **模型上下文协议（Model Context Protocol）**，由 Anthropic
 ![MCP 架构图](https://files.mdnice.com/user/43439/e43d85e3-53c4-440d-ad88-bd5218028b20.png)
 
 想深入了解？看 [官方介绍](https://www.anthropic.com/news/model-context-protocol)。
+
+微软出的面向初学者的 Model Context Protocol (MCP) 课程也不错，推荐一下：
+- [mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
 
 ---
 
@@ -316,6 +319,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | 名称                                                                 | 中文介绍                                                                                             | 备注                                                                                                          |
 | :------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
 | [Alibaba Cloud DataWorks](https://github.com/aliyun/alibabacloud-dataworks-mcp-server) | 阿里云 DataWorks 官方集成，通过标准化接口与 DataWorks Open API 进行 AI 交互，用于云资源操作。      | 官方实现 (Alibaba Cloud) 🎖️, 阿里云数据平台。                                                               |
+| [AWS MCP Servers](https://github.com/awslabs/mcp) | AWS 官方维护的一组 MCP 服务器合集，通过 Model Context Protocol（MCP）为 AI 助手提供对 AWS 文档、API、基础设施等资源的访问，帮助在任意支持 MCP 的环境中高效使用 AWS。  | 官方实现（AWS）🎖️，覆盖 AWS API、文档/最佳实践、基础设施与部署等多类场景，可配合各类 MCP 客户端（IDE、聊天应用等）使用。 |
 | [Cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)    | Cloudflare 官方集成，部署、配置和查询 Cloudflare 开发者平台资源 (Workers/KV/R2/D1)。                   | 官方实现 (Cloudflare) 🎖️, TypeScript 开发 📇, 云服务 ☁️, Cloudflare 平台管理。                           |
 | [AWS KB Retrieval](https://github.com/modelcontextprotocol/servers/tree/main/src/aws-kb-retrieval-server) | 官方参考实现，使用 Bedrock Agent Runtime 从 AWS 知识库检索信息。                                     | 官方参考, TypeScript 开发, AWS Bedrock 知识库。                                                             |
 | [AWS S3](https://github.com/aws-samples/sample-mcp-server-s3)        | AWS 官方示例，灵活地从 S3 获取对象（如 PDF 文档）。                                                  | 官方示例 (AWS), TypeScript 开发, S3 文件获取。                                                               |
