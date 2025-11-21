@@ -620,6 +620,25 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ---
 
+### 📕 社交媒体与内容创作 (小红书/RedNote)
+
+*(让 AI 能够进行社媒数据采集、内容发布、自动化互动及多账号管理)*
+
+| 名称 | 中文介绍 | 备注 |
+| :--- | :--- | :--- |
+| [xhs-toolkit](https://github.com/aki66938/xhs-toolkit) | 小红书创作者 MCP 工具包，支持与 AI 客户端集成，进行内容创作和发布。 | 社区热门 🔥, Python 开发 🐍, 创作与发布工具。 |
+| [xhs-mcp](https://github.com/jobsonlook/xhs-mcp) | 提供小红书 MCP 服务，包含 x-s / x-t 参数获取及 JS 逆向能力。 | 社区实现, Python 开发 🐍, 核心算法/逆向支持。 |
+| [Redbook-Search-Comment-MCP2.0](https://github.com/chenningling/Redbook-Search-Comment-MCP2.0) | 基于 Playwright 开发，支持自动登录、关键词搜索、笔记获取及 AI 评论发布 (适配 Claude 桌面版)。 | 社区实现, Python 开发 🐍, 自动化操作 (Playwright), 搜索与互动。 |
+| [self-dify](https://github.com/datawhalechina/self-dify) | Dify 应用搭建教程，包含“小红书读书卡片”、“甜蜜哄人”等特色 AI 助手实现指南。 | 社区教程 📚, 知识库与 Agent 搭建, Dify 集成案例。 |
+| [xhs-mcp-server](https://github.com/aicu-icu/xhs-mcp-server) | 基于 Electron + Web API，一键安装运行，支持极速抓取数据（笔记/评论/用户）并进行 AI 分析导出。 | 社区实现, TypeScript 开发 📇, Electron 封装, 数据抓取与分析。 |
+| [AiClient](https://github.com/Cooosin/AiClient) | 旅游行程规划 AI 智能体，连接小红书搜索、高德地图和和风天气 MCP 服务。 | 社区实现, Java 开发 ☕, 跨应用集成, 旅游场景 Agent。 |
+| [RednoteMCP](https://github.com/JonaFly/RednoteMCP) | 基于 Playwright 的自动化工具，支持自动登录、搜索特定关键词、获取内容及智能评论。 | 社区实现, Python 开发 🐍, 自动化操作, 笔记检索。 |
+| [XME (XhsMcpElectron)](https://github.com/pmhw/XME) | 小红书 Electron 多账号自动化工具，支持 MCP 协议。 | 社区实现, Go 开发 🐹, 多账号管理, 自动化工具。 |
+| [RedBook-Search-Comment-MCP](https://github.com/chenningling/RedBook-Search-Comment-MCP) | (v1.0版本) 基于 Playwright 的搜索与评论工具，帮助用户完成基础的自动化操作。 | 社区实现, Python 开发 🐍, 旧版本归档 (建议使用 v2.0)。 |
+| [xiaohongshu-mcp-nodejs](https://github.com/ToDieOrNot/xiaohongshu-mcp-nodejs) | 企业级 Node.js 重构版本，支持多账号矩阵管理、反风控、数据采集与发布。 | 社区实现, Node.js 开发 🟢, 矩阵管理, 企业级特性。 |
+
+---
+
 ### 🧠 知识、记忆与 RAG
 
 *(让 AI 拥有长期记忆、能够基于特定知识库回答问题等)*
