@@ -495,6 +495,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop](https://github.com/SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop.git) | 使用 Yahoo Finance API 提供股市数据和分析的 MCP 工具。                                          | 社区实现, Python 开发 🐍, 云服务 ☁️, Yahoo Finance 数据分析。                                       |
 | [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit/tree/main/examples/agent-kit-mcp-server) | 使用 Solana Agent Kit 与 Solana 区块链交互，支持 40+ 协议操作。                                        | 社区实现, TypeScript 开发, Solana 链交互。                                                         |
 | [AlphaVantage](https://github.com/calvernaz/alphavantage)                          | AlphaVantage 股票市场数据 API 服务器。                                                              | 社区实现, Python 开发, AlphaVantage 金融数据。                                                      |
+| [AgentFund](https://github.com/RioTheGreat-ai/agentfund-mcp)                       | AI 代理众筹平台，基于里程碑的托管机制。让 AI 代理创建资金提案、获得资助、完成工作后收款。部署在 Base 链上。         | 社区实现, TypeScript 开发 📇, 云服务 ☁️, AI 代理众筹托管。                                          |
 
 ---
 
