@@ -397,6 +397,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [douyin-mcp-server](https://github.com/yzfly/douyin-mcp-server)           | 提取抖音无水印视频链接，视频文案，douyin-mcp-server  | 社区实现, Python 开发, API 默认使用 [SiliconFlow API](https://cloud.siliconflow.cn/i/TxUlXG3u)                              |
 | [Aas-ee/open-webSearch](https://github.com/Aas-ee/open-webSearch)           | 一个基于多引擎搜索结果的模型上下文协议(MCP)服务器，支持免费网络搜索，无需API密钥。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 云服务 ☁️ , 支持 Bing, Baidu, DuckDuckGo, Brave, Exa, Github, and CSDN.                            |
 | [Multi-Source Media MCP Server (M3S)](https://github.com/Decade-qiu/Multi-Source-Media-MCP-Server) | 多源媒体聚合与生成，统一访问 Unsplash/Pexels、Web 爬取媒体，支持多后端 AI 图像生成以及全网图片爬虫。 | 原生 Go ✨，本地运行 🏠，支持多平台媒体 API 和 AI 图像生成、爬虫扩展。 |
+| [MLT-OSS/FirstData](https://github.com/MLT-OSS/FirstData) | 全球最全面的权威数据源知识库，132+ 经验证数据源（政府、国际组织、学术机构），帮助 AI 减少幻觉。提供结构化元数据、100% URL 验证、中英双语支持。目标：1000+ 数据源。 | 本地/云端 🏠☁️，中国数据源深度覆盖 🇨🇳，AI 事实防线，抗幻觉数据底座。 |
 
 ---
 
