@@ -437,6 +437,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [tomba-io/tomba-mcp-server](https://github.com/tomba-io/tomba-mcp-server) | 邮箱发现、验证和数据丰富工具。可查找邮箱地址、验证可送达性、丰富联系人数据、发现作者和 LinkedIn 档案、验证手机号码并分析技术栈。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 邮箱验证与联系人数据丰富。                       |
 | [teddyzxcv/ntfy-mcp](https://github.com/teddyzxcv/ntfy-mcp)          | 使用 ntfy 向手机发送通知的 MCP 服务器。                                                 | 社区实现, ntfy 通知。                                                                       |
 | [Telegram](https://github.com/chigwell/telegram-mcp)                 | 通过 Telethon 集成 Telegram，支持分页读取聊天、检索和发送消息。                               | 社区实现, Python 开发, Telegram 消息交互。                                                |
+| [team-telnyx/telnyx-mcp-server](https://github.com/team-telnyx/telnyx-mcp-server) | Telnyx 官方 MCP 服务器，用于构建 AI 驱动的通信应用。创建语音助手、发送短信、管理电话号码、集成实时消息。 | 官方实现 (Telnyx) 🎖️, Python 开发 🐍, 云服务 ☁️, 电话/短信/AI 语音助手。 |
 | [userad/didlogic_mcp](https://github.com/UserAd/didlogic_mcp)          | DIDLogic MCP 服务器。增加管理 SIP 端点、号码和目的地的功能。                              | 社区实现, Python 开发 🐍, 云服务 ☁️, DIDLogic (VoIP) 集成。                               |
 | [X (Twitter) (by vidhupv)](https://github.com/vidhupv/x-mcp)         | 直接通过 Claude 创建、管理和发布 X/Twitter 推文。                                            | 社区实现, Python 开发, Twitter 发推管理。                                                 |
 | [VibeMarketing](https://vibemarketing.ninja/mcp) | X/Twitter 和 LinkedIn 社交媒体调度工具，支持 AI 驱动的内容生成。OAuth 身份验证，计划发布，账户管理，订阅跟踪。 | 远程 MCP 服务器 ☁️，社交媒体营销自动化。 |
