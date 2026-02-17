@@ -504,6 +504,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop](https://github.com/SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop.git) | 使用 Yahoo Finance API 提供股市数据和分析的 MCP 工具。                                          | 社区实现, Python 开发 🐍, 云服务 ☁️, Yahoo Finance 数据分析。                                       |
 | [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit/tree/main/examples/agent-kit-mcp-server) | 使用 Solana Agent Kit 与 Solana 区块链交互，支持 40+ 协议操作。                                        | 社区实现, TypeScript 开发, Solana 链交互。                                                         |
 | [AlphaVantage](https://github.com/calvernaz/alphavantage)                          | AlphaVantage 股票市场数据 API 服务器。                                                              | 社区实现, Python 开发, AlphaVantage 金融数据。                                                      |
+| [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)                    | x402 支付协议资源目录，包含 MCP 服务器、SDK 和工具，用于基于 HTTP 402 的 USDC 支付（支持 Base、Arbitrum 等 EVM 链）。 | 社区实现, 云服务 ☁️, x402 协议生态资源汇总。                                                         |
 
 ---
 
