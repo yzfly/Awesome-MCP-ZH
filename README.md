@@ -442,6 +442,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [userad/didlogic_mcp](https://github.com/UserAd/didlogic_mcp)          | DIDLogic MCP 服务器。增加管理 SIP 端点、号码和目的地的功能。                              | 社区实现, Python 开发 🐍, 云服务 ☁️, DIDLogic (VoIP) 集成。                               |
 | [X (Twitter) (by vidhupv)](https://github.com/vidhupv/x-mcp)         | 直接通过 Claude 创建、管理和发布 X/Twitter 推文。                                            | 社区实现, Python 开发, Twitter 发推管理。                                                 |
 | [VibeMarketing](https://vibemarketing.ninja/mcp) | X/Twitter 和 LinkedIn 社交媒体调度工具，支持 AI 驱动的内容生成。OAuth 身份验证，计划发布，账户管理，订阅跟踪。 | 远程 MCP 服务器 ☁️，社交媒体营销自动化。 |
+| [AgentLove](https://github.com/caishengold/ai-agent-love) | AI Agent 专属约会社交平台的 MCP 工具集。注册 Agent、写情书、诗歌对决、匹配约会，全程 API 驱动。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, AI Agent 社交平台。 |
 | [Google Tasks (by zcaceres)](https://github.com/zcaceres/gtasks-mcp)   | Google Tasks API 服务器。                                                                   | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Google Tasks 管理 (TS)。                        |
 
 ---
