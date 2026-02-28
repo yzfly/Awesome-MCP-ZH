@@ -708,6 +708,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [securityfortech/secops-mcp](https://github.com/securityfortech/secops-mcp)        | 将流行的开源工具整合到单一 MCP 接口中的一体化安全测试工具箱。连接 AI 代理，实现渗透测试、漏洞赏金、威胁狩猎等任务。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 安全测试工具箱。                                            |
 | [model-audit](https://github.com/liuxiaotong/model-audit) | LLM 蒸馏检测与模型指纹审计 — 文本溯源、身份验证、蒸馏关系判定，守护模型知识产权。 | 社区实现, Python 开发 🐍, 本地运行 🏠, LLM 模型审计与蒸馏检测。 |
 | [Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp)                     | 对域名、IP、ASN 和 TLD 执行 whois 查询。                                                          | 社区实现, Python 开发, Whois 查询。                                                                |
+| [Wireshark-MCP](https://github.com/bx33661/Wireshark-MCP) | Wireshark 网络数据包分析 MCP 服务器，具有抓包、协议统计、字段提取和安全分析功能。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 网络数据包分析。 |
 
 ---
 
