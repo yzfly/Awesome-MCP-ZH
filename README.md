@@ -857,6 +857,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ## MCP 更多玩法
 
+* [AnchorBrowser](https://anchorbrowser.io) - Cloud browser platform for AI agents — managed Chromium instances accessible via WebSocket/CDP or Playwright/Puppeteer, with enterprise-grade anti-detection, automatic CAPTCHA solving, proxy rotation, persistent sessions, and a native MCP server. Free tier: 5 concurrent browsers
 * [mcp-agent](https://github.com/lastmile-ai/mcp-agent): Build effective agents using Model Context Protocol and simple workflow patterns
 * [mcsmcp](https://github.com/microsoft/mcsmcp) Lab for creating an MCP Server and using it in Microsoft Copilot Studio.
 * [mindsdb](https://github.com/mindsdb/mindsdb) AI's query engine - Platform for building AI that can answer questions over large scale federated data. - The only MCP Server you'll ever need
