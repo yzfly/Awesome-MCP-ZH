@@ -855,6 +855,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 ![mcp.ing](https://youjb.com/images/2025/04/25/mcp-ingb03704c206230a97.png)
 
 
+- [OpenClaw MCP Ecosystem](https://github.com/yedanyagamiai-cmd/openclaw-mcp-servers) - 9 個遠端 MCP 伺服器（Cloudflare Workers）：JSON 工具、正則引擎、色彩調色盤、時間戳轉換、提示詞增強、AI 市場情報、運勢占卜、內容發布、AI 工具比較。免費層 + Pro API keys ($9)。
 ## MCP 更多玩法
 
 * [mcp-agent](https://github.com/lastmile-ai/mcp-agent): Build effective agents using Model Context Protocol and simple workflow patterns
