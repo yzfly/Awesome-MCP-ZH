@@ -111,6 +111,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![eechat](https://www.ee.chat/img/mcp_chat.png)
   - **Tips**：低门槛适合小白。
 
+- **Claude Code Open**  
+  - **简介**：基于 Claude Code CLI 的开源 AI 编程平台，完整支持 MCP 协议。  
+  - **功能**：支持 MCP 服务器配置与集成，内置 37+ 工具（文件操作、代码分析、Web 访问、系统命令等），提供浏览器端 Web IDE（Monaco 编辑器）、Blueprint 多智能体协作系统、定时任务守护进程。  
+  - **链接**：[GitHub 仓库](https://github.com/kill136/claude-code-open)  
+  - **Tips**：MIT 开源，TypeScript 开发，支持 Windows/macOS/Linux，适合需要 MCP 集成的开发者。
+
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
