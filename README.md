@@ -562,6 +562,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Mindmap](https://github.com/YuChenSSR/mindmap-mcp-server)           | 从包含 Markdown 代码的输入生成美观的交互式思维导图。                                                       | 社区实现, Python 开发 🐍, 本地运行 🏠, 思维导图生成。                                                 |
 | [JSON](https://github.com/GongRzhe/JSON-MCP-Server)                  | JSON 处理服务器，支持 JSONPath 查询和多种操作。                                                            | 社区实现, Python 开发, 高级 JSON 处理。                                                                 |
 | [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp) | 将几乎任何文件或 Web 内容转换为 Markdown 的 MCP 服务器。                                          | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 文件/网页转 Markdown。                                      |
+| [shmlkv/dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis) | 使用 Claude Code 构建的个人基因组分析工具包，支持 17 个类别的 DNA 数据分析并生成可视化报告。              | 社区实现, Python 开发 🐍, 本地运行 🏠, 基因组数据分析与可视化。                                        |
 
 ---
 
