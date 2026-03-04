@@ -758,6 +758,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [r-huijts/strava-mcp](https://github.com/r-huijts/strava-mcp)        | 连接到 Strava API 的 MCP 服务器，提供通过 LLM 访问 Strava 数据的工具。                             | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Strava API 集成。                                      |
 | [rishijatia/fantasy-pl-mcp](https://github.com/rishijatia/fantasy-pl-mcp/) | 用于实时 Fantasy Premier League 数据和分析工具的 MCP 服务器。                                   | 社区实现, Python 开发 🐍, 云服务 ☁️, Fantasy Premier League (英超梦幻足球)。                 |
 | [sawa-zen/vrchat-mcp](https://github.com/sawa-zen/vrchat-mcp)        | 与 VRChat API 交互的 MCP 服务器。可获取好友、世界、虚拟形象等信息。 (已在通讯协作部分列出)              | 社区实现, TypeScript 开发 📇, 本地运行 🏠, VRChat API 交互。                                  |
+| [opanel-mc/opanel-mcp](https://github.com/opanel-mc/opanel-mcp) | OPanel服务器管理面板集成MCP服务器，用于大模型辅助管理Minecraft服务器 | 官方实现 (OPanel Project), TypeScript 开发 📇, 本地运行 🏠, OPanel API 交互。 |
 
 ---
 
