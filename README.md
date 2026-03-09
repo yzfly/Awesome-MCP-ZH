@@ -723,6 +723,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [model-audit](https://github.com/liuxiaotong/model-audit) | LLM 蒸馏检测与模型指纹审计 — 文本溯源、身份验证、蒸馏关系判定，守护模型知识产权。 | 社区实现, Python 开发 🐍, 本地运行 🏠, LLM 模型审计与蒸馏检测。 |
 | [Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp)                     | 对域名、IP、ASN 和 TLD 执行 whois 查询。                                                          | 社区实现, Python 开发, Whois 查询。                                                                |
 | [Wireshark-MCP](https://github.com/bx33661/Wireshark-MCP) | Wireshark 网络数据包分析 MCP 服务器，具有抓包、协议统计、字段提取和安全分析功能。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 网络数据包分析。 |
+| [MolTrust](https://github.com/MoltyCel/moltrust-mcp-server) | AI 代理信任基础设施 — 30 个 MCP 工具，覆盖 W3C DID 身份、信誉评分、女巫攻击检测、可验证凭证签发与验证。支持 6 大场景：身份管理、代理评分、购物代理、旅行代理、技能审计、预测市场。已上线 [MCP Registry](https://registry.modelcontextprotocol.io/)。 | 社区实现, Python 开发 🐍, 云服务 ☁️, `pip install moltrust-mcp-server`, 30 工具 / 63 测试, MIT 许可证。 |
 
 ---
 
