@@ -207,6 +207,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [jjsantos01/jupyter-notebook-mcp](https://github.com/jjsantos01/jupyter-notebook-mcp) | 将 Jupyter Notebook 连接到 Claude AI，允许 Claude 直接交互和控制 Jupyter。 | 社区实现, Python 开发 🐍, 本地运行 🏠, Jupyter 集成。                               |
 | [Lstmxx/yapi-mcp-server](https://github.com/Lstmxx/yapi-mcp-server) | 一个用 LLM 将 Yapi 的 API 定义自动化生成为 TypeScript 代码的MCP服务                               |社区实现, TypeScript 开发 📇,本地运行 🏠 |
 | [tersePrompts/jarp-mcp](https://github.com/tersePrompts/jarp-mcp) | Java Archive Reader Protocol - 为 AI 代理提供对 Maven 依赖中反编译 Java 代码的即时访问，如同为 AI 装上"X 光透视眼"。 | 社区实现 🌟, Node.js/Java 开发 ☕🟢, 本地运行 🏠, Java 类分析与反编译, CFR 内置, 智能缓存 |
+| [Docat0209/mcp-openapi](https://github.com/Docat0209/mcp-openapi) | 将任意 OpenAPI/Swagger 规范零配置转换为 MCP 工具。支持 Swagger 2.0、扁平参数 schema、内建认证、智能响应截断。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, npm: `mcp-openapi`, 零配置 API 整合。 |
+| [Docat0209/mcp-graphql](https://github.com/Docat0209/mcp-graphql) | 将任意 GraphQL API 通过自动 introspection 零配置转换为 MCP 工具。扁平参数 schema、智能截断、重试机制。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, npm: `graphql-to-mcp`, 零配置 GraphQL 整合。 |
 | [tersePrompts/fastMCP4J](https://github.com/tersePrompts/fastMCP4J) | Java 语言构建 MCP 服务器的轻量级注解驱动框架，JSON Schema 2020-12 兼容，安全、快速、零配置。 | 社区实现 🌟, Java 开发 ☕, 本地运行 🏠, 注解驱动, 12 个依赖, 支持异步、内存、任务、文件操作 |
 
 
