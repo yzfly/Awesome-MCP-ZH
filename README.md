@@ -724,7 +724,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp)                     | 对域名、IP、ASN 和 TLD 执行 whois 查询。                                                          | 社区实现, Python 开发, Whois 查询。                                                                |
 | [Wireshark-MCP](https://github.com/bx33661/Wireshark-MCP) | Wireshark 网络数据包分析 MCP 服务器，具有抓包、协议统计、字段提取和安全分析功能。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 网络数据包分析。 |
 | [AgentShield](https://github.com/elliotllliu/agent-shield) | AI Agent 技能、MCP 服务器和插件安全扫描器。30 条检测规则，支持 AST 污点追踪、跨文件数据流分析、杀伤链检测、8 语言提示注入检测（中/日/韩/俄/阿/西/法/德）。零安装 (npx)，100% 离线运行。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, AI Agent 安全扫描。 |
-| [Voidly MCP Server](https://github.com/EmperorMew/aegisvpn/tree/main/mcp-server) | 全球互联网审查监测工具，83 个工具覆盖 119 个国家、1960 万条样本。支持审查事件检测、ML 预测、风险预警，以及端到端加密的 Agent 间通信（Double Ratchet、X3DH、后量子加密）。安装：`npx @voidly/mcp-server` | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 审查监测与隐私通信。 |
+| [Voidly MCP Server](https://github.com/voidly-ai/mcp-server) | 全球互联网审查监测工具，83 个工具覆盖 119 个国家、1960 万条样本。支持审查事件检测、ML 预测、风险预警，以及端到端加密的 Agent 间通信（Double Ratchet、X3DH、后量子加密）。安装：`npx @voidly/mcp-server` | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 审查监测与隐私通信。 |
 
 ---
 
