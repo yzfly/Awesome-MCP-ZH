@@ -379,6 +379,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [andybrandt/mcp-simple-pubmed](https://github.com/andybrandt/mcp-simple-pubmed) | 让 LLM 从 PubMed 搜索和阅读医学/生命科学论文的 MCP。                                  | 社区实现, Python 开发 🐍, 云服务 ☁️, PubMed 论文搜索。                                    |
 | [angheljf/nyt](https://github.com/angheljf/nyt)                      | 使用 NYTimes API 搜索文章。                                                            | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 纽约时报文章搜索。                                 |
 | [Bigsy/Clojars-MCP-Server](https://github.com/Bigsy/Clojars-MCP-Server) | Clojars MCP 服务器，提供 Clojure 库的最新依赖信息。                                        | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Clojure 依赖搜索。                                |
+| [ClawSearch](https://clawsearch.cc) | 安全优先的 AI Agent 技能搜索引擎，提供 Trust Score 评分、10语言语义搜索和供应链安全检查。 | 社区实现, 云服务 ☁️, AI Agent 技能安全搜索。 |
 | [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) | 搜索 ArXiv 研究论文。                                                                 | 社区实现, Python 开发 🐍, 云服务 ☁️, ArXiv 搜索 (另一版本)。                                |
 | [connerlambden/bgpt-mcp](https://github.com/connerlambden/bgpt-mcp) | 搜索科学论文，获取从全文研究中提取的结构化实验数据，每篇论文返回25+字段，包括方法、结果、样本量、局限性和质量评分。 | 社区实现, Python 开发 🐍, 云服务 ☁️, 科学论文结构化数据搜索。                                |
 | [chanmeng/google-news-mcp-server](https://github.com/ChanMeng666/server-google-news) | Google News 集成，自动主题分类，多语言支持，全面搜索能力 (SerpAPI)。                    | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Google News 搜索 (SerpAPI)。                   |
