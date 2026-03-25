@@ -79,6 +79,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![5ire](https://files.mdnice.com/user/43439/0c1c47ad-689d-4302-824e-9dd5e2706e2c.png)
   - **Tips**：适合开发者与非开发者使用，支持多平台（Windows、macOS、Linux）。
 
+- **CCHub**  
+  - **简介**：Claude Code 生态管理平台，可视化管理 MCP 服务器、技能、配置等。  
+  - **功能**：MCP 服务器安装/配置/启停、Skill 技能管理、多配置切换、自定义 Slash Command、JSON 配置编辑器。  
+  - **链接**：[GitHub 仓库](https://github.com/Moresl/cchub)  
+  - **Tips**：基于 Tauri v2 构建，安装包仅 ~5MB，支持 Windows/macOS/Linux。
+
 - **Cursor**  
   - **简介**：代码编辑器，装上 MCP 变“全能选手”。  
   - **功能**：写代码、发 Slack、生成图片。  
