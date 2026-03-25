@@ -178,7 +178,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [21st.dev Magic](https://github.com/21st-dev/magic-mcp)             | 21st.dev 官方集成，创建受顶级设计工程师启发的精美 UI 组件。                          | 官方实现 (21st.dev) 🎖️, UI 组件创建。                                               |
 | [pydantic/pydantic-ai/mcp-run-python](https://github.com/pydantic/pydantic-ai/tree/main/mcp-run-python) | Pydantic 出品，在安全的沙盒环境中运行 Python 代码，适合开发编程代理。                   | 官方实现 (Pydantic) 🎖️, Python 开发 🐍, 本地运行 🏠, 安全代码执行。                   |
 | [E2B](https://github.com/e2b-dev/mcp-server)                         | 在 E2B 提供的安全云沙盒中运行代码。                                                 | 官方实现 (E2B), TypeScript 开发, 云端安全代码沙盒。                                  |
-| [Den](https://github.com/us/den)                                 | 自托管沙箱运行时，专为 AI 代理设计。开源 E2B 替代方案。                              | 社区实现, Go 开发, 本地运行 🏠, 自托管沙箱运行时。                                   |
+| [Den](https://github.com/us/den)                                     | 自托管沙箱运行时，专为 AI 代理设计。E2B 的开源替代方案。                              | 社区实现, Go 开发, 本地运行 🏠, 自托管沙箱运行时。                                   |
 | [JetBrains IDE Proxy](https://github.com/JetBrains/mcpProxy)           | JetBrains 官方代理，连接到 JetBrains IDE。                                       | 官方实现 (JetBrains) 🎖️, TypeScript 开发 📇, 本地运行 🏠, IDE 连接。             |
 | [JetBrains](https://github.com/JetBrains/mcp-jetbrains)              | JetBrains 官方集成，让 AI 在 JetBrains IDE 中处理代码。                               | 官方实现 (JetBrains), Kotlin 开发, IDE 代码操作。                                  |
 | [yepcode/mcp-server-js](https://github.com/yepcode/mcp-server-js)    | 在安全可扩展的沙盒环境中执行 LLM 生成的代码，并用 JS/Python 创建自定义 MCP 工具。 | 官方实现 (YepCode) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 安全代码执行，自定义工具。       |
