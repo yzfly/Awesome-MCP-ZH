@@ -121,6 +121,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
 ---
+- [SkillFlow MCP Server](https://github.com/rafsilva85/skillflow-mcp-server) - AI skills marketplace, search and discover 500+ curated skills for coding agents. `npx skillflow-mcp-server`
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
