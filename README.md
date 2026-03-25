@@ -955,6 +955,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 #### 2. 更多MCP编程资源
 
 - [Model Context Protocol(MCP) 编程极速入门](http://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide)
+- [SkillFlow](https://github.com/rafsilva85/skillflow-mcp-server) - AI Agent Skills 开放市场。发现 500+ MCP 服务器和自动化工具，比较功能，部署到你的 AI 技术栈。免费开源。
 
 ---
 
