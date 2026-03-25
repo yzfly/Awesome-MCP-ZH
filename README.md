@@ -955,6 +955,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 #### 2. 更多MCP编程资源
 
 - [Model Context Protocol(MCP) 编程极速入门](http://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide)
+- [MCP Handbook（MCP 开发者手册）](https://github.com/ypollak2/mcp-handbook)：从入门到生产的完整开发指南，涵盖架构模式、安全认证、测试框架，提供 7 种语言示例和 CLI 脚手架工具。[中文版 →](https://github.com/ypollak2/mcp-handbook/tree/main/i18n/zh-CN)
 
 ---
 
