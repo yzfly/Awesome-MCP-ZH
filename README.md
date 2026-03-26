@@ -972,6 +972,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ---
 
+- [SkillFlow](https://skillflow.builders) - Curated AI Skills Marketplace. Search, discover, and install verified skills for Claude, GPT, Cursor, and other AI platforms via MCP.
 ## 许可证
 
 本项目基于 MIT 许可证，自由使用和修改，请保留版权声明。  
