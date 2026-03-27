@@ -167,6 +167,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ryoppippi/sitemcp](https://github.com/ryoppippi/sitemcp)           | 抓取整个网站并将其作为 MCP 服务器使用。                                          | 支持 TypeScript，提供工具命名策略、页面匹配、内容选择器等功能。可通过 NPM、Bun 等安装和运行。 |
 | [34892002/bilibili-mcp-js](https://github.com/34892002/bilibili-mcp-js) | 支持搜索 Bilibili 内容的 MCP 服务器。                                      | 社区实现, TypeScript 开发 📇, 本地运行 🏠.                                        |
 | [Zlatanwic/wechat-article-read-mcp](https://github.com/Zlatanwic/Wechat-Read-MCP-in-Rust) |支持微信公众号内容提取，绕过微信反爬机制|  社区实现，rust开发 🦀，本地运行 🏠，高性能，易分发|
+| [webclaw](https://github.com/0xMassi/webclaw) | 快速本地优先的网页内容提取工具，专为 LLM 设计。支持将网页转换为 Markdown/JSON/纯文本，内置 TLS 指纹伪装绕过反爬，无需浏览器。提供 MCP 服务器（10 个工具）和 CLI。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, MIT 开源, 高性能网页提取。 |
 ---
 
 ### 💻 开发与代码执行
