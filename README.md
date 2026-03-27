@@ -167,6 +167,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ryoppippi/sitemcp](https://github.com/ryoppippi/sitemcp)           | 抓取整个网站并将其作为 MCP 服务器使用。                                          | 支持 TypeScript，提供工具命名策略、页面匹配、内容选择器等功能。可通过 NPM、Bun 等安装和运行。 |
 | [34892002/bilibili-mcp-js](https://github.com/34892002/bilibili-mcp-js) | 支持搜索 Bilibili 内容的 MCP 服务器。                                      | 社区实现, TypeScript 开发 📇, 本地运行 🏠.                                        |
 | [Zlatanwic/wechat-article-read-mcp](https://github.com/Zlatanwic/Wechat-Read-MCP-in-Rust) |支持微信公众号内容提取，绕过微信反爬机制|  社区实现，rust开发 🦀，本地运行 🏠，高性能，易分发|
+| [mcpware/ui-annotator-mcp](https://github.com/mcpware/ui-annotator-mcp) | 网页 UI 标注 MCP 服务器 — 反向代理注入悬停标签，AI 可通过名称识别页面元素。零安装，任何浏览器可用。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 网页 UI 元素标注。 |
 ---
 
 ### 💻 开发与代码执行
@@ -209,6 +210,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Lstmxx/yapi-mcp-server](https://github.com/Lstmxx/yapi-mcp-server) | 一个用 LLM 将 Yapi 的 API 定义自动化生成为 TypeScript 代码的MCP服务                               |社区实现, TypeScript 开发 📇,本地运行 🏠 |
 | [tersePrompts/jarp-mcp](https://github.com/tersePrompts/jarp-mcp) | Java Archive Reader Protocol - 为 AI 代理提供对 Maven 依赖中反编译 Java 代码的即时访问，如同为 AI 装上"X 光透视眼"。 | 社区实现 🌟, Node.js/Java 开发 ☕🟢, 本地运行 🏠, Java 类分析与反编译, CFR 内置, 智能缓存 |
 | [tersePrompts/fastMCP4J](https://github.com/tersePrompts/fastMCP4J) | Java 语言构建 MCP 服务器的轻量级注解驱动框架，JSON Schema 2020-12 兼容，安全、快速、零配置。 | 社区实现 🌟, Java 开发 ☕, 本地运行 🏠, 注解驱动, 12 个依赖, 支持异步、内存、任务、文件操作 |
+| [mcpware/claude-code-organizer](https://github.com/mcpware/claude-code-organizer) | Claude Code 配置管理 MCP 服务器 — 扫描、移动、删除 memories/skills/MCP servers/hooks，支持 scope 层级管理。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, Claude Code 配置管理。 |
 
 
 ---
@@ -454,6 +456,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) | X/Twitter 数据平台 — MCP 服务器（StreamableHTTP 传输），76 个 REST API 端点，20 个批量提取工具，账户监控，抽奖系统。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, X/Twitter 数据提取与分析。 |
 | [VibeMarketing](https://vibemarketing.ninja/mcp) | X/Twitter 和 LinkedIn 社交媒体调度工具，支持 AI 驱动的内容生成。OAuth 身份验证，计划发布，账户管理，订阅跟踪。 | 远程 MCP 服务器 ☁️，社交媒体营销自动化。 |
 | [Google Tasks (by zcaceres)](https://github.com/zcaceres/gtasks-mcp)   | Google Tasks API 服务器。                                                                   | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Google Tasks 管理 (TS)。                        |
+| [mcpware/instagram-mcp](https://github.com/mcpware/instagram-mcp) | Instagram Graph API MCP 服务器 — 23 个工具，支持帖子、评论、私信、故事、标签、Reels、轮播和分析。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Instagram API 集成。 |
 
 ---
 
@@ -643,6 +646,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [YouTube](https://github.com/ZubeidHendricks/youtube-mcp-server)                 | 全面的 YouTube API 集成，用于视频管理、Shorts 创建和分析。                                                   | 社区实现, Python 开发, YouTube 管理与分析。                                                             |
 | [anaisbetts/mcp-youtube](https://github.com/anaisbetts/mcp-youtube)              | 获取 YouTube 字幕 (另一版本)。                                                                    | 社区实现, TypeScript 开发 📇, 云服务 ☁️, YouTube 字幕。                                                  |
 | [IDEA-Research/DINO-X-MCP](https://github.com/IDEA-Research/DINO-X-MCP)              |  让 AI 具备细粒度的图像理解能力：识别、定位、描述你看到的任何目标。                                                                     | 官方实现（IDEA-Research）, TypeScript 开发 📇, 本地运行 🏠, 图像识别理解。                                                  |
+| [mcpware/pagecast](https://github.com/mcpware/pagecast) | 浏览器录屏 MCP 服务器 — 将 AI 浏览器操作录制为 GIF/视频。基于 Playwright + ffmpeg。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 浏览器录屏。 |
+| [mcpware/logoloom](https://github.com/mcpware/logoloom) | AI Logo 设计 MCP 服务器 — 文字转 SVG 路径、SVG 优化、品牌套件导出。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, Logo 设计与 SVG 生成。 |
 
 ---
 
