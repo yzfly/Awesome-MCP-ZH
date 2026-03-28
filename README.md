@@ -150,6 +150,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Oxylabs](https://github.com/oxylabs/oxylabs-mcp)                    | 使用 Oxylabs Web API 抓取网站，支持动态渲染和结构化数据提取。                       | 官方实现 (Oxylabs), Python 开发, 专业级网页抓取。                                |
 | [Hyperbrowser](https://github.com/hyperbrowserai/mcp)                | 新一代 AI 代理浏览器自动化平台，支持大规模、无缝操作。                              | 官方实现 (Hyperbrowser AI), TypeScript 开发, 大规模浏览器自动化。                  |
 | [ScreenshotOne](https://github.com/screenshotone/mcp/)               | 使用 ScreenshotOne 服务渲染网站截图。                                            | 官方实现 (ScreenshotOne), TypeScript 开发, 网页截图工具。                          |
+| [PageBolt](https://github.com/Custodia-Admin/pagebolt-mcp) | 托管的网页截图MCP服务器：截图、PDF、带AI语音的视频录制和页面检查。无需基础设施。 |
 | [modelcontextprotocol/server-fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | 官方参考实现，灵活获取网页内容（HTML/JSON/MD），并为 AI 处理优化。                | 官方参考, Python 开发 🐍, 本地/云端 🏠☁️, 基础网页内容获取。                         |
 | [automatalabs/mcp-server-playwright](https://github.com/Automata-Labs-team/MCP-Server-Playwright) | 使用 Playwright 进行浏览器自动化的 MCP 服务器。                              | 社区实现, Python 开发 🐍.                                                          |
 | [blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp) | 使用 Playwright 的 Python MCP 服务器，更适合 LLM。                         | 社区实现, Python 开发 🐍.                                                          |
