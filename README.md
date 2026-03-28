@@ -795,6 +795,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Agent Reach](https://github.com/Panniantong/Agent-Reach)                        | 一句话给 AI Agent 装上全网搜索能力。一键安装 + 配置 13+ 平台工具（Twitter、Reddit、YouTube、GitHub、B站、小红书、抖音、微信公众号、LinkedIn 等），通过 mcporter 接入多个 MCP 服务。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, 多平台聚合安装器。 |
 | [APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)                 | APIMatic 官方集成，使用 APIMatic 验证 OpenAPI 规范。                                                         | 官方实现 (APIMatic), C# 开发 #️⃣, OpenAPI 规范验证。                                                   |
 | [IBM wxflows](https://github.com/IBM/wxflows/tree/main/examples/mcp/javascript)    | IBM 官方工具平台，为任何数据源构建、测试和部署工具。                                                           | 官方实现 (IBM), JavaScript 开发, 通用工具平台。                                                          |
+| [IteraTools](https://iteratools.com) | AI Agents 的多功能工具 API：图像生成（Flux/SD）、TTS、OCR、网页抓取、WhatsApp、代码执行、RAG 嵌入存储等 58+ 工具，按用量付费，支持 x402 微支付，无需注册。 | 官方实现 (IteraTools), TypeScript 开发 📇, 云服务 ☁️, AI Agents 工具集。 |
 | [Langfuse Prompt Management](https://github.com/langfuse/mcp-server-langfuse)      | Langfuse 官方集成，用于协作编辑、版本控制、评估和发布提示的开源工具。(已在开发工具部分列出)                  | 官方实现 (Langfuse) 🎖️, Python 开发 🐍, 本地运行 🏠, Prompt 管理。                                     |
 | [UnifAI](https://github.com/unifai-network/unifai-mcp-server)                    | UnifAI 官方集成，使用 UnifAI 网络动态搜索和调用工具。                                                        | 官方实现 (UnifAI), Go 开发, 动态工具发现与调用。                                                         |
 | [VeyraX](https://github.com/VeyraX/veyrax-mcp)                                   | VeyraX 官方集成，单一工具控制 100+ API 集成和 UI 组件。                                                    | 官方实现 (VeyraX), Go 开发, 大规模 API/UI 控制。                                                         |
@@ -860,6 +861,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [zueai/mcp-manager](https://github.com/zueai/mcp-manager)                    | 用于安装和管理 Claude Desktop App 的 MCP 服务器的简单 Web UI。                                      | 社区实现, TypeScript 开发 📇, 云服务 ☁️, MCP 服务器管理 Web UI。                                     |
 | [HenryHaoson/Yuque-MCP-Server](https://github.com/HenryHaoson/Yuque-MCP-Server)  | 用于集成语雀 API 的 MCP 服务器，允许 AI 模型管理文档、与知识库交互、搜索内容和访问语雀平台的分析数据。       | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 语雀 API 集成。                                         |
 | [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp) | 通过在 MCP 循环中直接添加本地用户提示和聊天功能，实现交互式 LLM 工作流。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 人机交互工作流。 |
+| [IteraTools](https://github.com/fredpsantos33/mcp-iteratools)          | 多功能 API 工具箱 MCP 服务器，提供 80+ 工具：图像生成 (Flux)、网页抓取、TTS 语音合成、OCR 文字识别、二维码、天气、加密货币、图表等。支持 x402 微支付协议按次付费。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 多功能工具聚合器。                                         |
 
 ---
 
