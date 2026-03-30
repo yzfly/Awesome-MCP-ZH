@@ -226,6 +226,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [OthmaneBlial/term_mcp_deepseek](https://github.com/OthmaneBlial/term_mcp_deepseek) | 用于终端的 DeepSeek 类 MCP 服务器。                                                | 社区实现, Python 开发 🐍, 本地运行 🏠, 终端交互。                                         |
 | [tumf/mcp-shell-server](https://github.com/tumf/mcp-shell-server)    | 实现模型上下文协议 (MCP) 的安全 Shell 命令执行服务器。                                   | 社区实现, Python 开发, 安全 Shell 执行。                                                  |
 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 多功能工具，可管理/执行程序，读/写/搜索/编辑代码和文本文件。(也含代码/文件功能)             | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 命令行/文件/程序管理。          |
+| [cmux-mcp](https://github.com/daegweon/cmux-mcp)                     | 用于控制 cmux（基于 Ghostty 的终端应用）的 MCP 服务器。通过 Unix 套接字在后台运行，支持发送命令、读取输出和发送控制字符。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, macOS 终端控制 🍎。                              |
 
 ---
 
