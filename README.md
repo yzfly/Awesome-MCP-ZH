@@ -289,6 +289,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Dataring-engineering/mcp-server-trino](https://github.com/Dataring-engineering/mcp-server-trino) | Trino MCP 服务器，用于从 Trino 集群查询和访问数据。                                        | 社区实现, Python 开发 🐍, 云服务 ☁️, Trino 集成。                                               |
 | [designcomputer/mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server) | Python 实现的 MySQL 集成，带访问控制和模式检查。                                                        | 社区实现, Python 开发 🐍, 本地运行 🏠, MySQL 数据库操作。                                        |
 | [domdomegg/airtable-mcp-server](https://github.com/domdomegg/airtable-mcp-server) | 读写 Airtable 数据库，带模式检查。                                                                | 社区实现, TypeScript 开发 📇, 本地运行 🏠, Airtable 读写。                                      |
+| [Airtable (mcp-india)](https://github.com/Shubham7995/mcp-india/tree/main/packages/airtable) | Airtable 数据库工具 — 记录管理、表结构发现、批量操作、搜索和表摘要 (12 个工具)。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, Airtable 全功能管理。 |
 | [edwinbernadus/nocodb-mcp-server](https://github.com/edwinbernadus/nocodb-mcp-server) | Nocodb 数据库集成，读写能力。                                                            | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Nocodb 集成。                                       |
 | [ergut/mcp-bigquery-server](https://github.com/ergut/mcp-bigquery-server) | Google BigQuery 集成的服务器实现，支持直接访问和查询。                                       | 社区实现, TypeScript 开发 📇, 云服务 ☁️, BigQuery 集成 (TS)。                                   |
 | [f4ww4z/mcp-mysql-server](https://github.com/f4ww4z/mcp-mysql-server)    | 基于 Node.js 的 MySQL 数据库集成，提供安全的数据库操作。                                    | 社区实现, Node.js 开发, 本地运行 🏠, MySQL 集成 (Node.js)。                                     |
@@ -516,6 +517,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit/tree/main/examples/agent-kit-mcp-server) | 使用 Solana Agent Kit 与 Solana 区块链交互，支持 40+ 协议操作。                                        | 社区实现, TypeScript 开发, Solana 链交互。                                                         |
 | [AlphaVantage](https://github.com/calvernaz/alphavantage)                          | AlphaVantage 股票市场数据 API 服务器。                                                              | 社区实现, Python 开发, AlphaVantage 金融数据。                                                      |
 | [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)                    | x402 支付协议资源目录，包含 MCP 服务器、SDK 和工具，用于基于 HTTP 402 的 USDC 支付（支持 Base、Arbitrum 等 EVM 链）。 | 社区实现, 云服务 ☁️, x402 协议生态资源汇总。                                                         |
+| [Razorpay (mcp-india)](https://github.com/Shubham7995/mcp-india/tree/main/packages/razorpay) | Razorpay 印度支付网关 — 支付、订单、结算、订阅、发票、客户和每日仪表盘 (18 个工具)。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 印度支付网关。 |
+| [GST India (mcp-india)](https://github.com/Shubham7995/mcp-india/tree/main/packages/gst-india) | 印度 GST 税务工具 — 离线 GSTIN 验证、税额计算、HSN/SAC 编码查询。零配置，零 API 调用 (9 个工具)。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 完全离线, 印度税务。 |
 
 ---
 
@@ -595,6 +598,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [fradser/mcp-server-apple-reminders](https://github.com/FradSer/mcp-server-apple-reminders) | 用于与 macOS 上的 Apple Reminders 交互的 MCP 服务器。                                            | 社区实现, TypeScript 开发 📇, 本地运行 🏠, macOS Reminders 管理 🍎。                               |
 | [hiromitsusasaki/raindrop-io-mcp-server](https://github.com/hiromitsusasaki/raindrop-io-mcp-server) | 允许 LLM 使用 MCP 与 Raindrop.io 书签交互的集成。                                                 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Raindrop.io 书签管理。                                       |
 | [hmk/attio-mcp-server](https://github.com/hmk/attio-mcp-server)            | 允许 AI 客户端在 Attio CRM 中管理记录和笔记。                                                       | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Attio CRM 管理。                                                |
+| [HubSpot (mcp-india)](https://github.com/Shubham7995/mcp-india/tree/main/packages/hubspot) | HubSpot CRM 工具 — 联系人、公司、交易、互动、笔记、任务和管道报告 (18 个工具)。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, HubSpot CRM 管理。 |
+| [Zoho CRM (mcp-india)](https://github.com/Shubham7995/mcp-india/tree/main/packages/zoho-crm) | Zoho CRM 工具 — 联系人、交易、任务、通话、笔记、管道摘要和收入预测 (14 个工具)。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, Zoho CRM 管理。 |
 | [ivo-toby/contentful-mcp](https://github.com/ivo-toby/contentful-mcp)        | 在 Contentful Space 中更新、创建、删除内容、内容模型和资产。                                          | 社区实现, TypeScript 开发 📇, 本地运行 🏠, Contentful CMS 管理。                                        |
 | [kelvin6365/plane-mcp-server](https://github.com/kelvin6365/plane-mcp-server) | 此 MCP 服务器将帮助您通过 Plane 的 API 管理项目和问题。                                             | 社区实现, Go 开发 🏎️, 本地运行 🏠, Plane 项目管理。                                                    |
 | [k-jarzyna/mcp-miro](https://github.com/k-jarzyna/mcp-miro)                  | Miro MCP 服务器，暴露官方 Miro SDK 中可用的所有功能。                                               | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Miro 白板交互 (更全面)。                                      |
