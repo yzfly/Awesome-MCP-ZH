@@ -726,6 +726,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp)                     | 对域名、IP、ASN 和 TLD 执行 whois 查询。                                                          | 社区实现, Python 开发, Whois 查询。                                                                |
 | [Wireshark-MCP](https://github.com/bx33661/Wireshark-MCP) | Wireshark 网络数据包分析 MCP 服务器，具有抓包、协议统计、字段提取和安全分析功能。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 网络数据包分析。 |
 | [AgentShield](https://github.com/elliotllliu/agent-shield) | AI Agent 技能、MCP 服务器和插件安全扫描器。30 条检测规则，支持 AST 污点追踪、跨文件数据流分析、杀伤链检测、8 语言提示注入检测（中/日/韩/俄/阿/西/法/德）。零安装 (npx)，100% 离线运行。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, AI Agent 安全扫描。 |
+| [MCP Trust Kit](https://github.com/aak204/MCP-Trust-Kit) | 面向 MCP 服务器的确定性 CI 扫描器与攻击面风险评分工具，可检查 schema hygiene，并标记文件系统变更、shell 执行等高风险能力。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MCP 安全扫描与攻击面风险评估。 |
 
 ---
 
