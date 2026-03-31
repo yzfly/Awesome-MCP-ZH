@@ -697,6 +697,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Rememberizer AI](https://github.com/skydeckai/mcp-server-rememberizer)            | 与 Rememberizer 数据源交互，促进增强的知识检索。                                                                 | 社区实现, Python 开发, 知识检索。                                                                 |
 | [topoteretes/cognee](https://github.com/topoteretes/cognee/tree/dev/cognee-mcp)     | 使用各种图和向量存储的 AI 应用和 Agents 记忆管理器，允许从 30+ 数据源摄取。 (cognee-mcp 的开发分支)              | 社区实现, TypeScript 开发 📇, 本地运行 🏠, GraphRAG 记忆 (更通用)。                                  |
 | [unibaseio/membase-mcp](https://github.com/unibaseio/membase-mcp)                  | 通过 Membase 以分布式方式保存和查询你的 Agent 记忆。                                                     | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 分布式 Agent 记忆。                                      |
+| [Hindsight](https://github.com/vectorize-io/hindsight)                              | Vectorize 出品的先进 AI Agent 长期记忆系统，支持语义、BM25、图和时间等多种检索策略，提供 retain/recall/reflect 操作，可完全本地自托管部署。 | 开源 (MIT), Python 开发 🐍, 本地运行 🏠/云服务 ☁️, 先进的 AI Agent 记忆。                          |
 
 ---
 
