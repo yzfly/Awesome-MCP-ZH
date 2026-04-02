@@ -865,6 +865,9 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [zueai/mcp-manager](https://github.com/zueai/mcp-manager)                    | 用于安装和管理 Claude Desktop App 的 MCP 服务器的简单 Web UI。                                      | 社区实现, TypeScript 开发 📇, 云服务 ☁️, MCP 服务器管理 Web UI。                                     |
 | [HenryHaoson/Yuque-MCP-Server](https://github.com/HenryHaoson/Yuque-MCP-Server)  | 用于集成语雀 API 的 MCP 服务器，允许 AI 模型管理文档、与知识库交互、搜索内容和访问语雀平台的分析数据。       | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 语雀 API 集成。                                         |
 | [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp) | 通过在 MCP 循环中直接添加本地用户提示和聊天功能，实现交互式 LLM 工作流。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 人机交互工作流。 |
+| [newsletter-commerce-mcp](https://github.com/teamsincetoday/newsletter-commerce-mcp) | 从电子邮件和新闻通讯内容中提取产品推荐、赞助商信息和联盟营销机会，帮助内容创作者快速实现商业化变现。支持免费层级（每天 200 次调用）和 $0.01/次付费调用。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 通讯内容商品智能提取, 联盟营销变现。 |
+| [podcast-commerce-mcp](https://github.com/teamsincetoday/podcast-commerce-mcp) | 从播客文字稿中自动提取产品提及和商品推荐，支持品牌识别、置信度评分和联盟营销数据提取。帮助播客创作者快速挖掘内容商业化机会，F1 精度 100%。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 播客商品智能提取, 联盟营销变现。 |
+| [recipe-commerce-mcp](https://github.com/teamsincetoday/recipe-commerce-mcp) | 从菜谱内容中提取食材、厨具和相关商品推荐，支持与联盟营销平台集成，实现食谱内容商业化变现。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 食谱商品提取与变现。 |
 
 ---
 
