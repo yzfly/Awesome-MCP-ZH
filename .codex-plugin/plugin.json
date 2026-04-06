@@ -1,0 +1,16 @@
+{
+  "name": "Awesome-MCP-ZH",
+  "version": "0.1.0",
+  "description": "MCP \u8d44\u6e90\u7cbe\u9009\uff0c MCP\u6307\u5357\uff0cClaude MCP\uff0cMCP Servers, MCP Clients",
+  "author": {
+    "name": "yzfly",
+    "url": "https://github.com/yzfly"
+  },
+  "homepage": "https://github.com/yzfly/Awesome-MCP-ZH",
+  "repository": "https://github.com/yzfly/Awesome-MCP-ZH",
+  "keywords": [
+    "mcp",
+    "codex"
+  ],
+  "mcpServers": "./.mcp.json"
+}

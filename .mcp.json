@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "Awesome-MCP-ZH": {
+      "command": "npx",
+      "args": [
+        "yzfly-Awesome-MCP-ZH"
+      ]
+    }
+  }
+}
