@@ -121,6 +121,16 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
 ---
+
+## AI 技能市场（Marketplace）
+
+- **[RemoteOpenClaw](https://remoteopenclaw.com)**
+  - **简介**：基于 OpenClaw 的 AI 技能和人设开放市场。
+  - **功能**：发现、分享和销售社区构建的 AI 代理技能和人设，支持开源 OpenClaw 标准。
+  - **链接**：[RemoteOpenClaw](https://remoteopenclaw.com) | [OpenClaw GitHub](https://github.com/openclaw)
+
+---
+
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
