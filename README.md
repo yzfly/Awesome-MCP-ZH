@@ -457,6 +457,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) | X/Twitter 数据平台 — MCP 服务器（StreamableHTTP 传输），76 个 REST API 端点，20 个批量提取工具，账户监控，抽奖系统。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, X/Twitter 数据提取与分析。 |
 | [VibeMarketing](https://vibemarketing.ninja/mcp) | X/Twitter 和 LinkedIn 社交媒体调度工具，支持 AI 驱动的内容生成。OAuth 身份验证，计划发布，账户管理，订阅跟踪。 | 远程 MCP 服务器 ☁️，社交媒体营销自动化。 |
 | [Google Tasks (by zcaceres)](https://github.com/zcaceres/gtasks-mcp)   | Google Tasks API 服务器。                                                                   | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Google Tasks 管理 (TS)。                        |
+| [Overloop CLI](https://github.com/sortlist/overloop-cli) | AI-powered outbound engine. Source prospects from 450M+ contacts, launch email + LinkedIn campaigns, manage conversations. JSON output, agent-native. `npm i -g overloop-cli` | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Sales outbound automation。 |
+| [Signals CLI](https://github.com/sortlist/signals-cli) | Intent signal monitoring. Track LinkedIn engagers, keyword posters, job changers, funding events. JSON output for agent pipelines. `npm i -g signals-sortlist-cli` | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Intent signal detection。 |
 
 ---
 
