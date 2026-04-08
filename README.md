@@ -983,3 +983,4 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 Copyright (c) 2025 Awesome-MCP-ZH Contributors
 
 ---
+- [BrainDB](https://github.com/beckfexx/BrainDB) - 本地优先的AI记忆系统，支持混合搜索（SQLite FTS5 + 向量嵌入）、多Agent协调、夜间自学习和知识图谱。110个REST端点，51个MCP工具。AGPL-3.0，TypeScript。
