@@ -386,6 +386,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ClawSearch](https://clawsearch.cc) | 安全优先的 AI Agent 技能搜索引擎，提供 Trust Score 评分、10语言语义搜索和供应链安全检查。 | 社区实现, 云服务 ☁️, AI Agent 技能安全搜索。 |
 | [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) | 搜索 ArXiv 研究论文。                                                                 | 社区实现, Python 开发 🐍, 云服务 ☁️, ArXiv 搜索 (另一版本)。                                |
 | [connerlambden/bgpt-mcp](https://github.com/connerlambden/bgpt-mcp) | 搜索科学论文，获取从全文研究中提取的结构化实验数据，每篇论文返回25+字段，包括方法、结果、样本量、局限性和质量评分。 | 社区实现, Python 开发 🐍, 云服务 ☁️, 科学论文结构化数据搜索。                                |
+| [openpaper-mcp](https://github.com/federicodeponte/openpaper-mcp) | 通过OpenPaper.dev生成带引文的完整学术论文，由18个专业AI代理驱动 (Generate full academic papers with verified citations via OpenPaper.dev, powered by 18 specialized AI agents) | 社区实现, 云服务 ☁️, 学术论文生成。 |
 | [chanmeng/google-news-mcp-server](https://github.com/ChanMeng666/server-google-news) | Google News 集成，自动主题分类，多语言支持，全面搜索能力 (SerpAPI)。                    | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Google News 搜索 (SerpAPI)。                   |
 | [ConechoAI/openai-websearch-mcp](https://github.com/ConechoAI/openai-websearch-mcp) | 提供 OpenAI `web_search` 内置工具的 Python MCP 服务器。                                  | 社区实现, Python 开发 🐍, 本地/云端 🏠☁️, OpenAI 网页搜索模拟。                           |
 | [devflowinc/trieve](https://github.com/devflowinc/trieve/tree/main/clients/mcp-server) | 通过 Trieve 爬取、嵌入、分块、搜索和检索数据集信息。                                      | 官方实现 (Trieve) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, Trieve RAG 平台。              |
