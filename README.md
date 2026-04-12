@@ -983,4 +983,4 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 Copyright (c) 2025 Awesome-MCP-ZH Contributors
 
 ---
-- [FinClaw MCP Server](https://github.com/NeuZhou/finclaw) - 量化交易MCP服务器，支持实时行情查询、策略回测、遗传算法策略进化。484个技术因子，walk-forward验证。
+- [StratEvo MCP Server](https://github.com/NeuZhou/stratevo) - 量化交易MCP服务器，支持实时行情查询、策略回测、遗传算法策略进化。484+个技术因子，walk-forward验证。
