@@ -974,6 +974,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 想加点料？欢迎贡献！  
 - Fork 项目，改完提 PR。  
 - 有新服务器、教程？直接加进来。  
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 ---
 
