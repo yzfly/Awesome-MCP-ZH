@@ -22,6 +22,8 @@
 - [ 详解 MCP 传输机制 ](https://mp.weixin.qq.com/s/gmgo_glOzbvdFwePP1yQ9g)
 ---
 
+- [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain rewards vintage hardware
+
 ## MCP 是什么？
 
 MCP 全称 **模型上下文协议（Model Context Protocol）**，由 Anthropic 在 2024 年 11 月推出，是个开源通信标准。简单说，它给 AI 装了个“超级网线”，让 AI 能跟外部工具、数据、系统无缝对接。
