@@ -413,6 +413,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Multi-Source Media MCP Server (M3S)](https://github.com/Decade-qiu/Multi-Source-Media-MCP-Server) | 多源媒体聚合与生成，统一访问 Unsplash/Pexels、Web 爬取媒体，支持多后端 AI 图像生成以及全网图片爬虫。 | 原生 Go ✨，本地运行 🏠，支持多平台媒体 API 和 AI 图像生成、爬虫扩展。 |
 | [MLT-OSS/FirstData](https://github.com/MLT-OSS/FirstData) | 全球最全面的权威数据源知识库，132+ 经验证数据源（政府、国际组织、学术机构），帮助 AI 减少幻觉。提供结构化元数据、100% URL 验证、中英双语支持。目标：1000+ 数据源。 | 本地/云端 🏠☁️，中国数据源深度覆盖 🇨🇳，AI 事实防线，抗幻觉数据底座。 |
 | [GEOScore](https://github.com/henu-wang/geoscore-mcp) | AI 搜索优化（GEO）MCP 服务器。扫描网站的 AI 搜索就绪度，生成 llms.txt、Schema.org 修复、meta 标签优化。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 支持 Claude/Cursor/Windsurf。 |
+| [Not Human Search](https://nothumansearch.ai) | 搜索 AI 原生工具和服务的 MCP 服务器。索引 8,600+ 网站，提供 AI 能力评分。JSON-RPC 端点位于 /mcp。 | 社区实现, Go 开发, 云服务 ☁️, AI 工具搜索引擎。 |
 
 ---
 
