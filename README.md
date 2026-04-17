@@ -453,6 +453,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Telegram](https://github.com/chigwell/telegram-mcp)                 | 通过 Telethon 集成 Telegram，支持分页读取聊天、检索和发送消息。                               | 社区实现, Python 开发, Telegram 消息交互。                                                |
 | [team-telnyx/telnyx-mcp-server](https://github.com/team-telnyx/telnyx-mcp-server) | Telnyx 官方 MCP 服务器，用于构建 AI 驱动的通信应用。创建语音助手、发送短信、管理电话号码、集成实时消息。 | 官方实现 (Telnyx) 🎖️, Python 开发 🐍, 云服务 ☁️, 电话/短信/AI 语音助手。 |
 | [userad/didlogic_mcp](https://github.com/UserAd/didlogic_mcp)          | DIDLogic MCP 服务器。增加管理 SIP 端点、号码和目的地的功能。                              | 社区实现, Python 开发 🐍, 云服务 ☁️, DIDLogic (VoIP) 集成。                               |
+| [virtualsms-io/mcp-server](https://github.com/virtualsms-io/mcp-server) | 为 AI agent 提供真实物理 SIM 卡的虚拟手机号码并接收 WhatsApp、Telegram、Google 等 700+ 服务的 SMS/OTP 验证码，覆盖 145+ 国家。12 个 MCP 工具支持服务发现、号码购买、等待 OTP、取消订单与代码提取。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, SMS/OTP 验证与虚拟号码。 |
 | [X (Twitter) (by vidhupv)](https://github.com/vidhupv/x-mcp)         | 直接通过 Claude 创建、管理和发布 X/Twitter 推文。                                            | 社区实现, Python 开发, Twitter 发推管理。                                                 |
 | [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) | X/Twitter 数据平台 — MCP 服务器（StreamableHTTP 传输），76 个 REST API 端点，20 个批量提取工具，账户监控，抽奖系统。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, X/Twitter 数据提取与分析。 |
 | [VibeMarketing](https://vibemarketing.ninja/mcp) | X/Twitter 和 LinkedIn 社交媒体调度工具，支持 AI 驱动的内容生成。OAuth 身份验证，计划发布，账户管理，订阅跟踪。 | 远程 MCP 服务器 ☁️，社交媒体营销自动化。 |
