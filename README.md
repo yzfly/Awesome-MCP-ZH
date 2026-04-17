@@ -621,6 +621,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [allenporter/mcp-server-home-assistant](https://github.com/allenporter/mcp-server-home-assistant) | 通过 MCP 服务器暴露所有 Home Assistant 语音意图，实现家庭控制。                                  | 社区实现, Python 开发 🐍, 本地运行 🏠, Home Assistant 语音控制。                                    |
 | [yuna0x0/hackmd-mcp](https://github.com/yuna0x0/hackmd-mcp)                | 允许 AI 模型与 HackMD 交互。                                                                   | 社区实现, TypeScript 开发 📇, 云服务 ☁️, HackMD 协作笔记。                                       |
 | [caol64/wenyan-mcp](https://github.com/caol64/wenyan-mcp)                | 文颜 MCP Server， 让 AI 将 Markdown 文章自动排版后发布至微信公众号。                                                                   | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 推荐 Docker 部署。                                       |
+| [Pangu-Immortal/qflow](https://github.com/Pangu-Immortal/qflow)          | All-in-one AI 项目管理 MCP 服务器，50 个工具涵盖任务管理、Spec 驱动开发、12 角色评审、设计系统上下文、Lottie 动画、TDD、Sprint、自动驾驶。纯工具层，无需 API Key，4 个依赖，MIT 许可。 | 社区实现, Python 开发 🐍, 本地运行 🏠, AI 项目管理。                                              |
 
 ---
 
