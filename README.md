@@ -15,6 +15,7 @@
 - LLM 选型我的使用体感是： Claude4.5 > GPT-5 > Gemini-2.5 > Qwen3-Max > DeepSeek
 
 分析文章：
+- [BytesAgain](https://bytesagain.com) - 搜索 6万+ AI Agent 技能库，支持 MCP SSE 和 REST API 接入，支持中英日韩德法西 7种语言搜索，免费无需 API Key。接入：`https://bytesagain.com/api/mcp/sse`
 - [ 10分钟搞定高德地图MCP！我用AI解决了约会地点选择难题 ](https://mp.weixin.qq.com/s/SUifLfJIBX_JNIZesTm8CA)
 - [ 因为Manus爆火的 Claude MCP，90%人的认知可能都是错的](https://mp.weixin.qq.com/s/mT43PSiyO9ZsXKCbiVsWzQ)
 - [ 刚官宣支持MCP，就发布自家Agent协议（A2A），扒一扒Google暗藏的小心思](https://mp.weixin.qq.com/s/Zoq2bgPfJIERAzPiN1l0QA)
