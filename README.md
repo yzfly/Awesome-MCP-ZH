@@ -983,3 +983,5 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 Copyright (c) 2025 Awesome-MCP-ZH Contributors
 
 ---
+
+- [google-maps-scraper-mcp](https://github.com/khadinakbaronline/google-maps-scraper-mcp) — Google Maps MCP — scrape B2B leads, emails, phones, ratings and reviews inside any AI agent.
