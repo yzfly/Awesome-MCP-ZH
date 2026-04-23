@@ -960,6 +960,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 #### 2. 更多MCP编程资源
 
 - [Model Context Protocol(MCP) 编程极速入门](http://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide)
+- [Overboard Studio](https://github.com/alona-iaig/overboard-claude-plugin) - AI协作白板，支持从AI对话中创建看板、流程图、项目计划和思维导图。17个MCP工具，OAuth 2.0认证，免费无限制使用。
 
 ---
 
