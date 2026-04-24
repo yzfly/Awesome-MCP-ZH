@@ -648,6 +648,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [anaisbetts/mcp-youtube](https://github.com/anaisbetts/mcp-youtube)              | 获取 YouTube 字幕 (另一版本)。                                                                    | 社区实现, TypeScript 开发 📇, 云服务 ☁️, YouTube 字幕。                                                  |
 | [IDEA-Research/DINO-X-MCP](https://github.com/IDEA-Research/DINO-X-MCP)              |  让 AI 具备细粒度的图像理解能力：识别、定位、描述你看到的任何目标。                                                                     | 官方实现（IDEA-Research）, TypeScript 开发 📇, 本地运行 🏠, 图像识别理解。                                                  |
 | [BibiGPT](https://github.com/JimmyLv/bibigpt-skill) | AI 驱动的视频、音频和播客总结工具，支持 YouTube、Bilibili、TikTok 等平台。提供远程 MCP 服务器 (https://bibigpt.co/api/mcp) 和 Claude Code Skill 两种集成方式。 | 社区实现, 云服务 ☁️, 视频/音频/播客总结。 |
+| [MohamedAbdallah-14/prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) | 将一句话简报路由到 60+ 图像模型中最合适的那个（gpt-image-1.5、Ideogram 3、Recraft V4、Flux、SDXL 等），带有明确的 `Never` 规则以拒绝错误的模型配对（例如 Imagen 无法生成真正的透明 PNG），验证输出（alpha 通道、棋盘格 FFT、ΔE2000 色差、OCR），并分发到 iOS / Android / PWA / favicon / visionOS / Flutter。无需 API key 即可通过 Pollinations、HF Inference、Stable Horde 或宿主 LLM 的内联 SVG 完成。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 云服务 ☁️, 跨平台 🍎🪟🐧, 图像生成路由 + 资产管道。 |
 
 ---
 
