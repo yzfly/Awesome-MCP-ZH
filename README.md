@@ -733,6 +733,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [AgentShield](https://github.com/elliotllliu/agent-shield) | AI Agent 技能、MCP 服务器和插件安全扫描器。30 条检测规则，支持 AST 污点追踪、跨文件数据流分析、杀伤链检测、8 语言提示注入检测（中/日/韩/俄/阿/西/法/德）。零安装 (npx)，100% 离线运行。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, AI Agent 安全扫描。 |
 
 ---
+| [EnigmAgent](https://github.com/Agnuxo1/EnigmAgent) | AES-256-GCM + Argon2id 加密本地密钥库 MCP 服务器。在运行时解析 `{{PLACEHOLDER}}` 占位符，API 密钥不会出现在提示词或日志中。 | `npx enigmagent-mcp` |
 
 ### 🌍 地理位置与出行
 
