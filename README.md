@@ -648,6 +648,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [anaisbetts/mcp-youtube](https://github.com/anaisbetts/mcp-youtube)              | 获取 YouTube 字幕 (另一版本)。                                                                    | 社区实现, TypeScript 开发 📇, 云服务 ☁️, YouTube 字幕。                                                  |
 | [IDEA-Research/DINO-X-MCP](https://github.com/IDEA-Research/DINO-X-MCP)              |  让 AI 具备细粒度的图像理解能力：识别、定位、描述你看到的任何目标。                                                                     | 官方实现（IDEA-Research）, TypeScript 开发 📇, 本地运行 🏠, 图像识别理解。                                                  |
 | [BibiGPT](https://github.com/JimmyLv/bibigpt-skill) | AI 驱动的视频、音频和播客总结工具，支持 YouTube、Bilibili、TikTok 等平台。提供远程 MCP 服务器 (https://bibigpt.co/api/mcp) 和 Claude Code Skill 两种集成方式。 | 社区实现, 云服务 ☁️, 视频/音频/播客总结。 |
+| [AnveVoice](https://anvevoice.app) | 网站语音AI助手，支持MCP协议、自主DOM操作、50+种语言、<700ms延迟。免费版可用 / Voice AI agent for websites with MCP support, agentic DOM actions, 50+ languages, <700ms latency. Free tier. | 商业产品 💼, 云服务 ☁️, 网站语音助手/DOM 操作。 |
 
 ---
 
