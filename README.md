@@ -521,6 +521,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)                    | x402 支付协议资源目录，包含 MCP 服务器、SDK 和工具，用于基于 HTTP 402 的 USDC 支付（支持 Base、Arbitrum 等 EVM 链）。 | 社区实现, 云服务 ☁️, x402 协议生态资源汇总。                                                         |
 
 ---
+| [dioptx/web3-docs](https://github.com/dioptx/web3-docs) | 本地 MCP 服务器，索引 1,767 条区块链协议规范（EIPs、ERCs、BIPs、SIMDs、Cosmos ADRs、Polkadot RFCs、Stacks SIPs、Avalanche ACPs、Cardano CIPs、Tezos TZIPs、Sui SIPs），覆盖 10 条公链；并附带 19 个 EVM 主流协议的标准合约地址。SQLite + FTS5，无需 API key。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 多链协议规范与合约地址查询。 |
 
 ### 📁 文件系统与存储
 
