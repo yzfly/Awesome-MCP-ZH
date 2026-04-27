@@ -754,6 +754,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [SecretiveShell/MCP-timeserver](https://github.com/SecretiveShell/MCP-timeserver)    | 访问任何时区的本地时间和获取当前本地时间。 (已在“其他”部分列出Time)                               | 社区实现, Python 开发 🐍, 本地运行 🏠, 时间/时区工具。                                          |
 | [webcoderz/MCP-Geo](https://github.com/webcoderz/MCP-Geo)                        | 用于 nominatim, ArcGIS, Bing 的地理编码 MCP 服务器。                                         | 社区实现, Python 开发 🐍, 本地运行 🏠, 地理编码服务。                                           |
 | [ip2location/mcp-ip2location-io](https://github.com/ip2location/mcp-ip2location-io) | 使用 IP2Location.io API 获取 IP 地址地理位置和网络信息。                                                 | 官方参考, Python 开发 🐍, 云服务 ☁️, IP 地址信息 (IP2Location.io)。                                   |
+| [VMAzure/dealermax-mcp](https://github.com/VMAzure/dealermax-mcp) | DealerMax 意大利汽车市场跨经销商搜索 — 二手车、长期租赁 (NLT) 报价、经销商目录、汽车知识库。已在 Anthropic MCP Registry 注册为 `app.dealermax/public-search`。 Cross-dealer search on Italian used vehicles, long-term rental offers, dealer directory, automotive knowledge base. | 社区实现, Python 开发 🐍, 云服务 ☁️, 公共只读, 无需 API key, Italian automotive marketplace。 |
 
 ---
 
