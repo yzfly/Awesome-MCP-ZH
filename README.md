@@ -983,3 +983,15 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 Copyright (c) 2025 Awesome-MCP-ZH Contributors
 
 ---
+
+
+## 小羊云商供应链平台 (LegendShop Supply API)
+
+- **仓库**: https://github.com/sakidzejung411-rgb/mcp-server-legendshop-supply
+- **描述**: 小羊云商供应链平台 MCP Server，提供商品列表、商品详情、价格库存查询
+- **功能**: 
+  - 获取供应链商品分页列表
+  - 查询商品 SPU 详情
+  - 自动 Token 管理
+- **API**: https://open.legendshop.cn
+
