@@ -212,6 +212,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [tersePrompts/jarp-mcp](https://github.com/tersePrompts/jarp-mcp) | Java Archive Reader Protocol - 为 AI 代理提供对 Maven 依赖中反编译 Java 代码的即时访问，如同为 AI 装上"X 光透视眼"。 | 社区实现 🌟, Node.js/Java 开发 ☕🟢, 本地运行 🏠, Java 类分析与反编译, CFR 内置, 智能缓存 |
 | [tersePrompts/fastMCP4J](https://github.com/tersePrompts/fastMCP4J) | Java 语言构建 MCP 服务器的轻量级注解驱动框架，JSON Schema 2020-12 兼容，安全、快速、零配置。 | 社区实现 🌟, Java 开发 ☕, 本地运行 🏠, 注解驱动, 12 个依赖, 支持异步、内存、任务、文件操作 |
 | [wopee-mcp](https://www.npmjs.com/package/wopee-mcp) | Web应用AI测试代理，支持调度测试运行、分析爬虫和AI代理测试，获取工件和项目状态。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, AI 测试代理。 |
+| [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | 多智能体编排器，协调 37 个 CLI 编码代理（Claude Code、Codex、Gemini CLI、Cursor、Aider 等）在并行 Git worktree 中运行。内置 MCP 服务器模式（stdio + HTTP/SSE）。 | 社区实现, Python 开发 🐍, 本地/云端 🏠☁️, Apache 2.0, 确定性调度器, 多代理编排。 |
 
 
 ---
