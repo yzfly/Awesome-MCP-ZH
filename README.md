@@ -472,6 +472,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) | X/Twitter 数据平台 — MCP 服务器（StreamableHTTP 传输），76 个 REST API 端点，20 个批量提取工具，账户监控，抽奖系统。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, X/Twitter 数据提取与分析。 |
 | [VibeMarketing](https://vibemarketing.ninja/mcp) | X/Twitter 和 LinkedIn 社交媒体调度工具，支持 AI 驱动的内容生成。OAuth 身份验证，计划发布，账户管理，订阅跟踪。 | 远程 MCP 服务器 ☁️，社交媒体营销自动化。 |
 | [Google Tasks (by zcaceres)](https://github.com/zcaceres/gtasks-mcp)   | Google Tasks API 服务器。                                                                   | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Google Tasks 管理 (TS)。                        |
+| [Nylas CLI](https://github.com/nylas/cli) | 邮件、日历和联系人 MCP 服务器。一次身份验证即可覆盖 Gmail、Outlook、Exchange、Yahoo、iCloud 和 IMAP 共六大邮件服务商的 16 个工具。`nylas mcp install` 一键安装。 | 官方实现 (Nylas) 🎖️, Go 开发 🏎️, 云服务 ☁️, 跨平台 🍎🪟🐧, 邮件/日历/联系人统一接入。文档：https://cli.nylas.com |
 
 ---
 
