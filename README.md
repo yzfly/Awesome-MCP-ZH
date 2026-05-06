@@ -238,7 +238,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [OthmaneBlial/term_mcp_deepseek](https://github.com/OthmaneBlial/term_mcp_deepseek) | 用于终端的 DeepSeek 类 MCP 服务器。                                                | 社区实现, Python 开发 🐍, 本地运行 🏠, 终端交互。                                         |
 | [tumf/mcp-shell-server](https://github.com/tumf/mcp-shell-server)    | 实现模型上下文协议 (MCP) 的安全 Shell 命令执行服务器。                                   | 社区实现, Python 开发, 安全 Shell 执行。                                                  |
 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 多功能工具，可管理/执行程序，读/写/搜索/编辑代码和文本文件。(也含代码/文件功能)             | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 命令行/文件/程序管理。          |
-| [olo-dot-io/Uni-CLI](https://github.com/olo-dot-io/Uni-CLI) | 自修复 CLI 目录，将 237+ 网站、桌面应用、外部 CLI 通过一个 MCP 服务器暴露给 AI 代理；920 个 YAML 适配器，结构化错误信封让代理在调用失败时直接编辑 YAML 并重试。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, Apache-2.0, 3,319 命令, 中位数 ~80 tokens/调用。 |
+| [olo-dot-io/Uni-CLI](https://github.com/olo-dot-io/Uni-CLI) | 自修复 CLI 目录，将 238 个网站、桌面应用、外部 CLI 通过一个 MCP 服务器暴露给 AI 代理；声明式 YAML 适配器加结构化错误信封，代理在调用失败时直接编辑 YAML 并重试。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, Apache-2.0, 1,458 命令；每次调用 token 预算见 [`docs/BENCHMARK.md`](https://github.com/olo-dot-io/Uni-CLI/blob/main/docs/BENCHMARK.md)。 |
 
 ---
 
