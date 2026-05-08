@@ -140,6 +140,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                          | 备注                                                                               |
 | :------------------------------------------------------------------- | :-------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
+| [ar-agents/ar-agents](https://github.com/ar-agents/ar-agents) | 阿根廷企业自动化 MCP 服务器，捆绑 7 个 npm 包：Mercado Pago（LATAM 最大支付平台，89 个工具）、AFIP/ARCA（CUIT + 电子发票）、WhatsApp Business、银行（CBU/BCRA）、物流（Andreani/OCA/Correo Argentino）。 | 社区实现, TypeScript 开发 📇, 边缘运行时 ☁️, 拉美金融基础设施。 [Glama listed](https://glama.ai/mcp/servers/ar-agents/ar-agents) |
 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | 微软官方出品，使用 Playwright 让 AI 精确控制网页，自动化抓取数据。                   | 官方实现，浏览器自动化强推，适合需要精细网页交互的场景。                               |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | 云端浏览器自动化服务，能导航网页、提取数据、填表单等，无需本地安装。                  | 官方实现 (Browserbase) 🎖️, TypeScript 开发 📇, 云端浏览器操作。                      |
 | [modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) | 官方参考实现，使用 Puppeteer 进行浏览器自动化和网页抓取。                           | 官方参考, TypeScript 开发 📇, 本地运行 🏠, 网页抓取和交互基础工具。                 |
