@@ -51,6 +51,14 @@ MCP 能让 AI 从“嘴炮王”变成“实干家”，以下是几个例子：
 
 ---
 
+## MCP 安全与治理
+
+MCP 把外部工具能力开放给 AI 后，权限边界、调用前校验和高风险操作拦截会变得更重要。
+
+- **[APort](https://aport.io)**：面向 AI Agent 工具调用的身份与策略执行层，可在代理调用外部 API、自动化工具或高风险操作前做预授权；[APort Integrations](https://github.com/aporthq/aport-integrations) 提供 LangChain、CrewAI 等 agent 框架的 guardrail 示例。
+
+---
+
 ## MCP 客户端
 
 MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
