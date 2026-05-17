@@ -192,6 +192,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ForeverVM](https://github.com/jamsocket/forevervm/tree/main/javascript/mcp-server) | 在代码沙盒中运行 Python 代码。                                                     | 官方实现 (Jamsocket), JavaScript 开发, 代码沙盒。                                   |
 | [Riza](https://github.com/riza-io/riza-mcp)                          | Riza 提供的任意代码执行和工具使用平台。                                              | 官方实现 (Riza), Go 开发, 通用代码执行平台。                                       |
 | [Roundtable](https://github.com/askbudi/roundtable) | 统一AI编程助手的零配置MCP服务器，专为自主代理开发设计，简化多AI工具集成工作流程。 | 社区实现 🌟, Python 开发 🐍, 本地/云端部署 🏠☁️, pip install roundtable-ai |
+| [click-to-mcp](https://github.com/coding-dev-tools/click-to-mcp) | 自动将任何 Click/typer CLI 包装为 MCP 服务器，零配置即可让现有命令行工具接入 AI。 | 社区实现 🌟, Python 开发 🐍, 本地运行 🏠, CLI 转 MCP 框架, pip install click-to-mcp |
 | [Semgrep](https://github.com/semgrep/mcp)                            | 让 AI 代理使用 Semgrep 进行代码安全扫描。 (Semgrep 官方)                           | 官方实现 (Semgrep) 🎖️, TypeScript 开发 📇, 代码安全扫描 ☁️. (注意: 列表有重复, 一个Py一个TS) |
 | [ZenML](https://github.com/zenml-io/mcp-zenml)                       | 与 ZenML MLOps/LLMOps 平台交互，管理机器学习流程。 (ZenML 官方)                   | 官方实现 (ZenML) 🎖️, Python 开发 🐍, 本地/云端 🏠☁️, MLOps 流程管理。               |
 | [vivekVells/mcp-pandoc](https://github.com/vivekVells/mcp-pandoc)    | 使用 Pandoc 进行无缝文档格式转换（Markdown, HTML, PDF, DOCX, CSV 等）。            | 社区实现, Python 开发 🐍, 本地运行 🏠, 文档格式转换。                                |
@@ -229,6 +230,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [OthmaneBlial/term_mcp_deepseek](https://github.com/OthmaneBlial/term_mcp_deepseek) | 用于终端的 DeepSeek 类 MCP 服务器。                                                | 社区实现, Python 开发 🐍, 本地运行 🏠, 终端交互。                                         |
 | [tumf/mcp-shell-server](https://github.com/tumf/mcp-shell-server)    | 实现模型上下文协议 (MCP) 的安全 Shell 命令执行服务器。                                   | 社区实现, Python 开发, 安全 Shell 执行。                                                  |
 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 多功能工具，可管理/执行程序，读/写/搜索/编辑代码和文本文件。(也含代码/文件功能)             | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 命令行/文件/程序管理。          |
+| [click-to-mcp](https://github.com/Coding-Dev-Tools/click-to-mcp) | 自动将 Python Click/Typer CLI 工具转换为 MCP 服务器，零代码即可让现有命令行工具接入 AI。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, CLI 转 MCP 服务器。 |
 
 ---
 
