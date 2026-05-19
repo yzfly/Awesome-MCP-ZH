@@ -194,6 +194,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Roundtable](https://github.com/askbudi/roundtable) | 统一AI编程助手的零配置MCP服务器，专为自主代理开发设计，简化多AI工具集成工作流程。 | 社区实现 🌟, Python 开发 🐍, 本地/云端部署 🏠☁️, pip install roundtable-ai |
 | [Semgrep](https://github.com/semgrep/mcp)                            | 让 AI 代理使用 Semgrep 进行代码安全扫描。 (Semgrep 官方)                           | 官方实现 (Semgrep) 🎖️, TypeScript 开发 📇, 代码安全扫描 ☁️. (注意: 列表有重复, 一个Py一个TS) |
 | [ZenML](https://github.com/zenml-io/mcp-zenml)                       | 与 ZenML MLOps/LLMOps 平台交互，管理机器学习流程。 (ZenML 官方)                   | 官方实现 (ZenML) 🎖️, Python 开发 🐍, 本地/云端 🏠☁️, MLOps 流程管理。               |
+| [benbencodes/llm-prices](https://github.com/benbencodes/llm-prices) | 零依赖 Python CLI 和 MCP 服务器，查询 209 个大模型 API 定价（OpenAI、Anthropic、Google、Mistral、DeepSeek、ZhipuAI 等 31 家提供商）；支持费用计算、多模型比较、预算规划，无需 API 密钥。 | 社区实现, Python 开发 🐍 |
 | [vivekVells/mcp-pandoc](https://github.com/vivekVells/mcp-pandoc)    | 使用 Pandoc 进行无缝文档格式转换（Markdown, HTML, PDF, DOCX, CSV 等）。            | 社区实现, Python 开发 🐍, 本地运行 🏠, 文档格式转换。                                |
 | [oraios/serena](https://github.com/oraios/serena)                    | 功能齐全的编码代理，依赖于使用语言服务器的符号化代码操作。                        | 社区实现, Python 开发 🐍, 本地运行 🏠, 编码代理。                                    |
 | [ezyang/codemcp](https://github.com/ezyang/codemcp)                  | 具有基本读、写和命令行工具的编码代理。                                         | 社区实现, Python 开发 🐍, 本地运行 🏠, 编码代理。                                    |
