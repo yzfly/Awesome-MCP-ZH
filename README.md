@@ -197,6 +197,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [vivekVells/mcp-pandoc](https://github.com/vivekVells/mcp-pandoc)    | 使用 Pandoc 进行无缝文档格式转换（Markdown, HTML, PDF, DOCX, CSV 等）。            | 社区实现, Python 开发 🐍, 本地运行 🏠, 文档格式转换。                                |
 | [oraios/serena](https://github.com/oraios/serena)                    | 功能齐全的编码代理，依赖于使用语言服务器的符号化代码操作。                        | 社区实现, Python 开发 🐍, 本地运行 🏠, 编码代理。                                    |
 | [ezyang/codemcp](https://github.com/ezyang/codemcp)                  | 具有基本读、写和命令行工具的编码代理。                                         | 社区实现, Python 开发 🐍, 本地运行 🏠, 编码代理。                                    |
+| [Keesan12/martin-loop](https://github.com/Keesan12/martin-loop/tree/main/packages/mcp) | 面向 AI 编程代理的治理型 MCP 运行时，提供预算上限、验证器闸门和可审计运行记录。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 适合控制 Claude Code / Codex 等编码代理。 |
 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 增强的文件系统和搜索工具，以及特定于编码的命令和提示。(也含命令行功能)              | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 编码/文件/命令行工具。     |
 | [maxim-saplin/mcp_safe_local_python_executor](https://github.com/maxim-saplin/mcp_safe_local_python_executor) | 基于 HF Smolagents `LocalPythonExecutor` 的安全 Python 解释器。            | 社区实现, Python 开发, 本地安全 Python 执行。                                        |
 | [tumf/mcp-text-editor](https://github.com/tumf/mcp-text-editor)      | 面向行的文本文件编辑器。针对 LLM 工具优化，通过高效的部分文件访问最小化 Token 使用。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 文本编辑。                                     |
