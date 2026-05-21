@@ -733,6 +733,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [AgentShield](https://github.com/elliotllliu/agent-shield) | AI Agent 技能、MCP 服务器和插件安全扫描器。30 条检测规则，支持 AST 污点追踪、跨文件数据流分析、杀伤链检测、8 语言提示注入检测（中/日/韩/俄/阿/西/法/德）。零安装 (npx)，100% 离线运行。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, AI Agent 安全扫描。 |
 
 ---
+| [FaultKey CausalLayer](https://github.com/smq9sn5jck-coder/causallayer-mcp) | 确定性 AI 责任归因。发行签名的、比特币锚定的 CausalCertificateV1 收据，计算供应商/部署者/用户在 AI 事件中的过错份额。符合欧盟 AI 责任指令。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, AI 治理与合规, 责任归因。 |
 
 ### 🌍 地理位置与出行
 
