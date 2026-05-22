@@ -865,6 +865,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [zueai/mcp-manager](https://github.com/zueai/mcp-manager)                    | 用于安装和管理 Claude Desktop App 的 MCP 服务器的简单 Web UI。                                      | 社区实现, TypeScript 开发 📇, 云服务 ☁️, MCP 服务器管理 Web UI。                                     |
 | [HenryHaoson/Yuque-MCP-Server](https://github.com/HenryHaoson/Yuque-MCP-Server)  | 用于集成语雀 API 的 MCP 服务器，允许 AI 模型管理文档、与知识库交互、搜索内容和访问语雀平台的分析数据。       | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 语雀 API 集成。                                         |
 | [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp) | 通过在 MCP 循环中直接添加本地用户提示和聊天功能，实现交互式 LLM 工作流。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 人机交互工作流。 |
+| [ejentum/ejentum-mcp](https://github.com/ejentum/ejentum-mcp) | 认知脚手架 MCP 服务器，提供四个工具（推理、代码、反谄媚、记忆），每次调用返回结构化脚手架（失败模式、执行程序、抑制向量、可证伪测试），代理在生成响应前内化吸收。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️ + 本地运行 🏠, 4 种认知脚手架。 |
 
 ---
 
