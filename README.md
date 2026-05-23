@@ -519,6 +519,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit/tree/main/examples/agent-kit-mcp-server) | 使用 Solana Agent Kit 与 Solana 区块链交互，支持 40+ 协议操作。                                        | 社区实现, TypeScript 开发, Solana 链交互。                                                         |
 | [AlphaVantage](https://github.com/calvernaz/alphavantage)                          | AlphaVantage 股票市场数据 API 服务器。                                                              | 社区实现, Python 开发, AlphaVantage 金融数据。                                                      |
 | [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)                    | x402 支付协议资源目录，包含 MCP 服务器、SDK 和工具，用于基于 HTTP 402 的 USDC 支付（支持 Base、Arbitrum 等 EVM 链）。 | 社区实现, 云服务 ☁️, x402 协议生态资源汇总。                                                         |
+| [thebrierfox/intuitek-ace](https://github.com/thebrierfox/intuitek-ace)           | YIELD INTELLIGENCE — 跨资产被动收入分析 MCP 服务器，实时获取美国国债利率、计算投资组合收益率，并由 AI 给出收入优化建议。无需 API 密钥，可直接连接使用。 | 社区实现 (IntuiTek¹), Python 开发 🐍, 云服务 ☁️, 美国国债实时利率 + 被动收入优化 |
 
 ---
 
