@@ -650,6 +650,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [BibiGPT](https://github.com/JimmyLv/bibigpt-skill) | AI 驱动的视频、音频和播客总结工具，支持 YouTube、Bilibili、TikTok 等平台。提供远程 MCP 服务器 (https://bibigpt.co/api/mcp) 和 Claude Code Skill 两种集成方式。 | 社区实现, 云服务 ☁️, 视频/音频/播客总结。 |
 
 ---
+| [Vovala14/vynly-mcp](https://github.com/Vovala14/vynly-mcp) | 将 AI 生成的图片和短视频发布到 Vynly（AI 专属社交网络），上传时自动验证来源（C2PA / SynthID）。免费体验 token，无需注册。 | 社区实现, TypeScript 开发 📇, 云端发布 ☁️, AI 社交网络发布。 |
 
 ### 📕 社交媒体与内容创作 (小红书/RedNote)
 
