@@ -117,6 +117,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[GitHub 仓库](https://github.com/kill136/claude-code-open)  
   - **Tips**：MIT 开源，TypeScript 开发，支持 Windows/macOS/Linux，适合需要 MCP 集成的开发者。
 
+- **MCP Dock**  
+  - **简介**：桌面端 MCP 配置管理工具，支持 14 个 AI 客户端的 MCP Server 统一管理。  
+  - **功能**：9200+ MCP Server 商店、3100+ AI Skills 商店、一键安装到多客户端、内置 MCP Inspector 调试、配置历史记录与回滚。  
+  - **链接**：[官网](https://mcp.folay.top) | [GitHub 仓库](https://github.com/OldJii/mcp-dock)  
+  - **Tips**：本地优先，不需要账号；支持 Cursor、Claude Code、VS Code、Gemini CLI 等 14 个客户端。
+
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
