@@ -865,7 +865,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [zueai/mcp-manager](https://github.com/zueai/mcp-manager)                    | 用于安装和管理 Claude Desktop App 的 MCP 服务器的简单 Web UI。                                      | 社区实现, TypeScript 开发 📇, 云服务 ☁️, MCP 服务器管理 Web UI。                                     |
 | [HenryHaoson/Yuque-MCP-Server](https://github.com/HenryHaoson/Yuque-MCP-Server)  | 用于集成语雀 API 的 MCP 服务器，允许 AI 模型管理文档、与知识库交互、搜索内容和访问语雀平台的分析数据。       | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 语雀 API 集成。                                         |
 | [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp) | 通过在 MCP 循环中直接添加本地用户提示和聊天功能，实现交互式 LLM 工作流。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 人机交互工作流。 |
-| [RedirHub MCP](https://api.urllize.com/mcp/v1) | URL 重定向管理的 MCP 服务器，支持通过 AI 代理创建、更新、测试和监控重定向规则。提供创建/列出/更新重定向规则、健康检查和规则测试等工具。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️ |
+| [RedirHub MCP](https://api.redirhub.com/mcp/v1) | URL 重定向管理的 MCP 服务器，支持通过 AI 代理创建、更新、测试和监控重定向规则。提供创建/列出/更新重定向规则、健康检查和规则测试等工具。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️ |
 
 ---
 
