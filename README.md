@@ -219,6 +219,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ### 💻 开发与代码执行
 
+- [Shown06/airlogicpro-mcp](https://github.com/Shown06/airlogicpro-mcp) - App Store 类目机会评分 (Apple iTunes 数据)。4 个工具：`get_category_opportunity`, `list_top_apps`, `search_apps`, `compare_category_across_countries`。免费层 100 次/月，专为独立开发者设计。
 *(让 AI 能够运行代码、分析代码库、与开发工具集成等)*
 
 | 名称                                                                 | 中文介绍                                                                              | 备注                                                                                 |
@@ -521,6 +522,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ### 💰 金融与加密货币
 
+- [Shown06/tamawaru-mcp](https://github.com/Shown06/tamawaru-mcp) - 日本政府补助金/助成金搜索（中央省厅 + 47 都道府县共 6,000+ 个项目）。2 个工具：`search_subsidies`, `get_subsidy`。Phase 1 完全免费，无需 API 密钥。
 *(让 AI 能够获取金融数据、分析股票、与区块链交互等)*
 
 | 名称                                                                               | 中文介绍                                                                                                | 备注                                                                                                         |
@@ -635,6 +637,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ### 🛠️ 效率工具与集成 (Office, Project Management, Notes, etc.)
 
+- [Shown06/aimieru-mcp](https://github.com/Shown06/aimieru-mcp) - 日本语 AIO（AI 概览引用率）诊断。1 个工具：`run_aio_diagnosis` 返回 0-100 的 AIO Index 及 JSON-LD、页面 SEO、Lighthouse 细分。
 *(让 AI 能够使用日历、任务管理、项目管理、笔记等工具)*
 
 | 名称                                                                       | 中文介绍                                                                                                 | 备注                                                                                                          |
@@ -734,6 +737,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ### 🧠 知识、记忆与 RAG
 
+- [Shown06/paperbotai-mcp](https://github.com/Shown06/paperbotai-mcp) - 多渠道手册 RAG 问答。1 个工具：`answer_from_manuals` 返回答案、来源引用和 token 用量。1 个 API 密钥 = 1 个租户隔离。
 *(让 AI 拥有长期记忆、能够基于特定知识库回答问题等)*
 
 | 名称                                                                               | 中文介绍                                                                                                         | 备注                                                                                                    |
