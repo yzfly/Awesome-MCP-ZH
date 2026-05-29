@@ -795,6 +795,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                                                 | 备注                                                                                               |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
+| [jiweiyuan/tunelo](https://github.com/jiweiyuan/tunelo) | 专为 AI Agent 设计的内网穿透工具，让本地服务安全暴露给远端 Agent 访问，支持 MCP 接入。 | 社区实现, 本地运行 🏠, 内网穿透 / 隧道, 424+ Stars。 |
 | [CoderGamester/mcp-unity](https://github.com/CoderGamester/mcp-unity) | 用于 Unity3d 游戏引擎集成的 MCP 服务器，用于游戏开发。                                              | 社区实现, TypeScript/C# 开发 📇#️⃣, 本地运行 🏠, Unity3D 集成。                                  |
 | [Coding-Solo/godot-mcp](https://github.com/Coding-Solo/godot-mcp)    | 用于与 Godot 游戏引擎交互的 MCP 服务器，提供编辑、运行、调试和管理 Godot 项目中场景的工具。               | 社区实现, TypeScript 开发 📇, 本地运行 🏠, Godot 引擎集成。                                     |
 | [kw510/strava-mcp](https://github.com/kw510/strava-mcp)              | 用于 Strava (体育锻炼追踪应用) 的 MCP 服务器。                                                    | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Strava API 集成 (另一版本)。                            |
