@@ -148,6 +148,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | :------------------------------------------------------------------- | :-------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | 微软官方出品，使用 Playwright 让 AI 精确控制网页，自动化抓取数据。                   | 官方实现，浏览器自动化强推，适合需要精细网页交互的场景。                               |
 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 谷歌 Chrome 官方出品，让 AI 编程代理直接驱动 Chrome DevTools：导航页面、检查 DOM、抓取网络请求、跑性能与 Lighthouse 审计、执行脚本。 | 官方实现 (Google Chrome) 🎖️, TypeScript 开发 📇, 本地运行 🏠, 浏览器调试与自动化, 42K+ Stars。 |
+| [webclaw](https://github.com/0xMassi/webclaw) | 快速本地优先的网页内容提取工具，专为 LLM 设计。支持将网页转换为 Markdown/JSON/纯文本，内置 TLS 指纹伪装绕过反爬，无需浏览器。提供 MCP 服务器（10 个工具）和 CLI。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, MIT 开源, 高性能网页提取。 |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | 云端浏览器自动化服务，能导航网页、提取数据、填表单等，无需本地安装。                  | 官方实现 (Browserbase) 🎖️, TypeScript 开发 📇, 云端浏览器操作。                      |
 | [modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) | 官方参考实现，使用 Puppeteer 进行浏览器自动化和网页抓取。                           | 官方参考, TypeScript 开发 📇, 本地运行 🏠, 网页抓取和交互基础工具。                 |
 | [apify/actors-mcp-server](https://github.com/apify/actors-mcp-server) | 集成 Apify 平台 3000+ 云工具，用于网站、电商、社交媒体等数据提取。                  | 官方实现 (Apify), TypeScript 开发 📇, 云端数据抓取工具库 ☁️。                      |
@@ -186,6 +187,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                              | 备注                                                                                 |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------- |
+| [Muvon/octocode](https://github.com/Muvon/octocode) | Rust 编写的语义代码索引器，构建代码库 GraphRAG 知识图谱并通过 MCP 暴露给 AI 代理。支持 13+ 语言，提供 tree-sitter 解析、ast-grep 结构化搜索和代码签名视图。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🪟🐧, 语义搜索 + GraphRAG 知识图谱, Apache 2.0。 |
+| [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | 多智能体编排器，协调 37 个 CLI 编码代理（Claude Code、Codex、Gemini CLI、Cursor、Aider 等）在并行 Git worktree 中运行。内置 MCP 服务器模式（stdio + HTTP/SSE）。 | 社区实现, Python 开发 🐍, 本地/云端 🏠☁️, Apache 2.0, 确定性调度器, 多代理编排。 |
 | [21st.dev Magic](https://github.com/21st-dev/magic-mcp)             | 21st.dev 官方集成，创建受顶级设计工程师启发的精美 UI 组件。                          | 官方实现 (21st.dev) 🎖️, UI 组件创建。                                               |
 | [upstash/context7](https://github.com/upstash/context7) | Upstash 出品，为 LLM 和 AI 编辑器实时注入最新的库文档与代码示例，消除模型对过时 API 的幻觉。Cursor / Claude 等一键接入。 | 官方实现 (Upstash) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 实时文档检索, 56K+ Stars。 |
 | [getsentry/sentry-mcp](https://github.com/getsentry/sentry-mcp) | Sentry 官方集成，让 AI 通过自然语言查询错误、性能问题与发布信息，快速定位线上故障根因。 | 官方实现 (Sentry) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 错误监控与可观测性。 |
