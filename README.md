@@ -415,6 +415,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [weibaohui/k8m](https://github.com/weibaohui/k8m)                    | 提供 MCP 多集群 Kubernetes 管理和操作，带管理界面、日志记录和近 50 个内置工具 (支持标准/CRD)。   | 社区实现, Go 开发 🏎️, 云端/本地 ☁️🏠, 多集群 K8s 管理 (带 UI)。                                       |
 | [weibaohui/kom](https://github.com/weibaohui/kom)                    | 提供 MCP 多集群 Kubernetes 管理和操作。可作为 SDK 集成到项目中，含近 50 个内置工具 (支持标准/CRD)。 | 社区实现, Go 开发 🏎️, 云端/本地 ☁️🏠, 多集群 K8s 管理 (SDK)。                                        |
 | [wenhuwang/mcp-k8s-eye](https://github.com/wenhuwang/mcp-k8s-eye)      | 用于 Kubernetes 管理的 MCP 服务器，分析集群和应用健康状况。                                   | 社区实现, Go 开发 🏎️, 云端/本地 ☁️🏠, K8s 管理与健康分析。                                         |
+| [hzy9981/vertex-ai-mcp-bridge](https://github.com/hzy9981/vertex-ai-mcp-bridge) | 专为 Google Vertex AI 提示词工程打造的 MCP 服务器，支持提示词 CRUD、自动化优化以及集成阿里云 DashScope 的跨云代理功能。 | 社区实现, Python 开发 🐍, 支持 Google Cloud Run (SSE) 部署 ☁️。 |
 | [erikhoward/adls-mcp-server](https://github.com/erikhoward/adls-mcp-server) | 用于 Azure Data Lake Storage 的 MCP 服务器。可管理容器、读/写/上传/下载文件及管理元数据。   | 社区实现, Python 开发 🐍, 云端/本地 ☁️🏠, Azure Data Lake Storage 管理。                              |
 
 ---
