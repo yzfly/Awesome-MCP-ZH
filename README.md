@@ -188,6 +188,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | 云端浏览器自动化服务，能导航网页、提取数据、填表单等，无需本地安装。                  | 官方实现 (Browserbase) 🎖️, TypeScript 开发 📇, 云端浏览器操作。                      |
 | [modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer) | 官方参考实现，使用 Puppeteer 进行浏览器自动化和网页抓取。                           | 官方参考, TypeScript 开发 📇, 本地运行 🏠, 网页抓取和交互基础工具。                 |
 | [apify/actors-mcp-server](https://github.com/apify/actors-mcp-server) | 集成 Apify 平台 3000+ 云工具，用于网站、电商、社交媒体等数据提取。                  | 官方实现 (Apify), TypeScript 开发 📇, 云端数据抓取工具库 ☁️。                      |
+| [UnifAPI](https://github.com/unifapi-agent/unifapi-mcp-server) | 托管式公共数据 MCP 服务，覆盖社交、搜索、网页抓取、新闻、创作者研究和 KOL 定价等实时数据工作流。 | 官方实现 (UnifAPI), 远程 MCP ☁️, OAuth/API Key, 已收录官方 MCP Registry。 |
 | [AgentQL](https://github.com/tinyfish-io/agentql-mcp)                | 让 AI 代理从非结构化网页中获取结构化数据。                                         | 官方实现 (TinyFish IO) 🎖️, TypeScript 开发 📇, 网页数据结构化提取 ☁️。           |
 | [Firecrawl](https://github.com/mendableai/firecrawl-mcp-server)      | 使用 Firecrawl 提取网页数据，支持 JavaScript 渲染。                              | 官方实现 (Mendable AI), TypeScript 开发, 高级网页抓取。                           |
 | [crw](https://github.com/us/crw)                                    | 开源网页抓取工具，专为 AI 代理设计。单一 Rust 二进制文件，内置 MCP 服务器，兼容 Firecrawl API。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 高性能网页抓取。                             |
