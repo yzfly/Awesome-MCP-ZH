@@ -852,6 +852,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [r-huijts/rijksmuseum-mcp](https://github.com/r-huijts/rijksmuseum-mcp) | Rijksmuseum API 集成，用于艺术品搜索、详情和收藏。                                                    | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 荷兰国立博物馆艺术品。                               |
 | [r-huijts/oorlogsbronnen-mcp](https://github.com/r-huijts/oorlogsbronnen-mcp) | Oorlogsbronnen (战争来源) API 集成，访问荷兰二战时期 (1940-1945) 的历史记录、照片和文件。                  | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 荷兰二战历史资料。                                 |
 | [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp)          | 集成 AniList API 的 MCP 服务器，用于动漫和漫画信息。                                                  | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 动漫/漫画信息 (AniList)。                           |
+| [The-Doxa-Way/doxa-mcp-schema](https://github.com/The-Doxa-Way/doxa-mcp-schema) | 提供基督教鼓励与圣经查询的免费托管 MCP 服务器，内置三个工具，均以公有领域的 Berean Standard Bible 为依据：鼓励、圣经经文查询（带深链）、Doxa Way 旅程指引。 | 社区实现, 云服务 ☁️, 远程 Streamable HTTP (https://doxa.app/mcp/v1), 圣经经文查询与基督教鼓励, 可选自带授权 (BYOL)。 |
 
 ---
 
