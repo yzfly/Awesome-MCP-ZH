@@ -203,6 +203,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server) | 将 browser-use 打包为带 SSE 传输的 MCP 服务器，含 Dockerfile。           | 社区实现, Python 开发 🐍.                                                          |
 | [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright) | 使用 Playwright 进行浏览器自动化和网页抓取的 MCP 服务器。                    | 社区实现, TypeScript 开发 📇.                                                     |
 | [flutter-skill](https://github.com/ai-dashboad/flutter-skill) | AI驱动的E2E测试MCP服务器，支持Flutter、iOS、Android、Web、Electron、Tauri、KMP、React Native、.NET MAUI等8个平台。 | 社区实现, Dart 开发, E2E跨平台测试。                                                |
+| [vostride/agent-qa](https://github.com/vostride/agent-qa) | 自我改进的 Agentic QA 测试工具，通过自然语言编写 Web 和移动端测试，并用执行记忆和自修复动作排查回归。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, E2E 测试与浏览器自动化。 |
 | [eyalzh/browser-control-mcp](https://github.com/eyalzh/browser-control-mcp) | 与浏览器扩展配对，使 LLM 客户端能控制用户的 Firefox 浏览器。              | 社区实现, TypeScript 开发 📇, 本地运行 🏠.                                        |
 | [getrupt/ashra-mcp](https://github.com/getrupt/ashra-mcp)            | 从任何网站提取结构化数据，只需提示即可获得 JSON。                             | 社区实现, Python 开发 🐍, 本地运行 🏠.                                             |
 | [kimtth/mcp-aoai-web-browsing](https://github.com/kimtth/mcp-aoai-web-browsing) | 使用 Azure OpenAI 和 Playwright 的最小化 MCP 服务器/客户端实现。           | 社区实现, Python 开发 🐍, 本地运行 🏠.                                             |
