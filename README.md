@@ -976,6 +976,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 
 - **社区资源**  
+  - [AgentNDX](https://agentndx.ai)：MCP Server 目录，收录 25K+ 服务器、95 个技能分类，支持搜索、Featured listings 和 API Pro，面向构建 MCP 的 AI 开发者。
   - [GitHub MCP 组织](https://github.com/modelcontextprotocol/modelcontextprotocol)：官方代码和示例。  
   - [Reddit r/mcp](https://www.reddit.com/r/mcp/)：玩家交流，找灵感。  
   - [Discord](https://glama.ai/mcp/discord)：实时讨论，解决问题。
