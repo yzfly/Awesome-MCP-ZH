@@ -215,6 +215,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [OpenTabs](https://github.com/opentabs-dev/opentabs) | 基于插件的 MCP 服务器，通过用户已认证的浏览器会话让 AI 代理访问 Web 应用。Chrome 扩展 + 100 多个插件，支持 Slack、Discord、GitHub、Reddit 等。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 插件化浏览器集成。 |
 | [Zlatanwic/wechat-article-read-mcp](https://github.com/Zlatanwic/Wechat-Read-MCP-in-Rust) |支持微信公众号内容提取，绕过微信反爬机制|  社区实现，rust开发 🦀，本地运行 🏠，高性能，易分发|
 | [achiya-automation/safari-mcp](https://github.com/achiya-automation/safari-mcp) | 原生 Safari 浏览器自动化，专为 macOS 设计。通过 AppleScript + JavaScript 提供 80 个工具，零 Chrome 开销，保留登录状态，后台静默运行。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, macOS 原生 🍎 |
+| [vostride/agent-qa](https://github.com/vostride/agent-qa) | 自我改进的 Agentic QA 测试工具，通过自然语言编写 Web 和移动端测试，并用执行记忆和自修复动作排查回归。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, E2E 测试与浏览器自动化。 |
 ---
 
 ### 💻 开发与代码执行
@@ -762,6 +763,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [topoteretes/cognee](https://github.com/topoteretes/cognee/tree/dev/cognee-mcp)     | 使用各种图和向量存储的 AI 应用和 Agents 记忆管理器，允许从 30+ 数据源摄取。 (cognee-mcp 的开发分支)              | 社区实现, TypeScript 开发 📇, 本地运行 🏠, GraphRAG 记忆 (更通用)。                                  |
 | [unibaseio/membase-mcp](https://github.com/unibaseio/membase-mcp)                  | 通过 Membase 以分布式方式保存和查询你的 Agent 记忆。                                                     | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 分布式 Agent 记忆。                                      |
 | [Hindsight](https://github.com/vectorize-io/hindsight)                              | Vectorize 出品的先进 AI Agent 长期记忆系统，支持语义、BM25、图和时间等多种检索策略，提供 retain/recall/reflect 操作，可完全本地自托管部署。 | 开源 (MIT), Python 开发 🐍, 本地运行 🏠/云服务 ☁️, 先进的 AI Agent 记忆。                          |
+| [Bhived MCP](https://github.com/ArtKeyAi/bhived-mcp)                             | 面向 AI Agent 的共享记忆与知识图谱，支持跨 Agent 查询、写入和复用已验证经验。                                      | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 共享记忆与知识图谱。                                      |
 
 ---
 
@@ -905,7 +907,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [magarcia/mcp-server-giphy](https://github.com/magarcia/mcp-server-giphy)        | 通过 Giphy API 从 Giphy 的庞大库中搜索和检索 GIF。                                                 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Giphy GIF 搜索。                                          |
 | [marcelmarais/Spotify](https://github.com/marcelmarais/spotify-mcp-server)      | 控制 Spotify 播放和管理播放列表。                                                                 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, Spotify 控制。                                            |
 | [mcp-server-jfx](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/jfx) | 在 JavaFX 画布上绘图。                                                                            | 社区实现 (Quarkiverse), Java 开发 ☕, 本地运行 🏠, JavaFX 绘图。                                  |
-| [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe)              | 本地优先系统，捕获屏幕/音频并带时间戳索引，SQL/嵌入存储，语义搜索，LLM 历史分析，事件触发动作。通过 NextJS 插件生态系统构建上下文感知 AI 代理。 | 官方实现 (mediar.ai) 🎖️, Rust 开发 🦀, 本地运行 🏠, macOS 🍎, 屏幕/音频捕获与分析 RAG。        |
+| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe)              | 本地优先系统，捕获屏幕/音频并带时间戳索引，SQL/嵌入存储，语义搜索，LLM 历史分析，事件触发动作。通过 NextJS 插件生态系统构建上下文感知 AI 代理。 | 官方实现 (Screenpipe) 🎖️, Rust 开发 🦀, 本地运行 🏠, macOS 🍎, 屏幕/音频捕获与分析 RAG。        |
 | [mrexodia/user-feedback-mcp](https://github.com/mrexodia/user-feedback-mcp)      | 简单的 MCP 服务器，在 Cline 和 Cursor 等工具中启用人机回圈工作流。                                     | 社区实现, Python 开发 🐍, 本地运行 🏠, 人机回圈反馈。                                              |
 | [mrjoshuak/godoc-mcp](https://github.com/mrjoshuak/godoc-mcp)                  | Token 高效的 Go 文档服务器，为 AI 助手提供对包文档和类型的智能访问，无需读取整个源文件。                  | 社区实现, Go 开发 🏎️, 本地运行 🏠, Go 文档智能访问。                                              |
 | [mzxrai/mcp-openai](https://github.com/mzxrai/mcp-openai)                      | 与 OpenAI 最智能的模型聊天。                                                                       | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 调用 OpenAI 模型。                                       |
