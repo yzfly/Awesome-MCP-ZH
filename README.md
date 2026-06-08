@@ -577,7 +577,6 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop](https://github.com/SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop.git) | 使用 CoinGecko API 提供加密货币市场数据的 MCP 工具。                                          | 社区实现, Python 开发 🐍, 云服务 ☁️, CoinGecko 数据。                                               |
 | [SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop](https://github.com/SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop.git) | 使用 Yahoo Finance API 提供股市数据和分析的 MCP 工具。                                          | 社区实现, Python 开发 🐍, 云服务 ☁️, Yahoo Finance 数据分析。                                       |
 | [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit/tree/main/examples/agent-kit-mcp-server) | 使用 Solana Agent Kit 与 Solana 区块链交互，支持 40+ 协议操作。                                        | 社区实现, TypeScript 开发, Solana 链交互。                                                         |
-| [TWZRD Agent Intel](https://intel.twzrd.xyz) | Solana 链上 AI 代理信任评分 MCP 服务器。提供 `score_agent`（信任评分）、`preflight_check`（交易前校验）、`verify_trust_receipt`（免费），`get_trust_receipt`（x402 USDC 微支付获取签名 V5 信任凭证，<1s Solana 结算）。零安装配置：`{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}` |
 | [AlphaVantage](https://github.com/calvernaz/alphavantage)                          | AlphaVantage 股票市场数据 API 服务器。                                                              | 社区实现, Python 开发, AlphaVantage 金融数据。                                                      |
 | [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)                    | x402 支付协议资源目录，包含 MCP 服务器、SDK 和工具，用于基于 HTTP 402 的 USDC 支付（支持 Base、Arbitrum 等 EVM 链）。 | 社区实现, 云服务 ☁️, x402 协议生态资源汇总。                                                         |
 
@@ -935,6 +934,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [zueai/mcp-manager](https://github.com/zueai/mcp-manager)                    | 用于安装和管理 Claude Desktop App 的 MCP 服务器的简单 Web UI。                                      | 社区实现, TypeScript 开发 📇, 云服务 ☁️, MCP 服务器管理 Web UI。                                     |
 | [HenryHaoson/Yuque-MCP-Server](https://github.com/HenryHaoson/Yuque-MCP-Server)  | 用于集成语雀 API 的 MCP 服务器，允许 AI 模型管理文档、与知识库交互、搜索内容和访问语雀平台的分析数据。       | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 语雀 API 集成。                                         |
 | [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp) | 通过在 MCP 循环中直接添加本地用户提示和聊天功能，实现交互式 LLM 工作流。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 人机交互工作流。 |
+| [TWZRD Agent Intel](https://intel.twzrd.xyz) | Solana 链上 AI 代理信任评分 MCP 服务器 - 在 x402 微支付前验证代理钱包身份及链上信誉。免费工具：score_agent、preflight_check；付费：get_trust_receipt（x402）。 | 社区实现, 云服务 ☁️, Solana 链上代理信任评分。 |
 
 ---
 
