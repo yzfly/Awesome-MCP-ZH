@@ -947,6 +947,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 * [web目录](https://glama.ai/mcp/servers)。
 * [MCP.ing](https://mcp.ing) 一个资源丰富的 MCP Server库。
 * [MCP Registry](https://github.com/modelcontextprotocol/registry) 官方 MCP 注册中心，统一发现与发布 MCP Server 的元数据服务。
+* [Prismix](https://prismix.dev/mcp) AI 服务状态 + MCP 目录 + AI 新闻三合一平台。收录 500+ MCP 服务器（含精选和 GitHub 自动发现），支持 Bundles（类 Spotify 歌单的 MCP 合集），并提供 75+ AI 服务实时状态监控和邮件告警。内置 MCP Server：`https://prismix.dev/api/v1/mcp`。
 
 ![mcp.ing](https://youjb.com/images/2025/04/25/mcp-ingb03704c206230a97.png)
 
