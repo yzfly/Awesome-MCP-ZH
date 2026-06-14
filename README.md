@@ -200,6 +200,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [automatalabs/mcp-server-playwright](https://github.com/Automata-Labs-team/MCP-Server-Playwright) | 使用 Playwright 进行浏览器自动化的 MCP 服务器。                              | 社区实现, Python 开发 🐍.                                                          |
 | [blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp) | 使用 Playwright 的 Python MCP 服务器，更适合 LLM。                         | 社区实现, Python 开发 🐍.                                                          |
 | [browsermcp/mcp](https://github.com/browsermcp/mcp)                  | 自动化本地 Chrome 浏览器。                                                 | 社区实现, TypeScript 开发 📇, 本地运行 🏠.                                        |
+| [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) | Chrome 浏览器扩展形式的 MCP 服务器，复用用户现有浏览器（含登录态与配置），让 AI 接管真实 Chrome 进行网页自动化、内容分析与语义检索。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 基于 Chrome 扩展, 11K+ Stars。 |
 | [co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server) | 将 browser-use 打包为带 SSE 传输的 MCP 服务器，含 Dockerfile。           | 社区实现, Python 开发 🐍.                                                          |
 | [executeautomation/playwright-mcp-server](https://github.com/executeautomation/mcp-playwright) | 使用 Playwright 进行浏览器自动化和网页抓取的 MCP 服务器。                    | 社区实现, TypeScript 开发 📇.                                                     |
 | [flutter-skill](https://github.com/ai-dashboad/flutter-skill) | AI驱动的E2E测试MCP服务器，支持Flutter、iOS、Android、Web、Electron、Tauri、KMP、React Native、.NET MAUI等8个平台。 | 社区实现, Dart 开发, E2E跨平台测试。                                                |
@@ -947,6 +948,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 * [web目录](https://glama.ai/mcp/servers)。
 * [MCP.ing](https://mcp.ing) 一个资源丰富的 MCP Server库。
 * [MCP Registry](https://github.com/modelcontextprotocol/registry) 官方 MCP 注册中心，统一发现与发布 MCP Server 的元数据服务。
+* [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) 官方维护的 MCP 参考服务器集合，涵盖文件系统、Git、Fetch、记忆等众多示例，是学习和上手 MCP Server 的权威起点。
 
 ![mcp.ing](https://youjb.com/images/2025/04/25/mcp-ingb03704c206230a97.png)
 
@@ -1031,6 +1033,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 - [Model Context Protocol(MCP) 编程极速入门](http://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide)
 - [FastMCP](https://github.com/jlowin/fastmcp) 快速、Pythonic 的 MCP 服务器与客户端构建框架，几行代码即可暴露工具、资源和提示词。
+- [MCP Inspector](https://github.com/modelcontextprotocol/inspector) 官方可视化调试工具，可连接并交互测试任意 MCP 服务器，查看工具、资源、提示词，开发调试必备。
+- [mcp-use](https://github.com/mcp-use/mcp-use) 开源 MCP 客户端库，几行代码即可让任意 LLM 连接并调用 MCP 服务器，快速构建自定义 Agent。
 
 ---
 
