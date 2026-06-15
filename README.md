@@ -42,6 +42,7 @@
   - [🛠️ 效率工具与集成 (Office, Project Management, Notes, etc.)](#效率工具与集成-office-project-management-notes-etc)
   - [multimedia 多媒体与内容创作](#multimedia-多媒体与内容创作)
   - [📕 社交媒体与内容创作 (小红书/RedNote)](#社交媒体与内容创作-小红书rednote)
+  - [🛒 电商商家经营 (E-Commerce)](#电商商家经营-e-commerce)
   - [🧠 知识、记忆与 RAG](#知识记忆与-rag)
   - [🔒 安全与分析](#安全与分析)
   - [🌍 地理位置与出行](#地理位置与出行)
@@ -732,6 +733,16 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [XME (XhsMcpElectron)](https://github.com/pmhw/XME) | 小红书 Electron 多账号自动化工具，支持 MCP 协议。 | 社区实现, Go 开发 🐹, 多账号管理, 自动化工具。 |
 | [RedBook-Search-Comment-MCP](https://github.com/chenningling/RedBook-Search-Comment-MCP) | (v1.0版本) 基于 Playwright 的搜索与评论工具，帮助用户完成基础的自动化操作。 | 社区实现, Python 开发 🐍, 旧版本归档 (建议使用 v2.0)。 |
 | [xiaohongshu-mcp-nodejs](https://github.com/ToDieOrNot/xiaohongshu-mcp-nodejs) | 企业级 Node.js 重构版本，支持多账号矩阵管理、反风控、数据采集与发布。 | 社区实现, Node.js 开发 🟢, 矩阵管理, 企业级特性。 |
+
+---
+
+### 🛒 电商商家经营 (E-Commerce)
+
+*(让 AI 能够读取电商平台的商家经营数据：订单、商品、售后、广告报表等)*
+
+| 名称 | 中文介绍 | 备注 |
+| :--- | :--- | :--- |
+| [mcp-cn-commerce](https://github.com/TonyWang-hub/mcp-cn-commerce) | 中国电商商家经营数据 MCP 套件，覆盖抖店/京东/淘宝/拼多多/快手/小红书/微信小店/巨量引擎 8 平台，147 个工具（订单、商品、售后、库存、广告报表），全部只读、本地运行。 | 社区实现, Python 开发 🐍, `pip install mcp-cn-commerce`, 商家经营数据（非内容发布）。 |
 
 ---
 
