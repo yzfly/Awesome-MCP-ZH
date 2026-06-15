@@ -1049,6 +1049,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 - [Model Context Protocol(MCP) 编程极速入门](http://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide)
 - [FastMCP](https://github.com/jlowin/fastmcp) 快速、Pythonic 的 MCP 服务器与客户端构建框架，几行代码即可暴露工具、资源和提示词。
+- [fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) 零配置将现有 FastAPI 端点自动暴露为 MCP 工具，原生支持鉴权，轻松让 AI 调用你的 API。
+- [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) Go 语言的 MCP 实现，提供简洁的 API 用于快速构建 MCP 服务器，让工具与资源开发更高效。
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector) 官方可视化调试工具，可连接并交互测试任意 MCP 服务器，查看工具、资源、提示词，开发调试必备。
 - [mcp-use](https://github.com/mcp-use/mcp-use) 开源 MCP 客户端库，几行代码即可让任意 LLM 连接并调用 MCP 服务器，快速构建自定义 Agent。
 
