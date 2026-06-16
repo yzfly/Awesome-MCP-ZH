@@ -5,10 +5,10 @@
 欢迎来到 `Awesome-MCP-ZH`，一个专为中文用户打造的 MCP（模型上下文协议）资源合集！
 这里有 MCP 的基础介绍、玩法、客户端、服务器和社区资源，帮你快速上手这个 AI 界的“万能插头”。
 
-[![Join Our Discord Community](https://img.shields.io/badge/🚀%20Join%20Discord%20Community-Join%20Now-7289da?style=for-the-badge&logo=discord&logoColor=white&labelColor=2c2f33)](https://discord.gg/EXT6TpW3) [![简体中文](https://img.shields.io/badge/中文文档-点击查看-orange)](README.md) 
+[![简体中文](https://img.shields.io/badge/中文文档-点击查看-orange)](README.md) 
 
 
-- 作者：云中江树 （微信公众号：云中江树）
+- 作者：云中江树 （微信公众号：云中江树，微信：1796060717）
 
 - 如果国内的朋友想免费快速的体验MCP能力，推荐 Cherry Studio（客户端） + 阿里 Qwen (大模型）的组合，优势是免费、操作简单、LLM无需魔法、无需充值。
 
