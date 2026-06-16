@@ -881,6 +881,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | 名称                                                                               | 中文介绍                                                                                                     | 备注                                                                                                       |
 | :--------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- |
 | [agentic-ads](https://github.com/nicofains1/agentic-ads)                         | agentic-ads 是 MCP 服务器的广告变现 SDK。发布者通过在 Base 上使用 USDC 的上下文关联广告获得 70% 收入分享。   | 官方实现, TypeScript 开发 📇, 云服务 ☁️, 270 个测试通过, MIT 许可, 广告变现。                          |
+| [GCF Proxy](https://github.com/blackwell-systems/gcf-proxy)                      | MCP 工具响应压缩代理。零代码接入，将任意 MCP 服务器的 JSON 响应自动转换为 [GCF 格式](https://gcformat.com)，节省 71% token。支持 JSON、YAML、TOML、CSV、MessagePack 五种格式，330 亿+ 无损往返验证。 | 社区实现, Go/Python/Node 开发 🏎️🐍📇, 本地运行 🏠, MIT 许可, token 优化。 |
 | [AgentRPC](https://github.com/agentrpc/agentrpc)                                 | AgentRPC 官方集成，跨网络边界连接任何语言的任何函数。                                                          | 官方实现 (AgentRPC), Go/Python/TS/Rust 开发 🏎️🐍📇🦀, 跨语言函数调用。                                    |
 | [Agent Reach](https://github.com/Panniantong/Agent-Reach)                        | 一句话给 AI Agent 装上全网搜索能力。一键安装 + 配置 13+ 平台工具（Twitter、Reddit、YouTube、GitHub、B站、小红书、抖音、微信公众号、LinkedIn 等），通过 mcporter 接入多个 MCP 服务。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, 多平台聚合安装器。 |
 | [APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)                 | APIMatic 官方集成，使用 APIMatic 验证 OpenAPI 规范。                                                         | 官方实现 (APIMatic), C# 开发 #️⃣, OpenAPI 规范验证。                                                   |
@@ -1006,6 +1007,9 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 - **MCP分析资料**  
   - [a16z 深度解读MCP](https://a16z.com/a-deep-dive-into-mcp-and-the-future-of-ai-tooling/)
+
+- **MCP Token 优化**  
+  - [GCF (Graph Compact Format)](https://gcformat.com)：MCP 工具响应的 token 优化线格式。比 JSON 节省 71% token，所有前沿模型 100% 理解准确率（1700+ 次评估）。六种语言实现（Go、Rust、TypeScript、Python、Swift、Kotlin），MIT 许可。[规范](https://gcformat.com/reference/spec.html) | [基准测试](https://gcformat.com/guide/benchmarks.html) | [GitHub](https://github.com/blackwell-systems/gcf)
   - [MCP 与 ANP 对比](https://github.com/agent-network-protocol/AgentNetworkProtocol/blob/main/blogs/cn/MCP%E4%B8%8EANP%E5%AF%B9%E6%AF%94%EF%BC%9A%E6%99%BA%E8%83%BD%E4%BD%93%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE.md)  
 
 ## MCP Server 开发
