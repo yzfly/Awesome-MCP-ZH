@@ -474,6 +474,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Multi-Source Media MCP Server (M3S)](https://github.com/Decade-qiu/Multi-Source-Media-MCP-Server) | 多源媒体聚合与生成，统一访问 Unsplash/Pexels、Web 爬取媒体，支持多后端 AI 图像生成以及全网图片爬虫。 | 原生 Go ✨，本地运行 🏠，支持多平台媒体 API 和 AI 图像生成、爬虫扩展。 |
 | [MLT-OSS/FirstData](https://github.com/MLT-OSS/FirstData) | 全球最全面的权威数据源知识库，132+ 经验证数据源（政府、国际组织、学术机构），帮助 AI 减少幻觉。提供结构化元数据、100% URL 验证、中英双语支持。目标：1000+ 数据源。 | 本地/云端 🏠☁️，中国数据源深度覆盖 🇨🇳，AI 事实防线，抗幻觉数据底座。 |
 | [GEOScore](https://github.com/henu-wang/geoscore-mcp) | AI 搜索优化（GEO）MCP 服务器。扫描网站的 AI 搜索就绪度，生成 llms.txt、Schema.org 修复、meta 标签优化。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 支持 Claude/Cursor/Windsurf。 |
+| [NovadaLabs/novada-mcpserver](https://github.com/NovadaLabs/novada-mcpserver) | 托管 Streamable-HTTP MCP 服务器，提供 25+ 网页数据工具：搜索、SERP、抓取、提取、地图、爬取、深度研究及 6 种代理类型，覆盖 195 个国家 1 亿+ IP。免安装，每月 1000 次免费调用。`npx novada-mcp` | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 全面网页数据采集平台。 |
 
 ---
 
@@ -780,6 +781,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [unibaseio/membase-mcp](https://github.com/unibaseio/membase-mcp)                  | 通过 Membase 以分布式方式保存和查询你的 Agent 记忆。                                                     | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 分布式 Agent 记忆。                                      |
 | [Hindsight](https://github.com/vectorize-io/hindsight)                              | Vectorize 出品的先进 AI Agent 长期记忆系统，支持语义、BM25、图和时间等多种检索策略，提供 retain/recall/reflect 操作，可完全本地自托管部署。 | 开源 (MIT), Python 开发 🐍, 本地运行 🏠/云服务 ☁️, 先进的 AI Agent 记忆。                          |
 | [Bhived MCP](https://github.com/ArtKeyAi/bhived-mcp)                             | 面向 AI Agent 的共享记忆与知识图谱，支持跨 Agent 查询、写入和复用已验证经验。                                      | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 共享记忆与知识图谱。                                      |
+| [Goldentrii/AgentRecall](https://github.com/Goldentrii/AgentRecall)               | 跨会话的持久化累积记忆系统，使用智能距离协议召回最相关历史记忆。提供 5 个工具：`session_start`、`remember`、`recall`、`check`、`session_end`。`npx agent-recall-mcp` | 社区实现, TypeScript 开发 📇, 本地/云端 🏠 ☁️, 智能距离协议记忆召回。 |
 | [Headroom](https://github.com/chopratejas/headroom)                              | 在工具输出、日志、文件和 RAG 片段进入 LLM 前进行上下文压缩，可减少 60-95% 的 token 用量并保持答案质量，支持可逆压缩与按需检索原文。提供 headroom_compress/retrieve/stats 等工具，也可作为库、代理或 Agent 包装器使用。 | 社区实现, Python/Rust 开发 🐍🦀, 本地运行 🏠, 上下文/Token 压缩与 RAG, 27K+ Stars。 |
 
 ---
