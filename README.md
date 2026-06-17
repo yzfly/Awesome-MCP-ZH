@@ -160,6 +160,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[官网](https://mcp.folay.top) | [GitHub 仓库](https://github.com/OldJii/mcp-dock)  
   - **Tips**：本地优先，不需要账号；支持 Cursor、Claude Code、VS Code、Gemini CLI 等 14 个客户端。
 
+- **NarraNexus**  
+  - **简介**：开源 AI 智能体团队工作台，由 NetMind.AI 出品，开箱即用。  
+  - **功能**：多智能体协作（PM、开发、部署、研究等角色）、跨会话持久记忆、MCP 工具集成、Matrix 通信协议。  
+  - **链接**：[官网](https://www.narra.nexus/) | [GitHub 仓库](https://github.com/NetMindAI-Open/NarraNexus)  
+  - **Tips**：支持云端、macOS 及本地源码部署，适合需要多 Agent 协作的团队。
+
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
