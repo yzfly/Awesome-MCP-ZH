@@ -53,6 +53,7 @@
 - [MCP 更多玩法](#mcp-更多玩法)
 - [MCP 资源](#mcp-资源)
 - [MCP Server 开发](#mcp-server-开发)
+- [ShotAPI MCP Server](https://github.com/smallhandsome/shotapi-mcp-server) 🐍 ☁️ - 网页截图+HTML渲染MCP服务器，零安装远程模式，中国直连，免费100+100次/月
 - [Star History](#star-history)
 - [贡献指南](#贡献指南)
 - [许可证](#许可证)
