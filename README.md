@@ -729,6 +729,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Redbook-Search-Comment-MCP2.0](https://github.com/chenningling/Redbook-Search-Comment-MCP2.0) | 基于 Playwright 开发，支持自动登录、关键词搜索、笔记获取及 AI 评论发布 (适配 Claude 桌面版)。 | 社区实现, Python 开发 🐍, 自动化操作 (Playwright), 搜索与互动。 |
 | [self-dify](https://github.com/datawhalechina/self-dify) | Dify 应用搭建教程，包含“小红书读书卡片”、“甜蜜哄人”等特色 AI 助手实现指南。 | 社区教程 📚, 知识库与 Agent 搭建, Dify 集成案例。 |
 | [xhs-mcp-server](https://github.com/aicu-icu/xhs-mcp-server) | 基于 Electron + Web API，一键安装运行，支持极速抓取数据（笔记/评论/用户）并进行 AI 分析导出。 | 社区实现, TypeScript 开发 📇, Electron 封装, 数据抓取与分析。 |
+| [PPXC Find Customers](https://github.com/yuanjian068yuan/ppxc-find-customers) | 把抖音、小红书、快手评论转成客户线索，支持关键词建议、意向判断、客户池查询和触达话术生成。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 依赖公开 npm 包：`npx -y ppxc-leads-mcp`。 |
 | [AiClient](https://github.com/Cooosin/AiClient) | 旅游行程规划 AI 智能体，连接小红书搜索、高德地图和和风天气 MCP 服务。 | 社区实现, Java 开发 ☕, 跨应用集成, 旅游场景 Agent。 |
 | [RednoteMCP](https://github.com/JonaFly/RednoteMCP) | 基于 Playwright 的自动化工具，支持自动登录、搜索特定关键词、获取内容及智能评论。 | 社区实现, Python 开发 🐍, 自动化操作, 笔记检索。 |
 | [XME (XhsMcpElectron)](https://github.com/pmhw/XME) | 小红书 Electron 多账号自动化工具，支持 MCP 协议。 | 社区实现, Go 开发 🐹, 多账号管理, 自动化工具。 |
