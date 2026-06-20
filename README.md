@@ -475,6 +475,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [MLT-OSS/FirstData](https://github.com/MLT-OSS/FirstData) | 全球最全面的权威数据源知识库，132+ 经验证数据源（政府、国际组织、学术机构），帮助 AI 减少幻觉。提供结构化元数据、100% URL 验证、中英双语支持。目标：1000+ 数据源。 | 本地/云端 🏠☁️，中国数据源深度覆盖 🇨🇳，AI 事实防线，抗幻觉数据底座。 |
 | [GEOScore](https://github.com/henu-wang/geoscore-mcp) | AI 搜索优化（GEO）MCP 服务器。扫描网站的 AI 搜索就绪度，生成 llms.txt、Schema.org 修复、meta 标签优化。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 支持 Claude/Cursor/Windsurf。 |
 
+| [BuyWhere/buywhere-mcp](https://github.com/BuyWhere/buywhere-mcp) | AI 代理跨境电商产品目录 MCP 服务器，搜索新加坡、东南亚、美国市场 1100 万+ 商品，支持价格比较、折扣发现和多货币换算。可用于 AI 购物助手、产品推荐、价格监控等场景。 | 社区实现, JavaScript 开发 📇, 云服务 ☁️, `npx @buywhere/mcp-server`, 跨境电商搜索。 |
 ---
 
 ### 💬 通讯与协作 (Slack, Email, Calendar, Social, etc.)
