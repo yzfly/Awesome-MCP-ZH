@@ -781,6 +781,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Hindsight](https://github.com/vectorize-io/hindsight)                              | Vectorize 出品的先进 AI Agent 长期记忆系统，支持语义、BM25、图和时间等多种检索策略，提供 retain/recall/reflect 操作，可完全本地自托管部署。 | 开源 (MIT), Python 开发 🐍, 本地运行 🏠/云服务 ☁️, 先进的 AI Agent 记忆。                          |
 | [Bhived MCP](https://github.com/ArtKeyAi/bhived-mcp)                             | 面向 AI Agent 的共享记忆与知识图谱，支持跨 Agent 查询、写入和复用已验证经验。                                      | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 共享记忆与知识图谱。                                      |
 | [Headroom](https://github.com/chopratejas/headroom)                              | 在工具输出、日志、文件和 RAG 片段进入 LLM 前进行上下文压缩，可减少 60-95% 的 token 用量并保持答案质量，支持可逆压缩与按需检索原文。提供 headroom_compress/retrieve/stats 等工具，也可作为库、代理或 Agent 包装器使用。 | 社区实现, Python/Rust 开发 🐍🦀, 本地运行 🏠, 上下文/Token 压缩与 RAG, 27K+ Stars。 |
+| [llmtrim](https://github.com/fkiene/llmtrim)                              | 在请求发往 LLM 前压缩提示词、对话历史、工具输出和代码以降低 token 成本，带质量门控，不改变回答。MCP server 提供 llmtrim_compress、llmtrim_compress_text、llmtrim_stats 三个工具；也可作为本地代理、CLI 或库使用（Rust/Python/Ruby/Swift/Kotlin/WASM-npm）。MPL-2.0 开源。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 提示词/Token 压缩与质量门控, 83 Stars。 |
 
 ---
 
