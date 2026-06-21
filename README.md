@@ -965,6 +965,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 * [MCP.ing](https://mcp.ing) 一个资源丰富的 MCP Server库。
 * [MCP Registry](https://github.com/modelcontextprotocol/registry) 官方 MCP 注册中心，统一发现与发布 MCP Server 的元数据服务。
 * [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) 官方维护的 MCP 参考服务器集合，涵盖文件系统、Git、Fetch、记忆等众多示例，是学习和上手 MCP Server 的权威起点。
+* [Skillselion](https://skillselion.com) 聚合 Claude Code 技能、MCP 服务器与插件市场的目录站，按安装量与 GitHub stars 排名。
 
 ![mcp.ing](https://youjb.com/images/2025/04/25/mcp-ingb03704c206230a97.png)
 
