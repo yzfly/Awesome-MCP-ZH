@@ -231,6 +231,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [21st.dev Magic](https://github.com/21st-dev/magic-mcp)             | 21st.dev 官方集成，创建受顶级设计工程师启发的精美 UI 组件。                          | 官方实现 (21st.dev) 🎖️, UI 组件创建。                                               |
 | [upstash/context7](https://github.com/upstash/context7) | Upstash 出品，为 LLM 和 AI 编辑器实时注入最新的库文档与代码示例，消除模型对过时 API 的幻觉。Cursor / Claude 等一键接入。 | 官方实现 (Upstash) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 实时文档检索, 56K+ Stars。 |
 | [getsentry/sentry-mcp](https://github.com/getsentry/sentry-mcp) | Sentry 官方集成，让 AI 通过自然语言查询错误、性能问题与发布信息，快速定位线上故障根因。 | 官方实现 (Sentry) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 错误监控与可观测性。 |
+| [getsentry/XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) | 面向 iOS/macOS 开发的 MCP 服务器与 CLI，为 AI 代理提供 Xcode 项目构建、运行、模拟器管理与日志捕获等工具，打通 Apple 平台开发工作流。 | 官方实现 (Sentry) 🎖️, TypeScript 开发 📇, 本地运行 🏠, macOS 🍎, Xcode 构建工具, 5.9K+ Stars。 |
 | [pydantic/mcp-run-python](https://github.com/pydantic/mcp-run-python) | Pydantic 出品，在安全的沙盒环境中运行 Python 代码，适合开发编程代理。                   | 官方实现 (Pydantic) 🎖️, Python 开发 🐍, 本地运行 🏠, 安全代码执行。                   |
 | [E2B](https://github.com/e2b-dev/mcp-server)                         | 在 E2B 提供的安全云沙盒中运行代码。                                                 | 官方实现 (E2B), TypeScript 开发, 云端安全代码沙盒。                                  |
 | [JetBrains IDE Proxy](https://github.com/JetBrains/mcpProxy)           | JetBrains 官方代理，连接到 JetBrains IDE。                                       | 官方实现 (JetBrains) 🎖️, TypeScript 开发 📇, 本地运行 🏠, IDE 连接。             |
@@ -961,6 +962,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 ![](https://files.mdnice.com/user/43439/4f1c6e0d-f1b3-423c-b069-fa2c502d8557.png)
 
 * [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
+* [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) 另一份精选 MCP 服务器清单（英文 awesome 列表），按分类整理大量服务器。
 * [web目录](https://glama.ai/mcp/servers)。
 * [MCP.ing](https://mcp.ing) 一个资源丰富的 MCP Server库。
 * [MCP Registry](https://github.com/modelcontextprotocol/registry) 官方 MCP 注册中心，统一发现与发布 MCP Server 的元数据服务。
