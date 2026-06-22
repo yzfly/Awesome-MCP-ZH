@@ -218,6 +218,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Zlatanwic/wechat-article-read-mcp](https://github.com/Zlatanwic/Wechat-Read-MCP-in-Rust) |支持微信公众号内容提取，绕过微信反爬机制|  社区实现，rust开发 🦀，本地运行 🏠，高性能，易分发|
 | [achiya-automation/safari-mcp](https://github.com/achiya-automation/safari-mcp) | 原生 Safari 浏览器自动化，专为 macOS 设计。通过 AppleScript + JavaScript 提供 80 个工具，零 Chrome 开销，保留登录状态，后台静默运行。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, macOS 原生 🍎 |
 | [vostride/agent-qa](https://github.com/vostride/agent-qa) | 自我改进的 Agentic QA 测试工具，通过自然语言编写 Web 和移动端测试，并用执行记忆和自修复动作排查回归。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, E2E 测试与浏览器自动化。 |
+| [Unagi-cq/cdp-bridge-mcp](https://github.com/Unagi-cq/cdp-bridge-mcp) | 通过 Chrome DevTools Protocol (CDP) 与配套浏览器扩展，将 MCP 客户端桥接到用户的真实浏览器，复用已有会话与登录态进行网页操作。 | 社区实现, Python 开发 🐍, 本地运行 🏠, CDP + 扩展桥接真实浏览器。 |
 ---
 
 ### 💻 开发与代码执行
@@ -267,6 +268,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [tersePrompts/fastMCP4J](https://github.com/tersePrompts/fastMCP4J) | Java 语言构建 MCP 服务器的轻量级注解驱动框架，JSON Schema 2020-12 兼容，安全、快速、零配置。 | 社区实现 🌟, Java 开发 ☕, 本地运行 🏠, 注解驱动, 12 个依赖, 支持异步、内存、任务、文件操作 |
 | [wopee-mcp](https://www.npmjs.com/package/wopee-mcp) | Web应用AI测试代理，支持调度测试运行、分析爬虫和AI代理测试，获取工件和项目状态。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, AI 测试代理。 |
 | [memtrace](https://github.com/syncable-dev/memtrace-public) | 面向编码代理的结构化内存层，通过 AST 构建双时态知识图谱，为 Claude、Cursor 等 MCP 客户端提供低延迟代码理解与检索能力。 | 社区实现，Rust 核心 🦀，MCP 服务 ☁️，代码智能与代理记忆。 | 
+| [ozgurcd/gograph](https://github.com/ozgurcd/gograph) | 纯本地的 Go 静态分析引擎，内置 MCP 服务器，为 AI 编程代理提供确定性的结构感知：调用图、影响分析、符号搜索等。 | 社区实现, Go 开发 🏎️, 本地运行 🏠, Go 调用图与影响分析。 |
 
 
 ---
@@ -475,6 +477,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Multi-Source Media MCP Server (M3S)](https://github.com/Decade-qiu/Multi-Source-Media-MCP-Server) | 多源媒体聚合与生成，统一访问 Unsplash/Pexels、Web 爬取媒体，支持多后端 AI 图像生成以及全网图片爬虫。 | 原生 Go ✨，本地运行 🏠，支持多平台媒体 API 和 AI 图像生成、爬虫扩展。 |
 | [MLT-OSS/FirstData](https://github.com/MLT-OSS/FirstData) | 全球最全面的权威数据源知识库，132+ 经验证数据源（政府、国际组织、学术机构），帮助 AI 减少幻觉。提供结构化元数据、100% URL 验证、中英双语支持。目标：1000+ 数据源。 | 本地/云端 🏠☁️，中国数据源深度覆盖 🇨🇳，AI 事实防线，抗幻觉数据底座。 |
 | [GEOScore](https://github.com/henu-wang/geoscore-mcp) | AI 搜索优化（GEO）MCP 服务器。扫描网站的 AI 搜索就绪度，生成 llms.txt、Schema.org 修复、meta 标签优化。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 支持 Claude/Cursor/Windsurf。 |
+| [Episkey-G/GrokSearch-rs](https://github.com/Episkey-G/GrokSearch-rs) | Rust 编写的 MCP 服务器，提供 Grok 联网搜索与 Tavily 支持的来源检索，为 AI 代理补充实时网络信息。 | 社区实现, Rust 开发 🦀, 云服务 ☁️, Grok 联网搜索 + Tavily 检索。 |
 
 ---
 
@@ -606,6 +609,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [hmk/box-mcp-server](https://github.com/hmk/box-mcp-server)                        | Box 集成，用于列出、读取和搜索文件 (社区实现版本)。                                           | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Box 文件操作 (社区 TS 版)。                           |
 | [mamertofabian/mcp-everything-search](https://github.com/mamertofabian/mcp-everything-search) | 在 Windows 上使用 Everything SDK 快速搜索文件。 (Awesome列表更通用)                               | 社区实现, Python 开发 🐍, 本地运行 🏠, Windows 快速文件搜索 🪟。                              |
 | [Everything Search (mamertofabian)](https://github.com/mamertofabian/mcp-everything-search) | [更新] 在 Windows/macOS/Linux 上快速搜索文件（使用 Everything/mdfind/locate）。 (更新自Awesome列表描述) | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🪟🍎🐧 快速文件搜索。                         |
+| [Aimino-Tech/opendocswork-mcp](https://github.com/Aimino-Tech/opendocswork-mcp) | Rust 原生、本地优先的 Office 文档处理 MCP 服务器，支持 Excel、Word、PowerPoint，亚毫秒级响应。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 开源, Office 文档处理。 |
+| [caezium/Burrow](https://github.com/caezium/Burrow) | macOS 原生磁盘清理 GUI（Mole CLI 前端），支持清理、卸载、优化、磁盘分析与实时状态监控，内置 MCP 服务器供 AI 代理调用。 | 社区实现, Swift 开发 🍎, 本地运行 🏠, 开源, macOS 磁盘清理与分析。 |
 
 ---
 
@@ -782,6 +787,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Hindsight](https://github.com/vectorize-io/hindsight)                              | Vectorize 出品的先进 AI Agent 长期记忆系统，支持语义、BM25、图和时间等多种检索策略，提供 retain/recall/reflect 操作，可完全本地自托管部署。 | 开源 (MIT), Python 开发 🐍, 本地运行 🏠/云服务 ☁️, 先进的 AI Agent 记忆。                          |
 | [Bhived MCP](https://github.com/ArtKeyAi/bhived-mcp)                             | 面向 AI Agent 的共享记忆与知识图谱，支持跨 Agent 查询、写入和复用已验证经验。                                      | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 共享记忆与知识图谱。                                      |
 | [Headroom](https://github.com/chopratejas/headroom)                              | 在工具输出、日志、文件和 RAG 片段进入 LLM 前进行上下文压缩，可减少 60-95% 的 token 用量并保持答案质量，支持可逆压缩与按需检索原文。提供 headroom_compress/retrieve/stats 等工具，也可作为库、代理或 Agent 包装器使用。 | 社区实现, Python/Rust 开发 🐍🦀, 本地运行 🏠, 上下文/Token 压缩与 RAG, 27K+ Stars。 |
+| [atomicstrata/atomicmemory](https://github.com/atomicstrata/atomicmemory)        | 面向 AI 代理的可移植语义记忆，包含核心引擎、TypeScript SDK、框架适配器、MCP 服务器、CLI 和宿主插件，让记忆在不同工具间复用。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 可移植语义记忆 (引擎 + SDK + MCP)。 |
 
 ---
 
@@ -859,6 +865,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [rishijatia/fantasy-pl-mcp](https://github.com/rishijatia/fantasy-pl-mcp/) | 用于实时 Fantasy Premier League 数据和分析工具的 MCP 服务器。                                   | 社区实现, Python 开发 🐍, 云服务 ☁️, Fantasy Premier League (英超梦幻足球)。                 |
 | [sawa-zen/vrchat-mcp](https://github.com/sawa-zen/vrchat-mcp)        | 与 VRChat API 交互的 MCP 服务器。可获取好友、世界、虚拟形象等信息。 (已在通讯协作部分列出)              | 社区实现, TypeScript 开发 📇, 本地运行 🏠, VRChat API 交互。                                  |
 | [opanel-mc/opanel-mcp](https://github.com/opanel-mc/opanel-mcp) | OPanel服务器管理面板集成MCP服务器，用于大模型辅助管理Minecraft服务器 | 官方实现 (OPanel Project), TypeScript 开发 📇, 本地运行 🏠, OPanel API 交互。 |
+| [yurineko73/Godot-MCP-Native](https://github.com/yurineko73/Godot-MCP-Native) | Godot 开源引擎的 MCP 插件，使用 Godot 原生 HTTP 实现 MCP Server，无需安装依赖、开箱即用，支持常见 Godot 引擎操作与多种 AI 工具调用。 | 社区实现, GDScript 开发, 本地运行 🏠, Godot 原生实现, 无依赖。 |
 
 ---
 
