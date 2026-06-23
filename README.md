@@ -229,6 +229,9 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------- |
 | [Muvon/octocode](https://github.com/Muvon/octocode) | Rust 编写的语义代码索引器，构建代码库 GraphRAG 知识图谱并通过 MCP 暴露给 AI 代理。支持 13+ 语言，提供 tree-sitter 解析、ast-grep 结构化搜索和代码签名视图。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🪟🐧, 语义搜索 + GraphRAG 知识图谱, Apache 2.0。 |
 | [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | 多智能体编排器，协调 37 个 CLI 编码代理（Claude Code、Codex、Gemini CLI、Cursor、Aider 等）在并行 Git worktree 中运行。内置 MCP 服务器模式（stdio + HTTP/SSE）。 | 社区实现, Python 开发 🐍, 本地/云端 🏠☁️, Apache 2.0, 确定性调度器, 多代理编排。 |
+| [aresyn/codex-control-plane-mcp](https://github.com/aresyn/codex-control-plane-mcp) | 面向 Codex Desktop 长任务的持久化 MCP 控制平面，统一调度、跟踪与恢复长时运行的智能体任务，让 AI 可靠地驱动长周期编码工作流。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 长任务编排与持久化控制平面, Apache 2.0。 |
+| [win4r/codebase-memory-mcp-pro](https://github.com/win4r/codebase-memory-mcp-pro) | 纯 C 实现的代码知识图谱 MCP 服务器，构建并增量重索引代码库的调用关系图，为 AI 提供代码结构记忆。整合 9 个上游 PR，修复增量重索引的 CALLS 边。 | 社区实现, C 开发, 本地运行 🏠, 代码知识图谱 + 增量重索引, MIT。 |
+| [iohub/codexray](https://github.com/iohub/codexray) | 仓库感知的本地 MCP，用混合语义 + 全文检索引擎实时理解代码库，按需为 AI 提供相关代码上下文。兼容 Claude Code 与 Codex。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 混合语义 + 全文代码检索, MIT。 |
 | [21st.dev Magic](https://github.com/21st-dev/magic-mcp)             | 21st.dev 官方集成，创建受顶级设计工程师启发的精美 UI 组件。                          | 官方实现 (21st.dev) 🎖️, UI 组件创建。                                               |
 | [upstash/context7](https://github.com/upstash/context7) | Upstash 出品，为 LLM 和 AI 编辑器实时注入最新的库文档与代码示例，消除模型对过时 API 的幻觉。Cursor / Claude 等一键接入。 | 官方实现 (Upstash) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 实时文档检索, 56K+ Stars。 |
 | [getsentry/sentry-mcp](https://github.com/getsentry/sentry-mcp) | Sentry 官方集成，让 AI 通过自然语言查询错误、性能问题与发布信息，快速定位线上故障根因。 | 官方实现 (Sentry) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 错误监控与可观测性。 |
@@ -375,6 +378,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [openlink/mcp-server-sqlalchemy](https://github.com/OpenLinkSoftware/mcp-sqlalchemy-server) | 通过 SQLAlchemy 使用 Python ODBC (pyodbc) 实现通用 DBMS 连接的 MCP 服务器。             | 社区实现 (OpenLink), Python 开发 🐍, 本地运行 🏠, 通用 SQLAlchemy 连接 (ODBC)。                 |
 | [pab1it0/adx-mcp-server](https://github.com/pab1it0/adx-mcp-server)      | 查询和分析 Azure Data Explorer 数据库。                                                  | 社区实现, Python 开发 🐍, 云服务 ☁️, Azure Data Explorer 查询。                               |
 | [pab1it0/prometheus-mcp-server](https://github.com/pab1it0/prometheus-mcp-server) | 查询和分析 Prometheus 开源监控系统。                                                    | 社区实现, Python 开发 🐍, 云服务 ☁️, Prometheus 查询。                                      |
+| [PerfectXM/mcp-db-server](https://github.com/PerfectXM/mcp-db-server) | 无状态数据库 MCP 服务，连接参数即传即用、零持久化零配置，让 AI 直接操作 MySQL / PostgreSQL / SQLite / SQL Server / Oracle / H2。 | 社区实现, Java 开发 ☕, 本地运行 🏠, 多数据库无状态连接, MIT。 |
 | [QuantGeekDev/mongo-mcp](https://github.com/QuantGeekDev/mongo-mcp)    | MongoDB 集成，使 LLM 能够直接与数据库交互。                                                 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MongoDB 集成 (TS)。                                |
 | [rashidazarang/airtable-mcp](https://github.com/rashidazarang/airtable-mcp) | 将 AI 工具直接连接到 Airtable。使用自然语言查询、创建、更新和删除记录。功能包括库管理、表操作等。 | 社区实现, Python 开发 🐍, 云服务 ☁️, Airtable 全功能操作 (Python)。                          |
 | [runekaagaard/mcp-alchemy](https://github.com/runekaagaard/mcp-alchemy) | 通用 SQLAlchemy 数据库集成，支持 PG, MySQL, MariaDB, SQLite, Oracle, MS SQL Server 等。含模式/关系检查和大数据集分析能力。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 通用 SQLAlchemy 集成。                                  |
@@ -822,6 +826,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp)                     | 对域名、IP、ASN 和 TLD 执行 whois 查询。                                                          | 社区实现, Python 开发, Whois 查询。                                                                |
 | [Wireshark-MCP](https://github.com/bx33661/Wireshark-MCP) | Wireshark 网络数据包分析 MCP 服务器，具有抓包、协议统计、字段提取和安全分析功能。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 网络数据包分析。 |
 | [AgentShield](https://github.com/elliotllliu/agent-shield) | AI Agent 技能、MCP 服务器和插件安全扫描器。30 条检测规则，支持 AST 污点追踪、跨文件数据流分析、杀伤链检测、8 语言提示注入检测（中/日/韩/俄/阿/西/法/德）。零安装 (npx)，100% 离线运行。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, AI Agent 安全扫描。 |
+| [abluva-research/mcp-trust-plane](https://github.com/abluva-research/mcp-trust-plane) | 面向 MCP 的可组合数据安全平面，采集 / 分析 / 防护分层可插拔，覆盖 50+ 企业数据源，为 AI 访问企业数据提供统一的信任与防护层。 | 社区实现, JavaScript 开发 📇, 数据安全平面, 50+ 企业数据源, Apache 2.0。 |
 
 ---
 
@@ -866,6 +871,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [sawa-zen/vrchat-mcp](https://github.com/sawa-zen/vrchat-mcp)        | 与 VRChat API 交互的 MCP 服务器。可获取好友、世界、虚拟形象等信息。 (已在通讯协作部分列出)              | 社区实现, TypeScript 开发 📇, 本地运行 🏠, VRChat API 交互。                                  |
 | [opanel-mc/opanel-mcp](https://github.com/opanel-mc/opanel-mcp) | OPanel服务器管理面板集成MCP服务器，用于大模型辅助管理Minecraft服务器 | 官方实现 (OPanel Project), TypeScript 开发 📇, 本地运行 🏠, OPanel API 交互。 |
 | [yurineko73/Godot-MCP-Native](https://github.com/yurineko73/Godot-MCP-Native) | Godot 开源引擎的 MCP 插件，使用 Godot 原生 HTTP 实现 MCP Server，无需安装依赖、开箱即用，支持常见 Godot 引擎操作与多种 AI 工具调用。 | 社区实现, GDScript 开发, 本地运行 🏠, Godot 原生实现, 无依赖。 |
+| [HappyLifeOk/cc-3-8-x-mcp](https://github.com/HappyLifeOk/cc-3-8-x-mcp) | Cocos Creator 3.8.x 的 MCP 服务 + 离线 CLI，把编辑器的场景 / 资源 / 预览 / 构建 / 进程控制暴露给 AI 客户端，并附带 headless prefab 读写与命令行打包。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, Cocos Creator 引擎集成, Apache 2.0。 |
 
 ---
 
@@ -910,6 +916,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [VeriTeknik/pluggedin-mcp-proxy](https://github.com/VeriTeknik/pluggedin-mcp-proxy) | 将多个 MCP 服务器组合到单个接口的综合代理服务器，具有广泛可见性功能 (工具/提示/资源/模板发现管理，调试平台)。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MCP 代理与管理。                                           |
 | [AbdelStark/bitcoin-mcp](https://github.com/AbdelStark/bitcoin-mcp)              | 使 AI 模型能与比特币交互的 MCP 服务器 (生成密钥/验证地址/解码交易/查询区块链等)。                      | 社区实现, 比特币交互 ₿.                                                                                   |
 | [amidabuddha/unichat-mcp-server](https://github.com/amidabuddha/unichat-mcp-server) | 通过工具或预定义提示使用 MCP 协议向 OpenAI, MistralAI, Anthropic, xAI, Google AI 或 DeepSeek 发送请求。 | 社区实现, Python/TypeScript 开发 🐍📇, 云服务 ☁️, 多 LLM API 调用。                                     |
+| [joeseesun/qiaomu-llm-mcp](https://github.com/joeseesun/qiaomu-llm-mcp) | 把多模型 Provider、本地密钥统一成一个 MCP 网关，为多供应商 LLM 提供统一路由与密钥管理，AI 客户端一处接入即可调用多家模型。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 多供应商 LLM 网关与路由, MIT。 |
 | [anaisbetts/mcp-installer](https://github.com/anaisbetts/mcp-installer)          | 为您安装其他 MCP 服务器的 MCP 服务器。                                                               | 社区实现, Python 开发 🐍, 本地运行 🏠, MCP 服务器安装器。                                               |
 | [andybrandt/mcp-simple-openai-assistant](https://github.com/andybrandt/mcp-simple-openai-assistant) | 与 OpenAI Assistants 对话的 MCP (Claude 可以使用任何 GPT 模型作为其助手)。                             | 社区实现, Python 开发 🐍, 云服务 ☁️, 调用 OpenAI Assistants。                                         |
 | [andybrandt/mcp-simple-timeserver](https://github.com/andybrandt/mcp-simple-timeserver) | 允许检查客户端机器本地时间或从 NTP 服务器获取当前 UTC 时间的 MCP 服务器。                               | 社区实现, Python 开发 🐍, 本地/云端 🏠☁️, 时间获取 (本地/NTP)。                                         |
