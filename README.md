@@ -220,6 +220,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [achiya-automation/safari-mcp](https://github.com/achiya-automation/safari-mcp) | 原生 Safari 浏览器自动化，专为 macOS 设计。通过 AppleScript + JavaScript 提供 80 个工具，零 Chrome 开销，保留登录状态，后台静默运行。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, macOS 原生 🍎 |
 | [vostride/agent-qa](https://github.com/vostride/agent-qa) | 自我改进的 Agentic QA 测试工具，通过自然语言编写 Web 和移动端测试，并用执行记忆和自修复动作排查回归。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, E2E 测试与浏览器自动化。 |
 | [Unagi-cq/cdp-bridge-mcp](https://github.com/Unagi-cq/cdp-bridge-mcp) | 通过 Chrome DevTools Protocol (CDP) 与配套浏览器扩展，将 MCP 客户端桥接到用户的真实浏览器，复用已有会话与登录态进行网页操作。 | 社区实现, Python 开发 🐍, 本地运行 🏠, CDP + 扩展桥接真实浏览器。 |
+| [AI-XiaoDao/ai-browser-mcp](https://github.com/AI-XiaoDao/ai-browser-mcp) | Windows 本地浏览器自动化 MCP，基于 FBrowser CEF 内核暴露 200+ `browser_*` 工具：导航、原生 DOM、填表 RPA、CDP 断点、POST 抓包、JS 逆向与爬虫。原生 API 优先，支持 stdio / HTTP / WebSocket 接入 Cursor、Claude、Cline。 | 社区实现, C++ 开发, 本地运行 🏠, Windows 🪟, 浏览器自动化 + JS 逆向, MIT。 |
 ---
 
 ### 💻 开发与代码执行
@@ -273,6 +274,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [wopee-mcp](https://www.npmjs.com/package/wopee-mcp) | Web应用AI测试代理，支持调度测试运行、分析爬虫和AI代理测试，获取工件和项目状态。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, AI 测试代理。 |
 | [memtrace](https://github.com/syncable-dev/memtrace-public) | 面向编码代理的结构化内存层，通过 AST 构建双时态知识图谱，为 Claude、Cursor 等 MCP 客户端提供低延迟代码理解与检索能力。 | 社区实现，Rust 核心 🦀，MCP 服务 ☁️，代码智能与代理记忆。 | 
 | [ozgurcd/gograph](https://github.com/ozgurcd/gograph) | 纯本地的 Go 静态分析引擎，内置 MCP 服务器，为 AI 编程代理提供确定性的结构感知：调用图、影响分析、符号搜索等。 | 社区实现, Go 开发 🏎️, 本地运行 🏠, Go 调用图与影响分析。 |
+| [lightbearco/tupper](https://github.com/lightbearco/tupper) | 面向 AI 代理的开源沙箱，在本机安全运行不受信任的 AI 生成代码、Shell 命令与文件读写。基于 Apple Containers，提供 E2B 风格的 TypeScript SDK，内置 MCP 服务器、CLI 与 HTTP API（macOS 用 Apple Containers，Linux/Windows 经 Firecracker/WSL）。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, macOS 🍎, 自托管代码执行沙箱, MIT。 |
 
 
 ---
@@ -311,6 +313,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [kopfrechner/gitlab-mr-mcp](https://github.com/kopfrechner/gitlab-mr-mcp) | 无缝地与 GitLab 项目的 Issues 和 Merge Requests 交互。                                | 社区实现, TypeScript 开发 📇, 云服务 ☁️, GitLab Issues/MR 操作。                       |
 | [Github Actions](https://github.com/ko1ynnky/github-actions-mcp-server) | 与 Github Actions 交互，管理工作流。                                                          | 社区实现, TypeScript 开发, GitHub Actions 管理。                                          |
 | [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) | 用于仓库管理、工作项和流水线的 Azure DevOps 集成。                                  | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Azure DevOps 集成。                          |
+| [Forward-Future/DeployBot](https://github.com/Forward-Future/DeployBot) | 面向 Codex、Claude Code、Cursor 及任意 MCP 客户端的 agent 托管式 GitHub 合并队列。代理可准备并评审 PR，最终合并决定权仍归用户；权限存于 GitHub 标签与认证评论，支持突发冻结、串行合并、累积集成 PR 与失败后暂停。 | 社区实现, Python 开发 🐍, 云服务 ☁️, GitHub 合并队列 (MCP), MIT。 |
 
 ---
 
@@ -793,6 +796,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Bhived MCP](https://github.com/ArtKeyAi/bhived-mcp)                             | 面向 AI Agent 的共享记忆与知识图谱，支持跨 Agent 查询、写入和复用已验证经验。                                      | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 共享记忆与知识图谱。                                      |
 | [Headroom](https://github.com/chopratejas/headroom)                              | 在工具输出、日志、文件和 RAG 片段进入 LLM 前进行上下文压缩，可减少 60-95% 的 token 用量并保持答案质量，支持可逆压缩与按需检索原文。提供 headroom_compress/retrieve/stats 等工具，也可作为库、代理或 Agent 包装器使用。 | 社区实现, Python/Rust 开发 🐍🦀, 本地运行 🏠, 上下文/Token 压缩与 RAG, 27K+ Stars。 |
 | [atomicstrata/atomicmemory](https://github.com/atomicstrata/atomicmemory)        | 面向 AI 代理的可移植语义记忆，包含核心引擎、TypeScript SDK、框架适配器、MCP 服务器、CLI 和宿主插件，让记忆在不同工具间复用。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 可移植语义记忆 (引擎 + SDK + MCP)。 |
+| [nikhilkagita04/continuum](https://github.com/nikhilkagita04/continuum) | 把整个桌面上下文（看过、读过、输入过、听到的一切）汇成单一 MCP，供 Agent 理解你的工作方式。本地优先、设备端运行：对焦点窗口做 OCR、可选会议转录，并提炼长期偏好，让 Claude/Cursor 等随时知道“你刚才在某 App 里做了什么”。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, 设备端桌面上下文记忆 (recall/catch_up/profile)。 |
 
 ---
 
