@@ -252,6 +252,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Riza](https://github.com/riza-io/riza-mcp)                          | Riza 提供的任意代码执行和工具使用平台。                                              | 官方实现 (Riza), Go 开发, 通用代码执行平台。                                       |
 | [Roundtable](https://github.com/askbudi/roundtable) | 统一AI编程助手的零配置MCP服务器，专为自主代理开发设计，简化多AI工具集成工作流程。 | 社区实现 🌟, Python 开发 🐍, 本地/云端部署 🏠☁️, pip install roundtable-ai |
 | [Semgrep](https://github.com/semgrep/mcp)                            | 让 AI 代理使用 Semgrep 进行代码安全扫描。 (Semgrep 官方)                           | 官方实现 (Semgrep) 🎖️, TypeScript 开发 📇, 代码安全扫描 ☁️. |
+| [friendlygeorge/grpc-mcp-server](https://github.com/friendlygeorge/grpc-mcp-server) | gRPC MCP 服务器 — 通过服务器反射发现服务、调用方法、检查类型 schema，适用于 Kubernetes、Istio、Envoy 等微服务架构。6 个工具：connect_endpoint、list_services、list_methods、get_service_descriptor、invoke_rpc、health_check。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, gRPC 服务发现与调用, MIT。 |
 | [ZenML](https://github.com/zenml-io/mcp-zenml)                       | 与 ZenML MLOps/LLMOps 平台交互，管理机器学习流程。 (ZenML 官方)                   | 官方实现 (ZenML) 🎖️, Python 开发 🐍, 本地/云端 🏠☁️, MLOps 流程管理。               |
 | [vivekVells/mcp-pandoc](https://github.com/vivekVells/mcp-pandoc)    | 使用 Pandoc 进行无缝文档格式转换（Markdown, HTML, PDF, DOCX, CSV 等）。            | 社区实现, Python 开发 🐍, 本地运行 🏠, 文档格式转换。                                |
 | [oraios/serena](https://github.com/oraios/serena)                    | 功能齐全的编码代理，依赖于使用语言服务器的符号化代码操作。                        | 社区实现, Python 开发 🐍, 本地运行 🏠, 编码代理。                                    |
