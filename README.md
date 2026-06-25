@@ -832,6 +832,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Wireshark-MCP](https://github.com/bx33661/Wireshark-MCP) | Wireshark 网络数据包分析 MCP 服务器，具有抓包、协议统计、字段提取和安全分析功能。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 网络数据包分析。 |
 | [AgentShield](https://github.com/elliotllliu/agent-shield) | AI Agent 技能、MCP 服务器和插件安全扫描器。30 条检测规则，支持 AST 污点追踪、跨文件数据流分析、杀伤链检测、8 语言提示注入检测（中/日/韩/俄/阿/西/法/德）。零安装 (npx)，100% 离线运行。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, AI Agent 安全扫描。 |
 | [abluva-research/mcp-trust-plane](https://github.com/abluva-research/mcp-trust-plane) | 面向 MCP 的可组合数据安全平面，采集 / 分析 / 防护分层可插拔，覆盖 50+ 企业数据源，为 AI 访问企业数据提供统一的信任与防护层。 | 社区实现, JavaScript 开发 📇, 数据安全平面, 50+ 企业数据源, Apache 2.0。 |
+| [badchars/darknet-mcp-server](https://github.com/badchars/darknet-mcp-server) | 面向安全研究的暗网与威胁情报聚合 MCP 服务器，66 个工具整合 16 个数据源（HIBP 泄露库、ThreatFox/abuse.ch、勒索软件追踪、Tor .onion 访问、恶意软件分析、区块链取证、漏洞与窃密日志检索），让 AI 在一次调用中完成跨平台情报关联。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 暗网与威胁情报聚合 (66 工具/16 源), MIT。 |
 
 ---
 
@@ -900,6 +901,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | 名称                                                                               | 中文介绍                                                                                                     | 备注                                                                                                       |
 | :--------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- |
 | [agentic-ads](https://github.com/nicofains1/agentic-ads)                         | agentic-ads 是 MCP 服务器的广告变现 SDK。发布者通过在 Base 上使用 USDC 的上下文关联广告获得 70% 收入分享。   | 官方实现, TypeScript 开发 📇, 云服务 ☁️, 270 个测试通过, MIT 许可, 广告变现。                          |
+| [pmady/gpu-mcp-server](https://github.com/pmady/gpu-mcp-server)                   | 为 AI 代理实时暴露 NVIDIA GPU 指标（利用率、显存、温度、功耗、PCIe/NVLink 吞吐）的 MCP 服务器，基于官方 Go MCP SDK 与 NVIDIA go-nvml，支持 MIG，无需 Prometheus 或 dcgm-exporter。 | 社区实现, Go 开发 🏎️, 本地运行 🏠, NVIDIA GPU 实时监控, Apache 2.0。 |
 | [AgentRPC](https://github.com/agentrpc/agentrpc)                                 | AgentRPC 官方集成，跨网络边界连接任何语言的任何函数。                                                          | 官方实现 (AgentRPC), Go/Python/TS/Rust 开发 🏎️🐍📇🦀, 跨语言函数调用。                                    |
 | [Agent Reach](https://github.com/Panniantong/Agent-Reach)                        | 一句话给 AI Agent 装上全网搜索能力。一键安装 + 配置 13+ 平台工具（Twitter、Reddit、YouTube、GitHub、B站、小红书、抖音、微信公众号、LinkedIn 等），通过 mcporter 接入多个 MCP 服务。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, 多平台聚合安装器。 |
 | [APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)                 | APIMatic 官方集成，使用 APIMatic 验证 OpenAPI 规范。                                                         | 官方实现 (APIMatic), C# 开发 #️⃣, OpenAPI 规范验证。                                                   |
