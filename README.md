@@ -1071,6 +1071,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 #### 2. 更多MCP编程资源
 
 - [Model Context Protocol(MCP) 编程极速入门](http://github.com/liaokongVFX/MCP-Chinese-Getting-Started-Guide)
+- [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) MCP 官方 Python SDK，用于构建 MCP 服务器与客户端，提供标准协议实现、工具/资源/提示词定义等完整能力。
+- [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) MCP 官方 TypeScript SDK，在 Node/浏览器环境构建 MCP 服务器与客户端的权威实现。
 - [FastMCP](https://github.com/jlowin/fastmcp) 快速、Pythonic 的 MCP 服务器与客户端构建框架，几行代码即可暴露工具、资源和提示词。
 - [fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) 零配置将现有 FastAPI 端点自动暴露为 MCP 工具，原生支持鉴权，轻松让 AI 调用你的 API。
 - [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) Go 语言的 MCP 实现，提供简洁的 API 用于快速构建 MCP 服务器，让工具与资源开发更高效。
