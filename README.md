@@ -797,6 +797,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Headroom](https://github.com/chopratejas/headroom)                              | 在工具输出、日志、文件和 RAG 片段进入 LLM 前进行上下文压缩，可减少 60-95% 的 token 用量并保持答案质量，支持可逆压缩与按需检索原文。提供 headroom_compress/retrieve/stats 等工具，也可作为库、代理或 Agent 包装器使用。 | 社区实现, Python/Rust 开发 🐍🦀, 本地运行 🏠, 上下文/Token 压缩与 RAG, 27K+ Stars。 |
 | [atomicstrata/atomicmemory](https://github.com/atomicstrata/atomicmemory)        | 面向 AI 代理的可移植语义记忆，包含核心引擎、TypeScript SDK、框架适配器、MCP 服务器、CLI 和宿主插件，让记忆在不同工具间复用。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 可移植语义记忆 (引擎 + SDK + MCP)。 |
 | [nikhilkagita04/continuum](https://github.com/nikhilkagita04/continuum) | 把整个桌面上下文（看过、读过、输入过、听到的一切）汇成单一 MCP，供 Agent 理解你的工作方式。本地优先、设备端运行：对焦点窗口做 OCR、可选会议转录，并提炼长期偏好，让 Claude/Cursor 等随时知道“你刚才在某 App 里做了什么”。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, 设备端桌面上下文记忆 (recall/catch_up/profile)。 |
+| [samvallad33/vestige](https://github.com/samvallad33/vestige) | 面向 AI 编程代理的本地优先认知记忆 MCP 服务器，使用 SQLite 存储，支持 FSRS 风格保持度、混合检索、记忆校正、来源追踪和可视化仪表盘。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🪟🐧, npm: `npm install -g vestige-mcp-server`。 |
 
 ---
 
