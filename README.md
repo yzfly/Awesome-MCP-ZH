@@ -232,6 +232,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Muvon/octocode](https://github.com/Muvon/octocode) | Rust 编写的语义代码索引器，构建代码库 GraphRAG 知识图谱并通过 MCP 暴露给 AI 代理。支持 13+ 语言，提供 tree-sitter 解析、ast-grep 结构化搜索和代码签名视图。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🪟🐧, 语义搜索 + GraphRAG 知识图谱, Apache 2.0。 |
 | [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | 多智能体编排器，协调 37 个 CLI 编码代理（Claude Code、Codex、Gemini CLI、Cursor、Aider 等）在并行 Git worktree 中运行。内置 MCP 服务器模式（stdio + HTTP/SSE）。 | 社区实现, Python 开发 🐍, 本地/云端 🏠☁️, Apache 2.0, 确定性调度器, 多代理编排。 |
 | [aresyn/codex-control-plane-mcp](https://github.com/aresyn/codex-control-plane-mcp) | 面向 Codex Desktop 长任务的持久化 MCP 控制平面，统一调度、跟踪与恢复长时运行的智能体任务，让 AI 可靠地驱动长周期编码工作流。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 长任务编排与持久化控制平面, Apache 2.0。 |
+| [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 高性能代码智能 MCP 服务器，将整个代码库索引为持久化知识图谱，为 AI 代理提供调用关系、依赖与代码结构记忆，按需精准检索相关上下文。 | 社区实现, 本地运行 🏠, 代码智能 + 持久化知识图谱, 17K+ Stars。 |
 | [win4r/codebase-memory-mcp-pro](https://github.com/win4r/codebase-memory-mcp-pro) | 纯 C 实现的代码知识图谱 MCP 服务器，构建并增量重索引代码库的调用关系图，为 AI 提供代码结构记忆。整合 9 个上游 PR，修复增量重索引的 CALLS 边。 | 社区实现, C 开发, 本地运行 🏠, 代码知识图谱 + 增量重索引, MIT。 |
 | [iohub/codexray](https://github.com/iohub/codexray) | 仓库感知的本地 MCP，用混合语义 + 全文检索引擎实时理解代码库，按需为 AI 提供相关代码上下文。兼容 Claude Code 与 Codex。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 混合语义 + 全文代码检索, MIT。 |
 | [21st.dev Magic](https://github.com/21st-dev/magic-mcp)             | 21st.dev 官方集成，创建受顶级设计工程师启发的精美 UI 组件。                          | 官方实现 (21st.dev) 🎖️, UI 组件创建。                                               |
