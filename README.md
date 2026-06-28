@@ -650,6 +650,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp) | 将几乎任何文件或 Web 内容转换为 Markdown 的 MCP 服务器。                                          | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 文件/网页转 Markdown。                                      |
 | [shmlkv/dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis) | 使用 Claude Code 构建的个人基因组分析工具包，支持 17 个类别的 DNA 数据分析并生成可视化报告。              | 社区实现, Python 开发 🐍, 本地运行 🏠, 基因组数据分析与可视化。                                        |
 
+| [lingion/plot-mcp-worker](https://github.com/lingion/plot-mcp-worker) | Cloudflare Workers 上的 MCP 图表引擎：函数绘图、力分析图、电路图、3D 几何、Venn 图、STEM 教学模板。CJK 字体文本转路径管线 (GB2312 6763 字)。 | 社区实现, TypeScript 开发 📇, Cloudflare Workers ☁️, STEM 可视化。 |
+
 ---
 
 ### 🛠️ 效率工具与集成 (Office, Project Management, Notes, etc.)
