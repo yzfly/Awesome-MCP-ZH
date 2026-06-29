@@ -767,6 +767,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | 名称 | 中文介绍 | 备注 |
 | :--- | :--- | :--- |
 | [mcp-cn-commerce](https://github.com/TonyWang-hub/mcp-cn-commerce) | 中国电商商家经营数据 MCP 套件，覆盖抖店/京东/淘宝/拼多多/快手/小红书/微信小店/巨量引擎 8 平台，147 个工具（订单、商品、售后、库存、广告报表），全部只读、本地运行。 | 社区实现, Python 开发 🐍, `pip install mcp-cn-commerce`, 商家经营数据（非内容发布）。 |
+| [BuyWhere](https://github.com/BuyWhere/buywhere-mcp) | 跨境电商产品搜索与价格比较 API，覆盖新加坡、东南亚和美国市场 1100万+ 商品，支持实时定价和库存查询。 | 远程 MCP 服务器, API Key 认证, `npx @buywhere/mcp-server` |
 
 ---
 
