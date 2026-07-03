@@ -1143,6 +1143,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 - [modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk) MCP 官方 Go SDK，与 Google 合作维护，用于构建 MCP 服务器与客户端。
 - [modelcontextprotocol/csharp-sdk](https://github.com/modelcontextprotocol/csharp-sdk) MCP 官方 C#/.NET SDK，与 Microsoft 合作维护。
 - [modelcontextprotocol/rust-sdk](https://github.com/modelcontextprotocol/rust-sdk) MCP 官方 Rust SDK (rmcp)，适合高性能场景。
+- [modelcontextprotocol/ext-apps](https://github.com/modelcontextprotocol/ext-apps) MCP Apps 协议官方规范与 SDK，标准化在 AI 聊天界面中嵌入、由 MCP 服务器提供的交互式 UI。
 - [punkpeye/fastmcp](https://github.com/punkpeye/fastmcp) 构建 MCP 服务器的 TypeScript 框架，简洁 API 快速暴露工具/资源/提示词。
 - [langchain-ai/langchain-mcp-adapters](https://github.com/langchain-ai/langchain-mcp-adapters) 官方适配器，将 MCP 工具无缝接入 LangChain / LangGraph Agent。
 
