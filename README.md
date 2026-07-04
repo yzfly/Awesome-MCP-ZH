@@ -63,6 +63,7 @@
 
 MCP 全称 **模型上下文协议（Model Context Protocol）**，由 Anthropic 在 2024 年 11 月推出，是个开源通信标准。简单说，它给 AI 装了个“超级网线”，让 AI 能跟外部工具、数据、系统无缝对接。
 
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: 4 Markdown templates + 5 Claude Code skills for giving AI agents deep personal context. MIT, one-command install.
 - **比喻**：AI 是个聪明但宅家的书呆子，MCP 就是它的“外卖员”，能帮它拿数据、干活儿。
 - **目标**：让 AI 不只聊天，还能真动手，比如查数据库、发邮件、写代码。
 
