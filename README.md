@@ -160,6 +160,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[官网](https://mcp.folay.top) | [GitHub 仓库](https://github.com/OldJii/mcp-dock)  
   - **Tips**：本地优先，不需要账号；支持 Cursor、Claude Code、VS Code、Gemini CLI 等 14 个客户端。
 
+- **mcpctl**  
+  - **简介**：命令行 MCP 配置管理工具，一个 CLI 管理 Claude Code、Cursor、Claude Desktop、Codex 四家 AI 编程工具的 MCP Server 配置。  
+  - **功能**：`add`/`list`/`show`/`rm` 跨客户端操作，支持 stdio 和 http/sse 传输；Cursor 和 Claude Desktop 可读写（保留 JSON 其他键），Claude Code 和 Codex 只读（配置文件含无关状态和注释，回写会丢格式，交给原生 `mcp add`）；单 Go 二进制，零配置零依赖运行时。  
+  - **链接**：[GitHub 仓库](https://github.com/Cycle1337/mcpctl)  
+  - **Tips**：`go install github.com/Cycle1337/mcpctl@latest` 一行安装；适合不想开 GUI、在终端批量管理 MCP 配置的用户。
+
 - **Cline**
   - **简介**：VS Code 中的自主编程 Agent，也提供 SDK/CLI 形态。
   - **功能**：原生 MCP 客户端，可读写文件、运行命令，并可安装 MCP 服务器扩展能力。
