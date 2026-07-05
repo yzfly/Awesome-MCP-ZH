@@ -577,6 +577,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Google Tasks (by zcaceres)](https://github.com/zcaceres/gtasks-mcp)   | Google Tasks API 服务器。                                                                   | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Google Tasks 管理 (TS)。                        |
 | [Nylas CLI](https://github.com/nylas/cli) | 邮件、日历和联系人 MCP 服务器。一次身份验证即可覆盖 Gmail、Outlook、Exchange、Yahoo、iCloud 和 IMAP 共六大邮件服务商的 16 个工具。`nylas mcp install` 一键安装。 | 官方实现 (Nylas) 🎖️, Go 开发 🏎️, 云服务 ☁️, 跨平台 🍎🪟🐧, 邮件/日历/联系人统一接入。文档：https://cli.nylas.com |
 | [TwitterAPI.io MCP Server](https://github.com/kaitoInfra/twitterapi-io-mcp-server) | 对接 twitterapi.io（Twitter/X 数据 API）的官方 MCP 服务器。12 个只读工具：推文搜索（支持完整搜索操作符）、用户档案、关注者、对话线程、趋势话题、互动指标。npm `@twitterapi_io/mcp-server`。 | 官方实现 🎖️, TypeScript 开发 📇, 云服务 ☁️, X/Twitter 数据 API 集成。 |
+| [AMEOBIUS/mcp-email-sender](https://github.com/AMEOBIUS/mcp-email-sender) | MCP 服务器，用于邮件验证和 SMTP 发送。8 个工具：邮箱格式验证、一次性邮箱检测、角色邮箱检测、MX 记录查询、批量验证、SMTP 发送（TLS/SSL）、批量发送、连接测试。零依赖，纯 Python 标准库。 |
 
 ---
 
