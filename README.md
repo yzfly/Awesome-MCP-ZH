@@ -434,6 +434,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [XGenerationLab/xiyan_mcp_server](https://github.com/XGenerationLab/xiyan_mcp_server) | 支持使用自然语言查询从数据库获取数据的 MCP 服务器，由 XiyanSQL 作为 text-to-SQL LLM 驱动。   | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 自然语言转 SQL 查询 (XiyanSQL)。                    |
 | [xing5/mcp-google-sheets](https://github.com/xing5/mcp-google-sheets)    | 用于与 Google Sheets 交互的模型上下文协议服务器。提供创建、读取、更新和管理电子表格的工具。        | 社区实现, Python 开发 🐍, 云服务 ☁️, Google Sheets 操作。                                    |
 | [Zhwt/go-mcp-mysql](https://github.com/Zhwt/go-mcp-mysql)              | 易于使用、零依赖的 MySQL MCP 服务器 (Go)，具有可配置的只读模式和模式检查。                  | 社区实现, Go 开发 🏎️, 本地运行 🏠, MySQL 集成 (Go)。                                         |
+| [AMEOBIUS/mcp-sql-query](https://github.com/AMEOBIUS/mcp-sql-query) | MCP 服务器，用于 SQLite 数据库操作。13 个工具：执行 SQL、批量事务、列出表、架构检查、创建表、插入/查询/更新/删除、导出 JSON/CSV。零依赖，纯 Python 标准库。 |
 
 ---
 
