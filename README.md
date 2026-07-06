@@ -665,6 +665,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Everything Search (mamertofabian)](https://github.com/mamertofabian/mcp-everything-search) | [更新] 在 Windows/macOS/Linux 上快速搜索文件（使用 Everything/mdfind/locate）。 (更新自Awesome列表描述) | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🪟🍎🐧 快速文件搜索。                         |
 | [Aimino-Tech/opendocswork-mcp](https://github.com/Aimino-Tech/opendocswork-mcp) | Rust 原生、本地优先的 Office 文档处理 MCP 服务器，支持 Excel、Word、PowerPoint，亚毫秒级响应。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 开源, Office 文档处理。 |
 | [caezium/Burrow](https://github.com/caezium/Burrow) | macOS 原生磁盘清理 GUI（Mole CLI 前端），支持清理、卸载、优化、磁盘分析与实时状态监控，内置 MCP 服务器供 AI 代理调用。 | 社区实现, Swift 开发 🍎, 本地运行 🏠, 开源, macOS 磁盘清理与分析。 |
+| [AMEOBIUS/mcp-file-manager](https://github.com/AMEOBIUS/mcp-file-manager) | MCP 服务器，用于文件系统操作。12 个工具：读写/追加/删除/复制/移动文件，列目录，按名称或内容搜索（grep），文件信息，文件哈希（MD5/SHA-256/SHA-512），目录树。零依赖，纯 Python 标准库。 |
 
 ---
 
