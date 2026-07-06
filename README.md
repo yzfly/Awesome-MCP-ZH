@@ -794,6 +794,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [xhs-mcp-server](https://github.com/aicu-icu/xhs-mcp-server) | 基于 Electron + Web API，一键安装运行，支持极速抓取数据（笔记/评论/用户）并进行 AI 分析导出。 | 社区实现, TypeScript 开发 📇, Electron 封装, 数据抓取与分析。 |
 | [AiClient](https://github.com/Cooosin/AiClient) | 旅游行程规划 AI 智能体，连接小红书搜索、高德地图和和风天气 MCP 服务。 | 社区实现, Java 开发 ☕, 跨应用集成, 旅游场景 Agent。 |
 | [RednoteMCP](https://github.com/JonaFly/RednoteMCP) | 基于 Playwright 的自动化工具，支持自动登录、搜索特定关键词、获取内容及智能评论。 | 社区实现, Python 开发 🐍, 自动化操作, 笔记检索。 |
+| [Taisly Agent Kit](https://github.com/taisly/agent) | Taisly 官方 MCP 服务器、CLI、SDK 与 Agent Skill，帮助 AI Agent 将短视频发布到 TikTok、Instagram Reels、YouTube Shorts、X、Facebook 等平台。 | 官方实现 (Taisly) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, 远程 MCP: `https://app.taisly.com/mcp`, npm: `@taisly/agent`。 |
 | [XME (XhsMcpElectron)](https://github.com/pmhw/XME) | 小红书 Electron 多账号自动化工具，支持 MCP 协议。 | 社区实现, Go 开发 🐹, 多账号管理, 自动化工具。 |
 | [RedBook-Search-Comment-MCP](https://github.com/chenningling/RedBook-Search-Comment-MCP) | (v1.0版本) 基于 Playwright 的搜索与评论工具，帮助用户完成基础的自动化操作。 | 社区实现, Python 开发 🐍, 旧版本归档 (建议使用 v2.0)。 |
 | [xiaohongshu-mcp-nodejs](https://github.com/ToDieOrNot/xiaohongshu-mcp-nodejs) | 企业级 Node.js 重构版本，支持多账号矩阵管理、反风控、数据采集与发布。 | 社区实现, Node.js 开发 🟢, 矩阵管理, 企业级特性。 |
