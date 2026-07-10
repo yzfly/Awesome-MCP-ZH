@@ -317,6 +317,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ref-tools/ref-tools-mcp](https://github.com/ref-tools/ref-tools-mcp) | 为编程代理提供公共/私有库的文档检索，减少调用陌生 API 时的幻觉并节省上下文窗口。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 文档检索。 |
 | [apollographql/apollo-mcp-server](https://github.com/apollographql/apollo-mcp-server) | Apollo 官方 MCP 服务器，把 GraphQL 操作暴露为 AI 可调用的工具。 | 官方实现 (Apollo GraphQL) 🎖️, Rust 开发 🦀, 本地/云端 🏠☁️, GraphQL 工具化。 |
 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | Hugging Face 官方 MCP 服务器，检索 Hub 上的模型、数据集、论文与 Spaces 并调用相关工具。 | 官方实现 (Hugging Face) 🎖️, TypeScript 开发 📇, 云服务 ☁️, HF Hub 集成。 |
+| [supernovae-st/nika](https://github.com/supernovae-st/nika) | Nika AI 工作流引擎的只读 MCP 服务器（oracle）：在消耗任何 token 之前校验 `.nika.yaml` 工作流 DAG（结构、权限、诚实的成本下限），解释诊断并给出修复指引，可浏览 schema 与示例。设计上不执行、不修改，安全模型随仓库公开。 | 官方实现 (SuperNovae) 🎖️, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🐧, 只读预检 oracle, AGPL-3.0。 |
 
 
 ---
