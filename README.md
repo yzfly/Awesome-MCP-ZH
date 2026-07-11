@@ -160,6 +160,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[官网](https://mcp.folay.top) | [GitHub 仓库](https://github.com/OldJii/mcp-dock)  
   - **Tips**：本地优先，不需要账号；支持 Cursor、Claude Code、VS Code、Gemini CLI 等 14 个客户端。
 
+- **MCPlato**
+  - **简介**：本地优先的桌面 AI 工作空间与 MCP 客户端，让每个项目目录成为持久工作空间。
+  - **功能**：支持工作空间级 MCP 配置、权限感知的工具调用，以及文件、对话和并行 Agent 会话的统一管理。
+  - **链接**：[官网](https://mcplato.com/) | [MCP 接入指南](https://mcplato.com/en/blog/mcp-integration-guide/)
+  - **Tips**：支持 Windows 和 macOS，适合需要在项目边界内管理 MCP 工具与长期任务的用户。
+
 - **Cline**
   - **简介**：VS Code 中的自主编程 Agent，也提供 SDK/CLI 形态。
   - **功能**：原生 MCP 客户端，可读写文件、运行命令，并可安装 MCP 服务器扩展能力。
