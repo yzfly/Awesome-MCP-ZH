@@ -1035,7 +1035,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [HenryHaoson/Yuque-MCP-Server](https://github.com/HenryHaoson/Yuque-MCP-Server)  | 用于集成语雀 API 的 MCP 服务器，允许 AI 模型管理文档、与知识库交互、搜索内容和访问语雀平台的分析数据。       | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 语雀 API 集成。                                         |
 | [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp) | 通过在 MCP 循环中直接添加本地用户提示和聊天功能，实现交互式 LLM 工作流。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 人机交互工作流。 |
 | [GCF Proxy](https://github.com/blackwell-systems/gcf-proxy) | MCP 工具响应压缩代理。零代码接入，将任意 MCP 服务器的 JSON-RPC 响应自动转换为紧凑的 GCF 格式以节省 token，支持 JSON、YAML、TOML、CSV、MessagePack 多种格式。 | 社区实现, Go/Python/Node 开发 🏎️🐍📇, 本地运行 🏠, MIT 许可, token 优化。 |
-| [xiangguangyu-skills](https://github.com/Chromatic0618/alipay-mcp-server) | 252 个 AI 技能 MCP 服务器，支持支付宝按调用付费（¥0.10/¥0.50 每次），免费 10 次/天/技能。SSE + stdio 双传输，SSE 端点：http://124.222.26.218:3100/sse。npm: xiangguangyu-mcp-skills。 | 社区实现, TypeScript 开发 📇, 本地/云端 🏠☁️, 跨平台 🍎🪟🐧, 252 个 AI 技能聚合, 支付宝付费。 |
+| [xiangguangyu-skills](https://github.com/XYG-LUNA/alipay-mcp-server) | 252 个 AI 技能 MCP 服务器，支持支付宝按调用付费（¥0.05 每次），免费 10 次/天/技能。SSE + stdio 双传输，SSE 端点：http://124.222.26.218:3100/sse。npm: xiangguangyu-mcp-skills。 | 社区实现, TypeScript 开发 📇, 本地/云端 🏠☁️, 跨平台 🍎🪟🐧, 252 个 AI 技能聚合, 支付宝付费。 |
 
 ---
 
