@@ -640,6 +640,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit/tree/main/examples/agent-kit-mcp-server) | 使用 Solana Agent Kit 与 Solana 区块链交互，支持 40+ 协议操作。                                        | 社区实现, TypeScript 开发, Solana 链交互。                                                         |
 | [AlphaVantage](https://github.com/calvernaz/alphavantage)                          | AlphaVantage 股票市场数据 API 服务器。                                                              | 社区实现, Python 开发, AlphaVantage 金融数据。                                                      |
 | [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)                    | x402 支付协议资源目录，包含 MCP 服务器、SDK 和工具，用于基于 HTTP 402 的 USDC 支付（支持 Base、Arbitrum 等 EVM 链）。 | 社区实现, 云服务 ☁️, x402 协议生态资源汇总。                                                         |
+| [AgentServices](https://agentservices.to) | x402 原生付费 API 平台，为 AI 代理提供数据与市场情报 API。54 个服务，97 条路径，41 个 x402 付费端点，37 个 MCP 工具。支持 USDC (Base) 按调用付费，无需 API Key——代理通过 HTTP 402 协议自主发现、协商并完成支付。已入驻官方 MCP Registry。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, x402 按调用付费, 官方 MCP Registry (`to.agentservices/agentservices`)。 |
 
 ---
 
