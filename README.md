@@ -253,6 +253,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [achiya-automation/safari-mcp](https://github.com/achiya-automation/safari-mcp) | 原生 Safari 浏览器自动化，专为 macOS 设计。通过 AppleScript + JavaScript 提供 80 个工具，零 Chrome 开销，保留登录状态，后台静默运行。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, macOS 原生 🍎 |
 | [vostride/agent-qa](https://github.com/vostride/agent-qa) | 自我改进的 Agentic QA 测试工具，通过自然语言编写 Web 和移动端测试，并用执行记忆和自修复动作排查回归。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, E2E 测试与浏览器自动化。 |
 | [Unagi-cq/cdp-bridge-mcp](https://github.com/Unagi-cq/cdp-bridge-mcp) | 通过 Chrome DevTools Protocol (CDP) 与配套浏览器扩展，将 MCP 客户端桥接到用户的真实浏览器，复用已有会话与登录态进行网页操作。 | 社区实现, Python 开发 🐍, 本地运行 🏠, CDP + 扩展桥接真实浏览器。 |
+| [unbrowser](https://github.com/protostatis/unbrowser) | 面向 AI 代理的轻量级本地浏览器与 MCP 服务器；核心运行无需 Chrome，支持可选的 JavaScript 执行、Cookie 管理、链接点击、表单填写与提交，并返回紧凑的 BlockMap 页面表示。 | 官方实现 (Unchained) 🎖️, Rust 开发 🦀, 本地运行 🏠, Apache-2.0, 安装：`cargo install unbrowser` 或 `pipx install pyunbrowser`。 |
 | [AI-XiaoDao/ai-browser-mcp](https://github.com/AI-XiaoDao/ai-browser-mcp) | Windows 本地浏览器自动化 MCP，基于 FBrowser CEF 内核暴露 200+ `browser_*` 工具：导航、原生 DOM、填表 RPA、CDP 断点、POST 抓包、JS 逆向与爬虫。原生 API 优先，支持 stdio / HTTP / WebSocket 接入 Cursor、Claude、Cline。 | 社区实现, C++ 开发, 本地运行 🏠, Windows 🪟, 浏览器自动化 + JS 逆向, MIT。 |
 ---
 
