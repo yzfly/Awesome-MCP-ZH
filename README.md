@@ -856,6 +856,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Goldentrii/AgentRecall](https://github.com/Goldentrii/AgentRecall) | 跨会话的持久化累积记忆系统，使用智能距离协议召回最相关历史记忆。提供 5 个工具：`session_start`、`remember`、`recall`、`check`、`session_end`。`npx agent-recall-mcp` | 社区实现, TypeScript 开发 📇, 本地/云端 🏠☁️, 智能距离协议记忆召回, MIT。 |
 | [getzep/graphiti](https://github.com/getzep/graphiti) | Zep 出品，为 AI Agent 构建实时、时序感知的知识图谱记忆，内置 MCP 服务器供 Claude/Cursor 等读写记忆。 | 官方实现 (Zep) 🎖️, Python 开发 🐍, 本地/云端 🏠☁️, 实时知识图谱记忆。 |
 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | 高性能、可本地运行的记忆与上下文引擎，提供 MCP 接入，为 AI 提供可扩展的长期记忆 API。 | 社区实现, TypeScript 开发 📇, 本地/云端 🏠☁️, 长期记忆引擎。 |
+| [Talamus](https://github.com/ampres-ai/talamus) | 本地优先的 AI Agent 长期记忆 MCP 服务器，以来源可追溯的 Markdown 保存记忆，保留双时态历史与出处，并通过混合检索、召回和审核式修正提供 16 个工具。 | 官方实现 (Ampres) 🎖️, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, PyPI: `pipx install "talamus[mcp]"`, Apache-2.0。 |
 
 ---
 
