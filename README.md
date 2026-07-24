@@ -476,6 +476,22 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ---
 
+## TheNovaNodes MCP 网关
+
+### nova-anythingllm-mcp
+MCP 网关用于 AnythingLLM 语义记忆，支持向量+词汇混合搜索。提供工作区隔离的实验室级向量存储访问。
+- **工具:** `search_memory`, `get_document`, `gateway_health`, `list_workspaces`, `update_embeddings`, `documents`, `vectors`
+- **传输:** Streamable HTTP (127.0.0.1:8091)
+- **特点:** RRF 融合, 上下文组装, 缓存层
+- **URL:** https://github.com/TheNovaNodes/nova-anythingllm-mcp
+
+### nova-searxng-mcp
+MCP 网关用于 SearXNG 元搜索，集成语义记忆。隐私优先的跨 90+ 引擎网页搜索，支持 JS 渲染和 RAG 融合。
+- **工具:** `search_web`, `deep_research`, `searxng_health`, `extract_content`, `search_memory`, `get_document`, `gateway_health`
+- **传输:** Streamable HTTP (127.0.0.1:8888)
+- **特点:** JS 渲染, 分类过滤, 多语言
+- **URL:** https://github.com/TheNovaNodes/nova-searxng-mcp
+
 ### 🔍 搜索
 
 *(让 AI 能够调用各种搜索引擎或专业搜索服务)*
