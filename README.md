@@ -573,6 +573,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [userad/didlogic_mcp](https://github.com/UserAd/didlogic_mcp)          | DIDLogic MCP 服务器。增加管理 SIP 端点、号码和目的地的功能。                              | 社区实现, Python 开发 🐍, 云服务 ☁️, DIDLogic (VoIP) 集成。                               |
 | [X (Twitter) (by vidhupv)](https://github.com/vidhupv/x-mcp)         | 直接通过 Claude 创建、管理和发布 X/Twitter 推文。                                            | 社区实现, Python 开发, Twitter 发推管理。                                                 |
 | [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) | X/Twitter 数据平台，提供远程 MCP、REST API、Webhooks、批量提取、账号监控与抽奖工作流。 | 官方实现 (Xquik) 🎖️, TypeScript 开发 📇, 云服务 ☁️, StreamableHTTP, 2 个 MCP 工具, 100+ REST API 端点。 |
+| [OpenPost](https://github.com/rodrgds/openpost) | 开源、可自托管的社交媒体发布平台，MCP 可查询工作区、准备多平台内容版本、复用媒体并在人工审核后排程或发布。 | 官方实现 🎖️, Go 开发 🏎️, 云端/本地 🏠☁️, Streamable HTTP + OAuth 2.0，也提供 stdio 代理。 |
 | [VibeMarketing](https://vibemarketing.ninja/mcp) | X/Twitter 和 LinkedIn 社交媒体调度工具，支持 AI 驱动的内容生成。OAuth 身份验证，计划发布，账户管理，订阅跟踪。 | 远程 MCP 服务器 ☁️，社交媒体营销自动化。 |
 | [Google Tasks (by zcaceres)](https://github.com/zcaceres/gtasks-mcp)   | Google Tasks API 服务器。                                                                   | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Google Tasks 管理 (TS)。                        |
 | [Nylas CLI](https://github.com/nylas/cli) | 邮件、日历和联系人 MCP 服务器。一次身份验证即可覆盖 Gmail、Outlook、Exchange、Yahoo、iCloud 和 IMAP 共六大邮件服务商的 16 个工具。`nylas mcp install` 一键安装。 | 官方实现 (Nylas) 🎖️, Go 开发 🏎️, 云服务 ☁️, 跨平台 🍎🪟🐧, 邮件/日历/联系人统一接入。文档：https://cli.nylas.com |
