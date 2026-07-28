@@ -579,6 +579,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [TwitterAPI.io MCP Server](https://github.com/kaitoInfra/twitterapi-io-mcp-server) | 对接 twitterapi.io（Twitter/X 数据 API）的官方 MCP 服务器。12 个只读工具：推文搜索（支持完整搜索操作符）、用户档案、关注者、对话线程、趋势话题、互动指标。npm `@twitterapi_io/mcp-server`。 | 官方实现 🎖️, TypeScript 开发 📇, 云服务 ☁️, X/Twitter 数据 API 集成。 |
 
 ---
+- [Trends MCP](https://github.com/trendsmcp-ai/Trends-MCP) - 跨 25+ 平台的实时趋势数据 MCP / REST API（Google、YouTube、TikTok、Reddit、Amazon 等）。
 
 ### 💰 金融与加密货币
 
