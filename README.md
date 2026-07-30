@@ -473,6 +473,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [wenhuwang/mcp-k8s-eye](https://github.com/wenhuwang/mcp-k8s-eye)      | 用于 Kubernetes 管理的 MCP 服务器，分析集群和应用健康状况。                                   | 社区实现, Go 开发 🏎️, 云端/本地 ☁️🏠, K8s 管理与健康分析。                                         |
 | [erikhoward/adls-mcp-server](https://github.com/erikhoward/adls-mcp-server) | 用于 Azure Data Lake Storage 的 MCP 服务器。可管理容器、读/写/上传/下载文件及管理元数据。   | 社区实现, Python 开发 🐍, 云端/本地 ☁️🏠, Azure Data Lake Storage 管理。                              |
 | [hashicorp/terraform-mcp-server](https://github.com/hashicorp/terraform-mcp-server) | HashiCorp 官方出品，让 AI 与 Terraform 生态（Registry、Provider/模块文档等）深度集成，辅助 IaC 开发。 | 官方实现 (HashiCorp) 🎖️, Go 开发 🏎️, 本地/云端 🏠☁️, Terraform IaC。 |
+| [华为云 MCP](https://developer.huaweicloud.com/) | 华为云官方远程 MCP 服务，在控制台按账号获取专属端点后接入。 | 官方实现 (华为云) 🎖️, 远程端点 ☁️, 端点按账号下发。 |
 
 ---
 
@@ -710,6 +711,10 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Make](https://github.com/integromat/make-mcp-server)                      | Make 官方集成，将 Make 场景转换为 AI 助手可调用的工具。                                                    | 官方实现 (Make/Integromat) 🎖️, TypeScript 开发 📇, 本地运行 🏠, 连接 Make 生态。                         |
 | [Taskade MCP](https://github.com/taskade/mcp)                              | Taskade 官方 MCP 集成，连接任务、项目、自动化流程和 AI Agent，实现团队协作与工作流自动化。                   | 官方实现 (Taskade) 🎖️, Node.js 开发, 云服务 ☁️, 项目管理与协作。                                        |
 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream/tree/master/modelcontextprotocol) | Pipedream 官方集成，一站式连接 2500+ API，集成 8000+ 工具，并管理用户服务器。                            | 官方实现 (Pipedream) 🎖️, Node.js 开发, 云端/本地 ☁️🏠, 超强 API/工具集成平台。                     |
+| [腾讯文档 MCP](https://docs.qq.com/open/auth/mcp.html) | 腾讯文档官方远程 MCP：读写在线文档、表格、幻灯片。 | 官方实现 (腾讯) 🎖️, 远程端点 ☁️ `https://docs.qq.com/openapi/mcp`, OAuth 授权。 |
+| [腾讯会议 MCP](https://meeting.tencent.com/ai-skill.html) | 腾讯会议官方远程 MCP：安排会议、查询参会人、获取录制与转写内容。 | 官方实现 (腾讯) 🎖️, 远程端点 ☁️ `https://mcp.meeting.tencent.com/mcp/wemeet-open/v1`。 |
+| [WPS 365 云文档 MCP](https://open.wps.cn/documents/app-integration-dev/mcp-server/use-guide) | 金山办公官方远程 MCP：企业云文档的搜索、读取、分享与权限管理。 | 官方实现 (金山办公) 🎖️, 远程端点 ☁️, 需企业版应用授权。 |
+| [简道云 MCP](https://hc.jiandaoyun.com/open/25090) | 简道云官方个人版 MCP：查询应用、表单、数据与待办。 | 官方实现 (简道云) 🎖️, 远程端点 ☁️, 目前为只读。 |
 | [Rember](https://github.com/rember/rember-mcp)                             | 在 Rember 中创建间隔重复抽认卡，记住聊天中学到的任何东西。 (Rember 官方)                                    | 官方实现 (Rember) 🎖️, TypeScript 开发 📇, 本地运行 🏠, 间隔重复记忆工具。                               |
 | [Zapier](https://zapier.com/mcp)                                           | Zapier 官方集成，将 AI 代理即时连接到 8000+ 应用。                                                       | 官方实现 (Zapier), 连接 Zapier 生态。                                                                        |
 | [Airtable (by domdomegg)](https://github.com/domdomegg/airtable-mcp-server) | 读写 Airtable 数据库，带模式检查。(已在数据库部分列出)                                                     | 社区实现, TypeScript 开发 📇, 本地运行 🏠, Airtable 读写。                                                  |
@@ -917,6 +922,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [webcoderz/MCP-Geo](https://github.com/webcoderz/MCP-Geo)                        | 用于 nominatim, ArcGIS, Bing 的地理编码 MCP 服务器。                                         | 社区实现, Python 开发 🐍, 本地运行 🏠, 地理编码服务。                                           |
 | [ip2location/mcp-ip2location-io](https://github.com/ip2location/mcp-ip2location-io) | 使用 IP2Location.io API 获取 IP 地址地理位置和网络信息。                                                 | 官方参考, Python 开发 🐍, 云服务 ☁️, IP 地址信息 (IP2Location.io)。                                   |
 | [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp) | 基于 MCP 的 12306 火车票查询服务器，支持车次、余票、经停站等信息查询。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 中国铁路 12306 购票信息。 |
+| [滴滴出行 MCP](https://mcp.didichuxing.com/) | 滴滴官方远程 MCP：打车场景的价格预估、下单、行程状态查询与取消，并提供地图能力。 | 官方实现 (滴滴) 🎖️, 远程端点 ☁️ `https://mcp.didichuxing.com/mcp-servers?key=<KEY>`, 另有 sandbox 环境可先联调。 |
 
 ---
 
@@ -1035,6 +1041,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [HenryHaoson/Yuque-MCP-Server](https://github.com/HenryHaoson/Yuque-MCP-Server)  | 用于集成语雀 API 的 MCP 服务器，允许 AI 模型管理文档、与知识库交互、搜索内容和访问语雀平台的分析数据。       | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 语雀 API 集成。                                         |
 | [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp) | 通过在 MCP 循环中直接添加本地用户提示和聊天功能，实现交互式 LLM 工作流。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 人机交互工作流。 |
 | [GCF Proxy](https://github.com/blackwell-systems/gcf-proxy) | MCP 工具响应压缩代理。零代码接入，将任意 MCP 服务器的 JSON-RPC 响应自动转换为紧凑的 GCF 格式以节省 token，支持 JSON、YAML、TOML、CSV、MessagePack 多种格式。 | 社区实现, Go/Python/Node 开发 🏎️🐍📇, 本地运行 🏠, MIT 许可, token 优化。 |
+| [瑞幸咖啡 MCP](https://open.lkcoffee.com/) | 瑞幸官方远程 MCP：查询附近门店、搜索商品、下单点咖啡。 | 官方实现 (瑞幸) 🎖️, 远程端点 ☁️ `https://gwmcp.lkcoffee.com/order/user/mcp`。 |
 
 ---
 
