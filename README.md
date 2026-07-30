@@ -1170,3 +1170,4 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 Copyright (c) 2025 云中江树
 
 ---
+- [Trends MCP](https://github.com/trendsmcp-ai/Trends-MCP) - Live trend data across 25+ platforms (Google, YouTube, TikTok, Reddit, Amazon, news sentiment, app downloads, more). MCP server + REST API. [Free tier](https://trendsmcp.ai) (100 req/mo).
