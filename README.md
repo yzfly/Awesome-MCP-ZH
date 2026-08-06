@@ -778,6 +778,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [BibiGPT](https://github.com/JimmyLv/bibigpt-skill) | AI 驱动的视频、音频和播客总结工具，支持 YouTube、Bilibili、TikTok 等平台。提供远程 MCP 服务器 (https://bibigpt.co/api/mcp) 和 Claude Code Skill 两种集成方式。 | 社区实现, 云服务 ☁️, 视频/音频/播客总结。 |
 | [ElevenLabs (官方)](https://github.com/elevenlabs/elevenlabs-mcp) | ElevenLabs 官方 MCP 服务器，提供文本转语音、语音克隆、音频转录、配音等能力。 | 官方实现 (ElevenLabs) 🎖️, Python 开发 🐍, 云服务 ☁️, 语音合成 TTS。 |
 | [MiniMax (官方)](https://github.com/MiniMax-AI/MiniMax-MCP) | MiniMax 官方 MCP 服务器，调用其文本转语音、图像生成与视频生成 API。 | 官方实现 (MiniMax) 🎖️, Python 开发 🐍, 云服务 ☁️, 语音/图像/视频生成。 |
+| [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | 通过 MCP 让编码 Agent 按可编辑时间线编排、编辑、生成并自动组装视频。 | 官方实现 🎖️, TypeScript 开发 📇, 本地运行 🏠, MCP 服务器/命令行/技能集。 |
 
 ---
 
