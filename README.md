@@ -192,6 +192,13 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **功能**：对接任意支持 function calling 的 LLM，可视化管理 MCP 服务器。
   - **链接**：[GitHub 仓库](https://github.com/OpenAgentPlatform/Dive)
 
+- **Grinta**  
+  - **简介**：开源、本地优先的终端 AI 编程 Agent，同时也是 MCP 客户端。  
+  - **功能**：通过 allowlist 连接本地或远程 MCP Server，支持 stdio、Streamable HTTP 和 SSE；内置 MCP 工具调用超时、断线重连与单次安全重试，以及检查点和事件账本，适合长任务恢复。  
+  - **链接**：[GitHub 仓库](https://github.com/josephsenior/Grinta-Coding-Agent) | [PyPI](https://pypi.org/project/grinta/)  
+  - **安装**：`pipx install grinta`  
+  - **Tips**：Python 开发，支持 Windows、macOS、Linux，以及 OpenAI、Anthropic、Google、OpenRouter、Ollama 和 LM Studio。  
+
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
