@@ -58,6 +58,7 @@
 - [许可证](#许可证)
 
 ---
+- [Zephex](https://github.com/zephexMCP/zephex-MCPs) - 托管 MCP：项目上下文、代码搜索、包安全、Test Pulse。支持 Cursor / Claude Code / Codex，同钥匙 CLI + 网页终端。https://zephex.dev/mcp
 
 ## MCP 是什么？
 
