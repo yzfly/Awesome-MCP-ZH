@@ -116,6 +116,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![5ire](https://files.mdnice.com/user/43439/0c1c47ad-689d-4302-824e-9dd5e2706e2c.png)
   - **Tips**：适合开发者与非开发者使用，支持多平台（Windows、macOS、Linux）。
 
+- **BitFun**
+  - **简介**：开源跨平台桌面 AI Agent，内置 MCP 客户端。
+  - **功能**：可在桌面端和 CLI 中配置、连接并管理本地或远程 MCP Server，将工具与数据源接入编码、文件系统、终端、浏览器和桌面任务。
+  - **链接**：[GitHub 仓库](https://github.com/GCWing/BitFun)
+  - **Tips**：MIT 开源，支持 Windows、macOS、Linux；仓库含可验证的 Rust MCP 客户端协议和桌面端、CLI 管理实现。
+
 - **Cursor**  
   - **简介**：代码编辑器，装上 MCP 变“全能选手”。  
   - **功能**：写代码、发 Slack、生成图片。  
