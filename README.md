@@ -317,7 +317,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ref-tools/ref-tools-mcp](https://github.com/ref-tools/ref-tools-mcp) | 为编程代理提供公共/私有库的文档检索，减少调用陌生 API 时的幻觉并节省上下文窗口。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 文档检索。 |
 | [apollographql/apollo-mcp-server](https://github.com/apollographql/apollo-mcp-server) | Apollo 官方 MCP 服务器，把 GraphQL 操作暴露为 AI 可调用的工具。 | 官方实现 (Apollo GraphQL) 🎖️, Rust 开发 🦀, 本地/云端 🏠☁️, GraphQL 工具化。 |
 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | Hugging Face 官方 MCP 服务器，检索 Hub 上的模型、数据集、论文与 Spaces 并调用相关工具。 | 官方实现 (Hugging Face) 🎖️, TypeScript 开发 📇, 云服务 ☁️, HF Hub 集成。 |
-| [Q00/ouroboros](https://github.com/Q00/ouroboros) | 规约优先的 AI 编码 Agent OS，把 Claude Code、Codex CLI、OpenCode、Gemini CLI 等编码代理的非确定性工作，转换为可回放、可观测、受策略约束的执行契约（Seed → Ledger → Runtime）。先用苏格拉底式访谈把模糊需求问清楚，模糊度打分降到阈值 0.2 以下才生成不可变的 seed 规约，再驱动执行、三阶段评估（Mechanical → Semantic → 多模型共识）和有预算上限的演化循环。用来判分的 verify_command 与断言对执行 worker 隐藏，避免模型照着答案糊弄。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, 30+ 个 MCP 工具（访谈 / Seed 生成 / 执行 / 评估 / 演化 / 会话状态）, 适配 13 个运行时, 提供中文 README, MIT, `pipx install 'ouroboros-ai[mcp]'`（MCP 服务器在 `[mcp]` extra 里，装基础包不含 MCP 运行时）。 |
+| [Q00/ouroboros](https://github.com/Q00/ouroboros) | 规约优先的 AI 编码 Agent OS，把 Claude Code、Codex CLI、OpenCode、Gemini CLI 等编码代理的非确定性工作，转换为可回放、可观测、受策略约束的执行契约（Seed → Ledger → Runtime）。先用苏格拉底式访谈把模糊需求问清楚，访谈还开着时模糊度高于阈值 0.2 会挡住 seed 生成（显式 force 或把访谈标记为完成都能通过），再驱动执行、分层评估（Mechanical → Semantic → 多模型共识；三层齐跑只在直接评估路径上成立，演化循环只跑 Semantic 一层）和有预算上限的演化循环。当一条验收标准定义了自己的 verify_command 或期望输出时，那些值不会进执行 worker 的契约块，避免模型照着答案糊弄。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, 30+ 个 MCP 工具（访谈 / Seed 生成 / 执行 / 评估 / 演化 / 会话状态）, 适配 13 个运行时, 提供中文 README, MIT, `pipx install 'ouroboros-ai[mcp]'`（MCP 服务器在 `[mcp]` extra 里，装基础包不含 MCP 运行时）。 |
 
 
 ---
