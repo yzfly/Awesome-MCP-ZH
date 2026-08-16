@@ -1151,7 +1151,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yzfly/Awesome-MCP-ZH&type=Date)](https://www.star-history.com/#yzfly/Awesome-MCP-ZH&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=yzfly/Awesome-MCP-ZH&type=Date)](https://star-history.dera.page/#yzfly/Awesome-MCP-ZH&Date)
 
 ---
 
