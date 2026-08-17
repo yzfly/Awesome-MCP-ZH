@@ -317,6 +317,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ref-tools/ref-tools-mcp](https://github.com/ref-tools/ref-tools-mcp) | 为编程代理提供公共/私有库的文档检索，减少调用陌生 API 时的幻觉并节省上下文窗口。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 文档检索。 |
 | [apollographql/apollo-mcp-server](https://github.com/apollographql/apollo-mcp-server) | Apollo 官方 MCP 服务器，把 GraphQL 操作暴露为 AI 可调用的工具。 | 官方实现 (Apollo GraphQL) 🎖️, Rust 开发 🦀, 本地/云端 🏠☁️, GraphQL 工具化。 |
 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | Hugging Face 官方 MCP 服务器，检索 Hub 上的模型、数据集、论文与 Spaces 并调用相关工具。 | 官方实现 (Hugging Face) 🎖️, TypeScript 开发 📇, 云服务 ☁️, HF Hub 集成。 |
+| [SunflowersLwtech/covate](https://github.com/SunflowersLwtech/covate) | AI 编程助手的「学习边车」：对 AI 生成的代码改动自动出题，让开发者在接受前先证明自己看懂了逻辑、安全与性能影响；同时维护一份项目级的调试记忆，供后续会话查询。提供简体、繁体中文 README。 | 社区实现，Python 开发 🐍，本地运行 🏠（stdio / Docker），跨平台 🍎🪟🐧，MIT 许可，面向 AI 编程场景下的技能留存
 
 
 ---
