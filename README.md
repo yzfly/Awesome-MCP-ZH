@@ -317,7 +317,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ref-tools/ref-tools-mcp](https://github.com/ref-tools/ref-tools-mcp) | 为编程代理提供公共/私有库的文档检索，减少调用陌生 API 时的幻觉并节省上下文窗口。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 文档检索。 |
 | [apollographql/apollo-mcp-server](https://github.com/apollographql/apollo-mcp-server) | Apollo 官方 MCP 服务器，把 GraphQL 操作暴露为 AI 可调用的工具。 | 官方实现 (Apollo GraphQL) 🎖️, Rust 开发 🦀, 本地/云端 🏠☁️, GraphQL 工具化。 |
 | [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) | Hugging Face 官方 MCP 服务器，检索 Hub 上的模型、数据集、论文与 Spaces 并调用相关工具。 | 官方实现 (Hugging Face) 🎖️, TypeScript 开发 📇, 云服务 ☁️, HF Hub 集成。 |
-| [UIZZE](https://github.com/uizze/uizze) | 面向 Codex、Claude Code、Cursor 等编程代理的 anti-UI-slop MCP 与 Skill，基于 800,000+ 个真实 Web 与 iOS 界面提供 UI 参考；免费预览端点可执行确定性的 UI slop 检查。 | 官方实现, 云服务 ☁️, 远程 Streamable HTTP, UI 质量与设计参考；预览端点：https://uizze.com/mcp/preview |
+| [UIZZE](https://github.com/uizze/uizze) | 面向 Codex、Claude Code、Cursor、Copilot 等编程代理的 UI 质量检查 MCP 与 Skill：通过匿名预览检查渲染后的 HTML/CSS，识别交互不完整、缺少必要状态、颜色令牌漂移和通用 UI 线索；无需账号或令牌，也不会上传源代码。 | 官方服务, 远程 Streamable HTTP ☁️, UI 质量检查；预览端点：[uizze.com/mcp/preview](https://uizze.com/mcp/preview)，提供确定性的 `check_ui_slop` 工具；完整 UIZZE 另提供基于 800,000+ 个真实 Web 和 iOS 界面的检索与审查能力。 |
 
 
 ---
