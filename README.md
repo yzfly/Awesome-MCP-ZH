@@ -897,6 +897,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [badchars/darknet-mcp-server](https://github.com/badchars/darknet-mcp-server) | 面向安全研究的暗网与威胁情报聚合 MCP 服务器，66 个工具整合 16 个数据源（HIBP 泄露库、ThreatFox/abuse.ch、勒索软件追踪、Tor .onion 访问、恶意软件分析、区块链取证、漏洞与窃密日志检索），让 AI 在一次调用中完成跨平台情报关联。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 暗网与威胁情报聚合 (66 工具/16 源), MIT。 |
 | [Darkmoon](https://github.com/ASCIT31/Dark-Moon) | 开源自主式 AI 渗透测试平台，通过 Markdown 剧本与智能体推理编排 80 多种攻击工具，基于 MCP 控制执行，覆盖 Web、云、Active Directory、Kubernetes、API 与内网，并为每个发现提供证据链。 | 社区实现, 开源 (GPL-3.0) 🔓, 自主式 AI 渗透测试平台, 针对 Claude Opus 优化。 |
 | [EASYHOME-DOORVERSE/dw-mcp-ai-permission-center](https://github.com/EASYHOME-DOORVERSE/dw-mcp-ai-permission-center) | 基于标准 RBAC 的企业级 MCP AI 工具权限管控中台，为 Cursor、Claude Desktop 及自研 Agent 提供统一接入鉴权、按角色的动态工具列表与多数据源数据访问隔离。内置 JDBC/HTTP 接口代理，可将 SQL 与业务接口一键转为 MCP 工具，JWT + API Key 双通道认证。 | 社区实现, Java 开发 ☕, 本地/云端 🏠☁️, MCP 权限管控 (RBAC), Spring AI + Vue3, Apache 2.0。 |
+| [mcp-observatory](https://github.com/KryptosAI/mcp-observatory) | MCP 服务器可观测性平台 — 监控和分析 MCP 服务器性能、可用性和使用指标，提供健康检查与告警。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MCP 可观测性与监控, MIT。 |
+| [mcp-seatbelt](https://github.com/KryptosAI/mcp-seatbelt) | MCP 运行时安全护栏 — 检测 8 个客户端配置，通过策略代理包装高风险服务器，在运行时阻止危险工具调用。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MCP 运行时安全与策略执行, MIT, `npx @kryptosai/mcp-seatbelt` |
 
 ---
 
