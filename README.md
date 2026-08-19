@@ -964,6 +964,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [mcp-observatory](https://github.com/KryptosAI/mcp-observatory) | MCP 服务器可观测性平台 — 监控和分析 MCP 服务器性能、可用性和使用指标，提供健康检查与告警。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MCP 可观测性与监控, MIT。 |
 | [mcp-seatbelt](https://github.com/KryptosAI/mcp-seatbelt) | MCP 运行时安全护栏 — 检测 8 个客户端配置，通过策略代理包装高风险服务器，在运行时阻止危险工具调用。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MCP 运行时安全与策略执行, MIT, `npx @kryptosai/mcp-seatbelt` |
 | [NPMSCan](https://npmscan.com/docs/mcp) | 为 AI 代理提供 npm 包安全分析，可检测漏洞、恶意行为、可疑脚本、维护者风险和拼写仿冒包。无需 API 密钥。 | 远程 MCP，支持 Claude、ChatGPT、Cursor 等客户端。 |
+| [aurumflux20/fencescan](https://github.com/aurumflux20/fencescan) | 扫描 MCP 服务器代码，找出重试后可能重复执行的工具调用（如重复扣款、重复发送）。只给出证据和候选项，不给判定——真正的判断需要读代码。零依赖，`npx fencescan` 直接运行。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 零依赖, 重试安全 (retry-safety) 静态扫描, MIT。 |
 
 ---
 
