@@ -993,6 +993,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ip2location/mcp-ip2location-io](https://github.com/ip2location/mcp-ip2location-io) | 使用 IP2Location.io API 获取 IP 地址地理位置和网络信息。                                                 | 官方参考, Python 开发 🐍, 云服务 ☁️, IP 地址信息 (IP2Location.io)。                                   |
 | [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp) | 基于 MCP 的 12306 火车票查询服务器，支持车次、余票、经停站等信息查询。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 中国铁路 12306 购票信息。 |
 | [滴滴出行 MCP](https://mcp.didichuxing.com/) | 滴滴官方远程 MCP：打车场景的价格预估、下单、行程状态查询与取消，并提供地图能力。 | 官方实现 (滴滴) 🎖️, 远程端点 ☁️ `https://mcp.didichuxing.com/mcp-servers?key=<KEY>`, 另有 sandbox 环境可先联调。 |
+| [double2dev/boltpatternhq-mcp](https://github.com/double2dev/boltpatternhq-mcp) | 为 AI 编程助手提供实时的汽车轮毂改装、PCD 孔距、偏距和螺栓尺寸硬件数据查询（覆盖全球超 1.1 万款车型）。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 汽车工业与车辆数据。 |
 
 ---
 
