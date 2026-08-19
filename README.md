@@ -362,6 +362,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [tumf/mcp-shell-server](https://github.com/tumf/mcp-shell-server)    | 实现模型上下文协议 (MCP) 的安全 Shell 命令执行服务器。                                   | 社区实现, Python 开发, 安全 Shell 执行。                                                  |
 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 多功能工具，可管理/执行程序，读/写/搜索/编辑代码和文本文件。(也含代码/文件功能)             | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 命令行/文件/程序管理。          |
 | [olo-dot-io/Uni-CLI](https://github.com/olo-dot-io/Uni-CLI) | 自修复 CLI 目录，将网页、桌面应用、Electron 应用、外部 CLI 作为确定性命令通过一个 MCP 服务器暴露给 AI 代理；声明式 YAML 适配器加结构化错误信封，调用失败时代理可直接编辑 YAML 并重试。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, Apache-2.0；目录规模与每次调用 token 预算见仓库 [README](https://github.com/olo-dot-io/Uni-CLI#readme) 与 [`docs/BENCHMARK.md`](https://github.com/olo-dot-io/Uni-CLI/blob/main/docs/BENCHMARK.md)。 |
+| [5dive MCP](https://github.com/5dive-ai/5dive-mcp) | 5dive 官方 MCP 服务器，把 5dive 智能体舰队 CLI（任务、智能体、摘要）暴露为 MCP 工具，让 MCP 客户端直接调度运行在你自己服务器上的多个自治编码智能体。 | 官方实现 🎖️, JavaScript 开发 📇, 本地运行 🏠, MIT 开源, 已收录于 MCP 官方注册表, 安装：`npx -y @5dive/mcp`。 |
 
 ---
 
