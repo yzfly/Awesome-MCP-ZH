@@ -352,6 +352,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Q00/ouroboros](https://github.com/Q00/ouroboros) | 规约优先的 AI 编码 Agent OS，把 Claude Code、Codex CLI、OpenCode、Gemini CLI 等编码代理的非确定性工作，转换为可回放、可观测、受策略约束的执行契约（Seed → Ledger → Runtime）。先用苏格拉底式访谈把模糊需求问清楚，模糊度高于阈值 0.2 会挡住 seed 生成（显式传入 force 才能通过），再驱动执行、分层评估（Mechanical → Semantic → 多模型共识；三层齐跑只在直接评估路径上成立，演化循环只跑 Semantic 一层）和有预算上限的演化循环。当一条验收标准定义了自己的 verify_command 或期望输出时，那些值不会进执行 worker 的契约块，避免模型照着答案糊弄。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, 30+ 个 MCP 工具（访谈 / Seed 生成 / 执行 / 评估 / 演化 / 会话状态）, 适配 13 个运行时, 提供中文 README, MIT, `pipx install 'ouroboros-ai[mcp]'`（MCP 服务器在 `[mcp]` extra 里，装基础包不含 MCP 运行时）。 |
 | [flameox](https://github.com/morluto/flameox) | 面向智能体的性能分析与优化工具包：可采集追踪、对比运行，并保留原生运行时证据，用于定位应用、原生服务、GPU 内核和推理负载中的瓶颈。 | 社区实现, Python 开发 🐍, 本地运行 🏠, CLI + MCP, 运行时性能分析与证据对比。 |
 | [UIZZE](https://github.com/uizze/uizze) | 面向 Codex、Claude Code、Cursor、Copilot 等编程代理的 UI 质量检查 MCP 与 Skill：通过匿名预览检查渲染后的 HTML/CSS，识别交互不完整、缺少必要状态、颜色令牌漂移和通用 UI 线索；无需账号或令牌，也不会上传源代码。 | 官方服务, 远程 Streamable HTTP ☁️, UI 质量检查；预览端点：[uizze.com/mcp/preview](https://uizze.com/mcp/preview)，提供确定性的 `check_ui_slop` 工具；完整 UIZZE 另提供基于 800,000+ 个真实 Web 和 iOS 界面的检索与审查能力。 |
+| [SunflowersLwtech/covate](https://github.com/SunflowersLwtech/covate) | AI 编程助手的「学习边车」：对 AI 生成的代码改动自动出题，让开发者在接受前先证明自己看懂了逻辑、安全与性能影响；同时维护一份项目级的调试记忆，供后续会话查询。提供简体、繁体中文 README。 | 社区实现，Python 开发 🐍，本地运行 🏠（stdio / Docker），跨平台 🍎🪟🐧，MIT 许可，面向 AI 编程场景下的技能留存
 
 
 ---
