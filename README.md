@@ -928,6 +928,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [getzep/graphiti](https://github.com/getzep/graphiti) | Zep 出品，为 AI Agent 构建实时、时序感知的知识图谱记忆，内置 MCP 服务器供 Claude/Cursor 等读写记忆。 | 官方实现 (Zep) 🎖️, Python 开发 🐍, 本地/云端 🏠☁️, 实时知识图谱记忆。 |
 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | 高性能、可本地运行的记忆与上下文引擎，提供 MCP 接入，为 AI 提供可扩展的长期记忆 API。 | 社区实现, TypeScript 开发 📇, 本地/云端 🏠☁️, 长期记忆引擎。 |
 | [PickySteve](https://github.com/KernelLord/pickysteve) | 面向编程 Agent 的技能路由与最小上下文选取器：本地小模型（默认 Ollama qwen3:8b，也兼容任意 OpenAI 兼容端点）通过混合检索（BM25 + 向量嵌入，RRF 融合）+ Cross-Encoder 重排（带校准阈值）+ LLM 裁判，为每次请求挑出最相关的一个技能，组装成带随机 nonce 边界的最小上下文包再交给执行模型；内置 ONNX 提示注入分类器，对原始请求和每条检索文档都扫描、失败即拒绝（fail-closed），180 条红队样本 0 漏检，真实技能库 43 条 0 误报。 | 社区实现, Python 开发 🐍, 本地运行 🏠 (兼容任意 OpenAI 兼容端点), MCP stdio server 手写实现（无第三方 MCP SDK 依赖）提供 pick_context/list_skills 两个工具，另有 OpenAI 兼容代理与一键安装脚本（覆盖 18 个编程 Agent），git clone + uv 安装（PyPI 包未发布），MIT。 |
+| [Talamus](https://github.com/ampres-ai/talamus) | 本地优先的 AI Agent 长期记忆 MCP 服务器，以来源可追溯的 Markdown 保存记忆，保留双时态历史与出处，并通过混合检索、召回和审核式修正提供 16 个工具。 | 官方实现 (Ampres) 🎖️, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, PyPI: `pipx install "talamus[mcp]"`, Apache-2.0。 |
 
 ---
 
