@@ -653,6 +653,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [minhyeoky/mcp-server-ledger](https://github.com/minhyeoky/mcp-server-ledger)        | ledger-cli 集成，用于管理金融交易和生成报告。                                                    | 社区实现, Python 开发 🐍, 本地运行 🏠, ledger-cli 记账。                                            |
 | [narumiruna/yfinance-mcp](https://github.com/narumiruna/yfinance-mcp)              | 使用 Yahoo Finance API 获取金融数据，方便进行股票分析。                                                  | 社区实现, Python 开发 🐍, 云服务 ☁️, Yahoo Finance 数据获取。                                          |
 | [openMF/mcp-mifosx](https://github.com/openMF/mcp-mifosx)                          | 核心银行集成，用于管理客户、贷款、储蓄、股份、金融交易和生成财务报告。                                | 社区实现 (OpenMF), 云端/本地 ☁️🏠, Mifos X 核心银行系统集成。                                        |
+| [OpenChainBench](https://openchainbench.com/mcp) | 开源加密基础设施基准测试MCP服务器，提供22+条EVM链+Solana的RPC延迟、桥接费用、永续DEX费率实时数据。无需认证，CC BY 4.0。 | 社区实现, 云服务 ☁️, 远程服务器 `https://openchainbench.com/api/mcp/mcp`。 |
 | [pwh-pwh/coin-mcp-server](https://github.com/pwh-pwh/coin-mcp-server)              | Bitget API 获取加密货币价格。                                                                | 社区实现, Python 开发 🐍, 云服务 ☁️, Bitget 价格获取。                                                |
 | [QuantGeekDev/coincap-mcp](https://github.com/QuantGeekDev/coincap-mcp)            | 使用 CoinCap 公共 API 的实时加密货币市场数据集成，无需 API Key 即可访问价格和市场信息。              | 社区实现, TypeScript 开发 📇, 云服务 ☁️, CoinCap 实时数据。                                          |
 | [SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop](https://github.com/SaintDoresh/Crypto-Trader-MCP-ClaudeDesktop.git) | 使用 CoinGecko API 提供加密货币市场数据的 MCP 工具。                                          | 社区实现, Python 开发 🐍, 云服务 ☁️, CoinGecko 数据。                                               |
@@ -1213,3 +1214,4 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 Copyright (c) 2025 云中江树
 
 ---
+
