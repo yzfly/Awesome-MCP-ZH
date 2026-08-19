@@ -216,6 +216,11 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[GitHub 仓库](https://github.com/josephsenior/Grinta-Coding-Agent) | [PyPI](https://pypi.org/project/grinta/)  
   - **安装**：`pipx install grinta`  
   - **Tips**：Python 开发，支持 Windows、macOS、Linux，以及 OpenAI、Anthropic、Google、OpenRouter、Ollama 和 LM Studio。  
+- **AionUi**
+  - **简介**：开源多 Agent 桌面客户端，把多个终端 AI CLI 装进一个图形界面。
+  - **功能**：支持 MCP 服务器配置与调用；可同时接入 Claude Code、Codex、Gemini CLI、Qwen Code、iFlow 等命令行 Agent（兼容 ACP 协议）；多会话并行对话、本地文件管理，支持自行填入 OpenAI / DeepSeek / Kimi / 智谱 GLM 等模型平台的 API Key。
+  - **链接**：[官网](https://www.aionui.com) | [GitHub 仓库](https://github.com/iOfficeAI/AionUi)
+  - **Tips**：跨平台（Windows、macOS、Linux）；适合想用图形界面管理多个 CLI Agent 与 MCP 服务器的用户。
 
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
