@@ -183,6 +183,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[GitHub 仓库](https://github.com/block/goose)
   - **Tips**：MCP 生态最活跃的开源 Agent 之一。
 
+- **Gumpbox Extensions**
+  - **简介**：连接 Gumpbox 与 Claude Code、Codex、Gemini、VS Code、Cursor、Windsurf 和 Continue 的开源 MCP 客户端插件。
+  - **功能**：通过本地 stdio 代理连接 Gumpbox 的 MCP 服务，让 AI Agent 管理 Linux 服务器，使用 SSH 终端、文件传输、隧道、监控、工作流和沙箱等能力；会话地址保存在本地配置中。
+  - **链接**：[GitHub 仓库](https://github.com/0xtrou/gumpbox-extensions) | [Gumpbox 官网](https://gumpbox.com)
+  - **Tips**：TypeScript 实现，MIT 协议；Gumpbox 应用原生支持 macOS、iOS 和 iPadOS。
+
 - **AnythingLLM**
   - **简介**：本地优先的全栈 AI 应用，一体化文档/知识库/Agent。
   - **功能**：内置 MCP 兼容，接入工具与数据源，支持桌面与自托管。
