@@ -840,6 +840,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [MiniMax (官方)](https://github.com/MiniMax-AI/MiniMax-MCP) | MiniMax 官方 MCP 服务器，调用其文本转语音、图像生成与视频生成 API。 | 官方实现 (MiniMax) 🎖️, Python 开发 🐍, 云服务 ☁️, 语音/图像/视频生成。 |
 | [RunComfy (官方)](https://github.com/runcomfy-com/runcomfy-mcp) | RunComfy 官方远程 MCP 服务器，调用其 Serverless API (ComfyUI)：创建/管理 GPU 部署、提交异步推理、获取图像/视频结果。官网 https://www.runcomfy.com ，远程端点 https://mcp.runcomfy.com/mcp。 | 官方实现 (RunComfy) 🎖️, Python 开发 🐍, 云服务 ☁️, ComfyUI 图像/视频生成。 |
 | [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | 通过 MCP 让编码 Agent 按可编辑时间线编排、编辑、生成并自动组装视频。 | 官方实现 🎖️, TypeScript 开发 📇, 本地运行 🏠, MCP 服务器/命令行/技能集。 |
+| [freeaudiototext-mcp](https://github.com/double2dev/freeaudiototext-mcp) | FreeAudioToText 官方出品的音视频转录 MCP 服务器。让 AI 直接读取音视频文件或 YouTube/TikTok 链接，一键生成带有精准“说话人分离”的高质量文字。纯免费、无时间限制。 | 官方实现 🎖️, TypeScript 开发 📇, 本地/边缘混合 🏠☁️, 音视频转录。 |
 
 ---
 
