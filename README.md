@@ -801,6 +801,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [yuna0x0/hackmd-mcp](https://github.com/yuna0x0/hackmd-mcp)                | 允许 AI 模型与 HackMD 交互。                                                                   | 社区实现, TypeScript 开发 📇, 云服务 ☁️, HackMD 协作笔记。                                       |
 | [caol64/wenyan-mcp](https://github.com/caol64/wenyan-mcp)                | 文颜 MCP Server， 让 AI 将 Markdown 文章自动排版后发布至微信公众号。                                                                   | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 推荐 Docker 部署。                                       |
 | [Cail726/chinese-text-tools](https://github.com/Cail726/chinese-text-tools) | Claude Code 中文写作四合一工具箱：文本分析（字数/段落/阅读时间）、结构化大纲生成（论文/小说/商业计划书）、GB/T 7714 参考文献格式化、中文字频统计。纯本地运行，数据不出设备。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 中文写作/学术/小说。 |
+| [open-mcp-apps](https://github.com/2nd1st/open-mcp-apps)                | 开源 MCP Apps 引擎：AI 按需写出可交互的 UI 应用（待办看板、习惯打卡、仪表盘等），保存后可在后续任意对话中按名字直接打开；数据存放在独立的 collections 里，跨会话留存。内置 22 个现成应用的应用商店。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 33 个工具, 一行 `npx -y @2nd1st/open-mcp-apps` 安装。 |
 
 ---
 
