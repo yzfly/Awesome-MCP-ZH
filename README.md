@@ -284,6 +284,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [vostride/agent-qa](https://github.com/vostride/agent-qa) | 自我改进的 Agentic QA 测试工具，通过自然语言编写 Web 和移动端测试，并用执行记忆和自修复动作排查回归。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, E2E 测试与浏览器自动化。 |
 | [Unagi-cq/cdp-bridge-mcp](https://github.com/Unagi-cq/cdp-bridge-mcp) | 通过 Chrome DevTools Protocol (CDP) 与配套浏览器扩展，将 MCP 客户端桥接到用户的真实浏览器，复用已有会话与登录态进行网页操作。 | 社区实现, Python 开发 🐍, 本地运行 🏠, CDP + 扩展桥接真实浏览器。 |
 | [AI-XiaoDao/ai-browser-mcp](https://github.com/AI-XiaoDao/ai-browser-mcp) | Windows 本地浏览器自动化 MCP，基于 FBrowser CEF 内核暴露 200+ `browser_*` 工具：导航、原生 DOM、填表 RPA、CDP 断点、POST 抓包、JS 逆向与爬虫。原生 API 优先，支持 stdio / HTTP / WebSocket 接入 Cursor、Claude、Cline。 | 社区实现, C++ 开发, 本地运行 🏠, Windows 🪟, 浏览器自动化 + JS 逆向, MIT。 |
+| [WebIntel](https://github.com/1036007003-wq/webintel-mcp) | 网页情报采集 MCP 服务器：正文提取（自动去广告/导航/页脚）、DuckDuckGo 搜索、SEO 与 Open Graph 元数据、内外链分类、JSON-LD / 表格 / CSS 选择器结构化抽取、联系方式提取，共 8 个工具。 | 社区实现, Python 开发 🐍, 本地运行 🏠, FastMCP, MIT 许可, 自建部署无需 API key。 |
 ---
 
 ### 💻 开发与代码执行
@@ -689,6 +690,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit/tree/main/examples/agent-kit-mcp-server) | 使用 Solana Agent Kit 与 Solana 区块链交互，支持 40+ 协议操作。                                        | 社区实现, TypeScript 开发, Solana 链交互。                                                         |
 | [AlphaVantage](https://github.com/calvernaz/alphavantage)                          | AlphaVantage 股票市场数据 API 服务器。                                                              | 社区实现, Python 开发, AlphaVantage 金融数据。                                                      |
 | [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)                    | x402 支付协议资源目录，包含 MCP 服务器、SDK 和工具，用于基于 HTTP 402 的 USDC 支付（支持 Base、Arbitrum 等 EVM 链）。 | 社区实现, 云服务 ☁️, x402 协议生态资源汇总。                                                         |
+| [Horus Flow Intelligence](https://github.com/horustechltd/horus-flow-mcp) | 加密货币与美股订单流分析 MCP 服务器：币安 L2 实时订单流、美股订单流与多资产扫描，提供微观结构分析与欺骗（spoofing）检测信号。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT 许可, 3 个工具。 |
 
 ---
 
@@ -929,6 +931,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | 高性能、可本地运行的记忆与上下文引擎，提供 MCP 接入，为 AI 提供可扩展的长期记忆 API。 | 社区实现, TypeScript 开发 📇, 本地/云端 🏠☁️, 长期记忆引擎。 |
 | [PickySteve](https://github.com/KernelLord/pickysteve) | 面向编程 Agent 的技能路由与最小上下文选取器：本地小模型（默认 Ollama qwen3:8b，也兼容任意 OpenAI 兼容端点）通过混合检索（BM25 + 向量嵌入，RRF 融合）+ Cross-Encoder 重排（带校准阈值）+ LLM 裁判，为每次请求挑出最相关的一个技能，组装成带随机 nonce 边界的最小上下文包再交给执行模型；内置 ONNX 提示注入分类器，对原始请求和每条检索文档都扫描、失败即拒绝（fail-closed），180 条红队样本 0 漏检，真实技能库 43 条 0 误报。 | 社区实现, Python 开发 🐍, 本地运行 🏠 (兼容任意 OpenAI 兼容端点), MCP stdio server 手写实现（无第三方 MCP SDK 依赖）提供 pick_context/list_skills 两个工具，另有 OpenAI 兼容代理与一键安装脚本（覆盖 18 个编程 Agent），git clone + uv 安装（PyPI 包未发布），MIT。 |
 | [Talamus](https://github.com/ampres-ai/talamus) | 本地优先的 AI Agent 长期记忆 MCP 服务器，以来源可追溯的 Markdown 保存记忆，保留双时态历史与出处，并通过混合检索、召回和审核式修正提供 16 个工具。 | 官方实现 (Ampres) 🎖️, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, PyPI: `pipx install "talamus[mcp]"`, Apache-2.0。 |
+| [Engram](https://github.com/get-engram/engram) | AI Agent 的持久长期记忆服务：完整保存对话记录，并通过语义向量按含义检索。远程 MCP（Streamable HTTP），无需本地安装。 | 官方实现 (Engram) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 支持 ChatGPT (OAuth) / Claude / Cursor / Windsurf, BSL-1.1 许可。 |
 
 ---
 
