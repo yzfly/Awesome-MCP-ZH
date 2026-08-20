@@ -354,6 +354,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [flameox](https://github.com/morluto/flameox) | 面向智能体的性能分析与优化工具包：可采集追踪、对比运行，并保留原生运行时证据，用于定位应用、原生服务、GPU 内核和推理负载中的瓶颈。 | 社区实现, Python 开发 🐍, 本地运行 🏠, CLI + MCP, 运行时性能分析与证据对比。 |
 | [UIZZE](https://github.com/uizze/uizze) | 面向 Codex、Claude Code、Cursor、Copilot 等编程代理的 UI 质量检查 MCP 与 Skill：通过匿名预览检查渲染后的 HTML/CSS，识别交互不完整、缺少必要状态、颜色令牌漂移和通用 UI 线索；无需账号或令牌，也不会上传源代码。 | 官方服务, 远程 Streamable HTTP ☁️, UI 质量检查；预览端点：[uizze.com/mcp/preview](https://uizze.com/mcp/preview)，提供确定性的 `check_ui_slop` 工具；完整 UIZZE 另提供基于 800,000+ 个真实 Web 和 iOS 界面的检索与审查能力。 |
 | [SunflowersLwtech/covate](https://github.com/SunflowersLwtech/covate) | AI 编程助手的「学习边车」：对 AI 生成的代码改动自动出题，让开发者在接受前先证明自己看懂了逻辑、安全与性能影响；同时维护一份项目级的调试记忆，供后续会话查询。提供简体、繁体中文 README。 | 社区实现，Python 开发 🐍，本地运行 🏠（stdio / Docker），跨平台 🍎🪟🐧，MIT 许可，面向 AI 编程场景下的技能留存 |
+| [AI Developer Toolkit MCP](https://github.com/mjaskolski/developer-toolkit-mcp) | 只读远程 MCP 端点，覆盖 950+ 篇 AI 辅助开发指南（Cursor、Claude Code、Codex），英文+波兰文：`search` 关键词检索，`fetch` 获取全文 Markdown。无需账号、无需 API key。 | 官方实现 (Wondel.ai) 🎖️, 云服务 ☁️, 远程 Streamable HTTP (`developertoolkit.ai/mcp`), 官方 MCP Registry, 2 个只读工具。 |
 
 
 ---
