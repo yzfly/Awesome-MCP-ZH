@@ -293,6 +293,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                              | 备注                                                                                 |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------- |
+| [ILoveMyJay/repocontext](https://github.com/ILoveMyJay/repocontext) | 专为 AI 编码 Agent 与 IDE 设计的下一代 AST 代码图谱、Token 智能压缩（省 70%~85%）与上下文打包引擎。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, AST 骨架提取 + 任务导向语义修剪 + 敏感凭证自动脱敏, MIT。 |
 | [Muvon/octocode](https://github.com/Muvon/octocode) | Rust 编写的语义代码索引器，构建代码库 GraphRAG 知识图谱并通过 MCP 暴露给 AI 代理。支持 13+ 语言，提供 tree-sitter 解析、ast-grep 结构化搜索和代码签名视图。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🪟🐧, 语义搜索 + GraphRAG 知识图谱, Apache 2.0。 |
 | [blackwell-systems/agent-lsp](https://github.com/blackwell-systems/agent-lsp) | 将语言服务器（gopls、rust-analyzer、pyright、jdtls 等）编排为 AI 代理原生工作流，提供 65 个代码智能工具，覆盖 30 种 CI 验证语言：影响范围分析、查找引用/调用者、重命名、推测式编辑（写盘前预览诊断）以及 GCF 令牌优化输出。单个 Go 二进制文件。 | 社区实现, Go 开发 🐹, 本地运行 🏠, 跨平台 🍎🪟🐧, 编排真实语言服务器, GCF 令牌优化, MIT。 |
 | [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | 多智能体编排器，协调 37 个 CLI 编码代理（Claude Code、Codex、Gemini CLI、Cursor、Aider 等）在并行 Git worktree 中运行。内置 MCP 服务器模式（stdio + HTTP/SSE）。 | 社区实现, Python 开发 🐍, 本地/云端 🏠☁️, Apache 2.0, 确定性调度器, 多代理编排。 |
