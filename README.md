@@ -932,6 +932,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [PickySteve](https://github.com/KernelLord/pickysteve) | 面向编程 Agent 的技能路由与最小上下文选取器：本地小模型（默认 Ollama qwen3:8b，也兼容任意 OpenAI 兼容端点）通过混合检索（BM25 + 向量嵌入，RRF 融合）+ Cross-Encoder 重排（带校准阈值）+ LLM 裁判，为每次请求挑出最相关的一个技能，组装成带随机 nonce 边界的最小上下文包再交给执行模型；内置 ONNX 提示注入分类器，对原始请求和每条检索文档都扫描、失败即拒绝（fail-closed），180 条红队样本 0 漏检，真实技能库 43 条 0 误报。 | 社区实现, Python 开发 🐍, 本地运行 🏠 (兼容任意 OpenAI 兼容端点), MCP stdio server 手写实现（无第三方 MCP SDK 依赖）提供 pick_context/list_skills 两个工具，另有 OpenAI 兼容代理与一键安装脚本（覆盖 18 个编程 Agent），git clone + uv 安装（PyPI 包未发布），MIT。 |
 | [Talamus](https://github.com/ampres-ai/talamus) | 本地优先的 AI Agent 长期记忆 MCP 服务器，以来源可追溯的 Markdown 保存记忆，保留双时态历史与出处，并通过混合检索、召回和审核式修正提供 16 个工具。 | 官方实现 (Ampres) 🎖️, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, PyPI: `pipx install "talamus[mcp]"`, Apache-2.0。 |
 | [Engram](https://github.com/get-engram/engram) | AI Agent 的持久长期记忆服务：完整保存对话记录，并通过语义向量按含义检索。远程 MCP（Streamable HTTP），无需本地安装。 | 官方实现 (Engram) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 支持 ChatGPT (OAuth) / Claude / Cursor / Windsurf, BSL-1.1 许可。 |
+| [everest-an/Awareness](https://github.com/everest-an/Awareness) | AI 通用外部记忆系统：混合检索（Qdrant + pgvector，BM25 + 向量 RRF）、冲突检测、知识卡片、双时态图谱记忆，MCP 提供 5 个核心工具（init/recall/lookup/record/get_agent_prompt）。LongMemEval_S Recall@5 95.6%（M1 本地零 LLM 调用，1.7s/题）。本地优先免费无限（SQLite + ONNX）或云（pgvector）；支持 Claude Code、Cursor、Windsurf 等 12+ IDE；Google Drive / Notion / 飞书 OAuth 导入。安装：`npx @awareness.market/setup` | 官方实现 (Awareness) 🎖️, Python + TypeScript 开发 🐍📇, 本地/云端 🏠☁️, 跨平台 🍎🪟🐧, benchmark 公开：awareness.market/benchmarks。 |
 
 ---
 
