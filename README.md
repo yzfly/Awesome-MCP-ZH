@@ -522,6 +522,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                                           | 备注                                                                                        |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| [404.directory](https://github.com/MM-sheng/404-directory) | 面向 AI Agent 的只读远程 MCP：搜索 OpenAI、Microsoft Learn、AWS、Cloudflare 当前官方文档，验证公网部署，并按透明信任元数据发现和比较工具。 | 官方实现 🎖️, TypeScript 开发 📇, 云服务 ☁️, Streamable HTTP, 12 个工具, 无需账号/API Key；安装：`npx -y @mmvv1638/404-directory-mcp --source awesome-mcp-zh`。 |
 | [Alibaba Cloud OpenSearch](https://github.com/aliyun/alibabacloud-opensearch-mcp-server) | 阿里云 OpenSearch 官方集成，AI 代理通过标准化接口与 OpenSearch 交互的工具。                      | 官方实现 (Alibaba Cloud) 🎖️, 阿里云搜索服务。                                              |
 | [Exa](https://github.com/exa-labs/exa-mcp-server)                    | Exa 官方集成，使用专为 AI 设计的 Exa 搜索引擎进行搜索。                                             | 官方实现 (Exa) 🎖️, TypeScript 开发 📇, 云服务 ☁️, AI 专用搜索引擎。                         |
 | [Find MCP](https://github.com/agentage/find-mcp)                     | 搜索 17,000+ 个 MCP 服务器 (与官方 MCP Registry 实时同步)，支持云端 Streamable HTTP 与本地 stdio 两种接入方式。 | 官方实现 (agentage) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, MCP 服务器搜索与发现。 |
@@ -1262,4 +1263,3 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 Copyright (c) 2025 云中江树
 
 ---
-
