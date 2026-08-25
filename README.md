@@ -599,6 +599,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [NovadaLabs/Novada-mcp](https://github.com/NovadaLabs/Novada-mcp) | 托管 Streamable-HTTP MCP 服务器，提供 25+ 网页数据工具：搜索、SERP、抓取、提取、地图、爬取、深度研究及 6 种代理类型，覆盖 195 个国家。免安装，每月 1000 次免费调用。`npx novada-mcp` | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 全面网页数据采集平台, MIT。 |
 | [Brave Search (官方)](https://github.com/brave/brave-search-mcp-server) | Brave 官方出品的搜索 MCP 服务器，支持网页、本地、图片、新闻、视频搜索。 | 官方实现 (Brave) 🎖️, TypeScript 开发 📇, 云服务 ☁️, Brave 搜索引擎。 |
 | [BuyWhere](https://github.com/BuyWhere/buywhere-mcp) | 跨境电商商品目录 MCP：跨 SG/MY/VN/TH/PH/US/JP 七个国家 3.7 亿+ 商品实时搜索与比价（`deliver_to` 配送信号），覆盖 13 个工具（search_products / find_best_price / get_deals 等）。OAuth 2.1 Bearer 鉴权，免邮箱注册。已上架官方 MCP Registry（`io.github.BuyWhere/buywhere-mcp@1.1.0`）。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://mcp.buywhere.ai/mcp`, MIT。 |
+| [Lumi App Finder](https://github.com/alice51849/lumi-mcp) | 按任务描述或使用需求检索 Lumi Studio 自家上架的 iPhone / iPad 应用，返回本地化的用途说明、付费模式、使用指南与对应商店的 App Store 直达链接（工具 `find_ios_apps`，可指定语言地区与返回条数）。应用目录以快照形式随包内置，运行时不发起任何网络请求、无遥测，查询文本不离开本地进程。属第一方目录：结果为发布者撰写的文本匹配，并非搜索量、榜单、评测或用户评价。 | 官方实现 (Lumi Studio) 🎖️, JavaScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 覆盖 Apple 50 个语言/地区（含简体、繁体中文）, 已上架官方 MCP Registry（`io.github.alice51849/lumi-app-finder`）, `npx -y https://github.com/alice51849/lumi-mcp/releases/latest/download/lumi-app-finder-npx.tgz`, 需 Node.js 20+, MIT。 |
 
 ---
 
