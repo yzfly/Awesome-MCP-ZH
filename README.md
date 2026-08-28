@@ -599,6 +599,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [NovadaLabs/Novada-mcp](https://github.com/NovadaLabs/Novada-mcp) | 托管 Streamable-HTTP MCP 服务器，提供 25+ 网页数据工具：搜索、SERP、抓取、提取、地图、爬取、深度研究及 6 种代理类型，覆盖 195 个国家。免安装，每月 1000 次免费调用。`npx novada-mcp` | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 全面网页数据采集平台, MIT。 |
 | [Brave Search (官方)](https://github.com/brave/brave-search-mcp-server) | Brave 官方出品的搜索 MCP 服务器，支持网页、本地、图片、新闻、视频搜索。 | 官方实现 (Brave) 🎖️, TypeScript 开发 📇, 云服务 ☁️, Brave 搜索引擎。 |
 | [BuyWhere](https://github.com/BuyWhere/buywhere-mcp) | 跨境电商商品目录 MCP：跨 SG/MY/VN/TH/PH/US/JP 七个国家 3.7 亿+ 商品实时搜索与比价（`deliver_to` 配送信号），覆盖 13 个工具（search_products / find_best_price / get_deals 等）。OAuth 2.1 Bearer 鉴权，免邮箱注册。已上架官方 MCP Registry（`io.github.BuyWhere/buywhere-mcp@1.1.0`）。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://mcp.buywhere.ai/mcp`, MIT。 |
+| [DDMarketer](https://github.com/CodePhantom-1/ddmarketer-mcp) | 从 Reddit、应用商店与论坛等 8 个公开来源挖掘真实用户抱怨，经两轮 LLM 分类、按商业意向 0-100 打分并通过人工编辑门槛，帮助 AI 代理回答“到底该做什么产品”。免费层无需 API 密钥：关键词搜索验证过的市场空缺、获取本周商业意向最高的机会、以及为你已有的想法打分；API 密钥可解锁完整档案（来源抱怨原文、MVP 范围、定价建议、竞品、风险、验证手册）。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://www.ddmarketer.com/api/mcp`, 已上架官方 MCP Registry（`io.github.CodePhantom-1/ddmarketer-mcp`）。 |
 
 ---
 
