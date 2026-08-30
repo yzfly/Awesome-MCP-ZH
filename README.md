@@ -342,6 +342,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ForeverVM](https://github.com/jamsocket/forevervm/tree/main/javascript/mcp-server) | 在代码沙盒中运行 Python 代码。                                                     | 官方实现 (Jamsocket), JavaScript 开发, 代码沙盒。                                   |
 | [Riza](https://github.com/riza-io/riza-mcp)                          | Riza 提供的任意代码执行和工具使用平台。                                              | 官方实现 (Riza), Go 开发, 通用代码执行平台。                                       |
 | [Roundtable](https://github.com/askbudi/roundtable) | 统一AI编程助手的零配置MCP服务器，专为自主代理开发设计，简化多AI工具集成工作流程。 | 社区实现 🌟, Python 开发 🐍, 本地/云端部署 🏠☁️, pip install roundtable-ai |
+| [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) | 本地优先的 AI Agent 运行时，通过 stdio MCP Bridge 提供持久化会话、沙箱工具、记忆、凭据、审计与回放能力；支持 Local、Docker、Kubernetes 和自托管部署。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, Apache-2.0, 官方 MCP Registry 已收录。 |
 | [Semgrep](https://github.com/semgrep/mcp)                            | 让 AI 代理使用 Semgrep 进行代码安全扫描。 (Semgrep 官方)                           | 官方实现 (Semgrep) 🎖️, TypeScript 开发 📇, 代码安全扫描 ☁️. |
 | [ZenML](https://github.com/zenml-io/mcp-zenml)                       | 与 ZenML MLOps/LLMOps 平台交互，管理机器学习流程。 (ZenML 官方)                   | 官方实现 (ZenML) 🎖️, Python 开发 🐍, 本地/云端 🏠☁️, MLOps 流程管理。               |
 | [vivekVells/mcp-pandoc](https://github.com/vivekVells/mcp-pandoc)    | 使用 Pandoc 进行无缝文档格式转换（Markdown, HTML, PDF, DOCX, CSV 等）。            | 社区实现, Python 开发 🐍, 本地运行 🏠, 文档格式转换。                                |
