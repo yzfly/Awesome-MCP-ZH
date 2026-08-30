@@ -310,6 +310,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------- |
 | [FastCtx](https://github.com/yc-duan/fastctx) | Rust 本地工具运行时：为 Agent 提供省上下文的文件读取、内容搜索、文件发现、批量替换与 Bash 执行，中英双语文档。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, Apache-2.0。 |
 | [Coding Tools MCP](https://github.com/xyTom/coding-tools-mcp) | 模型中立的编码运行时，通过 MCP 给任意 AI 聊天或 Agent 一双「安全的手」操作代码库。 | 社区实现, 本地运行 🏠, Apache-2.0, 中英文档。 |
+| [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) | 面向 AI Agent 的自托管 MCP 运行时：管理持久会话、工具调用、凭证、记忆和审计回放，并支持本地、Docker、Kubernetes 与自托管 Worker 沙箱。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 6 个 MCP 工具, Docker/Kubernetes, Apache-2.0。 |
 | [Godot-MCP](https://github.com/IvanMurzak/Godot-MCP) | Godot 编辑器 C# 插件：让 Claude / Cursor / Copilot 等在 Godot 内创建节点、编辑场景、驱动项目，Unity-MCP 的 Godot 版。 | 社区实现, C# 开发, 本地运行 🏠, Apache-2.0。 |
 | [figwright](https://github.com/awdr74100/figwright) | 免费的双向 Figma MCP：设计稿转框架感知代码，也可把代码改动推回 Figma 画布；配套 Figma 插件，无需 Dev Mode 席位。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT。 |
 | [VoDaiLocz/kilo-kit-mcp](https://github.com/VoDaiLocz/kilo-kit-mcp) | 全功能 18 工具 MCP 运行时与 177 个专家技能库，提供协议级 C4 工作流门禁、安全沙箱执行与 5 大认知推理引擎（思维树 DAG、对抗性 Red-Team 质询、5-Whys 根因追踪器、上下文压缩器与自我进化技能生成）。一键配置 Cursor / Claude Code / Antigravity / Windsurf。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 协议级硬门禁 + 18 个 MCP 工具 + 177 技能, Apache 2.0。 |
