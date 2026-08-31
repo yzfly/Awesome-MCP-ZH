@@ -929,6 +929,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | 名称 | 中文介绍 | 备注 |
 | :--- | :--- | :--- |
 | [mcp-cn-commerce](https://github.com/TonyWang-hub/mcp-cn-commerce) | 中国电商商家经营数据 MCP 套件，覆盖抖店/京东/淘宝/拼多多/快手/小红书/微信小店/巨量引擎 8 平台，147 个工具（订单、商品、售后、库存、广告报表），全部只读、本地运行。 | 社区实现, Python 开发 🐍, `pip install mcp-cn-commerce`, 商家经营数据（非内容发布）。 |
+| [pangolinfo-mcp](https://github.com/Pangolin-spg/pangolinfo-mcp) | 亚马逊数据 MCP 服务，提供 19 个只读工具：商品详情、评论、关键词搜索、类目与蓝海细分分析、Best Sellers、New Releases、卖家店铺在售商品，以及 AI Overview / AI Mode 搜索结果与关键词趋势；另含 WIPO 商标检索与美国 PACER 专利诉讼查询，可在上架前排查 IP 风险。通过远程 Streamable HTTP 端点接入，无需自建爬虫与代理池。 | 官方实现 (PANGOLIN INFO TECH) 🎖️, Python 开发 🐍, `pip install pangolinfo-mcp`, 云端运行 ☁️, 已收录于官方 MCP Registry, 覆盖 20+ 亚马逊站点。 |
 
 ---
 
