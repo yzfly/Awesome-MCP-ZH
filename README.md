@@ -431,7 +431,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [kopfrechner/gitlab-mr-mcp](https://github.com/kopfrechner/gitlab-mr-mcp) | 无缝地与 GitLab 项目的 Issues 和 Merge Requests 交互。                                | 社区实现, TypeScript 开发 📇, 云服务 ☁️, GitLab Issues/MR 操作。                       |
 | [Github Actions](https://github.com/ko1ynnky/github-actions-mcp-server) | 与 Github Actions 交互，管理工作流。                                                          | 社区实现, TypeScript 开发, GitHub Actions 管理。                                          |
 | [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) | 用于仓库管理、工作项和流水线的 Azure DevOps 集成。                                  | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Azure DevOps 集成。                          |
-| [Forward-Future/DeployBot](https://github.com/Forward-Future/DeployBot) | 面向 Codex、Claude Code、Cursor 及任意 MCP 客户端的 agent 托管式 GitHub 合并队列。代理可准备并评审 PR，最终合并决定权仍归用户；权限存于 GitHub 标签与认证评论，支持突发冻结、串行合并、累积集成 PR 与失败后暂停。 | 社区实现, Python 开发 🐍, 云服务 ☁️, GitHub 合并队列 (MCP), MIT。 |
+| [Forward-Future/DeployBot](https://github.com/Forward-Future/DeployBot) | 面向 Codex、Claude Code、Cursor 及任意 MCP 客户端的 agent 托管式 GitHub 合并队列。代理可准备并评审 PR，最终合并决定权仍归用户；权限存于 GitHub 标签与认证评论，支持突发冻结、串行合并、累积集成 PR 与失败后暂停。 | 社区实现, Python 开发 🐍, 云服务 ☁️, GitHub 合并队列 (MCP), MIT。 |`n| [Code Relay](https://github.com/zarcherlot/code-relay) | 面向编码代理的跨机器验证 MCP：通过分支绑定的 Runbook 在目标环境执行检查，并返回可审计的验证回执。 | 社区实现, Go 开发 🏎️, 本地运行 🏠, 支持 Codex、Claude Code、Cursor 和 VS Code。 |
 
 ---
 
