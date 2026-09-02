@@ -907,6 +907,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称 | 中文介绍 | 备注 |
 | :--- | :--- | :--- |
+| [BulkPublish](https://app.bulkpublish.com/docs) | 面向 AI Agent 的社交媒体内容发布 MCP 服务，支持创建、改写、批量发布、定时发布和分析跨平台内容；提供 Streamable HTTP 远程端点及 npm 本地运行方式。 | 官方实现 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, 需要 BulkPublish API Key, `npx -y @bulkpublish/mcp-server`。 |
 | [xhs-toolkit](https://github.com/aki66938/xhs-toolkit) | 小红书创作者 MCP 工具包，支持与 AI 客户端集成，进行内容创作和发布。 | 社区热门 🔥, Python 开发 🐍, 创作与发布工具。 |
 | [xhs-mcp](https://github.com/jobsonlook/xhs-mcp) | 提供小红书 MCP 服务，包含 x-s / x-t 参数获取及 JS 逆向能力。 | 社区实现, Python 开发 🐍, 核心算法/逆向支持。 |
 | [Redbook-Search-Comment-MCP2.0](https://github.com/chenningling/Redbook-Search-Comment-MCP2.0) | 基于 Playwright 开发，支持自动登录、关键词搜索、笔记获取及 AI 评论发布 (适配 Claude 桌面版)。 | 社区实现, Python 开发 🐍, 自动化操作 (Playwright), 搜索与互动。 |
