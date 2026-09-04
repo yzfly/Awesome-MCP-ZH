@@ -929,7 +929,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | 名称 | 中文介绍 | 备注 |
 | :--- | :--- | :--- |
 | [mcp-cn-commerce](https://github.com/TonyWang-hub/mcp-cn-commerce) | 中国电商商家经营数据 MCP 套件，覆盖抖店/京东/淘宝/拼多多/快手/小红书/微信小店/巨量引擎 8 平台，147 个工具（订单、商品、售后、库存、广告报表），全部只读、本地运行。 | 社区实现, Python 开发 🐍, `pip install mcp-cn-commerce`, 商家经营数据（非内容发布）。 |
-| [wb-mcp-server](https://github.com/DeviceIngineering/wb-mcp-server) | 俄罗斯最大电商平台 Wildberries 卖家 API 的 MCP 服务器，202 个工具：商品卡片、价格、促销、广告、订单、发货、评价、退货、财务与分析。多店铺，令牌加密存储，网页面板可见每一次调用，内置自诊断（平台改接口时能指出是密钥问题还是 API 变更）。 | 社区实现, Python 开发 🐍, `pip install wb-mcp-server`, Docker/SSE 或 stdio, MIT。适合做俄罗斯跨境电商的中国卖家。 |
+| [wb-mcp-server](https://github.com/DeviceIngineering/wb-mcp-server) | 俄罗斯最大电商平台 Wildberries 卖家 API 的 MCP 服务器，202 个工具：商品卡片、价格、促销、广告、订单、发货、评价、退货、财务与分析。多店铺，令牌加密存储，网页面板可见每一次调用，内置自诊断（平台改接口时能指出是密钥问题还是 API 变更）。上下文预算经真实账号实测优化：27 条真实响应从 770 506 降到 74 947 tokens。 | 社区实现, Python 开发 🐍, `pip install wb-mcp-server`, Docker/SSE 或 stdio, MIT。适合做俄罗斯跨境电商的中国卖家。 |
 | [ozon-mcp-server](https://github.com/DeviceIngineering/ozon-mcp-server) | 俄罗斯电商平台 Ozon 卖家 API + 广告 API 的 MCP 服务器，151 个工具：价格、促销、广告、FBS/FBO 订单、退货、评价、财务与分析。上下文预算经真实账号实测优化：16 条真实响应从 476 158 降到 63 845 tokens。 | 社区实现, Python 开发 🐍, `pip install ozon-mcp-server`, Docker/SSE 或 stdio, MIT。与 wb-mcp-server 同一套设计。 |
 
 ---
