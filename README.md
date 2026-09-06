@@ -192,6 +192,13 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **功能**：可配置本地/远程 MCP 服务器，接入自定义模型与工具。
   - **链接**：[GitHub 仓库](https://github.com/continuedev/continue)
 
+- **FLUJO**
+  - **简介**：开源、本地优先的可视化 AI Agent 构建器和 MCP 客户端。
+  - **功能**：连接本地或远程 MCP 服务器，在界面中浏览和测试工具、资源与提示词；将多个模型和 MCP 工具编排为可视化工作流，并通过聊天界面运行和调试。
+  - **链接**：[官网](https://flujo.com.co/) | [GitHub 仓库](https://github.com/mario-andreschak/FLUJO)
+  - **安装**：`npx flujo-ai`
+  - **Tips**：MIT 协议，TypeScript 开发，支持 Windows、macOS、Linux 和 Docker；支持 Ollama 本地模型，并可通过 Streamable HTTP 将已配置的 MCP 服务器代理给其他客户端。
+
 - **Goose**
   - **简介**：Block 开源的可扩展本地 AI Agent。
   - **功能**：原生 MCP 宿主，可安装/执行/编辑/测试代码，支持任意 LLM，提供桌面版 + CLI 双形态。
