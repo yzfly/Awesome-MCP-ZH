@@ -317,6 +317,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                              | 备注                                                                                 |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------- |
+| [BetterTyped/hype-stack](https://github.com/BetterTyped/hype-stack) | 免费 MIT 全栈 SaaS monorepo MCP（约 11 个工具）：创建/组合 Web、Electron、Expo、浏览器扩展等。安装：`npx @hype-stack/cli mcp install`。官网 https://www.hype-stack.dev | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT 开源, React 19 / Hono / Vite / TanStack / shadcn。 |
 | [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | 让编码 Agent 读取并重跑自己的历史运行：先录下一次完整运行（模型请求、Shell 退出码与耗时、每轮文件改动、MCP 调用），之后可离线逐字节重放，或从任意检查点分叉换一个模型重跑。六个 stdio 工具：列出运行、查看时间线、检查点、因果图（每条边标注是「记录到的」还是「推断的」）、重放（离线、不耗 token）、跨模型对比。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, Apache-2.0, `npx -y orcareplay mcp`。 |
 | [FastCtx](https://github.com/yc-duan/fastctx) | Rust 本地工具运行时：为 Agent 提供省上下文的文件读取、内容搜索、文件发现、批量替换与 Bash 执行，中英双语文档。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, Apache-2.0。 |
 | [Coding Tools MCP](https://github.com/xyTom/coding-tools-mcp) | 模型中立的编码运行时，通过 MCP 给任意 AI 聊天或 Agent 一双「安全的手」操作代码库。 | 社区实现, 本地运行 🏠, Apache-2.0, 中英文档。 |
