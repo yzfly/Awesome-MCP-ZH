@@ -908,6 +908,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Local GPU Imagegen](https://github.com/ChevalGrand520/local-gpu-imagegen) | 可审计、显式审批的本地 GPU 生图控制平面（ComfyUI）：SHA-256 模型身份验证、许可审批、证据留存、17 工具 human-in-the-loop 工作流；支持 Codex、Claude Code、DeepSeek Harness。 | 社区实现, Python 开发 🐍, 本地运行 🏠, ComfyUI 本地生图, 可审计/显式审批。 |
 | [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | 通过 MCP 让编码 Agent 按可编辑时间线编排、编辑、生成并自动组装视频。 | 官方实现 🎖️, TypeScript 开发 📇, 本地运行 🏠, MCP 服务器/命令行/技能集。 |
 | [freeaudiototext-mcp](https://github.com/double2dev/freeaudiototext-mcp) | FreeAudioToText 官方出品的音视频转录 MCP 服务器。让 AI 直接读取音视频文件或 YouTube/TikTok 链接，一键生成带有精准“说话人分离”的高质量文字。纯免费、无时间限制。 | 官方实现 🎖️, TypeScript 开发 📇, 本地/边缘混合 🏠☁️, 音视频转录。 |
+| [Speak AI](https://github.com/speakai/speakai-mcp) | 语音与视频转录（支持 100+ 种语言）、AI 分析与基于自定义评分标准的通话评分；官方 MCP 服务器，npm 包 @speakai/mcp-server，MIT 协议。 | 官方实现 (Speak AI) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 语音识别 ASR / 通话评分, npm: `@speakai/mcp-server`。 |
 
 ---
 
