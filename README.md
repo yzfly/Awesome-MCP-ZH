@@ -745,6 +745,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [AlphaVantage](https://github.com/calvernaz/alphavantage)                          | AlphaVantage 股票市场数据 API 服务器。                                                              | 社区实现, Python 开发, AlphaVantage 金融数据。                                                      |
 | [xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)                    | x402 支付协议资源目录，包含 MCP 服务器、SDK 和工具，用于基于 HTTP 402 的 USDC 支付（支持 Base、Arbitrum 等 EVM 链）。 | 社区实现, 云服务 ☁️, x402 协议生态资源汇总。                                                         |
 | [Horus Flow Intelligence](https://github.com/horustechltd/horus-flow-mcp) | 加密货币与美股订单流分析 MCP 服务器：币安 L2 实时订单流、美股订单流与多资产扫描，提供微观结构分析与欺骗（spoofing）检测信号。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT 许可, 3 个工具。 |
+| [exchange-rate-mcp](https://github.com/boy-373/exchange-rate-mcp) | 实时汇率查询与金额换算 MCP：支持 ISO 货币代码与中文货币名（如 USD/美元），基于欧洲央行 ECB 参考汇率。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/exchange-mcp/mcp`，无需 API Key，MIT。 |
 
 ---
 - [SpendShield](https://github.com/felixpg13-glitch/spendshield) - AI Agent 支付授权层(policy control plane): ALLOW/APPROVAL/DENY 三态决策 + 理由码, 策略生命周期, 防篡改审计链; 内置 MCP server(pip install spendshield)
@@ -926,6 +927,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [XME (XhsMcpElectron)](https://github.com/pmhw/XME) | 小红书 Electron 多账号自动化工具，支持 MCP 协议。 | 社区实现, Go 开发 🐹, 多账号管理, 自动化工具。 |
 | [RedBook-Search-Comment-MCP](https://github.com/chenningling/RedBook-Search-Comment-MCP) | (v1.0版本) 基于 Playwright 的搜索与评论工具，帮助用户完成基础的自动化操作。 | 社区实现, Python 开发 🐍, 旧版本归档 (建议使用 v2.0)。 |
 | [xiaohongshu-mcp-nodejs](https://github.com/ToDieOrNot/xiaohongshu-mcp-nodejs) | 企业级 Node.js 重构版本，支持多账号矩阵管理、反风控、数据采集与发布。 | 社区实现, Node.js 开发 🟢, 矩阵管理, 企业级特性。 |
+| [hot-trending-mcp](https://github.com/boy-373/hot-trending-mcp) | 中文全网热榜聚合 MCP：一次调用获取微博、知乎、B站、百度、头条、抖音、贴吧、掘金 8 大平台实时热搜/热榜，数据缓存 5 分钟。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/hot-mcp/mcp`，无需 API Key，限流 60 次/分，MIT。 |
 
 ---
 
@@ -1071,6 +1073,9 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp) | 基于 MCP 的 12306 火车票查询服务器，支持车次、余票、经停站等信息查询。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 中国铁路 12306 购票信息。 |
 | [滴滴出行 MCP](https://mcp.didichuxing.com/) | 滴滴官方远程 MCP：打车场景的价格预估、下单、行程状态查询与取消，并提供地图能力。 | 官方实现 (滴滴) 🎖️, 远程端点 ☁️ `https://mcp.didichuxing.com/mcp-servers?key=<KEY>`, 另有 sandbox 环境可先联调。 |
 | [double2dev/boltpatternhq-mcp](https://github.com/double2dev/boltpatternhq-mcp) | 为 AI 编程助手提供实时的汽车轮毂改装、PCD 孔距、偏距和螺栓尺寸硬件数据查询（覆盖全球超 1.1 万款车型）。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 汽车工业与车辆数据。 |
+| [12306-train-mcp](https://github.com/boy-373/12306-train-mcp) | 中国铁路 12306 火车票查询：中文车站名查询车次、余票、时刻表（只读）。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/train-mcp/mcp`，无需 API Key，MIT。 |
+| [weather-mcp-china](https://github.com/boy-373/weather-mcp-china) | 全球天气查询 MCP：支持中文城市名与中文输出，提供当前天气与 1-7 天预报（Open-Meteo + wttr.in 双数据源）。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/weather-mcp/mcp`，无需 API Key，MIT。 |
+| [ip-location-mcp](https://github.com/boy-373/ip-location-mcp) | IPv4 归属地查询 MCP：中文输出国家/地区/城市、时区、运营商与 ASN（ip-api + ipwho.is 双数据源）。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/ip-mcp/mcp`，无需 API Key，MIT。 |
 
 ---
 
