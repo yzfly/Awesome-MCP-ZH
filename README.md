@@ -762,6 +762,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Horus Flow Intelligence](https://github.com/horustechltd/horus-flow-mcp) | 加密货币与美股订单流分析 MCP 服务器：币安 L2 实时订单流、美股订单流与多资产扫描，提供微观结构分析与欺骗（spoofing）检测信号。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT 许可, 3 个工具。 |
 | [exchange-rate-mcp](https://github.com/boy-373/exchange-rate-mcp) | 实时汇率查询与金额换算 MCP：支持 ISO 货币代码与中文货币名（如 USD/美元），基于欧洲央行 ECB 参考汇率。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/exchange-mcp/mcp`，无需 API Key，MIT。 |
 | [tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | TradingView 数据 MCP：实时行情、技术指标分析、选股筛选器与策略回测。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 行情与技术分析。 |
+| [QuantVibe](https://github.com/Ax3lsk3r3/QuantVibe) | 机构级量化交易与 AI 决策执行平台：连接微软 Qlib（Alpha158 + LightGBM）因子推断至 MetaTrader 5 经纪商，内置 SHA-256 密码学签名风控闸门与 FastMCP 协议，在线演示 [quantvibeapp.com](https://quantvibeapp.com)。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, Qlib 量化因子与 MT5 交易执行。 |
 
 ---
 - [SpendShield](https://github.com/felixpg13-glitch/spendshield) - AI Agent 支付授权层(policy control plane): ALLOW/APPROVAL/DENY 三态决策 + 理由码, 策略生命周期, 防篡改审计链; 内置 MCP server(pip install spendshield)
