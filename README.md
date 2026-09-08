@@ -884,9 +884,9 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 让 Claude Code / Cursor / Windsurf 直接构建 n8n 工作流：提供 n8n 全部节点的文档、参数与校验能力，AI 生成的工作流可先校验再部署。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT, n8n 工作流自动化。 |
 | [Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) | 基于 python-docx 的 Word 文档 MCP：创建、读取与编辑 .docx，支持样式、表格、图片、页眉页脚与批注。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, Word 文档处理。 |
 | [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) | 基于 python-pptx 的 PowerPoint MCP：让 AI 创建与修改 .pptx，操作幻灯片、文本框、图表与图片。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, PPT 生成与编辑。 |
+| [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) | 网文作者的本地章节体检工具集：16 个工具覆盖章节统计、风格基线自检、伏笔与剧情线登记、连贯性/OOC 审计、关键词与句式分析、本地语义检索；全离线运行，无需 API Key。 | 社区实现, TypeScript 📇, 本地运行 🏠, 跨平台 🍎🪟🐧 |
 
 ---
-| [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) | 网文作者的本地章节体检工具集：16 个工具覆盖章节统计、风格基线自检、伏笔与剧情线登记、连贯性/OOC 审计、关键词与句式分析、本地语义检索；全离线运行，无需 API Key。 | 社区实现, TypeScript 📇, 本地运行 🏠, 跨平台 🍎🪟🐧 |
 
 ###  multimedia 多媒体与内容创作
 
