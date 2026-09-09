@@ -634,6 +634,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [NovadaLabs/Novada-mcp](https://github.com/NovadaLabs/Novada-mcp) | 托管 Streamable-HTTP MCP 服务器，提供 25+ 网页数据工具：搜索、SERP、抓取、提取、地图、爬取、深度研究及 6 种代理类型，覆盖 195 个国家。免安装，每月 1000 次免费调用。`npx novada-mcp` | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 全面网页数据采集平台, MIT。 |
 | [Brave Search (官方)](https://github.com/brave/brave-search-mcp-server) | Brave 官方出品的搜索 MCP 服务器，支持网页、本地、图片、新闻、视频搜索。 | 官方实现 (Brave) 🎖️, TypeScript 开发 📇, 云服务 ☁️, Brave 搜索引擎。 |
 | [BuyWhere](https://github.com/BuyWhere/buywhere-mcp) | 跨境电商商品目录 MCP：跨 SG/MY/VN/TH/PH/US/JP 七个国家 3.7 亿+ 商品实时搜索与比价（`deliver_to` 配送信号），覆盖 13 个工具（search_products / find_best_price / get_deals 等）。OAuth 2.1 Bearer 鉴权，免邮箱注册。已上架官方 MCP Registry（`io.github.BuyWhere/buywhere-mcp@1.1.0`）。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://mcp.buywhere.ai/mcp`, MIT。 |
+| [ProofStack](https://proof-stack-lake.vercel.app/mcp) | 经审计的独立软件商业案例库：检索 40+ 案例、读取带日期与证据分级来源的案例详情、查询定价基准（首付费档中位数、付费墙分布）；营收未披露一律返回 unknown 不估算。 | 官方实现 (ProofStack) 🎖️, 远程端点 ☁️ (Streamable HTTP 免鉴权), 已入 MCP 官方 Registry |
 
 ---
 
