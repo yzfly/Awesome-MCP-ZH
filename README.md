@@ -80,6 +80,8 @@ MCP 全称 **模型上下文协议（Model Context Protocol）**，由 Anthropic
 - **全面普及**：Claude / Claude Code、ChatGPT & Codex、Gemini CLI、Cursor、VS Code、DeepSeek Harness（dsh）等全部原生支持；官方 Registry + Glama（19,000+）、mcp.so（16,000+）等目录收录的服务器已达数万量级。
 - **与 Agent Skills 互补**：MCP 负责"连接工具与数据"，[Agent Skills](https://agentskills.io/) 负责"教会 Agent 怎么做"，两者已成为 Agent 生态的两大开放标准。
 
+  Agent Skills 示例：[cue-omni-reader](https://github.com/sensedeal/cue-skills/tree/main/cue-omni-reader)（MIT）——纯指令层 skill（非 MCP Server），驱动官方 Cue Omni Reader MCP，把 HTTP(S) 网页与已授权的本地文档、音频、视频统一解析为 Markdown，可被 Claude Code / Codex CLI / Gemini CLI / WorkBuddy 等 Agent 用于素材解析与调研。安装：`npx skills add sensedeal/cue-skills --skill cue-omni-reader`。
+
 微软出的面向初学者的 Model Context Protocol (MCP) 课程也不错，推荐一下：
 - [mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
 
@@ -902,7 +904,6 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [abhiemj/manim-mcp-server](https://github.com/abhiemj/manim-mcp-server)            | 用 Manim 生成动画，适合制作数学、科技类可视化内容。                                                          | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🪟🐧, 数学/科技动画。                                        |
 | [awkoy/replicate-flux-mcp](https://github.com/awkoy/replicate-flux-mcp)            | 提供通过 Replicate API 生成图像的能力。                                                               | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Replicate 图像生成 (Flux)。                                      |
 | [burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp)    | 视频编辑神器，支持添加、分析、搜索和生成视频剪辑。                                                           | 社区实现, Python 开发 🐍, 视频内容创作。                                                                   |
-| [cue-omni-reader](https://github.com/sensedeal/cue-skills/tree/main/cue-omni-reader) | Agent Skill（非 MCP Server）：把 HTTP(S) 网页与已授权的本地文档、音频、视频统一解析为 Markdown，可被 Claude Code / Codex CLI / Gemini CLI / WorkBuddy 等 Agent 用于素材解析与调研。 | Agent Skill（非 MCP Server）, 纯指令层（驱动官方 Omni MCP）, MIT, 安装 `npx skills add sensedeal/cue-skills --skill cue-omni-reader`。 |
 | [diivi/aseprite-mcp](https://github.com/diivi/aseprite-mcp)                      | 使用 Aseprite API 创建像素艺术的 MCP 服务器。                                                         | 社区实现, Python 开发 🐍, 本地运行 🏠, Aseprite 像素艺术。                                                |
 | [EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)   | 官方参考实现，使用多种模型进行 AI 图像生成。                                                               | 官方参考, TypeScript 开发, AI 图像生成。                                                                    |
 | [ElevenLabs](https://github.com/mamertofabian/elevenlabs-mcp-server)             | 集成 ElevenLabs TTS API，能生成包含多种声音的完整画外音。                                                | 社区实现, Python 开发, 文本转语音 TTS。                                                                    |
