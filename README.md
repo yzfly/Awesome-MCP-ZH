@@ -80,6 +80,8 @@ MCP 全称 **模型上下文协议（Model Context Protocol）**，由 Anthropic
 - **全面普及**：Claude / Claude Code、ChatGPT & Codex、Gemini CLI、Cursor、VS Code、DeepSeek Harness（dsh）等全部原生支持；官方 Registry + Glama（19,000+）、mcp.so（16,000+）等目录收录的服务器已达数万量级。
 - **与 Agent Skills 互补**：MCP 负责"连接工具与数据"，[Agent Skills](https://agentskills.io/) 负责"教会 Agent 怎么做"，两者已成为 Agent 生态的两大开放标准。
 
+  一个能接上这段话的例子：[cue-omni-reader](https://github.com/sensedeal/cue-skills/tree/main/cue-omni-reader)（MIT）。MCP 目录里大量是「连上某个 API」；缺的是把网页、PDF、录音、视频先收成 Markdown，再交给那些工具。安装：`npx skills add sensedeal/cue-skills --skill cue-omni-reader`。
+
 微软出的面向初学者的 Model Context Protocol (MCP) 课程也不错，推荐一下：
 - [mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
 
