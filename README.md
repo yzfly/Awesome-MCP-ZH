@@ -396,6 +396,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Semble](https://github.com/MinishLab/semble) | 面向 Agent 的语义代码搜索：号称比 grep + 逐个读文件少用 99% token，为编码 Agent 快速定位相关代码。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 语义代码检索。 |
 | [code-graph-rag](https://github.com/vitali87/code-graph-rag) | 面向 monorepo 的代码图谱 RAG：把多语言代码库解析成图结构，支持跨语言查询、理解与编辑。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 代码知识图谱。 |
 | [shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) | 让 LLM 获取 shadcn/ui 组件的结构、用法与源码上下文，生成组件代码时不再靠猜 API。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT, 前端组件库上下文。 |
+| [Zambo](https://github.com/zambodotdev/zambo-mcp) | 100+ 原生 MCP 工具，一个远程 URL 全部接入：AI 代码审计、策略生成、销售线索挖掘、链上地址评分、信用发现、提示词注入防御。零认证、免注册，每个工具每天免费 20 次调用。 | 社区实现, 云服务 ☁️, MIT, 零认证直连 |
 
 
 ---
