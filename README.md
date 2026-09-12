@@ -19,7 +19,7 @@
 - [ 因为Manus爆火的 Claude MCP，90%人的认知可能都是错的](https://mp.weixin.qq.com/s/mT43PSiyO9ZsXKCbiVsWzQ)
 - [ 刚官宣支持MCP，就发布自家Agent协议（A2A），扒一扒Google暗藏的小心思](https://mp.weixin.qq.com/s/Zoq2bgPfJIERAzPiN1l0QA)
 - [阿里云拥抱 MCP 这步棋，太多人都没有真正看懂](https://mp.weixin.qq.com/s/GrEWFqpmvp1LfURAT1XzZw)
-- [ 详解 MCP 传输机制 ](https://mp.weixin.qq.com/s/gmgo_glOzbvdFwePP1yQ9g)
+- [ 详解 MCP ��输机制 ](https://mp.weixin.qq.com/s/gmgo_glOzbvdFwePP1yQ9g)
 ---
 
 ## 目录
@@ -70,7 +70,7 @@ MCP 全称 **模型上下文协议（Model Context Protocol）**，由 Anthropic
 
 ![MCP 架构图](https://files.mdnice.com/user/43439/e43d85e3-53c4-440d-ad88-bd5218028b20.png)
 
-想深入了解？看 [官方介绍](https://www.anthropic.com/news/model-context-protocol)。
+���深入了解？看 [官方介绍](https://www.anthropic.com/news/model-context-protocol)。
 
 **2025–2026 重要进展**（截至 2026 年 8 月）：
 
@@ -148,7 +148,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 - **DeepChat**  
   - **简介**：连接强大 AI 与个人世界的智能助手。  
-  - **功能**：支持多模型云服务（如 DeepSeek、OpenAI 等）和本地模型部署（如 Ollama），具备多通道聊天并发支持、完整的 Markdown 渲染、本地文件处理、MCP 支持等特性。  
+  - **功能**：支持多模型云服务（如 DeepSeek、OpenAI 等）和本地模型部署（如 Ollama），具备多通���聊天并发支持、完整的 Markdown 渲染、本地文件处理、MCP 支持等特性。  
   - **链接**：[DeepChat 官网](https://deepchat.thinkinai.xyz/) | [GitHub 仓库](https://github.com/ThinkInAIXYZ/deepchat)  
   - **截图**：  
     ![DeepChat](https://files.mdnice.com/user/43439/802fc73d-6fd6-46ca-9e7c-9aff38715a88.png)
@@ -202,7 +202,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 - **Goose**
   - **简介**：Block 开源的可扩展本地 AI Agent。
-  - **功能**：原生 MCP 宿主，可安装/执行/编辑/测试代码，支持任意 LLM，提供桌面版 + CLI 双形态。
+  - **功能**：原生 MCP 宿主，���安装/执行/编辑/测试代码，支持任意 LLM，提供桌面版 + CLI 双形态。
   - **链接**：[GitHub 仓库](https://github.com/block/goose)
   - **Tips**：MCP 生态最活跃的开源 Agent 之一。
 
@@ -658,7 +658,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [chaindead/telegram-mcp](https://github.com/chaindead/telegram-mcp)    | Telegram API 集成，访问用户数据、管理对话、检索消息和处理已读状态。                       | 社区实现, Go 开发 🏎️, 本地运行 🏠, Telegram 集成 (Go)。                                  |
 | [ClaudePost](https://github.com/ZilongXue/claude-post)               | 实现 Gmail 的无缝邮件管理，支持邮件搜索、阅读和发送。                                        | 社区实现, Python 开发, Gmail 邮件操作。                                                   |
 | [Discord (by v-3)](https://github.com/v-3/discordmcp)                | 通过机器人连接 Discord 服务器，读写频道消息。                                                | 社区实现, TypeScript 开发, Discord 消息交互。                                             |
-| [gotoolkits/wecombot](https://github.com/gotoolkits/mcp-wecombot-server.git) | 向企业微信群机器人发送各种类型消息的 MCP 服务器应用。                                  | 社区实现, Go 开发 🚀, 云服务 ☁️, 企业微信机器人。                                          |
+| [gotoolkits/wecombot](https://github.com/gotoolkits/mcp-wecombot-server.git) | 向企业微信群机器人发送各种类型消息的 MCP 服务器应用。                                  | 社区实现, Go 开发 🚀, 云服务 ☁️, 企业微信机��人。                                          |
 | [Gmail](https://github.com/GongRzhe/Gmail-MCP-Server)                | 支持自动认证的 Gmail 集成，用于 Claude Desktop。                                           | 社区实现, Python 开发, Gmail 集成 (带认证)。                                             |
 | [Gmail Headless](https://github.com/baryhuang/mcp-headless-gmail)    | 可远程托管的 Gmail 服务器，无需本地凭证或文件系统即可收发邮件。                                 | 社区实现, Python 开发, 远程 Gmail 操作。                                                |
 | [Google Calendar (by v-3)](https://github.com/v-3/google-calendar)   | 集成 Google Calendar，检查日程、查找空闲时间、添加/删除事件。                                 | 社区实现, TypeScript 开发, Google 日历管理。                                              |
@@ -821,7 +821,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [QuickChart](https://github.com/GongRzhe/Quickchart-MCP-Server)      | 使用 QuickChart.io 生成图表。                                                                           | 社区实现, Python 开发, 图表生成服务。                                                                    |
 | [Mindmap](https://github.com/YuChenSSR/mindmap-mcp-server)           | 从包含 Markdown 代码的输入生成美观的交互式思维导图。                                                       | 社区实现, Python 开发 🐍, 本地运行 🏠, 思维导图生成。                                                 |
 | [JSON](https://github.com/GongRzhe/JSON-MCP-Server)                  | JSON 处理服务器，支持 JSONPath 查询和多种操作。                                                            | 社区实现, Python 开发, 高级 JSON 处理。                                                                 |
-| [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp) | 将几乎任何文件或 Web 内容转换为 Markdown 的 MCP 服务器。                                          | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 文件/网页转 Markdown。                                      |
+| [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp) | 将几乎任何文件或 Web 内容转换为 Markdown 的 MCP 服务器。                                          | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 文件/���页转 Markdown。                                      |
 | [shmlkv/dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis) | 使用 Claude Code 构建的个人基因组分析工具包，支持 17 个类别的 DNA 数据分析并生成可视化报告。              | 社区实现, Python 开发 🐍, 本地运行 🏠, 基因组数据分析与可视化。                                        |
 | [lingion/plot-mcp-worker](https://github.com/lingion/plot-mcp-worker) | Cloudflare Workers 上的 MCP 图表引擎：函数绘图、力分析图、电路图、3D 几何、Venn 图、STEM 教学模板。CJK 字体文本转路径管线（GB2312 6763 字），渲染无字体依赖。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️ (Cloudflare Workers), STEM 可视化, CC BY-NC-SA 4.0。 |
 | [AntV mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 蚂蚁 AntV 官方图表 MCP：25+ 种可视化图表（折线、柱状、饼图、桑基、思维导图、流程图、地理图等），让 AI 直接产出图表并返回图片链接。 | 官方实现 (AntV) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, MIT, `npx -y @antv/mcp-server-chart`。 |
@@ -938,7 +938,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称 | 中文介绍 | 备注 |
 | :--- | :--- | :--- |
-| [xhs-toolkit](https://github.com/aki66938/xhs-toolkit) | 小红书创作者 MCP 工具包，支持与 AI 客户端集成，进行内容创作和发布。 | 社区热门 🔥, Python 开发 🐍, 创作与发布工具。 |
+| [xhs-toolkit](https://github.com/aki66938/xhs-toolkit) | 小红书创作者 MCP 工具包，支持与 AI 客户端集��，进行内容创作和发布。 | 社区热门 🔥, Python 开发 🐍, 创作与发布工具。 |
 | [xhs-mcp](https://github.com/jobsonlook/xhs-mcp) | 提供小红书 MCP 服务，包含 x-s / x-t 参数获取及 JS 逆向能力。 | 社区实现, Python 开发 🐍, 核心算法/逆向支持。 |
 | [Redbook-Search-Comment-MCP2.0](https://github.com/chenningling/Redbook-Search-Comment-MCP2.0) | 基于 Playwright 开发，支持自动登录、关键词搜索、笔记获取及 AI 评论发布 (适配 Claude 桌面版)。 | 社区实现, Python 开发 🐍, 自动化操作 (Playwright), 搜索与互动。 |
 | [self-dify](https://github.com/datawhalechina/self-dify) | Dify 应用搭建教程，包含“小红书读书卡片”、“甜蜜哄人”等特色 AI 助手实现指南。 | 社区教程 📚, 知识库与 Agent 搭建, Dify 集成案例。 |
@@ -998,7 +998,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [engram-rs](https://github.com/kael-bit/engram-rs)                                 | 三层记忆引擎（Buffer→Working→Core），记忆根据重要性自动晋升、衰减和合并。混合语义+关键词召回，单 Rust 二进制文件。     | 社区实现, Rust 开发 🦀, 本地运行 🏠, 三层生命周期记忆。                                              |
 | [hannesrudolph/mcp-ragdocs](https://github.com/hannesrudolph/mcp-ragdocs)           | 提供通过向量搜索检索和处理文档工具的 MCP 服务器实现，使 AI 助手能用相关文档上下文增强响应。                           | 社区实现, Python 开发 🐍, 本地运行 🏠, 文档 RAG (向量搜索)。                                        |
 | [HendryAvila/Hoofy](https://github.com/HendryAvila/Hoofy)                          | AI 开发伙伴 MCP 服务器，提供持久记忆（SQLite + FTS5 + 知识图谱）、自适应变更管线（12 种流程变体）和规范驱动开发（含清晰度门控）。32 个 MCP 工具，单一二进制文件，零依赖。 | 社区实现, Go 开发 🏎️, 本地运行 🏠, 持久记忆 + 规范驱动开发管线。                                    |
-| [Hexis](https://github.com/Bevel-Software/Hexis)                                   | 面向 AI Agent 的 Git 驱动技能、工具与上下文平台，支持评审流程和基于角色的访问控制，并通过远程 MCP 供 Claude、ChatGPT、Cursor 等客户端调用。 | 官方实现 (Bevel) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, Streamable HTTP, OAuth 2.1, Docker Compose, Apache-2.0。 |
+| [Hexis](https://github.com/Bevel-Software/Hexis)                                   | 面向 AI Agent 的 Git 驱动技能、工具与上下文平台，支持评审流程和基于角色的访问控制，并通过远��� MCP 供 Claude、ChatGPT、Cursor 等客户端调用。 | 官方实现 (Bevel) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, Streamable HTTP, OAuth 2.1, Docker Compose, Apache-2.0。 |
 | [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp)                          | 连接 Zotero 文献库与 Claude 等 AI 助手，支持讨论论文、生成摘要、分析引文与检索笔记，兼容本地 Zotero 与云端 API。 | 社区实现, Python 开发 🐍, 本地/云端 🏠☁️, Zotero 文献研究助手, 4K+ Stars。 |
 | [kaliaboi/mcp-zotero](https://github.com/kaliaboi/mcp-zotero)                      | 让 LLM 与 Zotero Cloud 上的收藏和文献来源交互的连接器。                                                   | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Zotero 文献管理。                                           |
 | [mcp-summarizer](https://github.com/0xshellming/mcp-summarizer)                    | AI 摘要 MCP 服务器，支持多种内容类型：纯文本、网页、PDF 文档、EPUB 书籍、HTML 内容。                        | 社区实现, Go 开发 📕, 云服务 ☁️, 多格式内容摘要。                                                    |
@@ -1077,6 +1077,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [aurumflux20/fencescan](https://github.com/aurumflux20/fencescan) | 扫描 MCP 服务器代码，找出重试后可能重复执行的工具调用（如重复扣款、重复发送）。只给出证据和候选项，不给判定——真正的判断需要读代码。零依赖，`npx fencescan` 直接运行。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 零依赖, 重试安全 (retry-safety) 静态扫描, MIT。 |
 | [AgentGate](https://github.com/wookat/agentgate) | MCP 服务器供应链安全门禁：安全扫描（工具投毒/凭证泄露/SSRF/RCE）+ 工具面锁文件（防 rug-pull）+ CI 漂移门禁（GitHub Action/pre-commit）+ 公开安全通报库，[含中文文档](https://github.com/wookat/agentgate/blob/main/README.zh-CN.md)。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MCP 供应链安全门禁, Apache 2.0。 |
 | [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) | 面向红队与漏洞研究的 MCP 服务器，把 150+ 安全工具（Nmap、Nuclei、Ghidra、Burp 等）编排给 AI Agent 调用，覆盖侦察、漏洞扫描、二进制分析与云安全评估。仅限授权测试场景。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 安全工具编排。 |
+| [Maxion](https://github.com/aruuhii2yo/maxion-mcp) | 进程内安全门禁与硬件负载调节器：实时拦截提示注入与越权指令，Diamonize 威胁特征扫描与隔离，Quezar 加密凭据保险库，Maxion V16 动态温度与算力调节，零可感知延迟。 | 社区实现, TypeScript / Node.js 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 进程内安全拦截与硬件温控。 |
 
 ---
 
@@ -1177,7 +1178,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)                 | APIMatic 官方集成，使用 APIMatic 验证 OpenAPI 规范。                                                         | 官方实现 (APIMatic), C# 开发 #️⃣, OpenAPI 规范验证。                                                   |
 | [IBM wxflows](https://github.com/IBM/wxflows/tree/main/examples/mcp/javascript)    | IBM 官方工具平台，为任何数据源构建、测试和部署工具。                                                           | 官方实现 (IBM), JavaScript 开发, 通用工具平台。                                                          |
 | [Langfuse Prompt Management](https://github.com/langfuse/mcp-server-langfuse)      | Langfuse 官方集成，用于协作编辑、版本控制、评估和发布提示的开源工具。(已在开发工具部分列出)                  | 官方实现 (Langfuse) 🎖️, Python 开发 🐍, 本地运行 🏠, Prompt 管理。                                     |
-| [UnifAI](https://github.com/unifai-network/unifai-mcp-server)                    | UnifAI 官方集成，使用 UnifAI 网络动态搜索和调用工具。                                                        | 官方实现 (UnifAI), Go 开发, 动态工具发现与调用。                                                         |
+| [UnifAI](https://github.com/unifai-network/unifai-mcp-server)                    | UnifAI 官方集成，使用 UnifAI 网络动态��索和调用工具。                                                        | 官方实现 (UnifAI), Go 开发, 动态工具发现与调用。                                                         |
 | [VeyraX](https://github.com/VeyraX/veyrax-mcp)                                   | VeyraX 官方集成，单一工具控制 100+ API 集成和 UI 组件。                                                    | 官方实现 (VeyraX), Go 开发, 大规模 API/UI 控制。                                                         |
 | [modelcontextprotocol/server-everything](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) | 展示 MCP 协议所有功能的 MCP 服务器。                                                                   | 官方参考, TypeScript 开发 📇, 本地运行 🏠, MCP 协议功能演示。                                            |
 | [Calculator](https://github.com/githejie/mcp-server-calculator)                  | 使 LLM 能够使用计算器进行精确的数值计算。                                                                    | 社区实现, Python 开发 🐍, 本地运行 🏠, 基础计算器功能。                                                 |
