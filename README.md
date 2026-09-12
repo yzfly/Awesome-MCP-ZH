@@ -1029,6 +1029,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Wondel.ai Skills MCP](https://github.com/mjaskolski/wondel-skills-mcp) | 只读远程 MCP 服务器，基于 50 个源自书籍的 Agent 技能与 12 条引导式旅程：`recommend_skills` 为任务路由到合适的方法论框架（并说明该跳过哪些），`load_skill` 在会话中提供真实的 SKILL.md。无需安装、无需账号、无需鉴权。 | 官方实现 (Wondel.ai) 🎖️, 云服务 ☁️, 远程 Streamable HTTP (`skills.wondel.ai/mcp`), 官方 MCP Registry, 5 个只读工具。 |
 | [Episoda Alpha MCP](https://github.com/lalithbuilds/episoda-alpha-mcp) | 本地优先的情景记忆（Episodic Memory）底座：SQLite WAL 存储引擎，4 路 RRF 混合检索（向量 + Trigram 三元组 + 知识图谱 + ACT-R 遗忘曲线），支持 Apple Silicon AMX 硬件加速，可与 Obsidian 笔记双链同步。零云端依赖。 | 社区实现, Python / C-BLAS 开发 🐍, 本地运行 🏠, MIT, `uvx episoda-alpha-mcp`。 |
 | [ContextStream](https://github.com/contextstream/mcp-server) | 面向编码 Agent 的共享持久记忆与语义代码搜索，多个 Agent（Cursor、Claude Code、Codex、Windsurf 等）之间共用同一份上下文。 | 官方实现 🎖️, Rust 开发 🦀, 云端/本地 🏠☁️, MIT, `npx -y @contextstream/mcp-server@latest`, 远程端点 `https://mcp.contextstream.io/mcp` (支持 OAuth)。 |
+| [7xuanlu/wenlan](https://github.com/7xuanlu/wenlan) | 本地优先、有来源的 AI 知识库与 LLM wiki：把 Agent 的工作沉淀为带引用、可维护的 wiki 页面，通过 MCP 提供给 Claude Code、Codex、Cursor 等客户端。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, Apache 2.0, `npx -y wenlan setup`。 |
 
 ---
 
