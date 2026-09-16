@@ -974,6 +974,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                               | 中文介绍                                                                                                         | 备注                                                                                                    |
 | :--------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ |
+| [Continuum](https://github.com/reacherwu/continuum) | 专为 AI 编程 Agent（Cursor, Claude Code, Antigravity, OpenClaw）打造的连续时态记忆引擎：严格物理有界（750 槽位，<75KB 内存常数占用），1,000+ 轮真实会话消减 96% Token 消耗，<100µs 因果回溯检索，根治长会话失忆与告警风暴，支持时态因果覆写更新。 | 社区开源, 纯 Rust 标准库 🦀 (零外部依赖), 本地运行 🏠, 跨平台 🍎🪟🐧, AGPL-3.0, 命令行一键初始化 + MCP。 |
 | [Awareness](https://github.com/everest-an/Awareness-Market) | 面向编码 Agent 的本地优先持久记忆：SQLite FTS5 + 本地嵌入，BM25 与向量 RRF 混合检索且检索阶段零 LLM 调用，完全离线、无需账号；在 LongMemEval 基准上给出可复现成绩。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, 一条命令安装。 |
 | [Memmy](https://github.com/MemTensor/memmy-agent) | MemTensor 出品的个人 AI Agent 与本地记忆中枢：给所有 AI 一份共享、可控的记忆，DeepSeek Harness / OpenClaw / Hermes / Claude Code / Codex / Cursor / OpenCode 等均可接入。 | 官方实现 🎖️, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, 桌面应用 + MCP。 |
 | [EdgeEver](https://github.com/tianma-if/edgeever) | 部署在 Cloudflare 上的开源、免费 Evernote 替代品：三栏笔记工作区，开放数据架构，原生 MCP 让 Agent 直接读写你的笔记。 | 社区实现, 云端/本地 🏠☁️, AGPL-3.0, Serverless 零成本自托管。 |
