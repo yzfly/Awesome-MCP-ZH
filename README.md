@@ -634,6 +634,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [NovadaLabs/Novada-mcp](https://github.com/NovadaLabs/Novada-mcp) | 托管 Streamable-HTTP MCP 服务器，提供 25+ 网页数据工具：搜索、SERP、抓取、提取、地图、爬取、深度研究及 6 种代理类型，覆盖 195 个国家。免安装，每月 1000 次免费调用。`npx novada-mcp` | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 全面网页数据采集平台, MIT。 |
 | [Brave Search (官方)](https://github.com/brave/brave-search-mcp-server) | Brave 官方出品的搜索 MCP 服务器，支持网页、本地、图片、新闻、视频搜索。 | 官方实现 (Brave) 🎖️, TypeScript 开发 📇, 云服务 ☁️, Brave 搜索引擎。 |
 | [BuyWhere](https://github.com/BuyWhere/buywhere-mcp) | 跨境电商商品目录 MCP：跨 SG/MY/VN/TH/PH/US/JP 七个国家 3.7 亿+ 商品实时搜索与比价（`deliver_to` 配送信号），覆盖 13 个工具（search_products / find_best_price / get_deals 等）。OAuth 2.1 Bearer 鉴权，免邮箱注册。已上架官方 MCP Registry（`io.github.BuyWhere/buywhere-mcp@1.1.0`）。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://mcp.buywhere.ai/mcp`, MIT。 |
+| [axelfreeman/tapac-mcp](https://github.com/axelfreeman/tapac-mcp) | B2B 联系人搜索 MCP：按行业、职位、公司规模、地区和来源（网站 / Telegram / Discord）查找联系人，并在同一次调用中对每个邮箱做 SMTP 验证，返回联系人退信率 2–5%（存储型联系人库通常 10–35%）。 | 远程 MCP（Streamable HTTP）https://tapacapi.com/mcp，安装 npx -y @tapacapi/mcp；免费 100 次搜索，之后 $0.10–0.50/个已验证联系人。 |
 
 ---
 
