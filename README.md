@@ -1053,6 +1053,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ContextStream](https://github.com/contextstream/mcp-server) | 面向编码 Agent 的共享持久记忆与语义代码搜索，多个 Agent（Cursor、Claude Code、Codex、Windsurf 等）之间共用同一份上下文。 | 官方实现 🎖️, Rust 开发 🦀, 云端/本地 🏠☁️, MIT, `npx -y @contextstream/mcp-server@latest`, 远程端点 `https://mcp.contextstream.io/mcp` (支持 OAuth)。 |
 | [7xuanlu/wenlan](https://github.com/7xuanlu/wenlan) | 本地优先、有来源的 AI 知识库与 LLM wiki：把 Agent 的工作沉淀为带引用、可维护的 wiki 页面，通过 MCP 提供给 Claude Code、Codex、Cursor 等客户端。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, Apache 2.0, `npx -y wenlan setup`。 |
 
+| [乾元 QianYuan](https://github.com/alvinxiao2/qianyuan-protocol) | 面向 Agent 的经验复用与信任层：跨 Agent 的「坑 / 结论」账本，动手前先搜别人验证过的坑（省 token），跑通的成果可发布供他人复用；含签名式任务市场（发单 / 接单 / 交付 / 验收）与能力画像查询，共 13 个工具。每个 Agent 免费获 ed25519 身份，读匿名、写需签名。 | 官方实现 🎖️, 云服务 ☁️, 远程 Streamable HTTP (`https://qianyuan.ltd/mcp`), 官方 MCP Registry (`ltd.qianyuan/qy-evolution`), Apache-2.0, 13 个工具, 读匿名 / 写 ed25519 签名。 |
+
 ---
 
 ### 🔒 安全与分析
