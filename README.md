@@ -1190,6 +1190,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                               | 中文介绍                                                                                                     | 备注                                                                                                       |
 | :--------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- |
+| [Renwang-Huang/typesafe-mcp](https://github.com/Renwang-Huang/typesafe-mcp) | 面向 TypeSafe AI Jev 判断的中立 MCP 桥接，提供类型化评估、复核、路由和有界门控决策，通过 STDIO 提供服务。 | 社区实现, Python 开发 🐍, 云服务 ☁️, PyPI / `uvx typesafe-mcp`。 |
 | [Worklittle Jobs MCP](https://github.com/worklittle/jobs-mcp) | 求职 MCP：检索 400 万+ 职位，支持签证、薪资、距离等筛选，可在 AI 应用内"滑动申请"并保存到 Worklittle 账户。 | 官方实现 (Worklittle) 🎖️, 云服务 ☁️, 远程 MCP `https://mcp.worklittle.com/`, OAuth 认证, npm / PyPI `worklittle`。 |
 | [morluto/jacobian](https://github.com/morluto/jacobian)                         | 面向可组合数学的 MCP 服务器、CLI 和 Python 库：支持多项式映射、线性代数与图算法的精确计算和猜想检验。   | 社区实现, Python 开发 🐍, 本地运行 🏠, 数学计算与猜想检验。                          |
 | [Motomarks](https://motomarks.io/docs/mcp) | 官方汽车厂商标志 MCP：按名称检索已发布品牌，读取品牌数据，并生成标志图的 CDN 地址。 | 官方实现 (Motomarks) 🎖️, 云服务 ☁️, 远程端点 `https://motomarks.io/api/mcp`, OAuth 2.1, 公开仓库 motomarks/motomarks-mcp。 |
