@@ -902,6 +902,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) | 基于 python-docx 的 Word 文档 MCP：创建、读取与编辑 .docx，支持样式、表格、图片、页眉页脚与批注。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, Word 文档处理。 |
 | [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) | 基于 python-pptx 的 PowerPoint MCP：让 AI 创建与修改 .pptx，操作幻灯片、文本框、图表与图片。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, PPT 生成与编辑。 |
 | [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) | 网文作者的本地章节体检工具集：16 个工具覆盖章节统计、风格基线自检、伏笔与剧情线登记、连贯性/OOC 审计、关键词与句式分析、本地语义检索；全离线运行，无需 API Key。 | 社区实现, TypeScript 📇, 本地运行 🏠, 跨平台 🍎🪟🐧 |
+| [GTD Brain](https://gtdbrain.com/connect?source=awesome-mcp-zh) | GTD Brain 官方远程 MCP：基于 GTD（Getting Things Done）方法的任务看板。把想法收集到收件箱、按情境查询下一步行动、管理项目与「等待」清单、执行每周回顾；与 Web / iOS / Android 应用实时同步。 | 官方实现 (GTD Brain) 🎖️, 远程端点 ☁️ `https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp` (Streamable HTTP), OAuth 2.1 (DCR + PKCE) 邮箱验证码登录, 16 个工具 + 4 个提示词, 免费额度后需订阅, 已收录官方 MCP Registry `com.gtdbrain/gtd-brain`。 |
 
 ---
 
