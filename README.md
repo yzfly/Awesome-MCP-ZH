@@ -316,6 +316,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [AI-XiaoDao/ai-browser-mcp](https://github.com/AI-XiaoDao/ai-browser-mcp) | Windows 本地浏览器自动化 MCP，基于 FBrowser CEF 内核暴露 200+ `browser_*` 工具：导航、原生 DOM、填表 RPA、CDP 断点、POST 抓包、JS 逆向与爬虫。原生 API 优先，支持 stdio / HTTP / WebSocket 接入 Cursor、Claude、Cline。 | 社区实现, C++ 开发, 本地运行 🏠, Windows 🪟, 浏览器自动化 + JS 逆向, MIT。 |
 | [WebIntel](https://github.com/1036007003-wq/webintel-mcp) | 网页情报采集 MCP 服务器：正文提取（自动去广告/导航/页脚）、DuckDuckGo 搜索、SEO 与 Open Graph 元数据、内外链分类、JSON-LD / 表格 / CSS 选择器结构化抽取、联系方式提取，共 8 个工具。 | 社区实现, Python 开发 🐍, 本地运行 🏠, FastMCP, MIT 许可, 自建部署无需 API key。 |
 | [browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp) | 把浏览器的控制台日志、网络请求、DOM 元素与截图直接喂给 Cursor 等 MCP 客户端，并可跑 Lighthouse 审计（性能/可访问性/SEO），前端调试不用再手工复制粘贴。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 需配套 Chrome 扩展, MIT。 |
+| [CapMonsterCloud/capmonster-mcp-patchright-captcha-solver](https://github.com/CapMonsterCloud/capmonster-mcp-patchright-captcha-solver) | 基于 Patchright（隐身版 Playwright）的浏览器自动化 MCP 服务器，内置 CapMonster Cloud 验证码识别，可自动绕过 Cloudflare Turnstile、reCAPTCHA 与 DataDome 等反爬机制，适用于端到端网页抓取与自动化工作流。 | 官方实现, TypeScript 开发 📇, 本地运行 🏠, 云端 API ☁️, `npx capmonster-mcp-patchright` 启动。 |
 ---
 
 ### 💻 开发与代码执行
@@ -1274,6 +1275,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp) | 通过在 MCP 循环中直接添加本地用户提示和聊天功能，实现交互式 LLM 工作流。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 人机交互工作流。 |
 | [GCF Proxy](https://github.com/blackwell-systems/gcf-proxy) | MCP 工具响应压缩代理。零代码接入，将任意 MCP 服务器的 JSON-RPC 响应自动转换为紧凑的 GCF 格式以节省 token，支持 JSON、YAML、TOML、CSV、MessagePack 多种格式。 | 社区实现, Go/Python/Node 开发 🏎️🐍📇, 本地运行 🏠, MIT 许可, token 优化。 |
 | [瑞幸咖啡 MCP](https://open.lkcoffee.com/) | 瑞幸官方远程 MCP：查询附近门店、搜索商品、下单点咖啡。 | 官方实现 (瑞幸) 🎖️, 远程端点 ☁️ `https://gwmcp.lkcoffee.com/order/user/mcp`。 |
+| [CapMonsterCloud/capmonster-mcp-captcha-solver](https://github.com/CapMonsterCloud/capmonster-mcp-captcha-solver) | CapMonster Cloud 官方 MCP 服务器：识别验证码类型与任务参数，提供官方文档查询，创建识别任务并获取结果，支持 reCAPTCHA v2/v3、Cloudflare Turnstile 与 DataDome。 | 官方实现, Python 🐍 / TypeScript 📇 双实现, 云端 API ☁️, `uvx capmonster-mcp` 或 `npx capmonster-mcp` 启动。 |
 
 ---
 
