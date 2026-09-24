@@ -1335,6 +1335,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 - **MCP分析资料**  
   - [a16z 深度解读MCP](https://a16z.com/a-deep-dive-into-mcp-and-the-future-of-ai-tooling/)
   - [MCP 与 ANP 对比](https://github.com/agent-network-protocol/AgentNetworkProtocol/blob/main/blogs/cn/MCP%E4%B8%8EANP%E5%AF%B9%E6%AF%94%EF%BC%9A%E6%99%BA%E8%83%BD%E4%BD%93%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE.md)  
+  - [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive)（真实世界 AI agent 安全事件的开放数据库，其中 31 条与 MCP 相关，如工具投毒、恶意 npm 包 postmark-mcp、遭在野利用的 MCPwn；每条附一手来源并标注有无确认受害方，全部记录有中文全文）
 
 ## MCP Server 开发
 
