@@ -1104,6 +1104,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Jam0k/Threat-Intelligence-MCP](https://github.com/Jam0k/Threat-Intelligence-MCP) | ThreatCluster 威胁情报：事件聚类、已验证 IOC、CVE/KEV/EPSS 查询、勒索软件泄露站受害者、实体画像。托管端点 `https://threatcluster.io/mcp`，或 `npx -y threatcluster-mcp`，需免费 API key。 | 官方实现 (ThreatCluster) 🎖️, Node/Python 开发, 云端/本地 🏠☁️, 威胁情报。 |
 
 ---
+| [Movahedi Privacy API](https://movahedi.ca/developers) | 加拿大隐私法的只读 MCP 服务器:执法案例、263 条隐私术语表、魁北克 Law 25 合规清单,匿名 Streamable HTTP 访问。 |
 
 ### 🌍 地理位置与出行
 
