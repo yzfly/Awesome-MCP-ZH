@@ -911,6 +911,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                               | 中文介绍                                                                                                   | 备注                                                                                                         |
 | :--------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- |
+| [UpRes (upres-cli)](https://github.com/auroracapital/upres.ai) | 面向图像与视频的 AI 超分辨率放大 MCP 服务器与命令行工具，支持最高 8K 分辨率无损放大、14 款专用神经模型、批量处理与任务轮询。 | 官方实现 🎖️, TypeScript 开发 📇, 本地/云端 🏠☁️, npm: `upres-cli`, 图像与视频超分辨率无损放大。 |
 | [Pireel Studio](https://github.com/pireel/pireel) | 面向人与 Agent 的开源 AI 视频编辑器（CapCut / ChatCut 替代），任意 Agent 可通过 MCP 驱动剪辑。 | 官方实现 🎖️, 本地运行 🏠, AGPL-3.0, 中英文档。 |
 | [Amazon Bedrock Nova Canvas](https://github.com/zxkane/mcp-server-amazon-bedrock)    | 使用 Amazon Nova Canvas 模型进行图像生成。                                                            | 社区实现, TypeScript 开发 📇, 云服务 ☁️, AWS Bedrock 图像生成。                                           |
 | [BeatDesign](https://github.com/BeatAPI/BeatDesign) | 本地优先的开源 AI 图片与视频创作工作台，通过 MCP 让任意 Agent 读取并修改项目、画布、素材与时间线，支持生成、分析、剪辑和 MP4 导出。 | 官方实现 🎖️, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟, 20 个工具, Apache-2.0。 |
