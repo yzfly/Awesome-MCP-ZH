@@ -805,6 +805,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Aimino-Tech/opendocswork-mcp](https://github.com/Aimino-Tech/opendocswork-mcp) | Rust 原生、本地优先的 Office 文档处理 MCP 服务器，支持 Excel、Word、PowerPoint，亚毫秒级响应。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 开源, Office 文档处理。 |
 | [caezium/Burrow](https://github.com/caezium/Burrow) | macOS 原生磁盘清理 GUI（Mole CLI 前端），支持清理、卸载、优化、磁盘分析与实时状态监控，内置 MCP 服务器供 AI 代理调用。 | 社区实现, Swift 开发 🍎, 本地运行 🏠, 开源, macOS 磁盘清理与分析。 |
 | [hushvert/mcp](https://github.com/hushvert/mcp) | 面向 AI 智能体的文件转换服务：通过 hushvert 托管 API 完成 Office 文档转 PDF、PDF 转 Word、文档互转（Markdown/HTML/EPUB/LaTeX）与音视频转码；浏览器可本地完成的转换会引导使用免费本地引擎而不计费。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 文件/文档格式转换 (convert_file/convert_poll/list_formats/check_usage)。 |
+| [anymd](https://github.com/SylphxAI/anymd) | 把任意文件转成干净的 Markdown 供 AI 使用：PDF、Word、PowerPoint、Excel/CSV、EPUB、HTML/网页 URL、图片（可选 OCR）与音视频元数据/字幕；提供 read、search、inspect 三个工具，PDF 表格与双栏阅读顺序可还原，并带页码引用锚点。原名 pdf-reader-mcp。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🪟🐧, 无需 API Key, `npx -y @sylphx/anymd` |
 
 ---
 
