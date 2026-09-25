@@ -346,6 +346,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [iohub/codexray](https://github.com/iohub/codexray) | 仓库感知的本地 MCP，用混合语义 + 全文检索引擎实时理解代码库，按需为 AI 提供相关代码上下文。兼容 Claude Code 与 Codex。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 混合语义 + 全文代码检索, MIT。 |
 | [21st.dev Magic](https://github.com/21st-dev/magic-mcp)             | 21st.dev 官方集成，创建受顶级设计工程师启发的精美 UI 组件。                          | 官方实现 (21st.dev) 🎖️, UI 组件创建。                                               |
 | [upstash/context7](https://github.com/upstash/context7) | Upstash 出品，为 LLM 和 AI 编辑器实时注入最新的库文档与代码示例，消除模型对过时 API 的幻觉。Cursor / Claude 等一键接入。 | 官方实现 (Upstash) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 实时文档检索, 56K+ Stars。 |
+| [lockdocs](https://github.com/SylphxAI/lockdocs) | 按锁文件里的精确版本查库文档：读取 npm、PyPI、crates.io、Go 的锁文件，从已安装版本自带的 README、changelog 和类型声明中回答，每段标注 `包@版本 文件:行`。提供 resolve（锁定版本）、docs（带引用的文档片段）、api（精确签名）三个工具。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🪟🐧, 离线可用, 无需 API Key, `npx -y @sylphx/lockdocs setup` |
 | [getsentry/sentry-mcp](https://github.com/getsentry/sentry-mcp) | Sentry 官方集成，让 AI 通过自然语言查询错误、性能问题与发布信息，快速定位线上故障根因。 | 官方实现 (Sentry) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 错误监控与可观测性。 |
 | [getsentry/XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) | 面向 iOS/macOS 开发的 MCP 服务器与 CLI，为 AI 代理提供 Xcode 项目构建、运行、模拟器管理与日志捕获等工具，打通 Apple 平台开发工作流。 | 官方实现 (Sentry) 🎖️, TypeScript 开发 📇, 本地运行 🏠, macOS 🍎, Xcode 构建工具, 5.9K+ Stars。 |
 | [pydantic/mcp-run-python](https://github.com/pydantic/mcp-run-python) | Pydantic 出品，在安全的沙盒环境中运行 Python 代码，适合开发编程代理。                   | 官方实现 (Pydantic) 🎖️, Python 开发 🐍, 本地运行 🏠, 安全代码执行。                   |
