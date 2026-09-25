@@ -947,6 +947,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | 通过 MCP 让编码 Agent 按可编辑时间线编排、编辑、生成并自动组装视频。 | 官方实现 🎖️, TypeScript 开发 📇, 本地运行 🏠, MCP 服务器/命令行/技能集。 |
 | [freeaudiototext-mcp](https://github.com/double2dev/freeaudiototext-mcp) | FreeAudioToText 官方出品的音视频转录 MCP 服务器。让 AI 直接读取音视频文件或 YouTube/TikTok 链接，一键生成带有精准“说话人分离”的高质量文字。纯免费、无时间限制。 | 官方实现 🎖️, TypeScript 开发 📇, 本地/边缘混合 🏠☁️, 音视频转录。 |
 | [Speak AI](https://github.com/speakai/speakai-mcp) | 语音与视频转录（支持 100+ 种语言）、AI 分析与基于自定义评分标准的通话评分；官方 MCP 服务器，npm 包 @speakai/mcp-server。 | 官方实现 (Speak AI) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 语音识别 ASR / 通话评分, npm: `@speakai/mcp-server`。 |
+| [Venut-Technologies/bandcamp-mcp](https://github.com/Venut-Technologies/bandcamp-mcp) | 无需账号或 API Key，让 AI 助手在 Bandcamp 上发掘音乐：搜索艺人、专辑、厂牌和单曲，按流派标签浏览新作与热门，查看曲目列表和价格。只读。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 跨平台 🍎🪟🐧, 非官方, `npx -y bandcamp-mcp`。 |
 
 ---
 
