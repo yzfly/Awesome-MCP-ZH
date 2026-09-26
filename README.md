@@ -245,6 +245,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[官网](https://www.aionui.com) | [GitHub 仓库](https://github.com/iOfficeAI/AionUi)
   - **Tips**：跨平台（Windows、macOS、Linux）；适合想用图形界面管理多个 CLI Agent 与 MCP 服务器的用户。
 
+- **vixl**
+  - **简介**: 开源、本地优先的桌面编程 Agent，自带密钥，没有 vixl 订阅。
+  - **功能**: MCP 支持 stdio、HTTP 和 SSE。可接 Ollama 以及其它 OpenAI 兼容的本地服务。工作台含编辑器、终端和 Git。密钥存在系统钥匙串。
+  - **链接**: [GitHub 仓库](https://github.com/vixl-ai/vixl) | [官网](https://vixl.app/)
+  - **Tips**: MIT。安装包覆盖 macOS arm64、Linux x64 和 Windows。界面和文档是英文。
+
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
