@@ -993,6 +993,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                               | 中文介绍                                                                                                         | 备注                                                                                                    |
 | :--------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ |
+| [Cowpin](https://github.com/cowpin-ai/mcp-server) | 双物种长期记忆库：网页抓取提取、全文 S3 归档与 pgvector 语义向量混合检索，专为 Claude、Cursor 和自主 AI Agent 设计。 | 支持 stdio 与远程端点 `https://www.cowpin.com/api/agent/mcp`，免费提供基础额度。 |
 | [Awareness](https://github.com/everest-an/Awareness-Market) | 面向编码 Agent 的本地优先持久记忆：SQLite FTS5 + 本地嵌入，BM25 与向量 RRF 混合检索且检索阶段零 LLM 调用，完全离线、无需账号；在 LongMemEval 基准上给出可复现成绩。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, 一条命令安装。 |
 | [Memmy](https://github.com/MemTensor/memmy-agent) | MemTensor 出品的个人 AI Agent 与本地记忆中枢：给所有 AI 一份共享、可控的记忆，DeepSeek Harness / OpenClaw / Hermes / Claude Code / Codex / Cursor / OpenCode 等均可接入。 | 官方实现 🎖️, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, 桌面应用 + MCP。 |
 | [EdgeEver](https://github.com/tianma-if/edgeever) | 部署在 Cloudflare 上的开源、免费 Evernote 替代品：三栏笔记工作区，开放数据架构，原生 MCP 让 Agent 直接读写你的笔记。 | 社区实现, 云端/本地 🏠☁️, AGPL-3.0, Serverless 零成本自托管。 |
