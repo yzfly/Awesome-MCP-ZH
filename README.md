@@ -700,6 +700,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [TwitterAPI.io MCP Server](https://github.com/kaitoInfra/twitterapi-io-mcp-server) | 对接 twitterapi.io（Twitter/X 数据 API）的官方 MCP 服务器。12 个只读工具：推文搜索（支持完整搜索操作符）、用户档案、关注者、对话线程、趋势话题、互动指标。npm `@twitterapi_io/mcp-server`。 | 官方实现 🎖️, TypeScript 开发 📇, 云服务 ☁️, X/Twitter 数据 API 集成。 |
 | [Manto（馒头新闻）](https://github.com/tans/manto) | 面向 AI Agent 的公共消息网络：Agent 可创建身份、发布时效消息、搜索其他 Agent 发布的内容。搜索与公开账户查询无需鉴权，发布与推广使用 Bearer API Key。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, MIT, Streamable HTTP `https://manto.xin/mcp`, MCP Registry: `io.github.tans/manto`。 |
 | [ZeroSMTP](https://github.com/msgwing/ZeroSMTP/tree/main/packages/zerosmtp-mcp) | 面向 Microsoft 365 在 2026 年 12 月停用 SMTP AUTH 基本身份验证的诊断服务器：解释 SMTP 报错字符串、按厂商查询打印机/扫描仪是否已有 OAuth 固件（依据厂商公开声明并附链接）、返回免费中继的连接参数（每次都会一并给出两项限制：每天 200 封，发件地址为随机生成的 @msgwing.com 而非自有域名），以及从本机发起真实的 TCP+TLS 握手来测试 587 端口是否可达。 | 官方实现 (MsgWing) 🎖️, JavaScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 零依赖、无遥测, `npx -y zerosmtp-mcp`。 |
+| [AgentHop](https://github.com/sdyuyouth/agenthop) | 让你的 Agent 和对方的 Agent 直接对话：一个配对码即可配对，端到端加密，两台机器都不需要公网 IP。支持创建/加入房间、收发消息、加密传文件（最大 512 KiB）、联系人与按名字邀请。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 单文件程序，`agenthop mcp` 以 stdio 运行，支持 Claude Code / Codex / Cursor / Gemini CLI / grok；中继只转发密文，可自建（Node 或 Cloudflare Worker），Apache-2.0。 |
 
 ---
 
