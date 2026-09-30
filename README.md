@@ -1103,6 +1103,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [mcp-output-firewall](https://github.com/tangfei7777-cell/mcp-output-firewall) | MCP 三层防火墙：①内容层检查不可信内容（提示注入、外泄载荷、密钥泄露）；②出口层检查工具调用的参数实际发往哪个主机（内容扫描器看不到这一层）；③行为层按确定性策略拦截破坏性操作。既可作代理壳包住已有服务器，也可独立作为 MCP 服务器运行，向 Agent 暴露 4 个工具。[含中文文档](https://github.com/tangfei7777-cell/mcp-output-firewall/blob/main/README.zh-CN.md)。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 零依赖, `npx -y mcp-output-firewall`, MIT。 |
 | [Jam0k/Threat-Intelligence-MCP](https://github.com/Jam0k/Threat-Intelligence-MCP) | ThreatCluster 威胁情报：事件聚类、已验证 IOC、CVE/KEV/EPSS 查询、勒索软件泄露站受害者、实体画像。托管端点 `https://threatcluster.io/mcp`，或 `npx -y threatcluster-mcp`，需免费 API key。 | 官方实现 (ThreatCluster) 🎖️, Node/Python 开发, 云端/本地 🏠☁️, 威胁情报。 |
 
+| [MarketNow](https://github.com/eddyflores100-lang/marketnow-mcp) | AI 代理信任层：代理在连接第三方 MCP 工具前先验证。索引 68,388 个 MCP 服务器（GitHub + npm + PyPI）并标注安装风险，实时诈骗域名检测（RDAP/WHOIS 域名年龄 + TLS 证书），凭证验证支持 8 种格式（ATC v3、JWT、W3C VC、A2A、EAT-AI、ZTA、MCP Card、X.509），还有吊销查询与工具指纹。免费、无需 API 密钥。 (已列入官方 MCP Registry: io.github.alicelabs-llc/marketnow v1.15.0) | 社区实现 (AliceLabs), TypeScript/Node 开发 📇, 远程端点 ☁️ + 本地运行 🏠, 9 个工具, 免费无密钥, MIT + Apache-2.0。 |
 ---
 
 ### 🌍 地理位置与出行
