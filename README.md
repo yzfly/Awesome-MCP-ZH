@@ -947,6 +947,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | 通过 MCP 让编码 Agent 按可编辑时间线编排、编辑、生成并自动组装视频。 | 官方实现 🎖️, TypeScript 开发 📇, 本地运行 🏠, MCP 服务器/命令行/技能集。 |
 | [freeaudiototext-mcp](https://github.com/double2dev/freeaudiototext-mcp) | FreeAudioToText 官方出品的音视频转录 MCP 服务器。让 AI 直接读取音视频文件或 YouTube/TikTok 链接，一键生成带有精准“说话人分离”的高质量文字。纯免费、无时间限制。 | 官方实现 🎖️, TypeScript 开发 📇, 本地/边缘混合 🏠☁️, 音视频转录。 |
 | [Speak AI](https://github.com/speakai/speakai-mcp) | 语音与视频转录（支持 100+ 种语言）、AI 分析与基于自定义评分标准的通话评分；官方 MCP 服务器，npm 包 @speakai/mcp-server。 | 官方实现 (Speak AI) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 语音识别 ASR / 通话评分, npm: `@speakai/mcp-server`。 |
+| [Faceless](https://github.com/Side-Products/faceless-desktop-extension) | Faceless.so 官方 MCP 服务器：根据脚本生成 AI 无露脸视频（配音、画面、字幕、音乐），渲染后发布或定时发布到 YouTube、TikTok、Instagram、Facebook、X、LinkedIn 和 Threads；支持自动化系列视频与数据分析。远程地址 https://faceless.so/api/v1/mcp，或本地运行 npx -y faceless-mcp。 | 官方实现 🎖️, TypeScript 开发 📇, 云服务 ☁️, AI 视频生成与多平台发布。 |
 
 ---
 
