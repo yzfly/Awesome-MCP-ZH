@@ -970,6 +970,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [RedBook-Search-Comment-MCP](https://github.com/chenningling/RedBook-Search-Comment-MCP) | (v1.0版本) 基于 Playwright 的搜索与评论工具，帮助用户完成基础的自动化操作。 | 社区实现, Python 开发 🐍, 旧版本归档 (建议使用 v2.0)。 |
 | [xiaohongshu-mcp-nodejs](https://github.com/ToDieOrNot/xiaohongshu-mcp-nodejs) | 企业级 Node.js 重构版本，支持多账号矩阵管理、反风控、数据采集与发布。 | 社区实现, Node.js 开发 🟢, 矩阵管理, 企业级特性。 |
 | [hot-trending-mcp](https://github.com/boy-373/hot-trending-mcp) | 中文全网热榜聚合 MCP：一次调用获取微博、知乎、B站、百度、头条、抖音、贴吧、掘金 8 大平台实时热搜/热榜，数据缓存 5 分钟。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/hot-mcp/mcp`，无需 API Key，限流 60 次/分，MIT。 |
+| [LinkDigest](https://github.com/jcaiagent7143-ui/linkdigest-mcp) | 把小红书、抖音、TikTok、YouTube、X 链接读成 AI 可用的文本：视频逐字稿与带时间的画面文字，图文笔记逐图描述与图片文字识别，要点和平台互动数据；可选爆款拆解（引用与原文逐字核对，对不上的删除并注明）与翻译。不需要用户的平台账号或 Cookie，不支持 B站。 | 官方实现 (LinkDigest) 🎖️, 云服务 ☁️, 远程端点 `https://linkdigest.dev/mcp` (Streamable HTTP), Bearer API Key, 1 个工具 `digest_url`, 注册赠送 10 积分, Python 开发 🐍 (MIT 开源 SDK / 命令行 / stdio MCP)。 |
 
 ---
 
