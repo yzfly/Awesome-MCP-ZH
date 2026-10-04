@@ -407,6 +407,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Semble](https://github.com/MinishLab/semble) | 面向 Agent 的语义代码搜索：号称比 grep + 逐个读文件少用 99% token，为编码 Agent 快速定位相关代码。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 语义代码检索。 |
 | [code-graph-rag](https://github.com/vitali87/code-graph-rag) | 面向 monorepo 的代码图谱 RAG：把多语言代码库解析成图结构，支持跨语言查询、理解与编辑。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 代码知识图谱。 |
 | [shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) | 让 LLM 获取 shadcn/ui 组件的结构、用法与源码上下文，生成组件代码时不再靠猜 API。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT, 前端组件库上下文。 |
+| [RepoGuard](https://github.com/taylormatematica-beep/repoguard) | 针对 AI 代码库的 ~12ms 极速架构守卫与 AST 规则检查器：拦截 AI 越层违规访问数据库、泄露敏感环境变量，并自动生成 Cursor 与 Claude Code 架构规则文件。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT 开源, `npx -y repoguard-rules@1.6.1 mcp`。 |
 
 
 ---
