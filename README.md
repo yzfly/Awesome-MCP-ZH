@@ -984,6 +984,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [wb-mcp-server](https://github.com/DeviceIngineering/wb-mcp-server) | 俄罗斯电商平台 Wildberries 卖家 API 的 MCP 服务器，197 个工具：商品卡片、价格、促销、广告、订单、发货、评价、退货、财务与分析。支持多店铺，令牌加密存储，网页面板可查看每一次调用，内置自诊断（平台改接口时能区分是密钥问题还是 API 变更）。针对上下文预算做过实测优化。 | 社区实现, Python 开发 🐍, 本地运行 🏠, `pip install wb-mcp-server`, Docker/SSE 或 stdio, MIT。适合做俄罗斯跨境电商的中国卖家。 |
 | [ozon-mcp-server](https://github.com/DeviceIngineering/ozon-mcp-server) | 俄罗斯电商平台 Ozon 卖家 API + 广告 API 的 MCP 服务器，156 个工具：价格、促销、广告、FBS/FBO 订单、退货、评价、财务与分析。与 wb-mcp-server 同一套设计，同样针对上下文预算做过实测优化。 | 社区实现, Python 开发 🐍, 本地运行 🏠, `pip install ozon-mcp-server`, Docker/SSE 或 stdio, MIT。 |
 | [marketplaces-mcp-ru](https://github.com/ilyautov/marketplaces-mcp-ru) | 俄罗斯四大电商平台卖家 API 的统一 MCP 服务器：Wildberries、Ozon、Yandex Market、Avito，共 1022 个方法，覆盖销售、订单、库存、价格、财务与评价。方法目录由各平台官方 OpenAPI 规范生成，可用自然语言检索方法；写操作分为 read / write / destructive 三级，改价改库存必须先确认，删除还需额外确认参数，CI 里有测试防止 PUT/PATCH/DELETE 被误标成只读。支持多店铺，密钥存在本地 `~/.marketplace-mcp/cabinets.json`（chmod 600），不进仓库也不进聊天。 | 社区实现, Python 开发 🐍, 本地运行 🏠, `uvx marketplaces-mcp-ru`, 已收录于官方 MCP Registry, MIT。四个平台一次接入；只要一个平台时也可单独安装 ozon-mcp-ru / wildberries-mcp-ru / yandex-market-mcp-ru / avito-mcp-ru。 |
+| [ConnectMeGuru](https://github.com/vineetgoyalhuf/connectmeguru-mcp) | ConnectMeGuru 官方跨境出境旅行 eSIM 流量包 MCP 服务器，覆盖全球 190+ 国家和地区。支持在 AI 对话中直接搜索目的地流量套餐、校验优惠码、下单购买及查询 eSIM 激活与发货状态。 | 官方实现 (ConnectMeGuru) 🎖️, 远程端点接入 ☁️, 已收录于官方 MCP Registry (`io.github.vineetgoyalhuf/connectmeguru-mcp`), MIT。无需复杂配置，即插即用。 |
 
 ---
 
