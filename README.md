@@ -279,6 +279,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [webclaw](https://github.com/0xMassi/webclaw) | 快速本地优先的网页内容提取工具，专为 LLM 设计。支持将网页转换为 Markdown/JSON/纯文本，内置 TLS 指纹伪装绕过反爬，无需浏览器。提供 MCP 服务器（10 个工具）和 CLI。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, MIT 开源, 高性能网页提取。 |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | 云端浏览器自动化服务，能导航网页、提取数据、填表单等，无需本地安装。                  | 官方实现 (Browserbase) 🎖️, TypeScript 开发 📇, 云端浏览器操作。                      |
 | [modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer) | 官方参考实现，使用 Puppeteer 进行浏览器自动化和网页抓取。                           | 官方参考, TypeScript 开发 📇, 本地运行 🏠, 网页抓取和交互基础工具。                 |
+* [AgentHub](https://myagenthub.cn) 中文 MCP Server 与 Agent Skills 资源导航站，支持一键安装到 Cursor、Claude Code、VS Code、Trae。
 | [apify/actors-mcp-server](https://github.com/apify/actors-mcp-server) | 集成 Apify 平台 3000+ 云工具，用于网站、电商、社交媒体等数据提取。                  | 官方实现 (Apify), TypeScript 开发 📇, 云端数据抓取工具库 ☁️。                      |
 | [AgentQL](https://github.com/tinyfish-io/agentql-mcp)                | 让 AI 代理从非结构化网页中获取结构化数据。                                         | 官方实现 (TinyFish IO) 🎖️, TypeScript 开发 📇, 网页数据结构化提取 ☁️。           |
 | [AIHawk](https://github.com/feder-cr/AIHawk) | 开源 AI 浏览器代理，根据自然语言指令浏览网页、点击、输入并读取真实页面内容，基于修补版 Firefox 引擎的 Playwright 风格自动化层；提供 stdio MCP 服务器（支持 Claude Code、Codex、Gemini CLI）和独立 Web UI，全部本地运行。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 支持 Windows/Linux, 安装：`uvx aihawk`（Web UI：`uvx aihawk ui`）, MIT 开源, 30K+ Stars。 |
