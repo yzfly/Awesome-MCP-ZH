@@ -1102,6 +1102,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) | 面向红队与漏洞研究的 MCP 服务器，把 150+ 安全工具（Nmap、Nuclei、Ghidra、Burp 等）编排给 AI Agent 调用，覆盖侦察、漏洞扫描、二进制分析与云安全评估。仅限授权测试场景。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 安全工具编排。 |
 | [mcp-output-firewall](https://github.com/tangfei7777-cell/mcp-output-firewall) | MCP 三层防火墙：①内容层检查不可信内容（提示注入、外泄载荷、密钥泄露）；②出口层检查工具调用的参数实际发往哪个主机（内容扫描器看不到这一层）；③行为层按确定性策略拦截破坏性操作。既可作代理壳包住已有服务器，也可独立作为 MCP 服务器运行，向 Agent 暴露 4 个工具。[含中文文档](https://github.com/tangfei7777-cell/mcp-output-firewall/blob/main/README.zh-CN.md)。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 零依赖, `npx -y mcp-output-firewall`, MIT。 |
 | [Jam0k/Threat-Intelligence-MCP](https://github.com/Jam0k/Threat-Intelligence-MCP) | ThreatCluster 威胁情报：事件聚类、已验证 IOC、CVE/KEV/EPSS 查询、勒索软件泄露站受害者、实体画像。托管端点 `https://threatcluster.io/mcp`，或 `npx -y threatcluster-mcp`，需免费 API key。 | 官方实现 (ThreatCluster) 🎖️, Node/Python 开发, 云端/本地 🏠☁️, 威胁情报。 |
+| [keystash](https://github.com/thu-lawyer/keystash) | 本地单文件加密的密钥库，`keystash mcp` 把它变成 MCP 服务器：AI 能把密钥注入命令的环境变量、复制进剪贴板或生成新密钥，但始终看不到明文值；另有 `doctor` 扫描散落各处的明文密钥。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧（Touch ID 解锁为 macOS）, MIT, `pip install keystash` / `uvx keystash mcp`, 8 个工具。 |
 
 ---
 
