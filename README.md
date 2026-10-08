@@ -1274,6 +1274,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp) | 通过在 MCP 循环中直接添加本地用户提示和聊天功能，实现交互式 LLM 工作流。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 人机交互工作流。 |
 | [GCF Proxy](https://github.com/blackwell-systems/gcf-proxy) | MCP 工具响应压缩代理。零代码接入，将任意 MCP 服务器的 JSON-RPC 响应自动转换为紧凑的 GCF 格式以节省 token，支持 JSON、YAML、TOML、CSV、MessagePack 多种格式。 | 社区实现, Go/Python/Node 开发 🏎️🐍📇, 本地运行 🏠, MIT 许可, token 优化。 |
 | [瑞幸咖啡 MCP](https://open.lkcoffee.com/) | 瑞幸官方远程 MCP：查询附近门店、搜索商品、下单点咖啡。 | 官方实现 (瑞幸) 🎖️, 远程端点 ☁️ `https://gwmcp.lkcoffee.com/order/user/mcp`。 |
+| [万机阁 Wanjige](https://github.com/chenwengui23/wanjige-mcp)                      | 中文 AI 工具市场：一个远端 MCP 接入 15,552 个可真实调用的工具，覆盖中国天气/路线/POI、A股港股美股行情与 930 组汇率、arXiv/PubMed/世界银行检索、PDF/Word/Excel 解析、TTS 中文配音与 AI 生图生视频、个税房贷等确定性计算；内置渐进式披露，首页仅 34 个精选工具，长尾用检索按需调用。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 远程 MCP `https://qianjige.app.workbuddy.host/mcp?key={api_key}`, npm `npx -y wanjige-mcp`, 官方 MCP Registry `io.github.chenwengui23/wanjige`, 已验证工具 100% 可真实调用, 注册送 1000 积分。 |
 
 ---
 
