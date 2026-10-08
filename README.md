@@ -778,6 +778,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Horus Flow Intelligence](https://github.com/horustechltd/horus-flow-mcp) | 加密货币与美股订单流分析 MCP 服务器：币安 L2 实时订单流、美股订单流与多资产扫描，提供微观结构分析与欺骗（spoofing）检测信号。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT 许可, 3 个工具。 |
 | [exchange-rate-mcp](https://github.com/boy-373/exchange-rate-mcp) | 实时汇率查询与金额换算 MCP：支持 ISO 货币代码与中文货币名（如 USD/美元），基于欧洲央行 ECB 参考汇率。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/exchange-mcp/mcp`，无需 API Key，MIT。 |
 | [tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | TradingView 数据 MCP：实时行情、技术指标分析、选股筛选器与策略回测。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 行情与技术分析。 |
+| [Invoice](https://github.com/LAHutchins91/invoice-mcp) | 面向自由职业者：保存已批准的发票（明细、数量、约定费率、到期日和逾期条款），未经明确批准不能增加明细、修改费率或移动到期日；共 13 个工具。 | 官方实现 (Ouroboros) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://invoice-continuity2.vercel.app/mcp` (Streamable HTTP), OAuth 认证（支持动态客户端注册）, 文档 https://ouroborosapps.com/docs/invoice, 官方 MCP Registry: `io.github.LAHutchins91/invoice`, MIT。 |
+| [Deposit](https://github.com/LAHutchins91/deposit-mcp) | 面向自由职业者：保存已批准的定金和后续付款计划，以及可以告诉客户的话术；未经批准不能免除定金、标记已付或改动付款日期；共 12 个工具。 | 官方实现 (Ouroboros) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://deposit-continuity2.vercel.app/mcp` (Streamable HTTP), OAuth 认证（支持动态客户端注册）, 文档 https://ouroborosapps.com/docs/deposit, 官方 MCP Registry: `io.github.LAHutchins91/deposit`, MIT。 |
 
 ---
 - [SpendShield](https://github.com/felixpg13-glitch/spendshield) - AI Agent 支付授权层(policy control plane): ALLOW/APPROVAL/DENY 三态决策 + 理由码, 策略生命周期, 防篡改审计链; 内置 MCP server(pip install spendshield)
@@ -842,6 +844,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [lingion/plot-mcp-worker](https://github.com/lingion/plot-mcp-worker) | Cloudflare Workers 上的 MCP 图表引擎：函数绘图、力分析图、电路图、3D 几何、Venn 图、STEM 教学模板。CJK 字体文本转路径管线（GB2312 6763 字），渲染无字体依赖。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️ (Cloudflare Workers), STEM 可视化, CC BY-NC-SA 4.0。 |
 | [AntV mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 蚂蚁 AntV 官方图表 MCP：25+ 种可视化图表（折线、柱状、饼图、桑基、思维导图、流程图、地理图等），让 AI 直接产出图表并返回图片链接。 | 官方实现 (AntV) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, MIT, `npx -y @antv/mcp-server-chart`。 |
 | [SearchLink Lite](https://github.com/GlobalMatchHub/searchlink-lite) | 让 AI 在 Claude、Cursor 等客户端直接读 Google Search Console：点击、展现、CTR、排名的周期对比，按搜索词/页面/国家/设备拆解，找高展现低点击的机会词，并检查页面收录状态与 sitemap。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 只读授权, 8 个工具, MIT。 |
+| [Rank](https://github.com/LAHutchins91/rank-mcp) | 只读的 Google Search Console 数据：已验证站点、热门查询与页面、趋势、时段对比、高曝光低点击机会、掉排名页面和 URL 检查；所有指标均来自 Search Console API；共 9 个工具。 | 官方实现 (Ouroboros) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://rank.ouroborosapps.com/mcp` (Streamable HTTP), OAuth 认证（支持动态客户端注册）, 文档 https://ouroborosapps.com/docs/rank, 官方 MCP Registry: `io.github.LAHutchins91/rank`, MIT。 |
 
 ---
 
@@ -902,6 +905,10 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) | 基于 python-docx 的 Word 文档 MCP：创建、读取与编辑 .docx，支持样式、表格、图片、页眉页脚与批注。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, Word 文档处理。 |
 | [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) | 基于 python-pptx 的 PowerPoint MCP：让 AI 创建与修改 .pptx，操作幻灯片、文本框、图表与图片。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, PPT 生成与编辑。 |
 | [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) | 网文作者的本地章节体检工具集：16 个工具覆盖章节统计、风格基线自检、伏笔与剧情线登记、连贯性/OOC 审计、关键词与句式分析、本地语义检索；全离线运行，无需 API Key。 | 社区实现, TypeScript 📇, 本地运行 🏠, 跨平台 🍎🪟🐧 |
+| [Desk](https://github.com/LAHutchins91/desk-mcp) | 面向客服团队：保存已批准的答复、退款规则和升级上限，AI 助手回复客户前先读取政策；未批准的退款、功能或时间承诺一律拒绝并转人工审核；共 13 个工具。 | 官方实现 (Ouroboros) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://desk-mcp-continuity2.vercel.app/mcp` (Streamable HTTP), OAuth 认证（支持动态客户端注册）, 文档 https://ouroborosapps.com/docs/desk, 官方 MCP Registry: `io.github.LAHutchins91/desk`, MIT。 |
+| [Claim](https://github.com/LAHutchins91/claim-mcp) | 面向品牌营销：保存已批准的宣传声明、当前优惠、证据、品牌语气和禁用词，并检查草稿文案是否编造保证或折扣、使用禁用词；共 10 个工具。 | 官方实现 (Ouroboros) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://claim-continuity2.vercel.app/mcp` (Streamable HTTP), OAuth 认证（支持动态客户端注册）, 文档 https://ouroborosapps.com/docs/claim, 官方 MCP Registry: `io.github.LAHutchins91/claim`, MIT。 |
+| [Scope](https://github.com/LAHutchins91/scope-mcp) | 面向自由职业者：保存已批准的工作范围、费率、截止日期和变更单，AI 助手不能编造折扣或承诺未批准的工作；共 9 个工具。 | 官方实现 (Ouroboros) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://scope-continuity2.vercel.app/mcp` (Streamable HTTP), OAuth 认证（支持动态客户端注册）, 文档 https://ouroborosapps.com/docs/scope, 官方 MCP Registry: `io.github.LAHutchins91/scope`, MIT。 |
+| [Milestone](https://github.com/LAHutchins91/milestone-mcp) | 面向自由职业者：保存已批准的里程碑、验收标准和交付物，只有满足已保存的验收标准时才能宣布里程碑完成；共 15 个工具。 | 官方实现 (Ouroboros) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://milestone-continuity2.vercel.app/mcp` (Streamable HTTP), OAuth 认证（支持动态客户端注册）, 文档 https://ouroborosapps.com/docs/milestone, 官方 MCP Registry: `io.github.LAHutchins91/milestone`, MIT。 |
 
 ---
 
