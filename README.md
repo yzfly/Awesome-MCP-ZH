@@ -1181,6 +1181,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [小智 AI 聊天机器人 (xiaozhi-esp32)](https://github.com/78/xiaozhi-esp32) | 基于 MCP 的开源 ESP32 语音聊天机器人固件（29k+ star）：设备通过 MCP 把自身的音量、屏幕、灯光、底盘等能力暴露成工具，让大模型直接控制实体硬件，支持离线唤醒词与多种开发板。 | 社区实现, C++ 开发, 嵌入式固件, MIT, 中文文档完善。 |
 | [xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server) | 小智 ESP32 的开源后端服务，可自建 ASR/LLM/TTS 全链路与设备管理控制台，支持通过 MCP 接入外部工具扩展设备能力。 | 社区实现, Python/JavaScript 开发 🐍📇, 本地/私有化部署 🏠, MIT, 中文项目。 |
 | [KiCAD-MCP-Server](https://github.com/mixelpixx/KiCAD-MCP-Server) | KiCAD 电路设计 MCP：让大模型创建与修改原理图和 PCB 布局、放置元件、布线并导出制造文件。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, EDA/PCB 设计。 |
+| [genieacs-mcp](https://github.com/GeiserX/genieacs-mcp) | 面向开源 TR-069 ACS GenieACS 的 MCP 服务器：按标签、型号、固件或任意 TR-069 参数查询路由器、ONT 等 CPE 设备，读取参数、任务与故障，并可重启设备、下发固件、设置参数。 | 社区实现, Go 开发 🏎️, 本地运行 🏠, GPL-3.0, 7 个资源 + 12 个工具, `npx -y genieacs-mcp`。 |
 
 ---
 
