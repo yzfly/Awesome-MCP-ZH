@@ -651,6 +651,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [BuyWhere](https://github.com/BuyWhere/buywhere-mcp) | 跨境电商商品目录 MCP：跨 SG/MY/VN/TH/PH/US/JP 七个国家 3.7 亿+ 商品实时搜索与比价（`deliver_to` 配送信号），覆盖 13 个工具（search_products / find_best_price / get_deals 等）。OAuth 2.1 Bearer 鉴权，免邮箱注册。已上架官方 MCP Registry（`io.github.BuyWhere/buywhere-mcp@1.1.0`）。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://mcp.buywhere.ai/mcp`, MIT。 |
 
 ---
+| [looot](https://looot.ai) | 托管的远程 MCP：在 2,500+ 个数据 API 端点（工作邮箱、公司资料、搜索结果、网页抓取）中搜索，调用前先显示价格，按次从同一份预付余额扣费，失败的调用不收费。 | 官方实现 (looot) 🎖️, 云服务 ☁️, Streamable HTTP `https://api.looot.ai/mcp`, 浏览器 OAuth 登录, [接入仓库 (MIT)](https://github.com/loootai/looot-mcp), 付费端点需 looot 账户。 |
 
 ### 💬 通讯与协作 (Slack, Email, Calendar, Social, etc.)
 
