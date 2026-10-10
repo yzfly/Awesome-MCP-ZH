@@ -778,6 +778,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Horus Flow Intelligence](https://github.com/horustechltd/horus-flow-mcp) | 加密货币与美股订单流分析 MCP 服务器：币安 L2 实时订单流、美股订单流与多资产扫描，提供微观结构分析与欺骗（spoofing）检测信号。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT 许可, 3 个工具。 |
 | [exchange-rate-mcp](https://github.com/boy-373/exchange-rate-mcp) | 实时汇率查询与金额换算 MCP：支持 ISO 货币代码与中文货币名（如 USD/美元），基于欧洲央行 ECB 参考汇率。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/exchange-mcp/mcp`，无需 API Key，MIT。 |
 | [tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | TradingView 数据 MCP：实时行情、技术指标分析、选股筛选器与策略回测。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 行情与技术分析。 |
+| [Tapetide](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) | 印度股市（NSE、BSE）MCP 服务器，覆盖约 8,200 只上市股票：实时行情、季度财报、股东结构、326 项指标选股器、FII/DII 资金流向、期权链与隐含波动率、公司公告、IPO 与持仓跟踪。 | 官方实现 🎖️, TypeScript 开发 📇, 本地/云端 🏠☁️, MIT, 55 个工具；`npx -y tapetide-mcp` 或远程 `https://mcp.tapetide.com/mcp`（OAuth 或免费 Token），提供免费套餐。 |
 
 ---
 - [SpendShield](https://github.com/felixpg13-glitch/spendshield) - AI Agent 支付授权层(policy control plane): ALLOW/APPROVAL/DENY 三态决策 + 理由码, 策略生命周期, 防篡改审计链; 内置 MCP server(pip install spendshield)
