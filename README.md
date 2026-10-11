@@ -1054,6 +1054,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [7xuanlu/wenlan](https://github.com/7xuanlu/wenlan) | 本地优先、有来源的 AI 知识库与 LLM wiki：把 Agent 的工作沉淀为带引用、可维护的 wiki 页面，通过 MCP 提供给 Claude Code、Codex、Cursor 等客户端。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, Apache 2.0, `npx -y wenlan setup`。 |
 
 ---
+| [ev-diagnosis-mcp](https://github.com/1ouxilisi/ev-diagnosis-mcp) | 新能源汽车维修诊断：故障码查询、结构化诊断结论（原因按概率排序 / 检查顺序先不花钱后花钱 / 报价分档）、190 条中文实战维修经验、44 条车型通病映射。896 条标准 DTC 取自 ModelScope 公开数据集。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, 零依赖、纯本地数据、不联网。 |
 
 ### 🔒 安全与分析
 
