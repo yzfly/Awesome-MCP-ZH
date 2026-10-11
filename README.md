@@ -1052,6 +1052,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Episoda Alpha MCP](https://github.com/lalithbuilds/episoda-alpha-mcp) | 本地优先的情景记忆（Episodic Memory）底座：SQLite WAL 存储引擎，4 路 RRF 混合检索（向量 + Trigram 三元组 + 知识图谱 + ACT-R 遗忘曲线），支持 Apple Silicon AMX 硬件加速，可与 Obsidian 笔记双链同步。零云端依赖。 | 社区实现, Python / C-BLAS 开发 🐍, 本地运行 🏠, MIT, `uvx episoda-alpha-mcp`。 |
 | [ContextStream](https://github.com/contextstream/mcp-server) | 面向编码 Agent 的共享持久记忆与语义代码搜索，多个 Agent（Cursor、Claude Code、Codex、Windsurf 等）之间共用同一份上下文。 | 官方实现 🎖️, Rust 开发 🦀, 云端/本地 🏠☁️, MIT, `npx -y @contextstream/mcp-server@latest`, 远程端点 `https://mcp.contextstream.io/mcp` (支持 OAuth)。 |
 | [7xuanlu/wenlan](https://github.com/7xuanlu/wenlan) | 本地优先、有来源的 AI 知识库与 LLM wiki：把 Agent 的工作沉淀为带引用、可维护的 wiki 页面，通过 MCP 提供给 Claude Code、Codex、Cursor 等客户端。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, Apache 2.0, `npx -y wenlan setup`。 |
+| [ORANO MCP](https://github.com/infotik/orano-mcp-server) | 个人只读 MCP 服务器，让你自己的 AI 助手（ChatGPT、Claude、Cursor 等）搜索并读取 ORANO 中已保存的内容库；提供 `list_projects`、`get_project`、`get_project_context`、`search_library`、`read_memory_facts`、`get_pending_handoffs` 6 个只读工具。 | 官方实现 (ORANO) 🎖️, Python 开发 🐍, 云服务 ☁️, 远程 Streamable HTTP，端点 `https://orano-ai-backend-1037939693300.us-central1.run.app/mcp/`，个人 API Key (Bearer) 认证, MIT。 |
 
 ---
 
