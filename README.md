@@ -255,6 +255,11 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)  
   - **Tips**：DeepSeek-V4 同时兼容 OpenAI 与 Anthropic 协议，把 Claude Code / Cursor / Cline 等 MCP 客户端的模型换成 `deepseek-v4-pro` 即可使用，工具调用开箱即用；dsh 技能 / 插件精选见 [awesome-dsh-skills](https://github.com/yzfly/awesome-dsh-skills)。
 
+- **Xenon**  
+  - **简介**：可验证的终端 AI 编码代理（Agent Harness，MIT 开源），核心是证据哈希链与单一校验门。  
+  - **功能**：会话事件日志为 append-only 哈希链，`/evidence` 随时重算自证；空洞回答是唯一阻断类校验（同因熔断），语义类问题降级为「待人工核验清单」不阻断发布；MCP 客户端 + 多模型路由（DeepSeek / OpenAI 兼容）；支持 `/rewind` 回退与 `/fork` 分叉的会话树。  
+  - **链接**：[xianyu-sheng/Xenon](https://github.com/xianyu-sheng/Xenon)
+
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
