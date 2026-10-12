@@ -649,6 +649,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Brave Search (官方)](https://github.com/brave/brave-search-mcp-server) | Brave 官方出品的搜索 MCP 服务器，支持网页、本地、图片、新闻、视频搜索。 | 官方实现 (Brave) 🎖️, TypeScript 开发 📇, 云服务 ☁️, Brave 搜索引擎。 |
 | [You.com](https://github.com/youdotcom-oss/agent-skills) | You.com 官方远程 MCP 服务器，提供实时网页搜索、URL 内容提取与带引用的深度研究（工具 `you-search` / `you-contents` / `you-research`），并附赠多平台 Agent 技能包（Claude Code、Codex、Cursor、Copilot CLI 等）。 | 官方实现 (You.com) 🎖️, 云服务 ☁️, 远程端点 `https://api.you.com/mcp`，支持 `YDC_API_KEY` Bearer 认证或免密 `?profile=free` 基础搜索，MIT。 |
 | [BuyWhere](https://github.com/BuyWhere/buywhere-mcp) | 跨境电商商品目录 MCP：跨 SG/MY/VN/TH/PH/US/JP 七个国家 3.7 亿+ 商品实时搜索与比价（`deliver_to` 配送信号），覆盖 13 个工具（search_products / find_best_price / get_deals 等）。OAuth 2.1 Bearer 鉴权，免邮箱注册。已上架官方 MCP Registry（`io.github.BuyWhere/buywhere-mcp@1.1.0`）。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://mcp.buywhere.ai/mcp`, MIT。 |
+| [RobotTraining.jobs](https://robottraining.jobs/data#mcp) | 搜索约 60 家雇主公开招聘的机器人训练类岗位（机器人遥操作、示范录制、自动驾驶与无人机测试操作），返回岗位、雇主、标注薪资、开放地区与申请链接。 | 官方服务（RobotTraining.jobs）, 云服务 ☁️, Streamable HTTP `https://robottraining.jobs/api/mcp`, 无需认证, 官方 MCP Registry `jobs.robottraining/robot-training-jobs` |
 
 ---
 
