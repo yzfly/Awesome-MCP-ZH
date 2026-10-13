@@ -259,6 +259,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **简介**：可验证的终端 AI 编码代理（Agent Harness，MIT 开源），核心是证据哈希链与单一校验门。  
   - **功能**：会话事件日志为 append-only 哈希链，`/evidence` 随时重算自证；空洞回答是唯一阻断类校验（同因熔断），语义类问题降级为「待人工核验清单」不阻断发布；MCP 客户端 + 多模型路由（DeepSeek / OpenAI 兼容）；支持 `/rewind` 回退与 `/fork` 分叉的会话树。  
   - **链接**：[xianyu-sheng/Xenon](https://github.com/xianyu-sheng/Xenon)
+  - **Tips**：安装：`pip install` GitHub Releases 提供的 wheel（30 秒装好，无需 PyPI）；首次运行会引导配置模型 Key，`/evidence` 可随时自验会话证据链。  
 
 ## MCP 服务器精选列表
 
