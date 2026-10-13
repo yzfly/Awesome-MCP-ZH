@@ -245,6 +245,13 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[官网](https://www.aionui.com) | [GitHub 仓库](https://github.com/iOfficeAI/AionUi)
   - **Tips**：跨平台（Windows、macOS、Linux）；适合想用图形界面管理多个 CLI Agent 与 MCP 服务器的用户。
 
+- **Synaps**
+  - **简介**：开源的终端 AI Agent 运行时，Rust 开发，内置 MCP 客户端。
+  - **功能**：通过 `mcp.json`（与 Claude Code 相同的 `mcpServers` 格式）配置 stdio MCP Server，按需懒加载连接并将其工具注册给 Agent；支持并行子 Agent、终端 TUI、后台守护进程共享与恢复会话，以及任意语言编写的进程隔离插件。
+  - **链接**：[GitHub 仓库](https://github.com/HaseebKhalid1507/SynapsCLI) | [crates.io](https://crates.io/crates/synaps)
+  - **安装**：`cargo install synaps`
+  - **Tips**：Apache-2.0 协议，支持 macOS 和 Linux（不支持 Windows），以及 Claude、OpenAI、Gemini 和 Ollama、LM Studio 等本地模型；也可通过 Homebrew、AUR 或 .deb 安装。
+
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
