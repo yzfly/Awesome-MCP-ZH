@@ -315,6 +315,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Unagi-cq/cdp-bridge-mcp](https://github.com/Unagi-cq/cdp-bridge-mcp) | 通过 Chrome DevTools Protocol (CDP) 与配套浏览器扩展，将 MCP 客户端桥接到用户的真实浏览器，复用已有会话与登录态进行网页操作。 | 社区实现, Python 开发 🐍, 本地运行 🏠, CDP + 扩展桥接真实浏览器。 |
 | [AI-XiaoDao/ai-browser-mcp](https://github.com/AI-XiaoDao/ai-browser-mcp) | Windows 本地浏览器自动化 MCP，基于 FBrowser CEF 内核暴露 200+ `browser_*` 工具：导航、原生 DOM、填表 RPA、CDP 断点、POST 抓包、JS 逆向与爬虫。原生 API 优先，支持 stdio / HTTP / WebSocket 接入 Cursor、Claude、Cline。 | 社区实现, C++ 开发, 本地运行 🏠, Windows 🪟, 浏览器自动化 + JS 逆向, MIT。 |
 | [WebIntel](https://github.com/1036007003-wq/webintel-mcp) | 网页情报采集 MCP 服务器：正文提取（自动去广告/导航/页脚）、DuckDuckGo 搜索、SEO 与 Open Graph 元数据、内外链分类、JSON-LD / 表格 / CSS 选择器结构化抽取、联系方式提取，共 8 个工具。 | 社区实现, Python 开发 🐍, 本地运行 🏠, FastMCP, MIT 许可, 自建部署无需 API key。 |
+| [Surface](https://github.com/Surface-ops/surface) | 面向 AI 代理的 URL 预检（preflight）远程 MCP 服务器：在代理抓取或打开链接前，调用 `preflight_url` 返回判定（verdict）、下一步建议（next）与原因，提前识别失效、跳转或不适合抓取的 URL。另提供 REST `POST /v1/preflight`。 | 官方实现 (Surface-ops) 🎖️, 远程 MCP ☁️ (`https://nova-otter-delta-cloud.grok.me/mcp`), 按量计费，每月前 100 万次请求免费。 |
 | [browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp) | 把浏览器的控制台日志、网络请求、DOM 元素与截图直接喂给 Cursor 等 MCP 客户端，并可跑 Lighthouse 审计（性能/可访问性/SEO），前端调试不用再手工复制粘贴。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 需配套 Chrome 扩展, MIT。 |
 ---
 
