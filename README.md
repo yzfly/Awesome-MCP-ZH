@@ -593,6 +593,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                                           | 备注                                                                                        |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| [StatOrigin](https://github.com/SudoAI-App/statorigin-mcp) | 免费远程 MCP：检索行业统计数据，并读取每条数字的发布方、报告与原句出处。端点 https://statorigin.org/mcp（无需鉴权）。 | 远程服务 ☁️, Streamable HTTP, 只读工具 `search`/`fetch`/`get_ranking`, 文档 https://statorigin.org/docs/mcp。 |
 | [Secret MCP](https://github.com/yyeongjin/secret_mcp) | 搜索近期 GDWEB 设计参考，并通过 MCP Sampling 将每个结果转换为可直接用于实现的设计规格。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT, 官方 MCP Registry `io.github.yyeongjin/secret-mcp`, `npx -y secret-design-mcp`。 |
 | [AdMapix](https://github.com/fly0pants/admapix) | 广告创意检索 MCP：按关键词、平台、国家、语言和日期搜索全球广告素材并返回结构化数据，适合竞品广告研究与市场分析（工具 `search_creatives`）。 | 社区实现, Python 开发 🐍, 本地运行 🏠, `pip install admapix-mcp`, 需 AdMapix API Key。 |
 | [Alibaba Cloud OpenSearch](https://github.com/aliyun/alibabacloud-opensearch-mcp-server) | 阿里云 OpenSearch 官方集成，AI 代理通过标准化接口与 OpenSearch 交互的工具。                      | 官方实现 (Alibaba Cloud) 🎖️, 阿里云搜索服务。                                              |
