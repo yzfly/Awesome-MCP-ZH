@@ -543,6 +543,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Zhwt/go-mcp-mysql](https://github.com/Zhwt/go-mcp-mysql)              | 易于使用、零依赖的 MySQL MCP 服务器 (Go)，具有可配置的只读模式和模式检查。                  | 社区实现, Go 开发 🏎️, 本地运行 🏠, MySQL 集成 (Go)。                                         |
 
 ---
+- [signals-api-mcp](https://github.com/jiangzhangcc-glitch/signals-api-mcp) - 每日 AI 信号数据（agent 可直接调用）：当日信号（每个核心源 1 条）、与上一快照的差异、AI 模型与仓库排行。每条排行都自带**可直接引用的句子**；无法推导的数字会标注为 unranked 并给出原因，而不是编一个值。免费、无需 API Key、单文件（Python 标准库）。
 
 ### ☁️ 云平台与服务集成 (AWS, Cloudflare, Azure, K8s, etc.)
 
