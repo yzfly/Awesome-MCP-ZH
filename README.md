@@ -252,15 +252,17 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **Tips**：跨平台（Windows、macOS、Linux）；适合想用图形界面管理多个 CLI Agent 与 MCP 服务器的用户。
 
 - **vixl**
-  - **简介**: 开源、本地优先的桌面编程 Agent，自带密钥，没有 vixl 订阅。
-  - **功能**: MCP 支持 stdio、HTTP 和 SSE。可接 Ollama 以及其它 OpenAI 兼容的本地服务。工作台含编辑器、终端和 Git。密钥存在系统钥匙串。
-  - **链接**: [GitHub 仓库](https://github.com/vixl-ai/vixl) | [官网](https://vixl.app/)
-  - **Tips**: MIT。安装包覆盖 macOS arm64、Linux x64 和 Windows。界面和文档是英文。
+  - **简介**：开源、本地优先的桌面编程 Agent，自带密钥，没有 vixl 订阅。
+  - **功能**：MCP 支持 stdio、HTTP 和 SSE。可接 Ollama 以及其它 OpenAI 兼容的本地服务。工作台含编辑器、终端和 Git。密钥存在系统钥匙串。
+  - **链接**：[GitHub 仓库](https://github.com/vixl-ai/vixl) | [官网](https://vixl.app/)
+  - **Tips**：MIT。安装包覆盖 macOS arm64、Linux x64 和 Windows。界面和文档是英文。
+
 - **麦麦记忆罐头 (mcd-memory-can)**
   - **简介**：调用麦当劳中国官方 MCP 的只读接口，把自己吃过的订单生成一部九幕图文长卷。
   - **功能**：通过官方 MCP 的 `order-list` 只读工具拉取历史订单，用「每日快照 + 累积去重」绕过该接口只返回最近 10 单的限制；输出《重庆森林》质感的 1080×1440 竖图 / 长卷 / PDF，讲出第一顿、最常去的门店、重复最多的组合、最长的空窗期等。数据凑不齐的那一幕整页丢弃，不编造。
   - **链接**：[GitHub 仓库](https://github.com/MarkWang90/mcd-memory-can) | [网页版免 Token 体验](https://markwang90.github.io/mcd-memory-can/)
   - **Tips**：Python 标准库实现、零第三方依赖；全程只读、不上传任何数据；另有纯前端网页版，不接 MCP 也能生成图片。
+
 - **Synaps**
   - **简介**：开源的终端 AI Agent 运行时，Rust 开发，内置 MCP 客户端。
   - **功能**：通过 `mcp.json`（与 Claude Code 相同的 `mcpServers` 格式）配置 stdio MCP Server，按需懒加载连接并将其工具注册给 Agent；支持并行子 Agent、终端 TUI、后台守护进程共享与恢复会话，以及任意语言编写的进程隔离插件。
@@ -468,6 +470,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Remote Arc](https://github.com/yaohuangguan/remote-arc) | 通过 MCP 将 ChatGPT、Claude、Codex、Cursor 等 AI 客户端连接到用户显式配对的 Windows、macOS 与 Linux 电脑，可远程读取/编辑文件、查看进程并按设备权限执行终端命令。 | 官方实现 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, 跨平台 🍎🪟🐧；`npx remotelink` 配对设备，远程 MCP：`https://mcp.remotearc.app/mcp`；OAuth 2.1 + PKCE、默认只读、per-device 权限、Workspace Scope 与本地 Undo；source-available。 |
 | [olo-dot-io/Uni-CLI](https://github.com/olo-dot-io/Uni-CLI) | 自修复 CLI 目录，将网页、桌面应用、Electron 应用、外部 CLI 作为确定性命令通过一个 MCP 服务器暴露给 AI 代理；声明式 YAML 适配器加结构化错误信封，调用失败时代理可直接编辑 YAML 并重试。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, Apache-2.0；目录规模与每次调用 token 预算见仓库 [README](https://github.com/olo-dot-io/Uni-CLI#readme) 与 [`docs/BENCHMARK.md`](https://github.com/olo-dot-io/Uni-CLI/blob/main/docs/BENCHMARK.md)。 |
 | [5dive MCP](https://github.com/5dive-ai/5dive-mcp) | 5dive 官方 MCP 服务器，把 5dive 智能体舰队 CLI（任务、智能体、摘要）暴露为 MCP 工具，让 MCP 客户端直接调度运行在你自己服务器上的多个自治编码智能体。 | 官方实现 🎖️, JavaScript 开发 📇, 本地运行 🏠, MIT 开源, 已收录于 MCP 官方注册表, 安装：`npx -y @5dive/mcp`。 |
+| [remotify-mcp](https://github.com/onlsol/relay.remotify.run/tree/main/mcp) | 通过 HTTP 中继让 AI 客户端在远程计算机上执行 Shell 命令，可选择逐条人工确认或自动执行；远端仅需 curl 和 bash。工具：`remote_exec`、`remote_session_info`、`remote_session_reset`。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, stdio, Apache-2.0, `npx -y remotify-mcp@latest`。 |
 
 ---
 
