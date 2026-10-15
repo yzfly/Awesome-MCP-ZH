@@ -1367,6 +1367,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 ### 更多 MCP Server 资源
 
 * [MCP.so](https://mcp.so/) 收录了 16,000+ MCP Servers
+* [mcp.market](https://mcp.market/) 为官方 Registry 全部 4.3 万个 MCP 服务器提供安全评级、在线检测，并扫描 5,000+ Claude Skills
 
 ![](https://files.mdnice.com/user/43439/4f1c6e0d-f1b3-423c-b069-fa2c502d8557.png)
 
