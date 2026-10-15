@@ -261,6 +261,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **功能**：通过官方 MCP 的 `order-list` 只读工具拉取历史订单，用「每日快照 + 累积去重」绕过该接口只返回最近 10 单的限制；输出《重庆森林》质感的 1080×1440 竖图 / 长卷 / PDF，讲出第一顿、最常去的门店、重复最多的组合、最长的空窗期等。数据凑不齐的那一幕整页丢弃，不编造。
   - **链接**：[GitHub 仓库](https://github.com/MarkWang90/mcd-memory-can) | [网页版免 Token 体验](https://markwang90.github.io/mcd-memory-can/)
   - **Tips**：Python 标准库实现、零第三方依赖；全程只读、不上传任何数据；另有纯前端网页版，不接 MCP 也能生成图片。
+- **Synaps**
+  - **简介**：开源的终端 AI Agent 运行时，Rust 开发，内置 MCP 客户端。
+  - **功能**：通过 `mcp.json`（与 Claude Code 相同的 `mcpServers` 格式）配置 stdio MCP Server，按需懒加载连接并将其工具注册给 Agent；支持并行子 Agent、终端 TUI、后台守护进程共享与恢复会话，以及任意语言编写的进程隔离插件。
+  - **链接**：[GitHub 仓库](https://github.com/HaseebKhalid1507/SynapsCLI) | [crates.io](https://crates.io/crates/synaps)
+  - **安装**：`cargo install synaps`
+  - **Tips**：Apache-2.0 协议，支持 macOS 和 Linux（不支持 Windows），以及 Claude、OpenAI、Gemini 和 Ollama、LM Studio 等本地模型；也可通过 Homebrew、AUR 或 .deb 安装。
 
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
