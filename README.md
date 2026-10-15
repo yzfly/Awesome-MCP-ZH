@@ -256,6 +256,11 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **功能**: MCP 支持 stdio、HTTP 和 SSE。可接 Ollama 以及其它 OpenAI 兼容的本地服务。工作台含编辑器、终端和 Git。密钥存在系统钥匙串。
   - **链接**: [GitHub 仓库](https://github.com/vixl-ai/vixl) | [官网](https://vixl.app/)
   - **Tips**: MIT。安装包覆盖 macOS arm64、Linux x64 和 Windows。界面和文档是英文。
+- **麦麦记忆罐头 (mcd-memory-can)**
+  - **简介**：调用麦当劳中国官方 MCP 的只读接口，把自己吃过的订单生成一部九幕图文长卷。
+  - **功能**：通过官方 MCP 的 `order-list` 只读工具拉取历史订单，用「每日快照 + 累积去重」绕过该接口只返回最近 10 单的限制；输出《重庆森林》质感的 1080×1440 竖图 / 长卷 / PDF，讲出第一顿、最常去的门店、重复最多的组合、最长的空窗期等。数据凑不齐的那一幕整页丢弃，不编造。
+  - **链接**：[GitHub 仓库](https://github.com/MarkWang90/mcd-memory-can) | [网页版免 Token 体验](https://markwang90.github.io/mcd-memory-can/)
+  - **Tips**：Python 标准库实现、零第三方依赖；全程只读、不上传任何数据；另有纯前端网页版，不接 MCP 也能生成图片。
 
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
