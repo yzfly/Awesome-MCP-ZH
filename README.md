@@ -1261,6 +1261,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server) | 小智 ESP32 的开源后端服务，可自建 ASR/LLM/TTS 全链路与设备管理控制台，支持通过 MCP 接入外部工具扩展设备能力。 | 社区实现, Python/JavaScript 开发 🐍📇, 本地/私有化部署 🏠, MIT, 中文项目。 |
 | [KiCAD-MCP-Server](https://github.com/mixelpixx/KiCAD-MCP-Server) | KiCAD 电路设计 MCP：让大模型创建与修改原理图和 PCB 布局、放置元件、布线并导出制造文件。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, EDA/PCB 设计。 |
 | [genieacs-mcp](https://github.com/GeiserX/genieacs-mcp) | 面向开源 TR-069 ACS GenieACS 的 MCP 服务器：按标签、型号、固件或任意 TR-069 参数查询路由器、ONT 等 CPE 设备，读取参数、任务与故障，并可重启设备、下发固件、设置参数。 | 社区实现, Go 开发 🏎️, 本地运行 🏠, GPL-3.0, 7 个资源 + 12 个工具, `npx -y genieacs-mcp`。 |
+| [OnlyClaws ESP (onlyclaws-esp)](https://github.com/shinjiyu/onlyclaws-esp) | 给 Agent 一只伸进现实的爪子：ESP32-S3 只烧一次固件，之后通过 HTTP 下发 Lua（屏/音频/传感器/RoArm 机械臂）；另附 stdio MCP（`jev_servo`，机械臂 presence 工具）与 [skill.md](https://onlyclaws.world/api/agent/skill.md)。 | 社区实现, Python/C++ 开发 🐍, 本地可自建控制面 🏠, 嵌入式 📟, MIT, 中英 README。 |
 
 ---
 
