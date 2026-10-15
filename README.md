@@ -188,6 +188,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[GitHub 仓库](https://github.com/phinn/KinetAios) | [官网](https://phinn.github.io/KinetAios/)
   - **Tips**：GPL-3.0 开源，支持 Windows 和 macOS；MCP 双向 + 跨引擎记忆是差异化亮点。
 
+- **Raven**
+  - **简介**：开源多智能体 harness，Host Agent 把复杂任务规划为 DAG 并编排多个 Agent，内置 MCP 客户端。
+  - **功能**：可接入本地（stdio）或远程（SSE、Streamable HTTP）MCP Server，把其中的工具、资源与提示词交给 Agent 使用，并通过 `raven plugin auth` 完成 MCP OAuth 授权；Host Agent 会把任务拆给内置的研究、编程、设计、值守 Agent，或通过 ACP、CLI、OpenAI 兼容 API 接入的第三方 Agent，并管理依赖与并行执行。
+  - **链接**：[GitHub 仓库](https://github.com/EverMind-AI/Raven) | [文档](https://evermind-ai.github.io/Raven/)
+  - **Tips**：Apache-2.0 开源，支持 Linux、macOS、Windows 与 Docker，提供 WebUI 与终端界面；仓库含基于官方 MCP Python SDK 的客户端实现（`raven/mcp/`）。目前处于 pre-alpha 阶段，接口可能变化。
+
 - **Cline**
   - **简介**：VS Code 中的自主编程 Agent，也提供 SDK/CLI 形态。
   - **功能**：原生 MCP 客户端，可读写文件、运行命令，并可安装 MCP 服务器扩展能力。
