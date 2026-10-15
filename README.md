@@ -1181,6 +1181,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [小智 AI 聊天机器人 (xiaozhi-esp32)](https://github.com/78/xiaozhi-esp32) | 基于 MCP 的开源 ESP32 语音聊天机器人固件（29k+ star）：设备通过 MCP 把自身的音量、屏幕、灯光、底盘等能力暴露成工具，让大模型直接控制实体硬件，支持离线唤醒词与多种开发板。 | 社区实现, C++ 开发, 嵌入式固件, MIT, 中文文档完善。 |
 | [xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server) | 小智 ESP32 的开源后端服务，可自建 ASR/LLM/TTS 全链路与设备管理控制台，支持通过 MCP 接入外部工具扩展设备能力。 | 社区实现, Python/JavaScript 开发 🐍📇, 本地/私有化部署 🏠, MIT, 中文项目。 |
 | [KiCAD-MCP-Server](https://github.com/mixelpixx/KiCAD-MCP-Server) | KiCAD 电路设计 MCP：让大模型创建与修改原理图和 PCB 布局、放置元件、布线并导出制造文件。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, EDA/PCB 设计。 |
+| [OnlyClaws ESP (onlyclaws-esp)](https://github.com/shinjiyu/onlyclaws-esp) | 给 Agent 一只伸进现实的爪子：ESP32-S3 只烧一次固件，之后通过 HTTP 下发 Lua（屏/音频/传感器/RoArm 机械臂）；另附 stdio MCP（`jev_servo`，机械臂 presence 工具）与 [skill.md](https://onlyclaws.world/api/agent/skill.md)。 | 社区实现, Python/C++ 开发 🐍, 本地可自建控制面 🏠, 嵌入式 📟, MIT, 中英 README。 |
 
 ---
 
