@@ -955,6 +955,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Speak AI](https://github.com/speakai/speakai-mcp) | 语音与视频转录（支持 100+ 种语言）、AI 分析与基于自定义评分标准的通话评分；官方 MCP 服务器，npm 包 @speakai/mcp-server。 | 官方实现 (Speak AI) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 语音识别 ASR / 通话评分, npm: `@speakai/mcp-server`。 |
 | [Venut-Technologies/engine-dj-mcp](https://github.com/Venut-Technologies/engine-dj-mcp) | 让 Claude 等 AI 助手查询本地 Engine DJ（Denon）音乐库：按 BPM 与 Camelot 调性搜索曲目，检查重复和丢失的文件，读取 cue 点与节拍网格，并可按需创建播放列表或修改标签（需显式开启，首次写入前自动备份）。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, macOS 🍎, 非官方, `npx -y engine-dj-mcp`。 |
 | [Venut-Technologies/serato-dj-mcp](https://github.com/Venut-Technologies/serato-dj-mcp) | 让 AI 助手查询本地 Serato DJ 音乐库：按 BPM 与 Camelot 调性做和声混音搜索，浏览 crate，检查重复和丢失的文件，并在预览确认后才写入新的 crate。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, macOS 🍎, 非官方, 另提供 Claude Desktop 扩展 (.mcpb), `npx -y serato-dj-mcp`。 |
+| [Venut-Technologies/bandcamp-mcp](https://github.com/Venut-Technologies/bandcamp-mcp) | 无需账号或 API Key，让 AI 助手在 Bandcamp 上发掘音乐：搜索艺人、专辑、厂牌和单曲，按流派标签浏览新作与热门，查看曲目列表和价格。只读。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 跨平台 🍎🪟🐧, 非官方, `npx -y bandcamp-mcp`。 |
 
 ---
 
