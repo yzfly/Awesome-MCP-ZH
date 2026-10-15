@@ -970,6 +970,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [RedBook-Search-Comment-MCP](https://github.com/chenningling/RedBook-Search-Comment-MCP) | (v1.0版本) 基于 Playwright 的搜索与评论工具，帮助用户完成基础的自动化操作。 | 社区实现, Python 开发 🐍, 旧版本归档 (建议使用 v2.0)。 |
 | [xiaohongshu-mcp-nodejs](https://github.com/ToDieOrNot/xiaohongshu-mcp-nodejs) | 企业级 Node.js 重构版本，支持多账号矩阵管理、反风控、数据采集与发布。 | 社区实现, Node.js 开发 🟢, 矩阵管理, 企业级特性。 |
 | [hot-trending-mcp](https://github.com/boy-373/hot-trending-mcp) | 中文全网热榜聚合 MCP：一次调用获取微博、知乎、B站、百度、头条、抖音、贴吧、掘金 8 大平台实时热搜/热榜，数据缓存 5 分钟。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/hot-mcp/mcp`，无需 API Key，限流 60 次/分，MIT。 |
+| [ScraperSocial](https://scrapersocial.com/mcp/) | 托管式 MCP 服务器，提供公开社交媒体数据：14 个只读工具覆盖主页资料、帖子、互动数据、评论、关键词与话题标签搜索、评价、热门趋势和视频字幕，支持 TikTok、Instagram、LinkedIn、YouTube、X、Reddit 等 30+ 平台。 | 官方实现 (ScraperSocial) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 远程 MCP: `https://mcp.scrapersocial.com`（Streamable HTTP，OAuth 或 Bearer API Key），注册赠送 100 免费额度，仅公开数据。 |
 
 ---
 
