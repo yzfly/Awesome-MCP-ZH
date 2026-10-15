@@ -397,6 +397,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [code-sandbox-mcp](https://github.com/Automata-Labs-team/code-sandbox-mcp) | 创建安全的 Docker 容器环境来执行代码。                                              | 社区实现, Python 开发, Docker 沙盒代码执行。                                         |
 | [knowlyr-sandbox](https://github.com/liuxiaotong/knowlyr-agent/tree/main/packages/sandbox) | Code Agent 执行沙箱 — Docker 隔离、文件捕获、超时控制，为 LLM 代码代理提供安全的运行环境。 | 社区实现, Python 开发 🐍, 本地运行 🏠, Docker 沙箱执行。 |
 | [ForeverVM](https://github.com/jamsocket/forevervm/tree/main/javascript/mcp-server) | 在代码沙盒中运行 Python 代码。                                                     | 官方实现 (Jamsocket), JavaScript 开发, 代码沙盒。                                   |
+| [Openhook](https://github.com/openhook-dev/openhook-inbox) | 为 AI 编程助手创建 Webhook 收件箱，通过 MCP 检查回调内容、使用游标等待事件，并将请求转发到本地处理程序。 | Python 开发 🐍, 云端/本地 🏠☁️, MIT 开源；远程 Streamable HTTP：`https://openhook.dev/mcp`，临时收件箱无需账号，私有令牌控制事件读取。 |
 | [Riza](https://github.com/riza-io/riza-mcp)                          | Riza 提供的任意代码执行和工具使用平台。                                              | 官方实现 (Riza), Go 开发, 通用代码执行平台。                                       |
 | [Roundtable](https://github.com/askbudi/roundtable) | 统一AI编程助手的零配置MCP服务器，专为自主代理开发设计，简化多AI工具集成工作流程。 | 社区实现 🌟, Python 开发 🐍, 本地/云端部署 🏠☁️, pip install roundtable-ai |
 | [Semgrep](https://github.com/semgrep/mcp)                            | 让 AI 代理使用 Semgrep 进行代码安全扫描。 (Semgrep 官方)                           | 官方实现 (Semgrep) 🎖️, TypeScript 开发 📇, 代码安全扫描 ☁️. |
