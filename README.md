@@ -1193,6 +1193,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                               | 中文介绍                                                                                              | 备注                                                                                             |
 | :--------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
+| [Eigenheim Market MCP](https://github.com/magicSEO/eigenheim-mcp) | 柏林房地产市场数据：各街区每日房价（€/m²）、租金回报率、土地基准价、市场概览和在售房源。只读远程服务器。 | 社区实现, 云服务 ☁️, 远程 `https://eigenheim-invest.de/mcp`，无需登录。 |
 | [Airbnb MCP Server](https://github.com/openbnb-org/mcp-server-airbnb)              | 提供搜索 Airbnb 和获取房源详情的工具。                                                         | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Airbnb 搜索。                                         |
 | [briandconnelly/mcp-server-ipinfo](https://github.com/briandconnelly/mcp-server-ipinfo) | 使用 IPInfo API 获取 IP 地址地理位置和网络信息。                                                 | 社区实现, Python 开发 🐍, 云服务 ☁️, IP 地址信息 (IPInfo)。                                   |
 | [jagan-shanmugam/open-streetmap-mcp](https://github.com/jagan-shanmugam/open-streetmap-mcp) | 具有基于位置服务和地理空间数据的 OpenStreetMap MCP 服务器。                                  | 社区实现, Python 开发 🐍, 本地运行 🏠, OpenStreetMap 数据。                                   |
