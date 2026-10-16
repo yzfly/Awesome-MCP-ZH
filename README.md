@@ -263,6 +263,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[GitHub 仓库](https://github.com/MarkWang90/mcd-memory-can) | [网页版免 Token 体验](https://markwang90.github.io/mcd-memory-can/)
   - **Tips**：Python 标准库实现、零第三方依赖；全程只读、不上传任何数据；另有纯前端网页版，不接 MCP 也能生成图片。
 
+- **点单参谋 (mcd-order-copilot)**
+  - **简介**：调用麦当劳中国官方 MCP，先查你身边的门店、再切到这家店此刻真正在售的菜单，把热量 / 蛋白 / 脂肪 / 碳水 / 钠 / 钙六个字段直接铺在卡片上，点单前 30 秒看清这一顿。
+  - **功能**：用官方 MCP 的 `query-nearby-stores` 按城市 + 地标查附近门店（含距离与营业状态），再拉取该店全量在售餐品并逐项取营养明细；内置「减脂期」等 8 组目标预设，自动配好热量上限与蛋白下限；套餐换配餐时热量与价格同步重算，并给出「比默认搭配多 90 kcal」这类差值。门店来源两条：浏览器坐标（官方接口不认经纬度，故先用 Photon 逆地理换成中文地名再查）或读调用者自己账号里存过的收货地址。
+  - **链接**：[GitHub 仓库](https://github.com/26514651/mcd-order-copilot) | [免 Token 静态快照版](https://26514651.github.io/mcd-order-copilot/)
+  - **Tips**：Python 标准库实现、零第三方依赖，本地 `python server.py` 起代理即得完整功能；仓库自带 `fixtures/` 真实接口快照，不填 Token 也能看到全部界面。全程只读、不写订单、不给医疗建议；演示后端对匿名流量按 IP 限流（官方额度为整 Token 每分钟 600 次，而拉一家店菜单约需 115 次）；读账号地址的接口强制要求调用者自带 Token，匿名访问直接 403。
+
 - **Synaps**
   - **简介**：开源的终端 AI Agent 运行时，Rust 开发，内置 MCP 客户端。
   - **功能**：通过 `mcp.json`（与 Claude Code 相同的 `mcpServers` 格式）配置 stdio MCP Server，按需懒加载连接并将其工具注册给 Agent；支持并行子 Agent、终端 TUI、后台守护进程共享与恢复会话，以及任意语言编写的进程隔离插件。
