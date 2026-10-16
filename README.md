@@ -701,6 +701,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Brave Search (官方)](https://github.com/brave/brave-search-mcp-server) | Brave 官方出品的搜索 MCP 服务器，支持网页、本地、图片、新闻、视频搜索。 | 官方实现 (Brave) 🎖️, TypeScript 开发 📇, 云服务 ☁️, Brave 搜索引擎。 |
 | [You.com](https://github.com/youdotcom-oss/agent-skills) | You.com 官方远程 MCP 服务器，提供实时网页搜索、URL 内容提取与带引用的深度研究（工具 `you-search` / `you-contents` / `you-research`），并附赠多平台 Agent 技能包（Claude Code、Codex、Cursor、Copilot CLI 等）。 | 官方实现 (You.com) 🎖️, 云服务 ☁️, 远程端点 `https://api.you.com/mcp`，支持 `YDC_API_KEY` Bearer 认证或免密 `?profile=free` 基础搜索，MIT。 |
 | [BuyWhere](https://github.com/BuyWhere/buywhere-mcp) | 跨境电商商品目录 MCP：跨 SG/MY/VN/TH/PH/US/JP 七个国家 3.7 亿+ 商品实时搜索与比价（`deliver_to` 配送信号），覆盖 13 个工具（search_products / find_best_price / get_deals 等）。OAuth 2.1 Bearer 鉴权，免邮箱注册。已上架官方 MCP Registry（`io.github.BuyWhere/buywhere-mcp@1.1.0`）。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://mcp.buywhere.ai/mcp`, MIT。 |
+| [校招宝 (Xiaozhaobao)](https://xiaozhaobao.com.cn/mcp-guide.html) | 中国校园招聘（秋招/春招/实习/提前批）岗位检索 MCP：按城市、批次、学历、届别、行业、企业类型筛选在招岗位，查看企业档案（在招岗位数、简介、热门招聘岗位）与临近截止的投递提醒，并附求职攻略与题库体量概览。5 个只读工具，免 API Key、免注册。 | 官方实现 🎖️, 云服务 ☁️, 远程端点 `https://xiaozhaobao.com.cn/mcp`（Streamable HTTP）, 闭源托管（服务端源码不公开，工具定义经 `tools/list` 公开可验）, 匿名限流 120 次/分钟, 官方 MCP Registry `cn.com.xiaozhaobao/xiaozhaobao`, 数据每日更新。 |
 
 ---
 
