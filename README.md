@@ -1362,6 +1362,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [GCF Proxy](https://github.com/blackwell-systems/gcf-proxy) | MCP 工具响应压缩代理。零代码接入，将任意 MCP 服务器的 JSON-RPC 响应自动转换为紧凑的 GCF 格式以节省 token，支持 JSON、YAML、TOML、CSV、MessagePack 多种格式。 | 社区实现, Go/Python/Node 开发 🏎️🐍📇, 本地运行 🏠, MIT 许可, token 优化。 |
 | [瑞幸咖啡 MCP](https://open.lkcoffee.com/) | 瑞幸官方远程 MCP：查询附近门店、搜索商品、下单点咖啡。 | 官方实现 (瑞幸) 🎖️, 远程端点 ☁️ `https://gwmcp.lkcoffee.com/order/user/mcp`。 |
 | [Omega MCP Router](https://github.com/Omega-JS-Stack/omega/tree/main/packages/mcp-router) | 单个 stdio MCP 服务器，代理多个上游 MCP 服务器：工具定义缓存在本地磁盘，上游进程在首次调用时才启动、空闲 15 分钟后关闭，每个会话可自行启用或停用上游，减少上下文占用。 | 官方实现 (OMEGA) 🎖️, JavaScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, `npx -y @omega.js/mcp-router`, 附带 omega-mcp CLI 管理上游。 |
+| [msc35/mispick](https://github.com/msc35/mispick) | 测量模型会混淆你的哪些 MCP 工具：为每个工具生成真实的测试请求，让真实模型选择工具，输出混淆矩阵以及每个工具的精确率和召回率；为易混淆的工具对提出描述改写，并只保留经重新测试证明有效的改写。只读取 `tools/list`，从不调用任何工具。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 可用本地 Ollama 模型免费运行, 提供 GitHub Action, `uvx mispick`。 |
 
 ---
 
