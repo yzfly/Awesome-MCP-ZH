@@ -450,6 +450,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) | 让 LLM 获取 shadcn/ui 组件的结构、用法与源码上下文，生成组件代码时不再靠猜 API。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT, 前端组件库上下文。 |
 | [repomap](https://github.com/SylphxAI/repomap) | 给 AI 编程代理的代码库地图：基于 tree-sitter 的代码图谱（13 种语言），提供 map、search（BM25 + 符号混合检索）、context（代码、调用者与被调用者）、trace（调用路径）、impact（改动影响面，支持 git diff）五个工具，另附交互式 WebGL 图谱界面。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🪟🐧, 无需 API Key, `npx -y @sylphx/repomap setup` |
 | [RepoGuard](https://github.com/taylormatematica-beep/repoguard) | 针对 AI 代码库的 ~12ms 极速架构守卫与 AST 规则检查器：拦截 AI 越层违规访问数据库、泄露敏感环境变量，并自动生成 Cursor 与 Claude Code 架构规则文件。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT 开源, `npx -y repoguard-rules@1.6.1 mcp`。 |
+| [ZerouterAI/zerouter-mcp](https://github.com/ZerouterAI/zerouter-mcp) | Zerouter 官方 MCP：一个 API Key 接入 Claude、GPT、Gemini、Grok、Kimi 等模型（OpenAI 兼容的 AI API 中转站）。提供 `chat` 对话、`compare_models` 2–4 个模型并行对比（含 token 用量与预估费用）、`list_models`、`get_pricing` 查询 API 定价（无需 Key）。适用于 Claude Code、Codex、Cursor。 | 官方实现 🎖️, TypeScript 开发 📇, 云服务 ☁️, 跨平台 🍎🪟🐧, MIT 开源, `npx -y zerouter-mcp`（环境变量 `ZEROUTER_API_KEY`）。 |
 
 
 ---
