@@ -402,6 +402,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Openhook](https://github.com/openhook-dev/openhook-inbox) | 为 AI 编程助手创建 Webhook 收件箱，通过 MCP 检查回调内容、使用游标等待事件，并将请求转发到本地处理程序。 | Python 开发 🐍, 云端/本地 🏠☁️, MIT 开源；远程 Streamable HTTP：`https://openhook.dev/mcp`，临时收件箱无需账号，私有令牌控制事件读取。 |
 | [Riza](https://github.com/riza-io/riza-mcp)                          | Riza 提供的任意代码执行和工具使用平台。                                              | 官方实现 (Riza), Go 开发, 通用代码执行平台。                                       |
 | [Roundtable](https://github.com/askbudi/roundtable) | 统一AI编程助手的零配置MCP服务器，专为自主代理开发设计，简化多AI工具集成工作流程。 | 社区实现 🌟, Python 开发 🐍, 本地/云端部署 🏠☁️, pip install roundtable-ai |
+| [alicelabs-llc/MARKETNOW](https://github.com/alicelabs-llc/MARKETNOW) | AI 代理信任基础设施：MCP 服务器内置 fail-closed ATC 信任验证（调用工具前校验对方代理的信任卡，验签失败或不可达即拒绝执行）、信任评分与 TFP-1.0 工具指纹漂移检测，共 15 个工具。 | 社区实现, TypeScript 开发 📇, 本地/云端 🏠☁️, npm `marketnow-mcp`（MIT, Docker 可部署）, 已有第三方独立实测与真实付费调用记录。 |
 | [Semgrep](https://github.com/semgrep/mcp)                            | 让 AI 代理使用 Semgrep 进行代码安全扫描。 (Semgrep 官方)                           | 官方实现 (Semgrep) 🎖️, TypeScript 开发 📇, 代码安全扫描 ☁️. |
 | [ZenML](https://github.com/zenml-io/mcp-zenml)                       | 与 ZenML MLOps/LLMOps 平台交互，管理机器学习流程。 (ZenML 官方)                   | 官方实现 (ZenML) 🎖️, Python 开发 🐍, 本地/云端 🏠☁️, MLOps 流程管理。               |
 | [vivekVells/mcp-pandoc](https://github.com/vivekVells/mcp-pandoc)    | 使用 Pandoc 进行无缝文档格式转换（Markdown, HTML, PDF, DOCX, CSV 等）。            | 社区实现, Python 开发 🐍, 本地运行 🏠, 文档格式转换。                                |
