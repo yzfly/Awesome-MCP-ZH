@@ -1186,6 +1186,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [vmoranv/jshookmcp](https://github.com/vmoranv/jshookmcp) | 面向前端 / JavaScript 逆向的 MCP 工作区：运行时 Hook、网络拦截（含 TLS keylog）、bundle 反混淆、CDP 控制真实 Chrome、WASM 反汇编；735 工具 / 36 域。search-first —— 只注入约 3K token 的工具摘要、按需激活域，避免 735 个 schema 撑爆上下文。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 前端逆向工程 (JS/WASM)。 |
 
 ---
+| [TraceGuard](https://github.com/ve-loma/traceguard) | AI Agent 的安全运行时：工具调用执行**之前**做确定性拦截（规则判定，提示注入绕不过去）、反复犯错时三态熔断、对文件改动做动作级快照（已发生的改动可回滚），全程本地零联网，含哈希链审计。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT |
 
 ### 🌍 地理位置与出行
 
