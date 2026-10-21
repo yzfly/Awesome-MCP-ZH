@@ -357,6 +357,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                              | 备注                                                                                 |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------- |
+| [T-Zero Context Engine](https://github.com/toprakahmetaydogmus/TZeroAlgorithm) | 企业级代码库上下文架构师与 Token 削减引擎，内置 37 个 MCP 工具。通过多语言 AST 签名修剪（Python、TS、Rust、Go、Solidity 等）节省高达 95% Prompt Token，强制 T-1 至 T-4 架构边界，并提供 100% 零泄漏密钥安全扫描。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, 37 工具 / 95% Token 削减, MIT, pip install tzero-mcp。 |
 | [Cortex](https://github.com/cortex-docs/cortex) | 从 OpenAPI、AsyncAPI、GraphQL、Protocol Buffer、OpenRPC 和 Markdown 生成可安装的 MCP 服务器，提供类型化 API 工具、接口规范、SDK 指南和项目文档。 | 官方实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, `npx @cortex-docs/mcp`。 |
 | [Bestax](https://github.com/allxsmith/bestax/tree/main/bestax-mcp) | 为编码 Agent 提供 Bestax（基于 Bulma v1 的 React 组件库）的组件 props、示例、CSS 变量和 Agent Skills，离线运行。 | 官方实现 (Bestax) 🎖️, TypeScript 开发 📇, 本地运行 🏠, MIT, 无需 API Key, `npx -y bestax-mcp@1`。 |
 | [mcp-contract-check](https://github.com/gendjo-owlhead/mcp-contract-check) | MCP 服务端契约测试与 Schema 模糊测试 CI 检查工具：自动化验证工具定义、输入参数与输出契约的一致性，防止 Breaking Changes。支持 GitHub Action 与 CLI。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 契约与模糊测试 / GitHub Action, MIT。 |
