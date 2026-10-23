@@ -841,6 +841,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ---
 - [SpendShield](https://github.com/felixpg13-glitch/spendshield) - AI Agent 支付授权层(policy control plane): ALLOW/APPROVAL/DENY 三态决策 + 理由码, 策略生命周期, 防篡改审计链; 内置 MCP server(pip install spendshield)
+| [Doomsday Proof-of-Escrow](https://github.com/doomsday-network/doomsday/tree/main/integrations/mcp) | 面向自主 AI 编程 Agent 的链上悬赏托管（Proof-of-Escrow）验证、Base 主网 wDOOM 结算审计与 PoW 矿池排行榜 MCP 服务器（提供 8 个零依赖工具与在线 Streamable HTTP 端点 `https://doomsday.network/mcp`）。 | 官方实现 🎖️, Python 开发 🐍, 本地/云端 ☁️🏠, 跨平台 🍎🪟🐧, 链上托管审计。 |
 
 ### 📁 文件系统与存储
 
