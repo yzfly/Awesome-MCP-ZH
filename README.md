@@ -840,6 +840,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Tapetide](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) | 印度股市（NSE、BSE）MCP 服务器，覆盖约 8,200 只上市股票：实时行情、季度财报、股东结构、326 项指标选股器、FII/DII 资金流向、期权链与隐含波动率、公司公告、IPO 与持仓跟踪。 | 官方实现 🎖️, TypeScript 开发 📇, 本地/云端 🏠☁️, MIT, 55 个工具；`npx -y tapetide-mcp` 或远程 `https://mcp.tapetide.com/mcp`（OAuth 或免费 Token），提供免费套餐。 |
 
 ---
+| [KARTA Guard](https://karta.rta.lat) | 支出前的 AI 代理授权校验：任务预算、收款方白名单、过期时间与 kill switch；每次允许的支出返回可离线验证的 Ed25519 回执。防止重试风暴与分页 bug 造成的超支。 | 社区实现, Python 开发 🐍, 本地/云端 ☁️, MCP 服务器, 扫描 2,500 个公开 MCP 服务器。 |
 - [SpendShield](https://github.com/felixpg13-glitch/spendshield) - AI Agent 支付授权层(policy control plane): ALLOW/APPROVAL/DENY 三态决策 + 理由码, 策略生命周期, 防篡改审计链; 内置 MCP server(pip install spendshield)
 
 ### 📁 文件系统与存储
