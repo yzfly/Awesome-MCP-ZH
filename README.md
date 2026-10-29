@@ -1139,6 +1139,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                               | 中文介绍                                                                                              | 备注                                                                                                     |
 | :--------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
+| [Tollgate](https://github.com/kkU1444/tollgate) | 给「会花钱的 AI Agent」装的确定性治理网关：16 环执行链 + 金丝雀注入栅栏 + Ed25519 签名人工审批 + 预算托管/追回 + 哈希链审计，零依赖，可代理任意第三方 stdio MCP 服务 |
 | [x64dbg-MCP Server](https://github.com/duty1g/x64dbg-mcp-server) | Zig 编写的 x64dbg 原生插件，零依赖单文件，把调试器 84 项能力（反汇编、单步、断点、内存、寄存器、xrefs、PE 分析等）通过 Streamable HTTP / SSE 暴露给 MCP，用于 Agent 逆向工程。 | 社区实现, Zig 开发, 本地运行 🏠, Windows, MIT。 |
 | [OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) | AI 驱动的 OSINT 情报 Agent，19 个工具，提供交互式 REPL、MCP server 与 CLI 三种用法，兼容 Claude、GPT 等。 | 社区实现, 本地运行 🏠, MIT。 |
 | [BICScan](https://github.com/ahnlabio/bicscan-mcp)                                 | 获取 EVM 区块链地址（EOA, CA, ENS）甚至域名的风险评分/资产持有情况。 (BICScan 官方) (已在金融部分列出)       | 官方实现 (AhnLab) 🎖️, Python 开发 🐍, 云服务 ☁️, 区块链地址风险分析。                                 |
