@@ -1018,6 +1018,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Venut-Technologies/engine-dj-mcp](https://github.com/Venut-Technologies/engine-dj-mcp) | 让 Claude 等 AI 助手查询本地 Engine DJ（Denon）音乐库：按 BPM 与 Camelot 调性搜索曲目，检查重复和丢失的文件，读取 cue 点与节拍网格，并可按需创建播放列表或修改标签（需显式开启，首次写入前自动备份）。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, macOS 🍎, 非官方, `npx -y engine-dj-mcp`。 |
 | [Venut-Technologies/serato-dj-mcp](https://github.com/Venut-Technologies/serato-dj-mcp) | 让 AI 助手查询本地 Serato DJ 音乐库：按 BPM 与 Camelot 调性做和声混音搜索，浏览 crate，检查重复和丢失的文件，并在预览确认后才写入新的 crate。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, macOS 🍎, 非官方, 另提供 Claude Desktop 扩展 (.mcpb), `npx -y serato-dj-mcp`。 |
 | [Venut-Technologies/bandcamp-mcp](https://github.com/Venut-Technologies/bandcamp-mcp) | 无需账号或 API Key，让 AI 助手在 Bandcamp 上发掘音乐：搜索艺人、专辑、厂牌和单曲，按流派标签浏览新作与热门，查看曲目列表和价格。只读。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 跨平台 🍎🪟🐧, 非官方, `npx -y bandcamp-mcp`。 |
+| [memecub](https://github.com/liyupi/memecub) | memecub 官方远程 MCP 服务器：按情绪搜中文表情包、斗图、英文梗图和 GIF（如「无语」「摸鱼」「熊猫头」「facepalm」），或把整篇文章交给它，在合适的句子后自动插入表情包；每张图都标明能否商用和来源署名。4 个工具：search_memes、get_meme、match_article、list_categories。 | 官方实现 (memecub) 🎖️, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://memecub.com/mcp` (Streamable HTTP), 搜索无需 API Key（整篇自动配图需免费账号的 Key）, 另有 Agent Skill（`npx skills add liyupi/memecub`）和 CLI（`npx memecub`）, MIT。 |
 
 ---
 
