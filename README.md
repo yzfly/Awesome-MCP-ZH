@@ -710,6 +710,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                                     | 备注                                                                                        |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| [OctaDezx MCP](https://github.com/cleverfox-77/octadezx-mcp) | 面向企业客户服务的行动型自主 AI Agent 平台，支持实时电话打断通话 (Human Barge-In)、照片多模态诊断识别、自填充 CRM、WhatsApp/Instagram 全渠道客服。官方端点 https://octadezx.com/mcp 。 | 官网 [octadezx.com](https://octadezx.com) 🎖️, 文档 [MCP Hub](https://octadezx.com/ai-agent-mcp-server) 📚, 支持 Glama ☁️ |
 | [agentmail-toolkit/mcp](https://github.com/agentmail-to/agentmail-toolkit) | 用于即时创建收件箱以发送、接收和处理邮件的 MCP 服务器。专为 AI Agents 设计的邮件服务。 | 官方实现 (AgentMail) 🎖️, Python 开发 🐍, 邮件处理。                                       |
 | [Atomic Mail](https://github.com/Atomic-Mail/atomic-mail-agentic) | 面向 AI 代理的邮件服务：代理可通过工作量证明自主注册收件箱（无需邮箱验证、域名或信用卡），支持自定义域名，基于开放的 JMAP 标准完整收发邮件。 | 官方实现 (Atomic Mail) 🎖️, TypeScript 开发 📇, 云服务 ☁️, JMAP 邮件收发（工作量证明注册）。 |
 | [Inbox Zero](https://github.com/elie222/inbox-zero) | Inbox Zero 官方集成，AI 个人邮件助手 (基于 Gmail，提供需回复/需跟进邮件识别等功能)。         | 官方实现 (Inbox Zero) 🎖️, Python 开发 🐍, 云服务 ☁️, 智能邮件管理。                       |
