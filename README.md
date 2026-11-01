@@ -257,6 +257,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[GitHub 仓库](https://github.com/vixl-ai/vixl) | [官网](https://vixl.app/)
   - **Tips**：MIT。安装包覆盖 macOS arm64、Linux x64 和 Windows。界面和文档是英文。
 
+- **Volt**
+  - **简介**：开源的 Agent 代码编辑器（agentic workspace），基于 VS Code 内核，深受 Cursor 启发，内置 MCP 客户端。
+  - **功能**：从 `.mcp.json`、`.cursor/mcp.json`、`.vscode/mcp.json` 或 `.volt/mcp.json` 连接 MCP Server（stdio 或 HTTP），Agent 像调用内置工具一样调用它们，并受同一套权限控制；通过 ACP 驱动 Claude Code、Codex 等 CLI Agent，也可经 Ollama 使用本地模型；支持计划模式、子 Agent、Git 检查点与 worktree，以及按 hunk 审阅改动。
+  - **链接**：[GitHub 仓库](https://github.com/LeulAria/volt) | [官网](https://volt.leularia.com)
+  - **Tips**：MIT 开源，公开测试版；GitHub Releases 提供 macOS 安装包，Windows 和 Linux 构建测试较少。
+
 - **麦麦记忆罐头 (mcd-memory-can)**
   - **简介**：调用麦当劳中国官方 MCP 的只读接口，把自己吃过的订单生成一部九幕图文长卷。
   - **功能**：通过官方 MCP 的 `order-list` 只读工具拉取历史订单，用「每日快照 + 累积去重」绕过该接口只返回最近 10 单的限制；输出《重庆森林》质感的 1080×1440 竖图 / 长卷 / PDF，讲出第一顿、最常去的门店、重复最多的组合、最长的空窗期等。数据凑不齐的那一幕整页丢弃，不编造。
