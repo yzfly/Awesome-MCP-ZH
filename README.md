@@ -771,6 +771,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Brave Search (官方)](https://github.com/brave/brave-search-mcp-server) | Brave 官方出品的搜索 MCP 服务器，支持网页、本地、图片、新闻、视频搜索。 | 官方实现 (Brave) 🎖️, TypeScript 开发 📇, 云服务 ☁️, Brave 搜索引擎。 |
 | [You.com](https://github.com/youdotcom-oss/agent-skills) | You.com 官方远程 MCP 服务器，提供实时网页搜索、URL 内容提取与带引用的深度研究（工具 `you-search` / `you-contents` / `you-research`），并附赠多平台 Agent 技能包（Claude Code、Codex、Cursor、Copilot CLI 等）。 | 官方实现 (You.com) 🎖️, 云服务 ☁️, 远程端点 `https://api.you.com/mcp`，支持 `YDC_API_KEY` Bearer 认证或免密 `?profile=free` 基础搜索，MIT。 |
 | [BuyWhere](https://github.com/BuyWhere/buywhere-mcp) | 跨境电商商品目录 MCP：跨 SG/MY/VN/TH/PH/US/JP 七个国家 3.7 亿+ 商品实时搜索与比价（`deliver_to` 配送信号），覆盖 13 个工具（search_products / find_best_price / get_deals 等）。OAuth 2.1 Bearer 鉴权，免邮箱注册。已上架官方 MCP Registry（`io.github.BuyWhere/buywhere-mcp@1.1.0`）。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://mcp.buywhere.ai/mcp`, MIT。 |
+| [SEOCheck-AI](https://seocheck-ai.com/) | AI 与技术 SEO 审计诊断工具与 CLI（[romangrid/seocheck-cli](https://github.com/romangrid/seocheck-cli)），支持 Core Web Vitals、JSON-LD 结构化数据校验及 AI 搜索引擎（GEO/AEO）就绪度分析，附带免费在线检测 `https://seocheck-ai.com/free-seo-check`。 | 社区实现 / 官方工具 🎖️, Python/TypeScript 开发 🐍📇, 本地与云端 🏠☁️, MIT, 支持 CLI 与网页端深度体检。 |
+| [ListAIHub](https://listaihub.com/) | 专为 AI 智能体与开发者构建的目录平台与客户端 SDK（[romangrid/listaihub-client](https://github.com/romangrid/listaihub-client)），提供标准化机器可读的 OpenAPI 目录端点（`https://listaihub.com/agent/openapi.json`）与智能体发现。 | 官方服务 🎖️, Python/REST, 云端 ☁️, 开放 OpenAPI 3.1 规格，支持各类 Agentic 框架无缝调用与服务集成。 |
 
 ---
 
