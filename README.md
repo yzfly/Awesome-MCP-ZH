@@ -1123,6 +1123,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Venut-Technologies/bandcamp-mcp](https://github.com/Venut-Technologies/bandcamp-mcp) | 无需账号或 API Key，让 AI 助手在 Bandcamp 上发掘音乐：搜索艺人、专辑、厂牌和单曲，按流派标签浏览新作与热门，查看曲目列表和价格。只读。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 跨平台 🍎🪟🐧, 非官方, `npx -y bandcamp-mcp`。 |
 | [Feeling Search](https://github.com/xixi048/feeling-search-mcp) | 把一句口语化的感受描述（例如「留白很多，几何克制，低饱和」）检索成最匹配的视觉风格，并给出触发它的感受词（背后是一份中文美术对照表），返回风格标签、对应风格标签及其配色与材质线索；另含词条反查、风格详情、词表状态，共 5 个工具。适合让 AI 在写绘画提示词之前，先把模糊的审美描述落到具体词上。 | 社区实现, JavaScript 开发 📇, 云端/本地 🏠☁️, 远程端点 `https://xiximm.cloud/mcp` (Streamable HTTP)，或 `npx -y feeling-search-mcp` (stdio), MIT, 免费词库完整可用, 已收录官方 MCP Registry (`cloud.xiximm/feeling-search`)。 |
 | [YouTube Transcripts MCP](https://github.com/gunnargray-dev/youtube-transcripts-mcp) | 让 AI 读取 YouTube 视频字幕/转录文本（纯文本、带时间戳段落、分段 JSON 或 SRT，可机翻），搜索视频，获取章节（无创作者章节时根据字幕自动划分），并生成结构化摘要。4 个只读工具：get_transcript、search_videos、get_video_chapters、summarize_transcript，无需 YouTube API Key。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠 (stdio) / 云端运行 ☁️ (Apify 托管, Streamable HTTP, 按次计费), 已收录于官方 MCP Registry, MIT。 |
+| [Model Salt](https://github.com/modelsalt/model-salt) | 只有一个工具 `model_salt` 的 MCP 服务器：模型在做创作类任务前调用它，拿到这一次要定下来的几个选择（配色、姿势、名字、开头一句等），这些选择来自模型之外的随机源（random.org 大气噪声、量子随机数、drand）。同一个提示词因此会给出不同的结果，但仍按原请求完成；随机度为 0 时给出常规答案。支持 Claude Code、Codex、Gemini CLI、Kimi Code，一条命令接入：`npx -y model-salt setup claude`。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT 许可, npm `@modelsalt/model-salt`。 |
 
 ---
 
