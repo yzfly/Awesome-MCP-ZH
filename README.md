@@ -956,6 +956,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [DreamOfXM/diskwise](https://github.com/DreamOfXM/diskwise) | macOS 磁盘占用分析与清理工具，通过 MCP 查询目录、缓存、重复文件和应用残留，并执行所支持的清理操作。 | 社区实现, Swift 开发 🍎, 本地运行 🏠, Apache-2.0；需先安装 DiskWise.app，再使用内置的 `diskwise mcp`。 |
 | [LUgABeEEE/minas-webdav](https://github.com/LUgABeEEE/minas-webdav) | 小米智能存储（MINAS）NAS 的 WebDAV 控制工具箱：不挂盘直接列目录、统计、上传下载、移动复制删除文件，附 WebDAV 能力探测、本地反向代理（供映射 N 盘）、CLI、MCP server 与 agent 技能。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, Apache-2.0, `pipx install 'minas-webdav[mcp]'`。 |
 | [Doc2X MCP](https://github.com/NoEdgeAI/doc2x-mcp) | 将 PDF/图片解析为文本与结构化版面，识别公式和表格，并提供文档导出、异步任务查询与本地落盘工具。 | 官方实现 (NoEdgeAI) 🎖️, TypeScript 开发 📇, 本地 stdio 🏠 + 云端 API ☁️, MIT；需自备 `DOC2X_API_KEY`，API 按用量计费。 |
+| [lzlkyb/cc-bridge](https://github.com/lzlkyb/cc-bridge) | 装在「文件所在那台机器」上的反向 MCP 桥：跑在远程 Linux 上的 Claude Code / Codex 直接读写你本机 Windows / macOS 的文件——读、写、精准字符串替换、批量移动删除、文件名与全文搜索、执行命令、取回图片，免 scp 与 SSHFS。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🪟, MIT；4.5MB 桌面应用（Tauri 2），Streamable HTTP + Bearer token；路径白名单 + 审计日志 + 改前自动备份与一键还原，跨公网可用内置 HTTPS 自签。 |
 
 ---
 
