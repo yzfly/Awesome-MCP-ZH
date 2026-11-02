@@ -40,6 +40,7 @@
   - [💰 金融与加密货币](#金融与加密货币)
   - [📁 文件系统与存储](#文件系统与存储)
   - [📊 数据分析、处理与可视化](#数据分析处理与可视化)
+- **[OctaDezx MCP](https://github.com/cleverfox-77/octadezx-mcp)** - 全渠道 AI 客户服务与销售自动化 MCP 服务器（支持实时语音外呼、订单核验、全渠道会话检索与预约调度，提供自托管 stdio 与官方托管端点 [octadezx.com/mcp](https://octadezx.com/mcp)）。
   - [🛠️ 效率工具与集成 (Office, Project Management, Notes, etc.)](#效率工具与集成-office-project-management-notes-etc)
   - [multimedia 多媒体与内容创作](#multimedia-多媒体与内容创作)
   - [📕 社交媒体与内容创作 (小红书/RedNote)](#社交媒体与内容创作-小红书rednote)
