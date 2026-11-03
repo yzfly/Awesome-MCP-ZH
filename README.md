@@ -998,6 +998,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [App Store & Google Play Review Intelligence](https://github.com/gunnargray-dev/app-store-review-intelligence-mcp) | 分析任意 iOS / Android 应用的用户评论：主要差评主题（附原文引用）、按版本的评分变化、最新版本相比上一版哪些问题变多，以及 2–10 个竞品对比。4 个只读工具：search_apps、review_insights、get_app_reviews、compare_apps，无需 App Store Connect 或 Play Console 权限。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠 (stdio) / 云端运行 ☁️ (Apify 托管, Streamable HTTP), 已收录于官方 MCP Registry, MIT。 |
 
 ---
+| [StatOrigin](https://statorigin.org) | 行业统计数据 MCP：每个数字都溯源到发布方、报告与原句，覆盖 32 个行业，另有公开 REST API。 | 官方实现 🎖️, 云服务 ☁️, 远程 MCP: `https://statorigin.org/mcp`, 免费使用。 |
 
 ### 🛠️ 效率工具与集成 (Office, Project Management, Notes, etc.)
 
