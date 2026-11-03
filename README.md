@@ -1535,6 +1535,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 想玩转 MCP？这些资源帮你省时间：
 
+- **[KaijuConverter MCP](https://github.com/PabloCirre/kaijuconverter-mcp)**：官方 [KaijuConverter](https://kaijuconverter.com) 文件转换 MCP 服务器（支持远程 Streamable HTTP `https://kaijuconverter.com/api/mcp` 与本地 `npx`），可转换 201+ 种文件格式（HEIC、PDF、DOCX、CSV、ODS、HWP、DICOM 等）并调用 54 款专业文档与图像工具。
+
 - **官方文档**  
   - [MCP 官网](https://modelcontextprotocol.io/)（协议规范、SDK、教程）  
   - [MCP 官方博客](https://blog.modelcontextprotocol.io/)（规范更新说明）  
