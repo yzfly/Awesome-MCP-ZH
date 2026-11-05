@@ -780,6 +780,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                                     | 备注                                                                                        |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| [a2a-mailbox](https://github.com/RegretSSS/a2a-mailbox) | 跨 CLI 终端代理互发消息的文件信箱：Claude Code / Codex / Pi / ZCode 像收邮件一样互相通讯，tmux 注入/原生队列投递，支持 ssh 跨主机联邦。 | 社区实现 (RegretSSS), Python 开发 🐍, 本地运行 🏠, Linux/WSL（Windows 实验性）, 已收录官方 MCP Registry。 |
 | [agentmail-toolkit/mcp](https://github.com/agentmail-to/agentmail-toolkit) | 用于即时创建收件箱以发送、接收和处理邮件的 MCP 服务器。专为 AI Agents 设计的邮件服务。 | 官方实现 (AgentMail) 🎖️, Python 开发 🐍, 邮件处理。                                       |
 | [aliasmail-space/aliasmail-mcp](https://github.com/aliasmail-space/aliasmail-mcp) | 通过 AliasMail 服务创建临时邮箱、读取邮件、提取验证码与确认链接，并提供邮件检查工具。 | 官方实现 (AliasMail) 🎖️, TypeScript 开发 📇, 本地 MCP + 云端 API 🏠☁️, 接入要求见项目文档。 |
 | [Atomic Mail](https://github.com/Atomic-Mail/atomic-mail-agentic) | 面向 AI 代理的邮件服务：代理可通过工作量证明自主注册收件箱（无需邮箱验证、域名或信用卡），支持自定义域名，基于开放的 JMAP 标准完整收发邮件。 | 官方实现 (Atomic Mail) 🎖️, TypeScript 开发 📇, 云服务 ☁️, JMAP 邮件收发（工作量证明注册）。 |
