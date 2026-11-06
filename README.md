@@ -924,6 +924,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | TradingView 数据 MCP：实时行情、技术指标分析、选股筛选器与策略回测。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 行情与技术分析。 |
 | [Tapetide](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) | 印度股市（NSE、BSE）MCP 服务器，覆盖约 8,200 只上市股票：实时行情、季度财报、股东结构、326 项指标选股器、FII/DII 资金流向、期权链与隐含波动率、公司公告、IPO 与持仓跟踪。 | 官方实现 🎖️, TypeScript 开发 📇, 本地/云端 🏠☁️, MIT, 55 个工具；`npx -y tapetide-mcp` 或远程 `https://mcp.tapetide.com/mcp`（OAuth 或免费 Token），提供免费套餐。 |
 | [Level Open Finance MCP](https://github.com/levelcfo/open-finance-skills) | 通过只读 MCP 工具查询财务技能目录、月结与总账核对流程、收入及存货核算参考和行业基准资料。 | 官方实现 (Level) 🎖️, JavaScript 开发 📇, 本地运行 🏠, MIT；提供工作流资料，不连接企业账簿自动记账。 |
+| [cnstock](https://github.com/WilShi/cnstock) | A 股行情、财报、估值与研报工具：实时行情、前复权日 K 线、财报 TTM 折算、DCF 与 PB-ROE 估值，并对全市场 5500+ 只 A 股做分层财务风险筛查（规则用 313 家 ST 公司做过验证，无效规则已剔除）。免 API Key，多数据源自动降级。 | TypeScript 开发 📇, 本地运行 🏠, MIT, 免 API Key, `npx -y cnstock-mcp`。 |
 
 ---
 - [SpendShield](https://github.com/felixpg13-glitch/spendshield) - AI Agent 支付授权层(policy control plane): ALLOW/APPROVAL/DENY 三态决策 + 理由码, 策略生命周期, 防篡改审计链; 内置 MCP server(pip install spendshield)
