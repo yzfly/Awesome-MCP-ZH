@@ -1376,6 +1376,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [djalal/quran-mcp-server](https://github.com/djalal/quran-mcp-server)    | 通过官方 REST API v4 与 Quran.com 语料库交互的 MCP 服务器。                                            | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 古兰经文本交互。                                     |
 | [r-huijts/rijksmuseum-mcp](https://github.com/r-huijts/rijksmuseum-mcp) | Rijksmuseum API 集成，用于艺术品搜索、详情和收藏。                                                    | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 荷兰国立博物馆艺术品。                               |
 | [r-huijts/oorlogsbronnen-mcp](https://github.com/r-huijts/oorlogsbronnen-mcp) | Oorlogsbronnen (战争来源) API 集成，访问荷兰二战时期 (1940-1945) 的历史记录、照片和文件。                  | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 荷兰二战历史资料。                                 |
+| [shunshi-ai/astro-mcp](https://github.com/shunshi-ai/astro-mcp) | 西洋本命盘计算：NASA DE440s 星历、历史时区、行星落座、宫位与主要相位；星历首次下载后本地计算。 | 官方实现 (Shunshi.AI), Python 开发 🐍, 本地运行 🏠, MIT, 无需 API Key，`uvx --from git+https://github.com/shunshi-ai/astro-mcp@v0.1.0 shunshi-astro-mcp`。 |
 | [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp)          | 集成 AniList API 的 MCP 服务器，用于动漫和漫画信息。                                                  | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 动漫/漫画信息 (AniList)。                           |
 
 ---
