@@ -835,7 +835,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [A4A (Agent for Agent)](https://github.com/a4a-network/a4a) | 面向个人 AI Agent 跨人类直接通信的开源端到端加密协议（`Ed25519` + `X25519` + `XChaCha20-Poly1305`）与本地 MCP 服务器（`a4a-mcp`）：无需中心化账号注册，本地生成密钥对（`apub1...`），支持信任门控（Block / Hold / Auto）与盲转发中继。 | 官方实现 (A4A Network) 🎖️, Python/Rust 开发 🐍🦀, 本地运行 + 加密中继 🏠☁️, 跨平台 🍎🪟🐧, PyPI `a4a-mcp` / `a4a-sdk`, MCP Registry: `network.a4a/a4a-mcp`, MIT / Apache-2.0。 |
 | [Sqwakie](https://github.com/alexcarney460-hue/walkie) | 团队 AI 编码代理的"对讲机"：不同机器上的 Claude Code 和 Codex 代理可通过 CLI 或 MCP 工具直接互发消息、提问与回复；另有共享看板（Kanban）项目和实时 Mission Control 仪表盘，显示谁在线、每个代理正在做什么、哪些在等人处理。 | 官方实现 (RC Studios) 🎖️, TypeScript 开发 📇, 本地运行 🏠, macOS (Apple Silicon) / Linux 🍎🐧, MCP 工具 `walkie_post`、`walkie_read`、`walkie_reply`、`walkie_ask`、`walkie_inbox` 等（实现见 `src/mcp/server.ts`）；守护进程点对点直连（基于 iroh 的 QUIC 打洞），无直连路径时由无法解密的中继转发加密流量，也可走 Tailscale；安装 `curl -fsSL https://sqwakie.si/install.sh \| sh`；FSL-1.1-ALv2（源码可见，未来转为 Apache-2.0）。 |
 
-| [verma6uc/mach-gtm-mcp](https://github.com/verma6uc/mach-gtm-mcp) | B2B 外向销售 MCP 服务器：构建 ICP 画像、研究潜在客户（含买入信号核查）、0-100 分线索评分、1-3-1 框架起草个性化冷邮件和 LinkedIn 私信、搭建多触点外联序列，专为 B2B 软件团队设计，基于 [Mach GTM](https://machgtm.com) 平台。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, `npx mach-gtm-mcp`，MIT。 |
+| [verma6uc/mach-gtm-mcp](https://github.com/verma6uc/mach-gtm-mcp) | B2B 外向销售 MCP 服务器，包含五个小工具：构建 ICP 画像、根据你提供的购买信号起草冷邮件和 LinkedIn 私信、生成潜在客户调研清单、按 ICP 给线索打 0-100 分、搭建多触点外联序列。仅基于你提供的信息，不联网查询，也不发送任何消息。由 [Mach](https://machgtm.com) 团队开发。 | 社区实现, 本地服务 🏠, `npx -y github:verma6uc/mach-gtm-mcp`，MIT。 |
 
 ---
 
