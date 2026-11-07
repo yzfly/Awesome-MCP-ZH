@@ -1255,6 +1255,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                               | 中文介绍                                                                                              | 备注                                                                                                     |
 | :--------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
+| [Kintsugi Harness](https://github.com/tunguyen1993/kintsugi-harness) | 7.6微秒级 Rust + Python PreToolUse 代码安全护栏、一键整合现有 `.cursorrules`/`CLAUDE.md` 并通过 SAT+DL 检测规则冲突 (`kintsugi integrate`)，同时将上下文 Token 压缩 95.3%，内置 8 个带注解的 MCP 工具。 | 社区实现, Rust/Python 开发, 本地运行 🏠, 零第三方依赖, MIT。 |
 | [x64dbg-MCP Server](https://github.com/duty1g/x64dbg-mcp-server) | Zig 编写的 x64dbg 原生插件，零依赖单文件，把调试器 84 项能力（反汇编、单步、断点、内存、寄存器、xrefs、PE 分析等）通过 Streamable HTTP / SSE 暴露给 MCP，用于 Agent 逆向工程。 | 社区实现, Zig 开发, 本地运行 🏠, Windows, MIT。 |
 | [OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) | AI 驱动的 OSINT 情报 Agent，19 个工具，提供交互式 REPL、MCP server 与 CLI 三种用法，兼容 Claude、GPT 等。 | 社区实现, 本地运行 🏠, MIT。 |
 | [BICScan](https://github.com/ahnlabio/bicscan-mcp)                                 | 获取 EVM 区块链地址（EOA, CA, ENS）甚至域名的风险评分/资产持有情况。 (BICScan 官方) (已在金融部分列出)       | 官方实现 (AhnLab) 🎖️, Python 开发 🐍, 云服务 ☁️, 区块链地址风险分析。                                 |
