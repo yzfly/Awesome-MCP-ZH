@@ -996,6 +996,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [SearchLink Lite](https://github.com/GlobalMatchHub/searchlink-lite) | 让 AI 在 Claude、Cursor 等客户端直接读 Google Search Console：点击、展现、CTR、排名的周期对比，按搜索词/页面/国家/设备拆解，找高展现低点击的机会词，并检查页面收录状态与 sitemap。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 只读授权, 8 个工具, MIT。 |
 | [MarketMirror](https://github.com/DarkWorldCoder/market-mirror) | 营销与销售模拟工具，基于 MiroFish/OASIS 组织 LLM 模拟买家参与广告、问卷和销售话术测试，输出模拟报告与 HTML 仪表盘，支持与真实广告数据比较。 | 社区实现, Python 开发 🐍, 本地运行 🏠, AGPL-3.0, `uvx marketmirror`；输出为模型模拟结果。 |
 | [App Store & Google Play Review Intelligence](https://github.com/gunnargray-dev/app-store-review-intelligence-mcp) | 分析任意 iOS / Android 应用的用户评论：主要差评主题（附原文引用）、按版本的评分变化、最新版本相比上一版哪些问题变多，以及 2–10 个竞品对比。4 个只读工具：search_apps、review_insights、get_app_reviews、compare_apps，无需 App Store Connect 或 Play Console 权限。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠 (stdio) / 云端运行 ☁️ (Apify 托管, Streamable HTTP), 已收录于官方 MCP Registry, MIT。 |
+| [Skald](https://github.com/spcaeo/skald) | Skald 官方 MCP 服务器：基于服务器访问日志（nginx / Apache / Caddy）的网站分析，让 AI 用自然语言查询访问量、热门页面、时段对比，以及 ChatGPT 等 AI 助手、搜索爬虫和扫描器分别抓取了哪些页面；数据不完整的日期会被标明，而不是计为 0。 | 官方实现 (Skald) 🎖️, Python 开发 🐍, 自托管本地运行 🏠, 29 个工具（大部分只读）, Streamable HTTP + stdio, API Key, Elastic License 2.0 (source-available), [接入文档](https://github.com/spcaeo/skald/blob/main/docs/MCP.md)。 |
 
 ---
 
