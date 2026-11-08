@@ -1493,7 +1493,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Formquote MCP](https://github.com/Keith-CY/formquote-mcp) | 查询人工核对过的公开标价和授权条款：按数量和已有额度比较邮箱验证的总价，判断音效素材包、字体授权是否适合你的用途，每条附核对日期、来源链接和待确认事项。只读，不能下单。 | 社区实现, JavaScript 开发 📇, 云服务 ☁️, 远程端点 `https://formquote-mcp.chen-yu-d1.workers.dev/mcp`（Streamable HTTP）, 无需登录, MIT, 4 个只读工具。 |
 | [Everything2MCP](https://github.com/shcdwz1234/Everything2MCP) | 将本地能力和服务适配器配置为统一的 MCP 工具入口，支持配置热重载、管理控制台与 Safe/Full 权限模式。 | 社区实现, TypeScript/Node.js 开发 📇, 本地运行 🏠, Apache-2.0, `npx everything2mcp`；不同适配器的成熟度见项目文档。 |
 | [msc35/mispick](https://github.com/msc35/mispick) | 测量模型会混淆你的哪些 MCP 工具：为每个工具生成真实的测试请求，让真实模型选择工具，输出混淆矩阵以及每个工具的精确率和召回率；为易混淆的工具对提出描述改写，并只保留经重新测试证明有效的改写。只读取 `tools/list`，从不调用任何工具。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 可用本地 Ollama 模型免费运行, 提供 GitHub Action, `uvx mispick`。 |
-| [Ghost Beacon](https://github.com/moecanales/agent-oracle-beacon) | Node.js MCP 工具集，提供 DNS/TLS/HTTP 健康检查、Agent 发现清单探测，以及 GitHub issue 上下文整理等工具。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, `npx -y github:moecanales/agent-oracle-beacon`。 |
+| [Ghost Beacon](https://github.com/moecanales/agent-oracle-beacon)
+| [JiZhiMCP (极智MCP)](https://github.com/alanwang100/jizhineng-mcp) | Agent-first MCP 网关：21 个工具（天气/汇率/GitHub与Stack Overflow搜索/DNS/时区等）+ 跨 Agent 防篡改结算账本，远程端点 `https://mcp.xn--5kvtwv52d.com/mcp`。 | | Node.js MCP 工具集，提供 DNS/TLS/HTTP 健康检查、Agent 发现清单探测，以及 GitHub issue 上下文整理等工具。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, `npx -y github:moecanales/agent-oracle-beacon`。 |
 
 ---
 
