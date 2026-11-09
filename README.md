@@ -996,6 +996,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [SearchLink Lite](https://github.com/GlobalMatchHub/searchlink-lite) | 让 AI 在 Claude、Cursor 等客户端直接读 Google Search Console：点击、展现、CTR、排名的周期对比，按搜索词/页面/国家/设备拆解，找高展现低点击的机会词，并检查页面收录状态与 sitemap。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 只读授权, 8 个工具, MIT。 |
 | [MarketMirror](https://github.com/DarkWorldCoder/market-mirror) | 营销与销售模拟工具，基于 MiroFish/OASIS 组织 LLM 模拟买家参与广告、问卷和销售话术测试，输出模拟报告与 HTML 仪表盘，支持与真实广告数据比较。 | 社区实现, Python 开发 🐍, 本地运行 🏠, AGPL-3.0, `uvx marketmirror`；输出为模型模拟结果。 |
 | [App Store & Google Play Review Intelligence](https://github.com/gunnargray-dev/app-store-review-intelligence-mcp) | 分析任意 iOS / Android 应用的用户评论：主要差评主题（附原文引用）、按版本的评分变化、最新版本相比上一版哪些问题变多，以及 2–10 个竞品对比。4 个只读工具：search_apps、review_insights、get_app_reviews、compare_apps，无需 App Store Connect 或 Play Console 权限。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠 (stdio) / 云端运行 ☁️ (Apify 托管, Streamable HTTP), 已收录于官方 MCP Registry, MIT。 |
+| [ProcessMind](https://www.processmind.com/resources/docs/api/mcp-server) | 读取企业流程、BPMN 模型、RACI 角色分工与流程统计数据，让 AI 助手基于真实流程上下文回答问题（企业版，需 API Key 鉴权）。 |
 
 ---
 
