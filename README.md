@@ -698,6 +698,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [erikhoward/adls-mcp-server](https://github.com/erikhoward/adls-mcp-server) | 用于 Azure Data Lake Storage 的 MCP 服务器。可管理容器、读/写/上传/下载文件及管理元数据。   | 社区实现, Python 开发 🐍, 云端/本地 ☁️🏠, Azure Data Lake Storage 管理。                              |
 | [hashicorp/terraform-mcp-server](https://github.com/hashicorp/terraform-mcp-server) | HashiCorp 官方出品，让 AI 与 Terraform 生态（Registry、Provider/模块文档等）深度集成，辅助 IaC 开发。 | 官方实现 (HashiCorp) 🎖️, Go 开发 🏎️, 本地/云端 🏠☁️, Terraform IaC。 |
 | [华为云 MCP](https://developer.huaweicloud.com/) | 华为云官方远程 MCP 服务，在控制台按账号获取专属端点后接入。 | 官方实现 (华为云) 🎖️, 远程端点 ☁️, 端点按账号下发。 |
+| [Lantern Works](https://github.com/connormatthewdouglas/agent-work-stack-deals) | GPU 云租赁价格对比 MCP 服务器：横向比较约 29 家厂商的 H100、H200、A100、RTX 4090/5090 等型号价格，每条报价附来源链接与核查时间；支持任务成本预估（带收据）。免费、只读、无需 API Key。安装见 [thelanternworks.com/install/?ref=readme-mcpzh](https://thelanternworks.com/install/?ref=readme-mcpzh)。 | 社区实现, Python 开发 🐍, 云端/本地 🏠☁️, 代码 MIT / 数据 CC BY 4.0, PyPI `lantern-works-deals-mcp` 0.6.2（9 个工具），托管端点另有价格提醒工具。 |
 
 ---
 
