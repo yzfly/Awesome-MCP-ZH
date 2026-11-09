@@ -398,6 +398,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                              | 备注                                                                                 |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------- |
+| [WaterTian/wechat-devtools-mcp](https://github.com/WaterTian/wechat-devtools-mcp) | 微信开发者工具 MCP + Skill：让 Claude Code / Cursor / Codex 等编码 Agent 直接编译、预览、上传小程序；长页面拼接截图（识别固定头尾）、CDP 结构化日志（可回放采集前的历史）、跨页面跳转校验与 automator 自动化测试，与开发者工具 2.x 内建 MCP 互补。 | 社区实现, Python 开发 🐍, 本地运行 🏠, `uvx wechat-devtools-mcp`, 官方 MCP Registry 已收录, Windows / macOS。 |
 | [mcp-production-kit](https://github.com/A7mdMe/mcp-production-kit) | TypeScript MCP 服务器模板，提供系统指标查询、带目标地址检查的 HTTP 请求工具与内存状态存储，支持 stdio、SSE 和 Docker 部署。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT。 |
 | [Cortex](https://github.com/cortex-docs/cortex) | 从 OpenAPI、AsyncAPI、GraphQL、Protocol Buffer、OpenRPC 和 Markdown 生成可安装的 MCP 服务器，提供类型化 API 工具、接口规范、SDK 指南和项目文档。 | 官方实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, `npx @cortex-docs/mcp`。 |
 | [Bestax](https://github.com/allxsmith/bestax/tree/main/bestax-mcp) | 为编码 Agent 提供 Bestax（基于 Bulma v1 的 React 组件库）的组件 props、示例、CSS 变量和 Agent Skills，离线运行。 | 官方实现 (Bestax) 🎖️, TypeScript 开发 📇, 本地运行 🏠, MIT, 无需 API Key, `npx -y bestax-mcp@1`。 |
