@@ -1132,6 +1132,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称 | 中文介绍 | 备注 |
 | :--- | :--- | :--- |
+| [Promote4.me Commander](https://github.com/BlizzHacker/Promote4me) | 全功能多平台社交媒体指挥官（Reddit、Facebook、Instagram、Twitter/X、Discord、YouTube 等），支持自动化发布、排期日历、评论互动与增长活动。 | 官方开源 🎖️, 云端/本地 🏠☁️, Node.js 开发 📇, Streamable HTTP SSE 与 stdio 双模式。 |
 | [xhs-toolkit](https://github.com/aki66938/xhs-toolkit) | 小红书创作者 MCP 工具包，支持与 AI 客户端集成，进行内容创作和发布。 | 社区热门 🔥, Python 开发 🐍, 创作与发布工具。 |
 | [xhs-mcp](https://github.com/jobsonlook/xhs-mcp) | 提供小红书 MCP 服务，包含 x-s / x-t 参数获取及 JS 逆向能力。 | 社区实现, Python 开发 🐍, 核心算法/逆向支持。 |
 | [Redbook-Search-Comment-MCP2.0](https://github.com/chenningling/Redbook-Search-Comment-MCP2.0) | 基于 Playwright 开发，支持自动登录、关键词搜索、笔记获取及 AI 评论发布 (适配 Claude 桌面版)。 | 社区实现, Python 开发 🐍, 自动化操作 (Playwright), 搜索与互动。 |
