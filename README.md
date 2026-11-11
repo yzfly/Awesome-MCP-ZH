@@ -505,6 +505,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [GenPM](https://github.com/GenPM-net/genpm/tree/main/packages/mcp) | 面向 AI 编程代理的模块包管理器：让 Agent 搜索、查看并把完整模块（认证、Stripe 订阅、邮件、AI 聊天、商城、博客等）以**源代码**形式注入项目，同时带上该模块的 AGENTS.md 规则与所需 MCP 配置；固定到经签名校验的 Git 提交，不运行任何安装脚本，安装前先给出 dryRun 计划。 | 官方实现 (GenPM) 🎖️, TypeScript 开发 📇, 本地运行 🏠（另有只读远程端点 `https://mcp.genpm.net/` ☁️）, MIT, `npx -y @genpm-net/mcp`，网站有简体中文版。 |
 | [fm-mcp](https://github.com/yrangana/fm-mcp) | 让 Claude Code、Codex 等编程 Agent 把摘要、字段提取、分类和 OCR 交给 macOS 27 上 Apple Foundation Models 的本地端侧模型处理，免费、离线。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, macOS 🍎, `brew install yrangana/tap/fm-mcp`, MIT。 |
 | [Castov MCP Server](https://github.com/castovdev/castov) | 本地开发工具集，提供端口检查、IPv4 子网计算、标识符时间戳解析、cron 与时区计算、JWT 检查和凭据扫描。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, `npx -y castov mcp`。 |
+| [json-shaper-lite](https://github.com/tidybytetools/json-shaper-lite) | 把笔记、CSV/TSV 和 Markdown 表格整理成带类型的 JSON。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 免费，无需 API 密钥。安装：`pip install json-shaper-lite`。MCP：`uvx json-shaper-lite mcp`。官方 Registry：`io.github.tidybytetools/json-shaper-lite`。 |
 
 
 ---
