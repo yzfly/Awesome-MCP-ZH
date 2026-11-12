@@ -1248,6 +1248,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 ---
 | [ev-diagnosis-mcp](https://github.com/1ouxilisi/ev-diagnosis-mcp) | 新能源汽车维修诊断：故障码查询、结构化诊断结论（原因按概率排序 / 检查顺序先不花钱后花钱 / 报价分档）、190 条中文实战维修经验、44 条车型通病映射。896 条标准 DTC 取自 ModelScope 公开数据集。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, 零依赖、纯本地数据、不联网。 |
 | [MemTether](https://github.com/MemTether/MemTether) | 本地 AI 记忆服务，通过 MCP 在客户端间共享记忆，支持双时间轴记录、记忆替代关系与哈希链审计。 | 社区实现, Python 开发 🐍, 本地运行 🏠, Apache-2.0, `pip install memtether`。 |
+| [memgit](https://github.com/code4161/memgit) | 面向 Claude Code、Cursor、Codex 等 AI 编程工具的版本化共享记忆：导入 Claude Code 自带的记忆文件，每次修改都是一个检查点，可 diff 和回滚，BM25 召回，可选端到端加密的多机同步。 | 官方实现 🎖️, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, pip install memgit 或 npx -y memgit-mcp, 已发布到官方 MCP Registry (dev.memgit/memgit)。 |
 
 ### 🔒 安全与分析
 
