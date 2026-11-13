@@ -1612,6 +1612,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 - [agentfront/frontmcp](https://github.com/agentfront/frontmcp) 构建 MCP 服务器的 TypeScript 框架：基于 Zod 的类型化工具、依赖注入、鉴权、测试、Agent 与任务，支持 MCP 2026-07-28，可部署到 Node、Vercel、AWS Lambda 与 Cloudflare Workers。
 - [langchain-ai/langchain-mcp-adapters](https://github.com/langchain-ai/langchain-mcp-adapters) 官方适配器，将 MCP 工具无缝接入 LangChain / LangGraph Agent。
 - [xmcp](https://github.com/basementstudio/xmcp) 免费、MIT 开源的 TypeScript MCP 服务器框架，支持基于文件的工具、资源与提示词发现、热重载、中间件和现有应用适配器；提供[文档与示例](https://xmcp.dev/docs)。
+- [LeanMeanCleanApps/CleanModelContextProtocol](https://github.com/LeanMeanCleanApps/CleanModelContextProtocol) 基于官方 C# SDK 的 .NET 10 MCP 服务器 `dotnet new` 模板，支持 Streamable HTTP，采用整洁架构，内置工具、资源、提示词、OpenTelemetry、可选 OAuth 与集成测试。
 
 ---
 
