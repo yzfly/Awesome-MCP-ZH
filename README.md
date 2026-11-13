@@ -1393,6 +1393,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [genieacs-mcp](https://github.com/GeiserX/genieacs-mcp) | 面向开源 TR-069 ACS GenieACS 的 MCP 服务器：按标签、型号、固件或任意 TR-069 参数查询路由器、ONT 等 CPE 设备，读取参数、任务与故障，并可重启设备、下发固件、设置参数。 | 社区实现, Go 开发 🏎️, 本地运行 🏠, GPL-3.0, 7 个资源 + 12 个工具, `npx -y genieacs-mcp`。 |
 | [OnlyClaws ESP (onlyclaws-esp)](https://github.com/shinjiyu/onlyclaws-esp) | 给 Agent 一只伸进现实的爪子：ESP32-S3 只烧一次固件，之后通过 HTTP 下发 Lua（屏/音频/传感器/RoArm 机械臂）；另附 stdio MCP（`jev_servo`，机械臂 presence 工具）与 [skill.md](https://onlyclaws.world/api/agent/skill.md)。 | 社区实现, Python/C++ 开发 🐍, 本地可自建控制面 🏠, 嵌入式 📟, MIT, 中英 README。 |
 | [RoboParts](https://github.com/lm203688/roboparts) | 查询跨品牌机器人零件及机械接口资料，检查兼容性；对缺失参数返回未知，并支持生成转接件模型。 | 官方实现 🎖️, JavaScript 开发 📇, 云端/本地 🏠☁️, 远程端点 `https://roboparts.cc/mcp`；代码 MIT，数据 CC BY 4.0，参数来源与置信度见返回结果。 |
+| [usb-rea](https://github.com/emirmrkaljevic/usb-rea) | USB 协议逆向 MCP：在使用厂商 Windows 软件（机箱 LCD、RGB、鼠标等）时抓取 USB 流量（usbmon / pcap），按操作对比数据包、推断协议，并生成 Linux 用户态驱动骨架、Wireshark 解析器和 HID 描述符解析；内置离线 VID:PID 已知设备查询。 | 社区实现, Python 开发 🐍, 本地运行 🏠, Linux 🐧, MIT, 10 个工具, `pip install usb-rea`。 |
 
 ---
 
