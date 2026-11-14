@@ -1409,6 +1409,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [shunshi-ai/astro-mcp](https://github.com/shunshi-ai/astro-mcp) | 西洋本命盘计算：NASA DE440s 星历、历史时区、行星落座、宫位与主要相位；星历首次下载后本地计算。 | 官方实现 (Shunshi.AI), Python 开发 🐍, 本地运行 🏠, MIT, 无需 API Key，`uvx --from git+https://github.com/shunshi-ai/astro-mcp@v0.1.0 shunshi-astro-mcp`。 |
 | [shunshi-ai/bazi-reader-mcp](https://github.com/shunshi-ai/bazi-reader-mcp) | 八字排盘与黄历查询，支持真太阳时校正、四柱、十神、大运、刑冲合会与神煞。 | 官方实现 (Shunshi.AI), TypeScript 开发 📇, 本地运行 🏠, MIT, 无需 API Key，`npx -y shunshi-bazi-mcp`。 |
 | [shunshi-ai/liuyao-mcp](https://github.com/shunshi-ai/liuyao-mcp) | 六爻起卦与确定性装卦：本卦变卦、纳甲、六亲、六神、世应、旬空、伏神；支持钱币、手动以及明确标注的时间 / 数字起卦。 | 官方实现 (Shunshi.AI), Python 开发 🐍, 本地运行 🏠, MIT, 无需 API Key，`uvx --from git+https://github.com/shunshi-ai/liuyao-mcp@v0.1.1 shunshi-liuyao-mcp`。 |
+| [shunshi-ai/naming-mcp](https://github.com/shunshi-ai/naming-mcp) | 基于康熙笔画的姓名学计算：五格、三才、81 数理及可选的生肖与八字喜用输入，本地运行。 | 官方实现 (Shunshi.AI), TypeScript 开发 📇, 本地运行 🏠, MIT, 无需 API Key，`npx -y shunshi-naming-mcp`。 |
 | [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp)          | 集成 AniList API 的 MCP 服务器，用于动漫和漫画信息。                                                  | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 动漫/漫画信息 (AniList)。                           |
 
 ---
