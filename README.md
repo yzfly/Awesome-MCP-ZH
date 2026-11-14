@@ -1588,6 +1588,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 * [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) 另一份精选 MCP 服务器清单（英文 awesome 列表），按分类整理大量服务器。
 * [web目录](https://glama.ai/mcp/servers)。
 * [MCP.ing](https://mcp.ing) 一个资源丰富的 MCP Server库。
+* [HostedMCP](https://hostedmcp.org/) 开放的 MCP Server 与 Agent Skills 目录：收录 2.8 万+ 可索引 MCP Server 和 5 万+ Skills，每个条目附自动化安全检查报告，以及 Claude Code、Cursor、VS Code、Codex 等客户端的安装配置。
 * [MCP Registry](https://github.com/modelcontextprotocol/registry) 官方 MCP 注册中心，统一发现与发布 MCP Server 的元数据服务。
 * [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) 官方维护的 MCP 参考服务器集合，涵盖文件系统、Git、Fetch、记忆等众多示例，是学习和上手 MCP Server 的权威起点。
 
