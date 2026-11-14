@@ -333,6 +333,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![The One](https://the-zeroth.com/product/zh/matter-board-poster.webp)  
   - **Tips**：闭源，文档公开；用自己的 API Key 或 ChatGPT 登录不收费；支持 macOS 和 Windows，另有无界面的 Linux 服务器版。
 
+- **SourceWeft**  
+  - **简介**：开源、可自托管的 AI 工作站，把多智能体对话、技能（Skills）和带引用的知识库放在一起；内置 MCP 客户端。  
+  - **功能**：在工作区里添加远程 MCP 服务器（Streamable HTTP / SSE），认证可用 OAuth 或 API Key，每位成员使用自己的凭证；主 Agent 和子 Agent 在任务中调用这些服务器的工具。  
+  - **链接**：[GitHub 仓库](https://github.com/SourceWeft/SourceWeft) | [官网](https://sourceweft.com/zh-CN)  
+  - **Tips**：Apache-2.0（`enterprise/` 目录除外），TypeScript 开发；提供 Web 端与 macOS / Windows / Linux 桌面端，可用 Docker Compose 自托管，模型自带 Key（BYOK）。
+
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
