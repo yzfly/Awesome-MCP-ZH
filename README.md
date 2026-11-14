@@ -28,29 +28,29 @@
 - [MCP 能干什么？](#mcp-能干什么)
 - [MCP 客户端](#mcp-客户端)
 - [MCP 服务器精选列表](#mcp-服务器精选列表)
-  - [🌐 浏览器自动化与网页交互](#浏览器自动化与网页交互)
-  - [💻 开发与代码执行](#开发与代码执行)
-  - [🖥️ 命令行与 Shell 交互](#命令行与-shell-交互)
-  - [🖱️ 桌面与 GUI 自动化](#桌面与-gui-自动化)
-  - [🔄 版本控制 (Git / GitHub / GitLab)](#版本控制-git--github--gitlab)
-  - [🗄️ 数据库交互](#数据库交互)
-  - [☁️ 云平台与服务集成 (AWS, Cloudflare, Azure, K8s, etc.)](#云平台与服务集成-aws-cloudflare-azure-k8s-etc)
-  - [🔍 搜索](#搜索)
-  - [💬 通讯与协作 (Slack, Email, Calendar, Social, etc.)](#通讯与协作-slack-email-calendar-social-etc)
-  - [💰 金融与加密货币](#金融与加密货币)
-  - [📁 文件系统与存储](#文件系统与存储)
-  - [📊 数据分析、处理与可视化](#数据分析处理与可视化)
-  - [🛠️ 效率工具与集成 (Office, Project Management, Notes, etc.)](#效率工具与集成-office-project-management-notes-etc)
+  - [🌐 浏览器自动化与网页交互](#-浏览器自动化与网页交互)
+  - [💻 开发与代码执行](#-开发与代码执行)
+  - [🖥️ 命令行与 Shell 交互](#️-命令行与-shell-交互)
+  - [🖱️ 桌面与 GUI 自动化](#️-桌面与-gui-自动化)
+  - [🔄 版本控制 (Git / GitHub / GitLab)](#-版本控制-git--github--gitlab)
+  - [🗄️ 数据库交互](#️-数据库交互)
+  - [☁️ 云平台与服务集成 (AWS, Cloudflare, Azure, K8s, etc.)](#️-云平台与服务集成-aws-cloudflare-azure-k8s-etc)
+  - [🔍 搜索](#-搜索)
+  - [💬 通讯与协作 (Slack, Email, Calendar, Social, etc.)](#-通讯与协作-slack-email-calendar-social-etc)
+  - [💰 金融与加密货币](#-金融与加密货币)
+  - [📁 文件系统与存储](#-文件系统与存储)
+  - [📊 数据分析、处理与可视化](#-数据分析处理与可视化)
+  - [🛠️ 效率工具与集成 (Office, Project Management, Notes, etc.)](#️-效率工具与集成-office-project-management-notes-etc)
   - [multimedia 多媒体与内容创作](#multimedia-多媒体与内容创作)
-  - [📕 社交媒体与内容创作 (小红书/RedNote)](#社交媒体与内容创作-小红书rednote)
-  - [🛒 电商商家经营 (E-Commerce)](#电商商家经营-e-commerce)
-  - [🧠 知识、记忆与 RAG](#知识记忆与-rag)
-  - [🔒 安全与分析](#安全与分析)
-  - [🌍 地理位置与出行](#地理位置与出行)
-  - [🏃 体育与游戏](#体育与游戏)
-  - [🏛️ 艺术与文化](#艺术与文化)
-  - [🔌 硬件、IoT 与嵌入式](#硬件iot-与嵌入式)
-  - [🛠️ 其他实用工具与集成](#其他实用工具与集成)
+  - [📕 社交媒体与内容创作 (小红书/RedNote)](#-社交媒体与内容创作-小红书rednote)
+  - [🛒 电商商家经营 (E-Commerce)](#-电商商家经营-e-commerce)
+  - [🧠 知识、记忆与 RAG](#-知识记忆与-rag)
+  - [🔒 安全与分析](#-安全与分析)
+  - [🌍 地理位置与出行](#-地理位置与出行)
+  - [🏃 体育与游戏](#-体育与游戏)
+  - [🏛️ 艺术与文化](#️-艺术与文化)
+  - [🔌 硬件、IoT 与嵌入式](#-硬件iot-与嵌入式)
+  - [🛠️ 其他实用工具与集成](#️-其他实用工具与集成)
   - [更多 MCP Server 资源](#更多-mcp-server-资源)
 - [MCP 更多玩法](#mcp-更多玩法)
 - [MCP 资源](#mcp-资源)
@@ -1306,12 +1306,11 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [7xuanlu/wenlan](https://github.com/7xuanlu/wenlan) | 本地优先、有来源的 AI 知识库与 LLM wiki：把 Agent 的工作沉淀为带引用、可维护的 wiki 页面，通过 MCP 提供给 Claude Code、Codex、Cursor 等客户端。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, Apache 2.0, `npx -y wenlan setup`。 |
 | [friday-memory/friday](https://github.com/friday-memory/friday) | 面向 AI 编程代理（Claude Code、Codex、Cursor、Antigravity）的自托管认知记忆底座：基于知识图谱与向量混合检索，提供零失忆上下文层、多跳爆炸半径遍历（blast-radius traversal）、事实自动更替与可选 libSQL/Turso 无服务器存储。 | 社区实现, Python 开发 🐍, 本地/云端 🏠☁️, 跨平台 🍎🪟🐧, PyPI: `pip install friday-memory` / `uvx --from friday-memory friday`, MIT。 |
 | [Aelios](https://github.com/wusaki0723/Aelios) | 给 AI 加长期记忆的自部署网关：跑在你自己的 Cloudflare（Workers + D1 + Vectorize）上，对话即时捕获、夜间整理成长期记忆，换窗口、客户端、模型都能自动召回；自带 /mcp 记忆工具与可视化管理面板。 | 社区实现, TypeScript 开发 📇, 云端运行 ☁️, AGPL-3.0, 一键部署自托管。 |
-
----
-| [ev-diagnosis-mcp](https://github.com/1ouxilisi/ev-diagnosis-mcp) | 新能源汽车维修诊断：故障码查询、结构化诊断结论（原因按概率排序 / 检查顺序先不花钱后花钱 / 报价分档）、190 条中文实战维修经验、44 条车型通病映射。896 条标准 DTC 取自 ModelScope 公开数据集。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, 零依赖、纯本地数据、不联网。 |
 | [MemTether](https://github.com/MemTether/MemTether) | 本地 AI 记忆服务，通过 MCP 在客户端间共享记忆，支持双时间轴记录、记忆替代关系与哈希链审计。 | 社区实现, Python 开发 🐍, 本地运行 🏠, Apache-2.0, `pip install memtether`。 |
 | [memgit](https://github.com/code4161/memgit) | 面向 Claude Code、Cursor、Codex 等 AI 编程工具的版本化共享记忆：导入 Claude Code 自带的记忆文件，每次修改都是一个检查点，可 diff 和回滚，BM25 召回，可选端到端加密的多机同步。 | 官方实现 🎖️, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, pip install memgit 或 npx -y memgit-mcp, 已发布到官方 MCP Registry (dev.memgit/memgit)。 |
 | [sessionwiki](https://github.com/necroz/sessionwiki) | 把 7 种编码 Agent（Claude Code、Codex CLI、Cursor、Gemini CLI、Copilot、ZCode、OpenCode）的会话记录自动编译成本地互链 Markdown 维基：LLM 为每个会话撰写摘要页，静态站点带会话图谱与全文搜索；MCP 服务器（15 个工具）让 Agent 先检索过去的决策与修复，避免重复劳动。ZCode 与 OpenCode 会话通过钩子和插件自动同步。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, PyPI: `uvx sessionwiki mcp`, 官方 MCP Registry, 无遥测。 |
+
+---
 
 ### 🔒 安全与分析
 
@@ -1582,6 +1581,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [msc35/mispick](https://github.com/msc35/mispick) | 测量模型会混淆你的哪些 MCP 工具：为每个工具生成真实的测试请求，让真实模型选择工具，输出混淆矩阵以及每个工具的精确率和召回率；为易混淆的工具对提出描述改写，并只保留经重新测试证明有效的改写。只读取 `tools/list`，从不调用任何工具。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 可用本地 Ollama 模型免费运行, 提供 GitHub Action, `uvx mispick`。 |
 | [Ghost Beacon](https://github.com/moecanales/agent-oracle-beacon) | Node.js MCP 工具集，提供 DNS/TLS/HTTP 健康检查、Agent 发现清单探测，以及 GitHub issue 上下文整理等工具。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, `npx -y github:moecanales/agent-oracle-beacon`。 |
 | [OpenAny](https://openany.si) | 面向 Agent 的模型与 API 聚合市场：用一个 API Key 调用其接入的 AI 模型和第三方 API，预充值、按调用计费。 | 官方实现 🎖️, Go 开发 🏎️, 云服务 ☁️, 远程端点 `https://mcp.openany.si/mcp`（Streamable HTTP）, Bearer API Key, 源码 [openany-mcp](https://github.com/openanysi/openany-mcp), MIT |
+| [ev-diagnosis-mcp](https://github.com/1ouxilisi/ev-diagnosis-mcp) | 新能源汽车维修诊断：故障码查询、结构化诊断结论（原因按概率排序 / 检查顺序先不花钱后花钱 / 报价分档）、190 条中文实战维修经验、44 条车型通病映射。896 条标准 DTC 取自 ModelScope 公开数据集。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, 零依赖、纯本地数据、不联网。 |
 
 ---
 
