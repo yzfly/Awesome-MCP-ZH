@@ -1030,6 +1030,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Oleafly](https://github.com/Oleafly/Oleafly) | 本地优先的 LaTeX / Typst / Markdown 科研写作编辑器。在设置中开启 MCP 服务后，客户端可以读取、编辑、搜索并编译当前打开的项目。 | 官方实现 🎖️, Rust 开发 🦀, 本地运行 🏠, stdio / Streamable HTTP（仅 127.0.0.1）, AGPL-3.0。 |
 | [Taskade MCP](https://github.com/taskade/mcp)                              | Taskade 官方 MCP 集成，连接任务、项目、自动化流程和 AI Agent，实现团队协作与工作流自动化。                   | 官方实现 (Taskade) 🎖️, Node.js 开发, 云服务 ☁️, 项目管理与协作。                                        |
 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream/tree/master/modelcontextprotocol) | Pipedream 官方集成，一站式连接 2500+ API，集成 8000+ 工具，并管理用户服务器。                            | 官方实现 (Pipedream) 🎖️, Node.js 开发, 云端/本地 ☁️🏠, 超强 API/工具集成平台。                     |
+| [Worktable](https://github.com/worktable/worktable-dev) | 供人与智能体共同创建和修订文档、交互式 HTML、绘图、结构化记录与讨论的开源工作空间。 | 官方实现 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, OAuth 2.1 |
 | [腾讯文档 MCP](https://docs.qq.com/open/auth/mcp.html) | 腾讯文档官方远程 MCP：读写在线文档、表格、幻灯片。 | 官方实现 (腾讯) 🎖️, 远程端点 ☁️ `https://docs.qq.com/openapi/mcp`, OAuth 授权。 |
 | [腾讯会议 MCP](https://meeting.tencent.com/ai-skill.html) | 腾讯会议官方远程 MCP：安排会议、查询参会人、获取录制与转写内容。 | 官方实现 (腾讯) 🎖️, 远程端点 ☁️ `https://mcp.meeting.tencent.com/mcp/wemeet-open/v1`。 |
 | [WPS 365 云文档 MCP](https://open.wps.cn/documents/app-integration-dev/mcp-server/use-guide) | 金山办公官方远程 MCP：企业云文档的搜索、读取、分享与权限管理。 | 官方实现 (金山办公) 🎖️, 远程端点 ☁️, 需企业版应用授权。 |
