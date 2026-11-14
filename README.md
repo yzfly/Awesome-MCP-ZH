@@ -518,6 +518,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Castov MCP Server](https://github.com/castovdev/castov) | 本地开发工具集，提供端口检查、IPv4 子网计算、标识符时间戳解析、cron 与时区计算、JWT 检查和凭据扫描。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, `npx -y castov mcp`。 |
 | [reqlan](https://github.com/littletuna4/reqlan/tree/main/packages/mcp) | 需求图谱的 MCP 服务器：需求写成 `.rq` 文件里的具名条目（idea），用 `implemented in` / `proven by` 链接到实现文件和测试文件，代码和测试注释里的 `rq:` 标记指回具体条目；`reqlan check` 静态检查这些链接，当 `rq:` 标记指向的条目被改名、或被链接的测试文件被删除时，报错并返回退出码 1。提供 5 个工具：`click`（检索条目及其上下文）、`check`、`diff`（比较两个 git 版本间的条目）、`completion_status`、`prompt`。 | 官方实现 (reqlan) 🎖️, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, AGPL-3.0, 需将 `REQLAN_WORKSPACE` 设为工作区根目录, `npx -y @reqlan/mcp`。 |
 | [ipvolt Proxy Toolkit](https://github.com/ipvolt/proxy-toolkit-mcp) | 帮编码 Agent 配置和排查 HTTP 代理：检索经过审核的代理配置与排错指南，生成 curl、Python Requests、HTTPX、Playwright 配置模板（凭据保留为环境变量占位符），并根据状态码、异常和请求阶段诊断 407、429、超时等错误、给出下一步检查。适用于任意代理服务商。 | 官方实现 (ipvolt) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, 4 个工具, 无需 API Key, MIT, 远程端点 `https://mcp.ipvolt.com/mcp`（Streamable HTTP）, 本地 `npx -y @ipvolt/proxy-toolkit-mcp@0.1.0`（Node.js 24+，可选本地路由检查）。 |
+| [gemini-pro-mcp](https://github.com/Muzaqil555/gemini-pro-mcp) | 让 Claude Code、Codex 等编程 Agent 直接使用你的 Google AI Pro 订阅：通过 Antigravity CLI 调用 Gemini 做代码审查、读取本地文件和 Deep Research，还能启动 Jules 任务、操作 Gemini Notebooks、用 Google Flow 生成视频。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, `uvx gemini-pro-mcp setup` 一条命令接入, 浏览器类工具默认关闭, MIT。 |
 
 
 ---
