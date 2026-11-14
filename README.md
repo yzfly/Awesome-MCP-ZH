@@ -793,6 +793,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Brave Search (官方)](https://github.com/brave/brave-search-mcp-server) | Brave 官方出品的搜索 MCP 服务器，支持网页、本地、图片、新闻、视频搜索。 | 官方实现 (Brave) 🎖️, TypeScript 开发 📇, 云服务 ☁️, Brave 搜索引擎。 |
 | [You.com](https://github.com/youdotcom-oss/agent-skills) | You.com 官方远程 MCP 服务器，提供实时网页搜索、URL 内容提取与带引用的深度研究（工具 `you-search` / `you-contents` / `you-research`），并附赠多平台 Agent 技能包（Claude Code、Codex、Cursor、Copilot CLI 等）。 | 官方实现 (You.com) 🎖️, 云服务 ☁️, 远程端点 `https://api.you.com/mcp`，支持 `YDC_API_KEY` Bearer 认证或免密 `?profile=free` 基础搜索，MIT。 |
 | [BuyWhere](https://github.com/BuyWhere/buywhere-mcp) | 跨境电商商品目录 MCP：跨 SG/MY/VN/TH/PH/US/JP 七个国家 3.7 亿+ 商品实时搜索与比价（`deliver_to` 配送信号），覆盖 13 个工具（search_products / find_best_price / get_deals 等）。OAuth 2.1 Bearer 鉴权，免邮箱注册。已上架官方 MCP Registry（`io.github.BuyWhere/buywhere-mcp@1.1.0`）。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 远程端点 `https://mcp.buywhere.ai/mcp`, MIT。 |
+| [黑123 Hackathons](https://github.com/onehumanbeing/hack123-mcp) | 中英双语黑客松检索 MCP：按关键词、状态（报名中/未开始/已结束）、线上线下、城市、主题等搜索国内外黑客松，查看单场详情（时间、奖金、报名链接），还能搜组队帖和往届作品（工具 `search_hackathons` / `get_hackathon` / `search_team_posts` / `search_works`）。 | 社区实现, 云服务 ☁️, 远程 Streamable HTTP `https://hack123.henryht.sh/api/mcp`, 只读、免费、无需 API Key, 官方 MCP Registry `io.github.onehumanbeing/hack123`, MIT, 接入文档 https://hack123.henryht.sh/about#mcp。 |
 
 ---
 
