@@ -511,6 +511,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [GenPM](https://github.com/GenPM-net/genpm/tree/main/packages/mcp) | 面向 AI 编程代理的模块包管理器：让 Agent 搜索、查看并把完整模块（认证、Stripe 订阅、邮件、AI 聊天、商城、博客等）以**源代码**形式注入项目，同时带上该模块的 AGENTS.md 规则与所需 MCP 配置；固定到经签名校验的 Git 提交，不运行任何安装脚本，安装前先给出 dryRun 计划。 | 官方实现 (GenPM) 🎖️, TypeScript 开发 📇, 本地运行 🏠（另有只读远程端点 `https://mcp.genpm.net/` ☁️）, MIT, `npx -y @genpm-net/mcp`，网站有简体中文版。 |
 | [fm-mcp](https://github.com/yrangana/fm-mcp) | 让 Claude Code、Codex 等编程 Agent 把摘要、字段提取、分类和 OCR 交给 macOS 27 上 Apple Foundation Models 的本地端侧模型处理，免费、离线。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, macOS 🍎, `brew install yrangana/tap/fm-mcp`, MIT。 |
 | [Castov MCP Server](https://github.com/castovdev/castov) | 本地开发工具集，提供端口检查、IPv4 子网计算、标识符时间戳解析、cron 与时区计算、JWT 检查和凭据扫描。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, `npx -y castov mcp`。 |
+| [reqlan](https://github.com/littletuna4/reqlan/tree/main/packages/mcp) | 需求图谱的 MCP 服务器：需求写成 `.rq` 文件里的具名条目（idea），用 `implemented in` / `proven by` 链接到实现文件和测试文件，代码和测试注释里的 `rq:` 标记指回具体条目；`reqlan check` 静态检查这些链接，当 `rq:` 标记指向的条目被改名、或被链接的测试文件被删除时，报错并返回退出码 1。提供 5 个工具：`click`（检索条目及其上下文）、`check`、`diff`（比较两个 git 版本间的条目）、`completion_status`、`prompt`。 | 官方实现 (reqlan) 🎖️, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, AGPL-3.0, 需将 `REQLAN_WORKSPACE` 设为工作区根目录, `npx -y @reqlan/mcp`。 |
 
 
 ---
