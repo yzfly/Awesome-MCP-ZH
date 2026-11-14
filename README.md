@@ -1407,6 +1407,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [r-huijts/oorlogsbronnen-mcp](https://github.com/r-huijts/oorlogsbronnen-mcp) | Oorlogsbronnen (战争来源) API 集成，访问荷兰二战时期 (1940-1945) 的历史记录、照片和文件。                  | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 荷兰二战历史资料。                                 |
 | [shunshi-ai/kangxi-mcp](https://github.com/shunshi-ai/kangxi-mcp) | 离线查询《康熙字典》原文、康熙笔画、部首、拼音与注音，支持按笔画、部首等条件检索汉字及分析文本。 | 官方实现 (Shunshi.AI), TypeScript 开发 📇, 本地运行 🏠, MIT, 无需 API Key，`npx -y shunshi-kangxi-mcp`。 |
 | [shunshi-ai/astro-mcp](https://github.com/shunshi-ai/astro-mcp) | 西洋本命盘计算：NASA DE440s 星历、历史时区、行星落座、宫位与主要相位；星历首次下载后本地计算。 | 官方实现 (Shunshi.AI), Python 开发 🐍, 本地运行 🏠, MIT, 无需 API Key，`uvx --from git+https://github.com/shunshi-ai/astro-mcp@v0.1.0 shunshi-astro-mcp`。 |
+| [shunshi-ai/bazi-reader-mcp](https://github.com/shunshi-ai/bazi-reader-mcp) | 八字排盘与黄历查询，支持真太阳时校正、四柱、十神、大运、刑冲合会与神煞。 | 官方实现 (Shunshi.AI), TypeScript 开发 📇, 本地运行 🏠, MIT, 无需 API Key，`npx -y shunshi-bazi-mcp`。 |
 | [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp)          | 集成 AniList API 的 MCP 服务器，用于动漫和漫画信息。                                                  | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 动漫/漫画信息 (AniList)。                           |
 
 ---
