@@ -1305,6 +1305,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [vmoranv/jshookmcp](https://github.com/vmoranv/jshookmcp) | 面向前端 / JavaScript 逆向的 MCP 工作区：运行时 Hook、网络拦截（含 TLS keylog）、bundle 反混淆、CDP 控制真实 Chrome、WASM 反汇编；735 工具 / 36 域。search-first —— 只注入约 3K token 的工具摘要、按需激活域，避免 735 个 schema 撑爆上下文。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 前端逆向工程 (JS/WASM)。 |
 | [元冰可 YBK](https://github.com/01men/ybkkasi) | AI 资产管理平台，内置 MCP Server，提供 MCP 服务、Skill、Agent 和应用台账，以及审批、部署、审计与成本管理工具。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT, 可通过 Docker Compose 自托管。 |
 | [Preloop](https://github.com/preloop/preloop) | 开源 AI 智能体控制平面与软件工厂：每一次工具调用和模型调用都会被允许、拒绝或交由人工审批，计入预算并记录；智能体可由工单、Webhook 和 CI 触发，在托管容器或自有 runner 中运行，以 Pull Request 交付成果。 | 官方实现 🎖️, Python 开发 🐍, 云端/本地 🏠☁️, MCP 代理与网关，远程端点 `https://preloop.ai/mcp/v1`（Streamable HTTP），Apache-2.0，可用 Docker Compose 或 Helm 自托管。 |
+| [Ironheights](https://github.com/Frank-Masciopinto/ironheights) | 在安装前检查 AI Agent 技能（任意含 `SKILL.md` 的文件夹：OpenClaw、Claude Code、Codex、Cursor 等）的安全扫描器。`ironheights mcp` 提供只读 MCP 服务器：`check_skill` 扫描本地文件夹或 ClawHub 技能（不执行任何文件），返回失败即阻断的 allow/blocked 判定、A–F 评级和带文件与行号的发现项（提示注入、隐藏文本、凭证读取、远程执行安装、持久化），并写入审计回执；另有 `verify_check`、`drift_status`（批准后变更检测）、`threatmodel_check`、`get_rule`。基于固定静态规则，项目仍处早期，评级干净不代表绝对安全。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, stdio, 无需密钥, Apache-2.0, `npx -y ironheights@0.23.0 mcp`。 |
 
 ---
 
