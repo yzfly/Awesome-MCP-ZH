@@ -387,6 +387,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [34892002/bilibili-mcp-js](https://github.com/34892002/bilibili-mcp-js) | 支持搜索 Bilibili 内容的 MCP 服务器。                                      | 社区实现, TypeScript 开发 📇, 本地运行 🏠.                                        |
 | [OpenTabs](https://github.com/opentabs-dev/opentabs) | 基于插件的 MCP 服务器，通过用户已认证的浏览器会话让 AI 代理访问 Web 应用。Chrome 扩展 + 100 多个插件，支持 Slack、Discord、GitHub、Reddit 等。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 插件化浏览器集成。 |
 | [Zlatanwic/wechat-article-read-mcp](https://github.com/Zlatanwic/Wechat-Read-MCP-in-Rust) |支持微信公众号内容提取，绕过微信反爬机制|  社区实现，rust开发 🦀，本地运行 🏠，高性能，易分发|
+| [sweesama/readgzh](https://github.com/sweesama/readgzh) | 读取已有的微信公众号文章链接，返回标题、作者、发布时间和 Markdown 正文，支持图文（小绿书）格式；长文自动分段，并可检索 ReadGZH 已缓存的文章。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 远程 Streamable HTTP（`https://api.readgzh.site/mcp-server`，API Key 可选，匿名按 IP 限额）或 OAuth 接入, 5 个工具, 已缓存文章读取不消耗积分, AGPL-3.0。 |
 | [achiya-automation/safari-mcp](https://github.com/achiya-automation/safari-mcp) | 原生 Safari 浏览器自动化，专为 macOS 设计。通过 AppleScript + JavaScript 提供 80 个工具，零 Chrome 开销，保留登录状态，后台静默运行。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, macOS 原生 🍎 |
 | [vostride/agent-qa](https://github.com/vostride/agent-qa) | 自我改进的 Agentic QA 测试工具，通过自然语言编写 Web 和移动端测试，并用执行记忆和自修复动作排查回归。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, E2E 测试与浏览器自动化。 |
 | [Unagi-cq/cdp-bridge-mcp](https://github.com/Unagi-cq/cdp-bridge-mcp) | 通过 Chrome DevTools Protocol (CDP) 与配套浏览器扩展，将 MCP 客户端桥接到用户的真实浏览器，复用已有会话与登录态进行网页操作。 | 社区实现, Python 开发 🐍, 本地运行 🏠, CDP + 扩展桥接真实浏览器。 |
