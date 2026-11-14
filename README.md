@@ -1472,6 +1472,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [RoboParts](https://github.com/lm203688/roboparts) | 查询跨品牌机器人零件及机械接口资料，检查兼容性；对缺失参数返回未知，并支持生成转接件模型。 | 官方实现 🎖️, JavaScript 开发 📇, 云端/本地 🏠☁️, 远程端点 `https://roboparts.cc/mcp`；代码 MIT，数据 CC BY 4.0，参数来源与置信度见返回结果。 |
 | [Alloy](https://github.com/argonrobotics-ai/alloy) | 开源的机器人学习物理引擎，基于 MuJoCo Warp 与 Newton，可把机器人、布料、线缆、液体、沙子和软体放进同一个场景。内置 MCP 服务器（`alloy mcp`），让 AI 智能体无需编写 Python 即可搭建场景、推进仿真、以 JSON 读取状态、渲染画面并检查仿真是否正常。 | 官方实现 🎖️, Python 开发 🐍, 本地运行 🏠, Apache-2.0；`pip install alloy-engine` 后用 `claude mcp add alloy -- alloy mcp` 接入，支持 CPU（x86_64）或 NVIDIA GPU。 |
 | [usb-rea](https://github.com/emirmrkaljevic/usb-rea) | USB 协议逆向 MCP：在使用厂商 Windows 软件（机箱 LCD、RGB、鼠标等）时抓取 USB 流量（usbmon / pcap），按操作对比数据包、推断协议，并生成 Linux 用户态驱动骨架、Wireshark 解析器和 HID 描述符解析；内置离线 VID:PID 已知设备查询。 | 社区实现, Python 开发 🐍, 本地运行 🏠, Linux 🐧, MIT, 10 个工具, `pip install usb-rea`。 |
+| [codesys-mcp-toolkit](https://github.com/johannesPettersson80/codesys-mcp-toolkit) | CODESYS V3.5 PLC 编程 MCP：让大模型在 CODESYS 中新建或打开工程，读写结构化文本（ST）代码，编译并返回带行号的错误，在 CODESYS 自带的仿真中强制、读写变量来测试逻辑；支持变更追踪与回退，可在浏览器工作区或 CODESYS 窗口中实时查看。不登录、不下载到真实 PLC。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, Windows 🪟, MIT, 需要 CODESYS V3.5 SP21/SP22 及 Scripting, 1 个 `codesys` 工具含 36 个操作, `npm install -g @codesys/mcp-toolkit`, 中文 README。 |
 
 ---
 
