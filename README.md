@@ -333,6 +333,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![The One](https://the-zeroth.com/product/zh/matter-board-poster.webp)  
   - **Tips**：闭源，文档公开；用自己的 API Key 或 ChatGPT 登录不收费；支持 macOS 和 Windows，另有无界面的 Linux 服务器版。
 
+- **ForgeMind**
+  - **简介**：原生 Android 开源自主 AI 工程工作站（Kotlin + Jetpack Compose），同时内置 MCP 客户端与设备端 MCP 服务器。
+  - **功能**：客户端支持连接 `Streamable HTTP`、`SSE` 和基于 Termux/远程 SSH 的 `stdio` MCP Server；同时内置 Bearer Token 鉴权的 Android MCP Host（`:8765`），可将手机端双栏文件系统（含 SFTP/SAF）、Sora 代码编辑器（带自动回滚快照）、Shell 终端、8 窗口并行无头浏览器抓取以及 Android 跨应用窗口读取与操作工具暴露给桌面 IDE 或本地 Agent；兼容 OpenAI、Claude、Gemini、DeepSeek、OpenRouter 以及局域网 Ollama / LM Studio / `llama.cpp`。
+  - **链接**：[GitHub 仓库](https://github.com/DIIIUA/ForgeMind) | [官网](https://diiiua.github.io/ForgeMind/)
+  - **Tips**：GPL-3.0 开源，提供可直接安装的 Android APK（支持 Obtainium 更新），无需注册账号，API Key 保存在本地加密存储中。
+
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
