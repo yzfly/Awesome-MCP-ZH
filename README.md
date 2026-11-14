@@ -339,6 +339,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 
 ### 🌐 浏览器自动化与网页交互
+- [doujiaozh/omni-web-mcp](https://github.com/doujiaozh/omni-web-mcp) 📇 - 一个零依赖的 MCP Server，让 AI 直接操控网页，完美兼容 Win7。
 
 *(让 AI 能够像人一样浏览网页、提取信息、填写表单等)*
 
