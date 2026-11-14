@@ -347,7 +347,6 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 
 ### 🌐 浏览器自动化与网页交互
-- [doujiaozh/omni-web-mcp](https://github.com/doujiaozh/omni-web-mcp) 📇 - 一个零依赖的 MCP Server，让 AI 直接操控网页，完美兼容 Win7。
 
 *(让 AI 能够像人一样浏览网页、提取信息、填写表单等)*
 
@@ -357,6 +356,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 谷歌 Chrome 官方出品，让 AI 编程代理直接驱动 Chrome DevTools：导航页面、检查 DOM、抓取网络请求、跑性能与 Lighthouse 审计、执行脚本。 | 官方实现 (Google Chrome) 🎖️, TypeScript 开发 📇, 本地运行 🏠, 浏览器调试与自动化, 42K+ Stars。 |
 | [CloakBrowser MCP](https://github.com/swimmwatch/cloakbrowser-mcp) | 使用 CloakBrowser Chromium 运行 Playwright MCP，保留上游浏览器工具，支持网页导航、交互和截图。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, npm/Docker, stdio/Streamable HTTP；MCP 桥接层采用 MIT 许可，浏览器二进制采用独立专有许可。 |
 | [webclaw](https://github.com/0xMassi/webclaw) | 快速本地优先的网页内容提取工具，专为 LLM 设计。支持将网页转换为 Markdown/JSON/纯文本，内置 TLS 指纹伪装绕过反爬，无需浏览器。提供 MCP 服务器（10 个工具）和 CLI。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, MIT 开源, 高性能网页提取。 |
+| [doujiaozh/omni-web-mcp](https://github.com/doujiaozh/omni-web-mcp) | 零依赖的网页操控 MCP Server：让 AI 打开、读取并操作网页，兼容 Windows 7 等旧系统。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT。 |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Browser Use 官方 MCP 服务器：让 AI 运行浏览器 Agent 任务、控制云端浏览器，完成网页导航、填表与数据提取。支持本地 stdio 或远程 Streamable HTTP 接入。 | 官方实现 (Browser Use) 🎖️, Python 开发 🐍, 云端/本地 🏠☁️, MIT。本地 `uvx --from 'browser-use[cli]' browser-use --mcp`；远程 `https://api.browser-use.com/v3/mcp`（需 API Key）。 |
 | [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) | 云端浏览器自动化服务，能导航网页、提取数据、填表单等，无需本地安装。                  | 官方实现 (Browserbase) 🎖️, TypeScript 开发 📇, 云端浏览器操作。                      |
 | [modelcontextprotocol/server-puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer) | 官方参考实现，使用 Puppeteer 进行浏览器自动化和网页抓取。                           | 官方参考, TypeScript 开发 📇, 本地运行 🏠, 网页抓取和交互基础工具。                 |
@@ -724,7 +724,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [erikhoward/adls-mcp-server](https://github.com/erikhoward/adls-mcp-server) | 用于 Azure Data Lake Storage 的 MCP 服务器。可管理容器、读/写/上传/下载文件及管理元数据。   | 社区实现, Python 开发 🐍, 云端/本地 ☁️🏠, Azure Data Lake Storage 管理。                              |
 | [hashicorp/terraform-mcp-server](https://github.com/hashicorp/terraform-mcp-server) | HashiCorp 官方出品，让 AI 与 Terraform 生态（Registry、Provider/模块文档等）深度集成，辅助 IaC 开发。 | 官方实现 (HashiCorp) 🎖️, Go 开发 🏎️, 本地/云端 🏠☁️, Terraform IaC。 |
 | [华为云 MCP](https://developer.huaweicloud.com/) | 华为云官方远程 MCP 服务，在控制台按账号获取专属端点后接入。 | 官方实现 (华为云) 🎖️, 远程端点 ☁️, 端点按账号下发。 |
-| [Lantern Works](https://github.com/connormatthewdouglas/agent-work-stack-deals) | GPU 云租赁价格对比 MCP 服务器：横向比较约 29 家厂商的 H100、H200、A100、RTX 4090/5090 等型号价格，每条报价附来源链接与核查时间；支持任务成本预估（带收据）。免费、只读、无需 API Key。安装见 [thelanternworks.com/install/?ref=readme-mcpzh](https://thelanternworks.com/install/?ref=readme-mcpzh)。 | 社区实现, Python 开发 🐍, 云端/本地 🏠☁️, 代码 MIT / 数据 CC BY 4.0, PyPI `lantern-works-deals-mcp` 0.6.2（9 个工具），托管端点另有价格提醒工具。 |
+| [Lantern Works](https://github.com/connormatthewdouglas/agent-work-stack-deals) | GPU 云租赁价格对比 MCP 服务器：横向比较约 29 家厂商的 H100、H200、A100、RTX 4090/5090 等型号价格，每条报价附来源链接与核查时间；支持任务成本预估（带收据）。免费、只读、无需 API Key。安装见 [thelanternworks.com/install](https://thelanternworks.com/install/)。 | 社区实现, Python 开发 🐍, 云端/本地 🏠☁️, 代码 MIT / 数据 CC BY 4.0, PyPI `lantern-works-deals-mcp` 0.6.2（9 个工具），托管端点另有价格提醒工具。 |
 
 ---
 
@@ -944,7 +944,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [kukapay/whale-tracker-mcp](https://github.com/kukapay/whale-tracker-mcp)            | 用于跟踪加密货币巨鲸交易的 MCP 服务器。                                                       | 社区实现, Python 开发 🐍, 云服务 ☁️, 加密货币巨鲸追踪。                                                  |
 | [laukikk/alpaca-mcp](https://github.com/laukikk/alpaca-mcp)                          | Alpaca 交易 API 的 MCP 服务器，用于管理股票和加密货币投资组合、下单和访问市场数据。                  | 社区实现, Python 开发 🐍, 云服务 ☁️, Alpaca 交易 API 集成。                                            |
 | [longportapp/openapi](https://github.com/longportapp/openapi)        | LongPort OpenAPI 提供实时股市数据，通过 MCP 为 AI 提供分析和交易能力。                          | 官方实现 (LongPort) 🎖️, Python 开发 🐍, 云服务 ☁️, LongPort 股票数据与交易。                           |
-| [Lumen-Founder/omx](https://github.com/Lumen-Founder/omx) | 非托管的 Hyperliquid 永续合约执行引擎，提供面向 AI 代理的 MCP 服务器：在本地风控限额内报价、预览和提交市价/限价/TWAP/POV/追价订单，超过阈值需人工批准，代理可触发但不能解除紧急停止，所有决策写入哈希链审计日志。仅使用无法提现的 API 钱包签名。`uvx omx-hyperliquid` 可免密钥运行演示。可选 1 bp builder 费用需用户在自己钱包中批准。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, `uvx omx-hyperliquid`。 |
+| [Lumen-Founder/omx-hyperliquid-mcp](https://github.com/Lumen-Founder/omx-hyperliquid-mcp) | 非托管的 Hyperliquid 永续合约执行引擎，提供面向 AI 代理的 MCP 服务器：在本地风控限额内报价、预览和提交市价/限价/TWAP/POV/追价订单，超过阈值需人工批准，代理可触发但不能解除紧急停止，所有决策写入哈希链审计日志。仅使用无法提现的 API 钱包签名。`uvx omx-hyperliquid` 可免密钥运行演示。可选 1 bp builder 费用需用户在自己钱包中批准。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, `uvx omx-hyperliquid`。 |
 | [mcpdotdirect/starknet-mcp-server](https://github.com/mcpdotdirect/starknet-mcp-server) | 全面的 Starknet 区块链集成，支持原生代币 (ETH, STRK)、智能合约、StarknetID 解析和代币转移。       | 社区实现, TypeScript 开发 📇, 云服务 ☁️, Starknet 全功能集成。                                       |
 | [minhyeoky/mcp-server-ledger](https://github.com/minhyeoky/mcp-server-ledger)        | ledger-cli 集成，用于管理金融交易和生成报告。                                                    | 社区实现, Python 开发 🐍, 本地运行 🏠, ledger-cli 记账。                                            |
 | [narumiruna/yfinance-mcp](https://github.com/narumiruna/yfinance-mcp)              | 使用 Yahoo Finance API 获取金融数据，方便进行股票分析。                                                  | 社区实现, Python 开发 🐍, 云服务 ☁️, Yahoo Finance 数据获取。                                          |
@@ -1021,7 +1021,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Keboola](https://github.com/keboola/keboola-mcp-server)             | Keboola 官方集成，在单一平台上构建数据工作流、集成和分析。                                                  | 官方实现 (Keboola) 🎖️, Python 开发, Keboola 数据平台。                                                    |
 | [MaxStat MCP](https://github.com/fbmdata/maxstat-mcp) | 让 AI 查询 MAX 即时通讯平台的实时索引：筛选频道和帖子、比较 30 天受众增长、分析浏览与反应并追踪转发；生产示例从同一频道返回 +14.5% 增长及 184 次转发。 | 官方实现 (FBM Analytics) 🎖️, 远程 Streamable HTTP ☁️, 21 个工具, 408K+ 频道, 86M+ 帖子, 仓库内含快速入门和多客户端配置。 |
 | [MCP Ads](https://github.com/RoyAzran/mcp-ads) | 广告投放 MCP 服务器：在任意 MCP 客户端中查询和管理 Google Ads、Meta Ads、TikTok、LinkedIn、Microsoft Ads 以及 GA4、Search Console、Tag Manager，支持跨账户效果报表、无转化搜索词排查、预算与出价调整（修改前需确认，新建广告系列默认暂停）。 | 官方实现 🎖️, Python 开发 🐍, 云端/本地 🏠☁️, MIT 许可, 可用 Docker 自建；托管版远程 MCP: `https://mcp-ads.com/mcp-slim`（OAuth，需付费账户）。 |
-| [Nightingale](https://github.com/ccfos/nightingale) | Built-in MCP server in the main Nightingale process for querying alerts, metrics, and logs, and managing alerting. | Official implementation 🎖️, Go 🏎️, self-hosted 🏠, Apache-2.0, Streamable HTTP `/mcp`, docs in `doc/api/mcp-server.md`. |
+| [Nightingale 夜莺](https://github.com/ccfos/nightingale) | 夜莺（Nightingale）开源监控告警平台主进程内置的 MCP 服务器：查询告警、指标与日志，并管理告警规则。 | 官方实现 🎖️, Go 开发 🏎️, 自托管 🏠, Apache-2.0, Streamable HTTP `/mcp`，文档见 `doc/api/mcp-server.md`。 |
 | [yzfly/mcp-excel-server](https://github.com/yzfly/mcp-excel-server)  | 通过自然语言与 Excel 交互的 MCP 服务器。                                                                 | 社区标杆, Excel 读写、分析、可视化。                                                                       |
 | [ChronulusAI/chronulus-mcp](https://github.com/ChronulusAI/chronulus-mcp) | 使用 Chronulus AI 预测和预测代理预测任何事物。                                                     | 社区实现, Python 开发 🐍, 云服务 ☁️, AI 预测服务。                                                         |
 | [Excel (by haris-musa)](https://github.com/haris-musa/excel-mcp-server) | Excel 操作，包括读写、工作表管理、格式化、图表和数据透视表 (提供更高级的功能)。                               | 社区实现, Python 开发 🐍, 本地运行 🏠, Excel 高级操作。                                                  |
@@ -1319,7 +1319,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                               | 中文介绍                                                                                              | 备注                                                                                                     |
 | :--------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| [SalyyS1/mcp-slim](https://github.com/SalyyS1/mcp-slim) | 零依赖 MCP stdio 代理与 Token 压缩/安全网关，支持工具 Schema 与输出压缩（节省 50%-98.7% Token）、BM25 按需工具发现、工具调用白名单/黑名单拦截以及实时密钥与提示注入脱敏（SecretGuard）。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT。 |
+| [SalyyS1/mcp-slim](https://github.com/SalyyS1/mcp-slim) | 零依赖 MCP stdio 代理与 Token 压缩/安全网关，支持工具 Schema 与输出压缩（作者称可显著减少 Token 占用）、BM25 按需工具发现、工具调用白名单/黑名单拦截以及实时密钥与提示注入脱敏（SecretGuard）。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT。 |
 | [Canari](https://github.com/lanbass869-cell/canari) | 安装 agent 组件（npm / PyPI / MCP Registry / dsh）前先查上一次校验结论：`gate_check` 直接给 ALLOW / BLOCK / REVIEW 并附理由，依据是**已签名的存档**而不是临时扫一遍。结论是 DSSE/Ed25519 信封，载荷为标准 in-toto Statement v1，因此可用 `canari-verify <bundle> --key public_key.json` 离线核对，GUAC / cosign 也能直接读。重新扫描是「取代」旧记录而非覆盖，所以「从干净变成有问题」这一变化可被追溯审计。工具：`gate_check`、`verify_bundle`、`store_summary`。安装：`pip install canari-mcp` 后直接跑 `canari-mcp`，无需参数（wheel 内置每个组件最新一份签名记录）。 | 社区实现, Python 🐍, stdio, 无需鉴权, Apache-2.0（代码）/ CC-BY-4.0（数据）。官方 MCP Registry: `io.github.lanbass869-cell/canari`。公开数据集：5,170 条签名记录 / 1,417 个组件。 |
 | [x64dbg-MCP Server](https://github.com/duty1g/x64dbg-mcp-server) | Zig 编写的 x64dbg 原生插件，零依赖单文件，把调试器 84 项能力（反汇编、单步、断点、内存、寄存器、xrefs、PE 分析等）通过 Streamable HTTP / SSE 暴露给 MCP，用于 Agent 逆向工程。 | 社区实现, Zig 开发, 本地运行 🏠, Windows, MIT。 |
 | [OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) | AI 驱动的 OSINT 情报 Agent，19 个工具，提供交互式 REPL、MCP server 与 CLI 三种用法，兼容 Claude、GPT 等。 | 社区实现, 本地运行 🏠, MIT。 |
@@ -1347,7 +1347,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [sapientpants/deepsource-mcp-server](https://github.com/sapientpants/deepsource-mcp-server) | 与 DeepSource 集成的 MCP 服务器，为 AI 助手提供代码质量指标、问题和质量门状态的访问。                    | 社区实现, TypeScript 开发 📇, 云端/本地 ☁️🏠, 代码质量 (DeepSource)。                             |
 | [sapientpants/sonarqube-mcp-server](https://github.com/sapientpants/sonarqube-mcp-server) | 与 SonarQube 集成的 MCP 服务器，为 AI 助手提供代码质量指标、问题和质量门状态的访问。                   | 社区实现, Rust 开发 🦀, 云端/本地 ☁️🏠, 代码质量 (SonarQube)。                                   |
 | [securityfortech/secops-mcp](https://github.com/securityfortech/secops-mcp)        | 将流行的开源工具整合到单一 MCP 接口中的一体化安全测试工具箱。连接 AI 代理，实现渗透测试、漏洞赏金、威胁狩猎等任务。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 安全测试工具箱。                                            |
-| [Speakeasy control plane](https://github.com/speakeasy-api/gram) | 面向企业 AI 代理的 MCP 网关，基于现有身份提供商按团队和角色分配访问权限，对工具调用执行安全策略并记录审计日志。 | 官方实现 🎖️, Go/TypeScript 开发 🏎️📇, 云端/本地 🏠☁️, MCP 访问控制与审计。 |
+| [Gram (Speakeasy)](https://github.com/speakeasy-api/gram) | 面向企业 AI 代理的 MCP 网关，基于现有身份提供商按团队和角色分配访问权限，对工具调用执行安全策略并记录审计日志。 | 官方实现 🎖️, Go/TypeScript 开发 🏎️📇, 云端/本地 🏠☁️, AGPL-3.0, MCP 访问控制与审计。 |
 | [sunglasses-dev/sunglasses](https://github.com/sunglasses-dev/sunglasses) | 面向 AI Agent 的本地输入防火墙。MCP 服务器提供 `scan_text`、`scan_file` 和 `scanner_info` 三个工具，用 118 个类别共 1,554 条检测模式扫描文本和文件中的提示注入、凭证泄露与数据外泄。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, `pip install sunglasses` 后运行 `python -m sunglasses.mcp`。 |
 | [model-audit](https://github.com/liuxiaotong/model-audit) | LLM 蒸馏检测与模型指纹审计 — 文本溯源、身份验证、蒸馏关系判定，守护模型知识产权。 | 社区实现, Python 开发 🐍, 本地运行 🏠, LLM 模型审计与蒸馏检测。 |
 | [Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp)                     | 对域名、IP、ASN 和 TLD 执行 whois 查询。                                                          | 社区实现, Python 开发, Whois 查询。                                                                |
@@ -1446,7 +1446,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | :--------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
 | [djalal/quran-mcp-server](https://github.com/djalal/quran-mcp-server)    | 通过官方 REST API v4 与 Quran.com 语料库交互的 MCP 服务器。                                            | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 古兰经文本交互。                                     |
 | [r-huijts/rijksmuseum-mcp](https://github.com/r-huijts/rijksmuseum-mcp) | Rijksmuseum API 集成，用于艺术品搜索、详情和收藏。                                                    | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 荷兰国立博物馆艺术品。                               |
-| [Homo Universalis — Viveka (viveka-oracle)](https://github.com/David-Porto-Baraldes/Viveka_Web) | 确定性瑞士星历表 (`pyswisseph`) 与七大传统历法计算 MCP 服务器：提供西方黄道十二宫与守护星、印度恒星占星二十七宿 (Jyotish Nakshatra)、中国八字四柱与五行日主 (BaZi & Wu Xing)、易经六十四卦与人类图太阳闸门、玛雅卓尔金历 (Tzolk'in)、埃及十度区与毕达哥拉斯数秘术计算，内置双人/双智能体星盘合盘共振 (`calculate_karmic_synastry`) 与实时星历快照 (`get_today_universal_ephemeris`)。 | 官方实现 🎖️, Python 开发 🐍, 云端/本地 🏠☁️, Apache-2.0 / MulanPSL-2.0, 免鉴权远程 Streamable HTTP 端点 `https://homouniversalis.ai/mcp`，4 个工具 + 5 个资源 + 2 个提示词，零知识隐私保护。 |
+| [Homo Universalis — Viveka (viveka-oracle)](https://github.com/David-Porto-Baraldes/Viveka_Web) | 确定性瑞士星历表 (`pyswisseph`) 与七大传统历法计算 MCP 服务器：提供西方黄道十二宫与守护星、印度恒星占星二十七宿 (Jyotish Nakshatra)、中国八字四柱与五行日主 (BaZi & Wu Xing)、易经六十四卦与人类图太阳闸门、玛雅卓尔金历 (Tzolk'in)、埃及十度区与毕达哥拉斯数秘术计算，内置双人/双智能体星盘合盘共振 (`calculate_karmic_synastry`) 与实时星历快照 (`get_today_universal_ephemeris`)。 | 官方实现 🎖️, Python 开发 🐍, 云端/本地 🏠☁️, Apache-2.0 / MulanPSL-2.0, 免鉴权远程 Streamable HTTP 端点 `https://homouniversalis.ai/mcp`，4 个工具 + 5 个资源 + 2 个提示词。 |
 | [r-huijts/oorlogsbronnen-mcp](https://github.com/r-huijts/oorlogsbronnen-mcp) | Oorlogsbronnen (战争来源) API 集成，访问荷兰二战时期 (1940-1945) 的历史记录、照片和文件。                  | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 荷兰二战历史资料。                                 |
 | [shunshi-ai/kangxi-mcp](https://github.com/shunshi-ai/kangxi-mcp) | 离线查询《康熙字典》原文、康熙笔画、部首、拼音与注音，支持按笔画、部首等条件检索汉字及分析文本。 | 官方实现 (Shunshi.AI), TypeScript 开发 📇, 本地运行 🏠, MIT, 无需 API Key，`npx -y shunshi-kangxi-mcp`。 |
 | [shunshi-ai/astro-mcp](https://github.com/shunshi-ai/astro-mcp) | 西洋本命盘计算：NASA DE440s 星历、历史时区、行星落座、宫位与主要相位；星历首次下载后本地计算。 | 官方实现 (Shunshi.AI), Python 开发 🐍, 本地运行 🏠, MIT, 无需 API Key，`uvx --from git+https://github.com/shunshi-ai/astro-mcp@v0.1.0 shunshi-astro-mcp`。 |
@@ -1581,7 +1581,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Everything2MCP](https://github.com/shcdwz1234/Everything2MCP) | 将本地能力和服务适配器配置为统一的 MCP 工具入口，支持配置热重载、管理控制台与 Safe/Full 权限模式。 | 社区实现, TypeScript/Node.js 开发 📇, 本地运行 🏠, Apache-2.0, `npx everything2mcp`；不同适配器的成熟度见项目文档。 |
 | [msc35/mispick](https://github.com/msc35/mispick) | 测量模型会混淆你的哪些 MCP 工具：为每个工具生成真实的测试请求，让真实模型选择工具，输出混淆矩阵以及每个工具的精确率和召回率；为易混淆的工具对提出描述改写，并只保留经重新测试证明有效的改写。只读取 `tools/list`，从不调用任何工具。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 可用本地 Ollama 模型免费运行, 提供 GitHub Action, `uvx mispick`。 |
 | [Ghost Beacon](https://github.com/moecanales/agent-oracle-beacon) | Node.js MCP 工具集，提供 DNS/TLS/HTTP 健康检查、Agent 发现清单探测，以及 GitHub issue 上下文整理等工具。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, `npx -y github:moecanales/agent-oracle-beacon`。 |
-| [OpenAny](https://openany.si) | 面向 Agent 的资源市场：一个 Key 调用 168+ AI 模型和 3200+ API。无需订阅，不用逐家注册绑卡，充值一次、按调用付费。 | 官方实现 🎖️, Go 开发 🏎️, 云服务 ☁️, 远程端点 `https://mcp.openany.si/mcp`（Streamable HTTP）, Bearer API Key, 源码 [openany-mcp](https://github.com/openanysi/openany-mcp), MIT |
+| [OpenAny](https://openany.si) | 面向 Agent 的模型与 API 聚合市场：用一个 API Key 调用其接入的 AI 模型和第三方 API，预充值、按调用计费。 | 官方实现 🎖️, Go 开发 🏎️, 云服务 ☁️, 远程端点 `https://mcp.openany.si/mcp`（Streamable HTTP）, Bearer API Key, 源码 [openany-mcp](https://github.com/openanysi/openany-mcp), MIT |
 
 ---
 
