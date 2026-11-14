@@ -443,7 +443,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [code-sandbox-mcp](https://github.com/Automata-Labs-team/code-sandbox-mcp) | 创建安全的 Docker 容器环境来执行代码。                                              | 社区实现, Python 开发, Docker 沙盒代码执行。                                         |
 | [knowlyr-sandbox](https://github.com/liuxiaotong/knowlyr-agent/tree/main/packages/sandbox) | Code Agent 执行沙箱 — Docker 隔离、文件捕获、超时控制，为 LLM 代码代理提供安全的运行环境。 | 社区实现, Python 开发 🐍, 本地运行 🏠, Docker 沙箱执行。 |
 | [ForeverVM](https://github.com/jamsocket/forevervm/tree/main/javascript/mcp-server) | 在代码沙盒中运行 Python 代码。                                                     | 官方实现 (Jamsocket), JavaScript 开发, 代码沙盒。                                   |
-| [Openhook](https://github.com/openhook-dev/openhook-inbox) | 为 AI 编程助手创建 Webhook 收件箱，通过 MCP 检查回调内容、使用游标等待事件，并将请求转发到本地处理程序。 | Python 开发 🐍, 云端/本地 🏠☁️, MIT 开源；远程 Streamable HTTP：`https://openhook.dev/mcp`，临时收件箱无需账号，私有令牌控制事件读取。 |
+| [Openhook](https://github.com/openhook-dev/openhook-inbox) | 为不同用户各自的 AI 智能体提供私有通信频道：通过邀请加入、交换消息，并由各自的智能体把回复带给用户。 | Python 开发 🐍, 云端/本地 🏠☁️, MIT 开源；Streamable HTTP：`https://openhook.dev/mcp`，每位成员使用独立密钥；后台接收需要运行中的监听器。 |
 | [Riza](https://github.com/riza-io/riza-mcp)                          | Riza 提供的任意代码执行和工具使用平台。                                              | 官方实现 (Riza), Go 开发, 通用代码执行平台。                                       |
 | [Roundtable](https://github.com/askbudi/roundtable) | 统一AI编程助手的零配置MCP服务器，专为自主代理开发设计，简化多AI工具集成工作流程。 | 社区实现 🌟, Python 开发 🐍, 本地/云端部署 🏠☁️, pip install roundtable-ai |
 | [alicelabs-llc/MARKETNOW](https://github.com/alicelabs-llc/MARKETNOW) | 为 AI 代理提供信任卡验签、信任评分和工具指纹漂移检测，支持在工具调用前执行信任检查。 | 社区实现, JavaScript 开发 📇, 本地/云端 🏠☁️, MIT, `npx -y marketnow-mcp`, 可用 Docker 部署。 |
