@@ -396,6 +396,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Duplex](https://github.com/Eric-huang799/duplex) | 人与 AI 共用的桌面浏览器：人看渲染后的页面，AI 读 DOM/源码并驱动你正在看的那一个标签页（同一个实时会话）。提供 24 个 MCP 工具（snapshot/点击/输入/拖拽/上传/截图/页面标注等）；人机协作有明确优先级——你滚动、输入或点击时 AI 自动让路并逐页暂停，顶部状态条可一键交还；支持内置模型与 opencode / Codex / Claude Code / 任意 MCP 客户端。 | 社区实现, TypeScript/Electron 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 人类优先协作, 安装：GitHub Releases（安装包内含 stdio 桥接）, MIT 开源。 |
 | [toolkb-mcp](https://github.com/jack-reson8/toolkb-mcp) | 把 YouTube 视频和播放列表（带时间戳的字幕）、网页正文（Markdown）以及 App Store 评论读成文本交给模型，无需 API Key 和账号。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, `npx -y github:jack-reson8/toolkb-mcp`，提供 4 个工具，MIT 许可。 |
 | [unblockingapi/mcp](https://github.com/unblockingapi/mcp) | UnblockingAPI 官方 MCP 服务器：为 AI 代理抓取有反爬保护或重度依赖 JavaScript 的网页（按站点自动选择普通 HTTP 请求或真实浏览器），也可用已发布的模板将页面解析为结构化 JSON。 | 官方实现 🎖️, TypeScript 开发 📇, 云服务 ☁️, 本地 `npx -y @unblockingapi/mcp`（需 `UNBLOCKINGAPI_KEY`）或托管端点 `https://mcp.unblockingapi.com/mcp`，MIT 许可。 |
+| [Octocrawl](https://github.com/77777R7/Octocrawl) | 把公开网页转成 Markdown 或结构化 JSON 交给 AI 代理，每条结果附带证据记录（最终 URL、抓取时间、HTTP 状态、robots.txt 判定、内容哈希）；页面被拦截、为空或内容不对时，返回状态和原因，而不是当作正文。提供 scrape、map、crawl、batch_scrape 等工具。 | 官方实现 (Octocrawl) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, 免 Key 托管端点 `https://mcp.octocrawl.dev/mcp`（仅 scrape、map，每个 IP 每天 20 页）；本地先运行 `npx octocrawl serve`，再用 `npx -y @octocrawl/mcp` 接入，AGPL-3.0 许可。 |
 ---
 
 ### 💻 开发与代码执行
