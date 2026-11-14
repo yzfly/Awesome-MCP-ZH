@@ -325,6 +325,14 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[官网](https://bayeschat.xyz) | [App Store](https://apps.apple.com/app/id6777948055)  
   - **Tips**：免费下载，MCP 工具、长期记忆等为一次性 Pro 解锁；无需注册账号，API Key 与 MCP 凭证保存在设备 Keychain；App Store 仅上架 iOS / iPadOS，Apple 芯片 Mac 上以 iPad App 形式运行。  
 
+- **The One**  
+  - **简介**：桌面应用，主助手把较大的工作交给在你电脑上运行的 AI 智能体工作组；内置 MCP 客户端，本身也是一个 MCP 服务器。  
+  - **功能**：可以给每个角色配置 MCP 服务器（支持 stdio 和 Streamable HTTP，可用 OAuth 2.1 登录）；同一台电脑上的 Claude Code、Codex 等 MCP 客户端可以通过 `list_teams`、`run_team`、`check_task`、`reply_to_task` 把任务交给它的工作组、回答工作组的提问并取回交付。  
+  - **链接**：[官网](https://the-zeroth.com/zh) | [MCP 文档](https://the-zeroth.com/zh/docs/the-one-app/capabilities/mcp) | [被 Claude Code / Codex 调用](https://the-zeroth.com/zh/docs/the-one-app/remote)  
+  - **截图**：  
+    ![The One](https://the-zeroth.com/product/zh/matter-board-poster.webp)  
+  - **Tips**：闭源，文档公开；用自己的 API Key 或 ChatGPT 登录不收费；支持 macOS 和 Windows，另有无界面的 Linux 服务器版。
+
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
