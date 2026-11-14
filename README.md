@@ -1539,6 +1539,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Everything2MCP](https://github.com/shcdwz1234/Everything2MCP) | 将本地能力和服务适配器配置为统一的 MCP 工具入口，支持配置热重载、管理控制台与 Safe/Full 权限模式。 | 社区实现, TypeScript/Node.js 开发 📇, 本地运行 🏠, Apache-2.0, `npx everything2mcp`；不同适配器的成熟度见项目文档。 |
 | [msc35/mispick](https://github.com/msc35/mispick) | 测量模型会混淆你的哪些 MCP 工具：为每个工具生成真实的测试请求，让真实模型选择工具，输出混淆矩阵以及每个工具的精确率和召回率；为易混淆的工具对提出描述改写，并只保留经重新测试证明有效的改写。只读取 `tools/list`，从不调用任何工具。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, 可用本地 Ollama 模型免费运行, 提供 GitHub Action, `uvx mispick`。 |
 | [Ghost Beacon](https://github.com/moecanales/agent-oracle-beacon) | Node.js MCP 工具集，提供 DNS/TLS/HTTP 健康检查、Agent 发现清单探测，以及 GitHub issue 上下文整理等工具。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, `npx -y github:moecanales/agent-oracle-beacon`。 |
+| [OpenAny](https://openany.si) | 面向 Agent 的资源市场：一个 Key 调用 168+ AI 模型和 3200+ API。无需订阅，不用逐家注册绑卡，充值一次、按调用付费。 | 官方实现 🎖️, Go 开发 🏎️, 云服务 ☁️, 远程端点 `https://mcp.openany.si/mcp`（Streamable HTTP）, Bearer API Key, 源码 [openany-mcp](https://github.com/openanysi/openany-mcp), MIT |
 
 ---
 
