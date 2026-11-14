@@ -1581,6 +1581,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 - **教程**  
   - [MCP 快速入门](https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart)  
   - [Claude Desktop 用 SQLite](https://youtu.be/wxCCzo9dGj0)  
+  - [MCP Explained](https://mcp-explained.com)（交互式动画讲解 MCP：逐条展示客户端、服务器与模型之间的每条 JSON-RPC 消息，可对比各版本规范的变化，并逐步演示常见 MCP 攻击；英文，免费免注册）  
 
 - **MCP分析资料**  
   - [a16z 深度解读MCP](https://a16z.com/a-deep-dive-into-mcp-and-the-future-of-ai-tooling/)
