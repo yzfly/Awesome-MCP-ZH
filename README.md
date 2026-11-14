@@ -409,6 +409,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [toolkb-mcp](https://github.com/jack-reson8/toolkb-mcp) | 把 YouTube 视频和播放列表（带时间戳的字幕）、网页正文（Markdown）以及 App Store 评论读成文本交给模型，无需 API Key 和账号。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, `npx -y github:jack-reson8/toolkb-mcp`，提供 4 个工具，MIT 许可。 |
 | [unblockingapi/mcp](https://github.com/unblockingapi/mcp) | UnblockingAPI 官方 MCP 服务器：为 AI 代理抓取有反爬保护或重度依赖 JavaScript 的网页（按站点自动选择普通 HTTP 请求或真实浏览器），也可用已发布的模板将页面解析为结构化 JSON。 | 官方实现 🎖️, TypeScript 开发 📇, 云服务 ☁️, 本地 `npx -y @unblockingapi/mcp`（需 `UNBLOCKINGAPI_KEY`）或托管端点 `https://mcp.unblockingapi.com/mcp`，MIT 许可。 |
 | [Octocrawl](https://github.com/77777R7/Octocrawl) | 把公开网页转成 Markdown 或结构化 JSON 交给 AI 代理，每条结果附带证据记录（最终 URL、抓取时间、HTTP 状态、robots.txt 判定、内容哈希）；页面被拦截、为空或内容不对时，返回状态和原因，而不是当作正文。提供 scrape、map、crawl、batch_scrape 等工具。 | 官方实现 (Octocrawl) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, 免 Key 托管端点 `https://mcp.octocrawl.dev/mcp`（仅 scrape、map，每个 IP 每天 20 页）；本地先运行 `npx octocrawl serve`，再用 `npx -y @octocrawl/mcp` 接入，AGPL-3.0 许可。 |
+| [anomalyco/browse](https://github.com/anomalyco/browse) | 让 AI Agent 使用你自己的真实浏览器（已有标签页、登录状态与扩展）：MCP Server 搭配 Chromium 扩展，Agent 在独立标签组里用 Playwright 打开和操作页面、截图、读取内容。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT。 |
 ---
 
 ### 💻 开发与代码执行
@@ -564,6 +565,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [nuphus-mcp](https://github.com/mrpulor-gh/nuphus-mcp) | 桌面自动化 MCP：为任意 Agent 提供 Computer Use——控制屏幕、窗口、鼠标键盘。 | 社区实现, 本地运行 🏠, MIT。 |
 | [ClawTouch MCP](https://github.com/tinqiao-oss/clawtouch-mcp) | 通过外接 USB HID 硬件（树莓派 Pico 2，固件开源）驱动真实鼠标键盘：移动、点击、拖拽、输入、组合键、滚动；另有窗口枚举与按窗口裁剪的截图。被控机不需要安装任何软件；`--mock` 模式可无硬件试用。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 需外接 HID 硬件, 跨平台 🪟🍎🐧（窗口相关功能以 Windows 最完整）。 |
 | [Sidehand](https://github.com/Blue-B/sidehand) | 让 AI Agent 在用户当前窗口后面读取和操作 Windows 应用：通过 UI Automation 把每个控件读成一行短文本，输入、点击、选择都不移动鼠标、不抢键盘和前台；自绘界面的应用用 Windows 自带 OCR 读取；多个 Agent 可同时操作不同应用。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, 仅 Windows 🪟, 源码公开（PolyForm Shield 1.0.0，非 OSI 开源许可）；`npx -y sidehand mcp` |
+| [Poki](https://github.com/JosssphZhou/poki) | 让 AI Agent 像人一样操作真实 iPhone：本地 MCP Server 与 Agent，无需越狱和额外硬件，可查看屏幕、点击、输入与滑动。 | 社区实现, Swift 开发, 本地运行 🏠, macOS + iPhone 🍎, AGPL-3.0。 |
 
 ---
 
@@ -1105,6 +1107,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) | 基于 python-pptx 的 PowerPoint MCP：让 AI 创建与修改 .pptx，操作幻灯片、文本框、图表与图片。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, PPT 生成与编辑。 |
 | [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) | 网文作者的本地章节体检工具集：16 个工具覆盖章节统计、风格基线自检、伏笔与剧情线登记、连贯性/OOC 审计、关键词与句式分析、本地语义检索；全离线运行，无需 API Key。 | 社区实现, TypeScript 📇, 本地运行 🏠, 跨平台 🍎🪟🐧 |
 | [JustFill MCP (justfill-mcp)](https://github.com/mrmaciej1/justfill-mcp) | 面向现有 PDF 表单（含扫描件与扁平 PDF）的 MCP 服务器：让 AI 检测并审阅字段布局，基于结构化 JSON 数据填充 PDF 并复用已审阅的表单模板；在线文档见 [justfill.app/mcp](https://justfill.app/mcp)。 | 官方实现 (JustFill) 🎖️, Python 开发 🐍, 云端/本地 ☁️🏠, 远程端点 `https://justfill.app/api/mcp` (OAuth) 或 `uvx justfill-mcp`, MIT, PDF 表单自动填充。 |
+| [Kept](https://github.com/keptinventory/kept) | 自托管的个人物品清单：记录你拥有的每件东西及其存放位置，内置 AI 助手与 MCP Server，可让 Agent 查询、登记和整理物品。 | 官方实现 🎖️, TypeScript 开发 📇, 自托管 🏠, AGPL-3.0, 支持 Docker 部署。 |
 
 ---
 
@@ -1172,6 +1175,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [YouTube Transcripts MCP](https://github.com/gunnargray-dev/youtube-transcripts-mcp) | 让 AI 读取 YouTube 视频字幕/转录文本（纯文本、带时间戳段落、分段 JSON 或 SRT，可机翻），搜索视频，获取章节（无创作者章节时根据字幕自动划分），并生成结构化摘要。4 个只读工具：get_transcript、search_videos、get_video_chapters、summarize_transcript，无需 YouTube API Key。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠 (stdio) / 云端运行 ☁️ (Apify 托管, Streamable HTTP, 按次计费), 已收录于官方 MCP Registry, MIT。 |
 | [Model Salt](https://github.com/modelsalt/model-salt) | 只有一个工具 `model_salt` 的 MCP 服务器：模型在做创作类任务前调用它，拿到这一次要定下来的几个选择（配色、姿势、名字、开头一句等），这些选择来自模型之外的随机源（random.org 大气噪声、量子随机数、drand）。同一个提示词因此会给出不同的结果，但仍按原请求完成；随机度为 0 时给出常规答案。支持 Claude Code、Codex、Gemini CLI、Kimi Code，一条命令接入：`npx -y model-salt setup claude`。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT 许可, npm `@modelsalt/model-salt`。 |
 | [Hermoso](https://github.com/hermoso-ai/hermoso) | Hermoso 官方 MCP 服务器、CLI 与 Agent Skills：AI 营销代理与 AI 广告生成器。调研 Meta、Google、LinkedIn 广告库中正在投放的广告；根据品牌官网和真实产品图生成图片、视频与 UGC 数字人广告；发布并定时到你已连接的社交账号；在 Meta Ads、Google Ads、TikTok Ads、LinkedIn Ads 等广告平台创建、修改和查看广告系列（新建的广告系列默认暂停）。 | 官方实现 (Hermoso) 🎖️, JavaScript 开发 📇, 云端/本地 🏠☁️, 远程 MCP: `https://app.hermoso.ai/mcp` (Streamable HTTP, OAuth 2.1), 本地: `npx -y hermoso mcp`, npm: `hermoso`, MIT（CLI 与 stdio 服务器；托管服务为商业服务）。 |
+| [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 给编码 Agent 一个本地视频编辑器：42 个基于 FFmpeg 的工具（剪辑、拼接、字幕、调色、转码等），带机器可读的调用约定，Agent 编辑后会自行检查输出结果；无云端、无需 API Key。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, `npx -y ffmpeg-skill`，同时提供 MCP Server 与 Agent Skill。 |
 
 ---
 
@@ -1446,6 +1450,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [shunshi-ai/zeri-mcp](https://github.com/shunshi-ai/zeri-mcp) | 从黄历宜忌中查询婚嫁、搬家、开业等事由的日期，支持事由匹配与生肖相冲过滤，本地运行。 | 官方实现 (Shunshi.AI), TypeScript 开发 📇, 本地运行 🏠, MIT, 无需 API Key，`npx -y shunshi-zeri-mcp`。 |
 | [shunshi-ai/ziwei-mcp](https://github.com/shunshi-ai/ziwei-mcp) | 紫微斗数本命盘计算：十二宫、星曜亮度与四化；支持阳历 / 农历输入及通行本 / 中州派。 | 官方实现 (Shunshi.AI), Python 开发 🐍, 本地运行 🏠, MIT, 无需 API Key，`uvx --from git+https://github.com/shunshi-ai/ziwei-mcp@v0.1.0 shunshi-ziwei-mcp`。 |
 | [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp)          | 集成 AniList API 的 MCP 服务器，用于动漫和漫画信息。                                                  | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 动漫/漫画信息 (AniList)。                           |
+| [Aseprite AI Artist](https://github.com/with-pebbly/aseprite-ai-artist) | 让编码 Agent 直接在你已打开的 Aseprite 窗口里逐像素绘制像素画和动画，每一步都可用 Ctrl+Z 撤销；提供 MCP Server 与配套 Skills。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT, 需本机安装 Aseprite。 |
+| [Awwwards MCP](https://github.com/INSANE0777/Awwwards-mcp) | 为 AI 编码 Agent 提供来自 Awwwards 获奖网站的设计灵感：按风格、行业、配色等检索案例并返回截图与元信息，供前端设计参考。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT, `npx -y awwwards-mcp`。 |
 
 ---
 
