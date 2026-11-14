@@ -1464,6 +1464,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Nestbolt](https://github.com/skulitom/Nestbolt) | 固定尺寸板材的排样（套料）工具，面向激光、CNC、等离子、水刀切割以及布料、皮革裁剪：导入 SVG/DXF，把零件排到一张或多张板材上以减少用料，支持边距与间距、多种板材规格、余料轮廓、旋转与镜像，小零件可嵌入大零件的孔洞；每张板材分别导出 SVG/DXF，每个结果都经独立验证器检查。另有浏览器版（文件不上传）和命令行工具。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🪟🐧（发布包：Windows x64、Linux x64、macOS Apple 芯片）, MIT, 5 个工具, stdio, 从 GitHub Releases 下载 `nestbolt-mcp`。 |
 | [OnlyClaws ESP (onlyclaws-esp)](https://github.com/shinjiyu/onlyclaws-esp) | 给 Agent 一只伸进现实的爪子：ESP32-S3 只烧一次固件，之后通过 HTTP 下发 Lua（屏/音频/传感器/RoArm 机械臂）；另附 stdio MCP（`jev_servo`，机械臂 presence 工具）与 [skill.md](https://onlyclaws.world/api/agent/skill.md)。 | 社区实现, Python/C++ 开发 🐍, 本地可自建控制面 🏠, 嵌入式 📟, MIT, 中英 README。 |
 | [RoboParts](https://github.com/lm203688/roboparts) | 查询跨品牌机器人零件及机械接口资料，检查兼容性；对缺失参数返回未知，并支持生成转接件模型。 | 官方实现 🎖️, JavaScript 开发 📇, 云端/本地 🏠☁️, 远程端点 `https://roboparts.cc/mcp`；代码 MIT，数据 CC BY 4.0，参数来源与置信度见返回结果。 |
+| [Alloy](https://github.com/argonrobotics-ai/alloy) | 开源的机器人学习物理引擎，基于 MuJoCo Warp 与 Newton，可把机器人、布料、线缆、液体、沙子和软体放进同一个场景。内置 MCP 服务器（`alloy mcp`），让 AI 智能体无需编写 Python 即可搭建场景、推进仿真、以 JSON 读取状态、渲染画面并检查仿真是否正常。 | 官方实现 🎖️, Python 开发 🐍, 本地运行 🏠, Apache-2.0；`pip install alloy-engine` 后用 `claude mcp add alloy -- alloy mcp` 接入，支持 CPU（x86_64）或 NVIDIA GPU。 |
 
 ---
 
