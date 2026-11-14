@@ -1411,6 +1411,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [shunshi-ai/liuyao-mcp](https://github.com/shunshi-ai/liuyao-mcp) | 六爻起卦与确定性装卦：本卦变卦、纳甲、六亲、六神、世应、旬空、伏神；支持钱币、手动以及明确标注的时间 / 数字起卦。 | 官方实现 (Shunshi.AI), Python 开发 🐍, 本地运行 🏠, MIT, 无需 API Key，`uvx --from git+https://github.com/shunshi-ai/liuyao-mcp@v0.1.1 shunshi-liuyao-mcp`。 |
 | [shunshi-ai/naming-mcp](https://github.com/shunshi-ai/naming-mcp) | 基于康熙笔画的姓名学计算：五格、三才、81 数理及可选的生肖与八字喜用输入，本地运行。 | 官方实现 (Shunshi.AI), TypeScript 开发 📇, 本地运行 🏠, MIT, 无需 API Key，`npx -y shunshi-naming-mcp`。 |
 | [shunshi-ai/tarot-mcp](https://github.com/shunshi-ai/tarot-mcp) | 78 张韦特牌资料、五语言牌名及 Waite 1910 正逆位原文查询；先指定牌位再无放回抽牌，解读交由客户端 AI。 | 官方实现 (Shunshi.AI), Python 开发 🐍, 本地运行 🏠, MIT, 无需 API Key，`uvx --from git+https://github.com/shunshi-ai/tarot-mcp@v0.1.0 shunshi-tarot-mcp`。 |
+| [shunshi-ai/zeri-mcp](https://github.com/shunshi-ai/zeri-mcp) | 从黄历宜忌中查询婚嫁、搬家、开业等事由的日期，支持事由匹配与生肖相冲过滤，本地运行。 | 官方实现 (Shunshi.AI), TypeScript 开发 📇, 本地运行 🏠, MIT, 无需 API Key，`npx -y shunshi-zeri-mcp`。 |
 | [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp)          | 集成 AniList API 的 MCP 服务器，用于动漫和漫画信息。                                                  | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 动漫/漫画信息 (AniList)。                           |
 
 ---
