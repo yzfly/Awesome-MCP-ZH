@@ -1305,6 +1305,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [memgit](https://github.com/code4161/memgit) | 面向 Claude Code、Cursor、Codex 等 AI 编程工具的版本化共享记忆：导入 Claude Code 自带的记忆文件，每次修改都是一个检查点，可 diff 和回滚，BM25 召回，可选端到端加密的多机同步。 | 官方实现 🎖️, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, pip install memgit 或 npx -y memgit-mcp, 已发布到官方 MCP Registry (dev.memgit/memgit)。 |
 | [sessionwiki](https://github.com/necroz/sessionwiki) | 把 7 种编码 Agent（Claude Code、Codex CLI、Cursor、Gemini CLI、Copilot、ZCode、OpenCode）的会话记录自动编译成本地互链 Markdown 维基：LLM 为每个会话撰写摘要页，静态站点带会话图谱与全文搜索；MCP 服务器（15 个工具）让 Agent 先检索过去的决策与修复，避免重复劳动。ZCode 与 OpenCode 会话通过钩子和插件自动同步。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, PyPI: `uvx sessionwiki mcp`, 官方 MCP Registry, 无遥测。 |
 
+| [Senrelay（续境 / ContextCore）](https://github.com/qingsongcui/ContextCore) | 面向 Apple Silicon macOS 的本地优先 AI Agent 上下文工作台与 MCP 服务器：提供跨 15 个编码宿主的 MCP/技能/模型配置一键同步与快照回滚、带证据出处的双层持久记忆，以及 `/contextcore` 跨 Agent 会话与额度接力，内置 28 个 MCP 工具。 | 官方实现 🎖️, Python 开发 🐍, 本地运行 🏠, 🍎 macOS (Apple Silicon), MIT, 有中文 README 与官网 https://senrelay.com/, 支持 stdio 与本地 Streamable HTTP (`127.0.0.1`), `brew install --cask qingsongcui/tap/senrelay`。 |
+
 ---
 
 ### 🔒 安全与分析
