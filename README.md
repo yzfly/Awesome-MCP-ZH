@@ -1398,6 +1398,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [12306-train-mcp](https://github.com/boy-373/12306-train-mcp) | 中国铁路 12306 火车票查询：中文车站名查询车次、余票、时刻表（只读）。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/train-mcp/mcp`，无需 API Key，MIT。 |
 | [weather-mcp-china](https://github.com/boy-373/weather-mcp-china) | 全球天气查询 MCP：支持中文城市名与中文输出，提供当前天气与 1-7 天预报（Open-Meteo + wttr.in 双数据源）。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/weather-mcp/mcp`，无需 API Key，MIT。 |
 | [ip-location-mcp](https://github.com/boy-373/ip-location-mcp) | IPv4 归属地查询 MCP：中文输出国家/地区/城市、时区、运营商与 ASN（ip-api + ipwho.is 双数据源）。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/ip-mcp/mcp`，无需 API Key，MIT。 |
+| [No Stairs Please](https://nostairsplease.com) | 北美 4,300+ 中小型现场音乐演出场地目录与巡演路线规划 MCP 服务器，支持按容量、无障碍设施和预订联系方式查询。 | 官方实现 🎖️, 免费云端 ☁️ 远程 `https://nostairsplease.com/mcp`，无需 API Key。 |
 
 ---
 
