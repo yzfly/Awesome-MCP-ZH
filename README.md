@@ -1575,6 +1575,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Ghost Beacon](https://github.com/moecanales/agent-oracle-beacon) | Node.js MCP 工具集，提供 DNS/TLS/HTTP 健康检查、Agent 发现清单探测，以及 GitHub issue 上下文整理等工具。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, `npx -y github:moecanales/agent-oracle-beacon`。 |
 | [OpenAny](https://openany.si) | 面向 Agent 的模型与 API 聚合市场：用一个 API Key 调用其接入的 AI 模型和第三方 API，预充值、按调用计费。 | 官方实现 🎖️, Go 开发 🏎️, 云服务 ☁️, 远程端点 `https://mcp.openany.si/mcp`（Streamable HTTP）, Bearer API Key, 源码 [openany-mcp](https://github.com/openanysi/openany-mcp), MIT |
 | [ev-diagnosis-mcp](https://github.com/1ouxilisi/ev-diagnosis-mcp) | 新能源汽车维修诊断：故障码查询、结构化诊断结论（原因按概率排序 / 检查顺序先不花钱后花钱 / 报价分档）、190 条中文实战维修经验、44 条车型通病映射。896 条标准 DTC 取自 ModelScope 公开数据集。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, 零依赖、纯本地数据、不联网。 |
+| [ASOMaster MCP](https://github.com/tarek369/asomaster-mcp) | App Store 与 Google Play 应用商店优化（ASO）：让 Agent 按国家和当地语言查询关键词排名、获取 Apple Ads 真实热度、发现并本地化关键词、生成商店文案草稿、做应用审计与商店截图，变更实时显示在 ASOMaster 桌面应用中。 | 官方实现 (ASOMaster) 🎖️, Rust 开发 🦀, 本地 stdio 🏠, macOS / Windows, 需安装 ASOMaster 桌面应用（付费订阅，含试用）。 |
 
 ---
 
