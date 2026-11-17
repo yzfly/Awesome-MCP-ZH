@@ -1398,6 +1398,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [12306-train-mcp](https://github.com/boy-373/12306-train-mcp) | 中国铁路 12306 火车票查询：中文车站名查询车次、余票、时刻表（只读）。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/train-mcp/mcp`，无需 API Key，MIT。 |
 | [weather-mcp-china](https://github.com/boy-373/weather-mcp-china) | 全球天气查询 MCP：支持中文城市名与中文输出，提供当前天气与 1-7 天预报（Open-Meteo + wttr.in 双数据源）。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/weather-mcp/mcp`，无需 API Key，MIT。 |
 | [ip-location-mcp](https://github.com/boy-373/ip-location-mcp) | IPv4 归属地查询 MCP：中文输出国家/地区/城市、时区、运营商与 ASN（ip-api + ipwho.is 双数据源）。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/ip-mcp/mcp`，无需 API Key，MIT。 |
+| [Agent Flights](https://github.com/lomiafrica/agent-flights-mcp) | 全球最低价机票搜索（非洲航线尤其强）：多来源实时比价，返回最便宜与最合理的票价、价格日历、低价目的地和预订链接。 | 官方实现 🎖️, TypeScript 开发 📇, 免费云端 ☁️ 远程 `https://lowest.flights/mcp`，无需 API Key，MIT。 |
 
 ---
 
