@@ -303,6 +303,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **安装**：`pip install cuga`
   - **Tips**：Apache-2.0 协议，Python 开发；支持 OpenAI、watsonx、Azure OpenAI、Groq、OpenRouter、LiteLLM 及兼容 OpenAI 接口的模型服务。
 
+- **Off Grid AI**  
+  - **简介**：完全在本机运行的开源桌面 AI 助手，内置 MCP 客户端，无需账号，不上云。  
+  - **功能**：在 Connectors 中添加 MCP 服务器（无鉴权、Token 或 OAuth），对话中模型可直接调用这些工具；本地运行文字与视觉对话、图片生成、语音输入与朗读（llama.cpp、stable-diffusion.cpp、whisper.cpp、Kokoro），并提供本地 OpenAI 兼容 API。  
+  - **链接**：[官网](https://getoffgridai.co) | [GitHub 仓库](https://github.com/off-grid-ai/OGAD)  
+  - **Tips**：AGPL-3.0 开源，支持 macOS（Apple Silicon）、Windows、Linux；适合想用本地模型调用 MCP 工具、数据不出本机的用户。
+
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
