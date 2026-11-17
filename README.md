@@ -418,6 +418,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                              | 备注                                                                                 |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------- |
+| [mcp-bridge](https://github.com/zhangbotong92-cyber/mcp-bridge) | 把国内模型（DeepSeek / 通义 / 智谱 / Kimi）与本地 ollama 统一接成 MCP 工具：客户端只配一次，按项目统计 token 与费用，上游不通时回落本机模型并在回执里标注降级。零依赖，Python 3.8+，带 17 项环境体检（--doctor）。 | 社区实现, Python 开发 🐍, 本地 🏠, MIT |
 | [mcp-production-kit](https://github.com/A7mdMe/mcp-production-kit) | TypeScript MCP 服务器模板，提供系统指标查询、带目标地址检查的 HTTP 请求工具与内存状态存储，支持 stdio、SSE 和 Docker 部署。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT。 |
 | [Cortex](https://github.com/cortex-docs/cortex) | 从 OpenAPI、AsyncAPI、GraphQL、Protocol Buffer、OpenRPC 和 Markdown 生成可安装的 MCP 服务器，提供类型化 API 工具、接口规范、SDK 指南和项目文档。 | 官方实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, `npx @cortex-docs/mcp`。 |
 | [Bestax](https://github.com/allxsmith/bestax/tree/main/bestax-mcp) | 为编码 Agent 提供 Bestax（基于 Bulma v1 的 React 组件库）的组件 props、示例、CSS 变量和 Agent Skills，离线运行。 | 官方实现 (Bestax) 🎖️, TypeScript 开发 📇, 本地运行 🏠, MIT, 无需 API Key, `npx -y bestax-mcp@1`。 |
