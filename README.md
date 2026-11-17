@@ -1575,6 +1575,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Ghost Beacon](https://github.com/moecanales/agent-oracle-beacon) | Node.js MCP 工具集，提供 DNS/TLS/HTTP 健康检查、Agent 发现清单探测，以及 GitHub issue 上下文整理等工具。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, `npx -y github:moecanales/agent-oracle-beacon`。 |
 | [OpenAny](https://openany.si) | 面向 Agent 的模型与 API 聚合市场：用一个 API Key 调用其接入的 AI 模型和第三方 API，预充值、按调用计费。 | 官方实现 🎖️, Go 开发 🏎️, 云服务 ☁️, 远程端点 `https://mcp.openany.si/mcp`（Streamable HTTP）, Bearer API Key, 源码 [openany-mcp](https://github.com/openanysi/openany-mcp), MIT |
 | [ev-diagnosis-mcp](https://github.com/1ouxilisi/ev-diagnosis-mcp) | 新能源汽车维修诊断：故障码查询、结构化诊断结论（原因按概率排序 / 检查顺序先不花钱后花钱 / 报价分档）、190 条中文实战维修经验、44 条车型通病映射。896 条标准 DTC 取自 ModelScope 公开数据集。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, 零依赖、纯本地数据、不联网。 |
+| [Levea AI Video Editor](https://github.com/brajendrak00068/agentic-ai-video-production) | 自主 AI 视频剪辑 Agent：用一句自然语言指令将长视频或素材剪辑为成片，支持高光切片提取、280+ 动态字幕模板、9:16 竖屏人物追踪重构、气口静音清理、B-roll 与动效包装、品牌套件及云端 MP4 渲染导出。 | 官方实现 (LiveCore AI) 🎖️, TypeScript 开发 📇, 云服务 ☁️ / 本地 stdio (`npx -y levea-mcp-server`), 远程端点 `https://api.livecore.ai/api/v1/misc/mcp`（Streamable HTTP, OAuth 2.1 + PKCE / Bearer Key）, MIT |
 
 ---
 
