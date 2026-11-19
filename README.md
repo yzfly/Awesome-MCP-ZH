@@ -1108,6 +1108,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) | 网文作者的本地章节体检工具集：16 个工具覆盖章节统计、风格基线自检、伏笔与剧情线登记、连贯性/OOC 审计、关键词与句式分析、本地语义检索；全离线运行，无需 API Key。 | 社区实现, TypeScript 📇, 本地运行 🏠, 跨平台 🍎🪟🐧 |
 | [JustFill MCP (justfill-mcp)](https://github.com/mrmaciej1/justfill-mcp) | 面向现有 PDF 表单（含扫描件与扁平 PDF）的 MCP 服务器：让 AI 检测并审阅字段布局，基于结构化 JSON 数据填充 PDF 并复用已审阅的表单模板；在线文档见 [justfill.app/mcp](https://justfill.app/mcp)。 | 官方实现 (JustFill) 🎖️, Python 开发 🐍, 云端/本地 ☁️🏠, 远程端点 `https://justfill.app/api/mcp` (OAuth) 或 `uvx justfill-mcp`, MIT, PDF 表单自动填充。 |
 | [Kept](https://github.com/keptinventory/kept) | 自托管的个人物品清单：记录你拥有的每件东西及其存放位置，内置 AI 助手与 MCP Server，可让 Agent 查询、登记和整理物品。 | 官方实现 🎖️, TypeScript 开发 📇, 自托管 🏠, AGPL-3.0, 支持 Docker 部署。 |
+| [Inkmap 墨图](https://github.com/zhiyuanvision-lang/InkMap) | 交互式双向 Markdown 思维导图（Markmap）与 Mermaid 流程图编辑器 / MCP App：解决 Markmap 只读痛点，在画布增删拖拽节点逐字节无损写回本地 `.md` 文件，原生支持 LaTeX 公式、表格、9 种导图结构与高清 PNG/SVG/HTML 导出；附免安装在线体验台 [zhiyuanv.com/inkmap.html](https://www.zhiyuanv.com/inkmap.html)。 | 官方实现 🎖️, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 一行 `npx -y inkmap-mcp@latest install` 自动接入 Claude / Cursor / VS Code / DeepSeek Harness / Codex / Qoder。 |
 
 ---
 
