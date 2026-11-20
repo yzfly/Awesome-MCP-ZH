@@ -1035,6 +1035,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [MarketMirror](https://github.com/DarkWorldCoder/market-mirror) | 营销与销售模拟工具，基于 MiroFish/OASIS 组织 LLM 模拟买家参与广告、问卷和销售话术测试，输出模拟报告与 HTML 仪表盘，支持与真实广告数据比较。 | 社区实现, Python 开发 🐍, 本地运行 🏠, AGPL-3.0, `uvx marketmirror`；输出为模型模拟结果。 |
 | [App Store & Google Play Review Intelligence](https://github.com/gunnargray-dev/app-store-review-intelligence-mcp) | 分析任意 iOS / Android 应用的用户评论：主要差评主题（附原文引用）、按版本的评分变化、最新版本相比上一版哪些问题变多，以及 2–10 个竞品对比。4 个只读工具：search_apps、review_insights、get_app_reviews、compare_apps，无需 App Store Connect 或 Play Console 权限。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠 (stdio) / 云端运行 ☁️ (Apify 托管, Streamable HTTP), 已收录于官方 MCP Registry, MIT。 |
 | [Skald](https://github.com/spcaeo/skald) | Skald 官方 MCP 服务器：基于服务器访问日志（nginx / Apache / Caddy）的网站分析，让 AI 用自然语言查询访问量、热门页面、时段对比，以及 ChatGPT 等 AI 助手、搜索爬虫和扫描器分别抓取了哪些页面；数据不完整的日期会被标明，而不是计为 0。 | 官方实现 (Skald) 🎖️, Python 开发 🐍, 自托管本地运行 🏠, 29 个工具（大部分只读）, Streamable HTTP + stdio, API Key, Elastic License 2.0 (source-available), [接入文档](https://github.com/spcaeo/skald/blob/main/docs/MCP.md)。 |
+| [EarlyLore](https://github.com/earlylore/earlylore-mcp) | 面向独立开发者与 AI 团队的产品发现、竞品研究与首屏设计基因 MCP：覆盖 45 万+ 软件与 AI 产品、248+ 个细分赛道定价基准、Vaneform 月访问估算、8 席立项评估蓝图与实测首屏 Design DNA（`:root` CSS 变量），含 11 个工具及配套 Skill（`earlylore-product-architect`）。 | 官方实现 (EarlyLore) 🎖️, 云服务 ☁️, 远程 Streamable HTTP `https://earlylore.com/api/mcp`, Bearer `el_live_` 密钥（Free 每日 30 次），官方 MCP Registry `io.github.earlylore/earlylore-mcp`，配置与 Skill 为 MIT，接入指南 https://earlylore.com/zh/mcp。 |
 
 ---
 
