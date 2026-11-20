@@ -333,6 +333,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![The One](https://the-zeroth.com/product/zh/matter-board-poster.webp)  
   - **Tips**：闭源，文档公开；用自己的 API Key 或 ChatGPT 登录不收费；支持 macOS 和 Windows，另有无界面的 Linux 服务器版。
 
+- **Tesseract**  
+  - **简介**：免费的桌面应用（macOS、Windows、Linux），在一个窗口中运行 Claude Code、Codex、Gemini CLI、OpenCode 等 14 种 AI 编程 Agent 框架，每个对话可选用不同的 Agent。  
+  - **功能**：可接入任意 MCP Server（stdio、HTTP 或 SSE），也可从官方 MCP Registry 安装；自带代码编辑器、终端、实时预览，Agent 执行前先给出计划。  
+  - **链接**：[官网](https://tesseract.dev)  
+  - **Tips**：闭源，免费使用；可用自己的 Claude / ChatGPT 订阅或 API Key 登录；由 Eightcell Labs 开发。  
+
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
