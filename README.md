@@ -1036,6 +1036,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [App Store & Google Play Review Intelligence](https://github.com/gunnargray-dev/app-store-review-intelligence-mcp) | 分析任意 iOS / Android 应用的用户评论：主要差评主题（附原文引用）、按版本的评分变化、最新版本相比上一版哪些问题变多，以及 2–10 个竞品对比。4 个只读工具：search_apps、review_insights、get_app_reviews、compare_apps，无需 App Store Connect 或 Play Console 权限。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠 (stdio) / 云端运行 ☁️ (Apify 托管, Streamable HTTP), 已收录于官方 MCP Registry, MIT。 |
 | [Skald](https://github.com/spcaeo/skald) | Skald 官方 MCP 服务器：基于服务器访问日志（nginx / Apache / Caddy）的网站分析，让 AI 用自然语言查询访问量、热门页面、时段对比，以及 ChatGPT 等 AI 助手、搜索爬虫和扫描器分别抓取了哪些页面；数据不完整的日期会被标明，而不是计为 0。 | 官方实现 (Skald) 🎖️, Python 开发 🐍, 自托管本地运行 🏠, 29 个工具（大部分只读）, Streamable HTTP + stdio, API Key, Elastic License 2.0 (source-available), [接入文档](https://github.com/spcaeo/skald/blob/main/docs/MCP.md)。 |
 
+| [yannabadie/eu-us-opendata-mcp](https://github.com/yannabadie/eu-us-opendata-mcp) | 零依赖、无需 API Key 的 Python MCP 服务器，直接查询 5 个欧美官方开放数据接口：法国 SIRENE/RNE 企业与欧盟 VAT 号、欧盟 27 国 TED v3 公共招标及采购方联系方式、美国 NIH ClinicalTrials.gov v2 临床试验、美国 CMS NPI 医生/诊所注册表、EMBL-EBI Europe PMC & PubMed 生物医学文献（完整摘要与开放获取 PDF）。 | 社区实现, Python 开发 🐍, 本地运行 🏠 (stdio / Docker `ghcr.io`), 5 个只读工具, `uvx --from git+https://github.com/yannabadie/eu-us-opendata-mcp.git eu-us-opendata-mcp`, 已收录于官方 MCP Registry (`io.github.yannabadie/eu-us-opendata-mcp`), Glama 评分 A, MIT。 |
 ---
 
 ### 🛠️ 效率工具与集成 (Office, Project Management, Notes, etc.)
