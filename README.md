@@ -333,6 +333,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![The One](https://the-zeroth.com/product/zh/matter-board-poster.webp)  
   - **Tips**：闭源，文档公开；用自己的 API Key 或 ChatGPT 登录不收费；支持 macOS 和 Windows，另有无界面的 Linux 服务器版。
 
+- **Trina AX**  
+  - **简介**：自托管的团队 AI 工作台，一台服务器运行 Claude Code 和 Codex，网页、桌面和手机应用都能用，可以接入 MCP 服务器。  
+  - **功能**：应用列表里的 Higgsfield、Notion、Linear、Figma 等，或填地址接入任意 MCP 服务器；设置一次，每个人的对话里都能用这些应用的工具，可以共用一个团队账号登录，也可以各自用自己的账号登录。  
+  - **链接**：[GitHub 仓库](https://github.com/trina-app/trina-ax) | [官网](https://ax.trina.app)  
+  - **Tips**：开源（AGPL-3.0），TypeScript；自托管免费，不限人数；支持 Linux 服务器、Docker 和办公室的 Mac；应用支持简体中文。
+
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
