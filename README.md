@@ -1176,6 +1176,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Model Salt](https://github.com/modelsalt/model-salt) | 只有一个工具 `model_salt` 的 MCP 服务器：模型在做创作类任务前调用它，拿到这一次要定下来的几个选择（配色、姿势、名字、开头一句等），这些选择来自模型之外的随机源（random.org 大气噪声、量子随机数、drand）。同一个提示词因此会给出不同的结果，但仍按原请求完成；随机度为 0 时给出常规答案。支持 Claude Code、Codex、Gemini CLI、Kimi Code，一条命令接入：`npx -y model-salt setup claude`。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT 许可, npm `@modelsalt/model-salt`。 |
 | [Hermoso](https://github.com/hermoso-ai/hermoso) | Hermoso 官方 MCP 服务器、CLI 与 Agent Skills：AI 营销代理与 AI 广告生成器。调研 Meta、Google、LinkedIn 广告库中正在投放的广告；根据品牌官网和真实产品图生成图片、视频与 UGC 数字人广告；发布并定时到你已连接的社交账号；在 Meta Ads、Google Ads、TikTok Ads、LinkedIn Ads 等广告平台创建、修改和查看广告系列（新建的广告系列默认暂停）。 | 官方实现 (Hermoso) 🎖️, JavaScript 开发 📇, 云端/本地 🏠☁️, 远程 MCP: `https://app.hermoso.ai/mcp` (Streamable HTTP, OAuth 2.1), 本地: `npx -y hermoso mcp`, npm: `hermoso`, MIT（CLI 与 stdio 服务器；托管服务为商业服务）。 |
 | [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 给编码 Agent 一个本地视频编辑器：42 个基于 FFmpeg 的工具（剪辑、拼接、字幕、调色、转码等），带机器可读的调用约定，Agent 编辑后会自行检查输出结果；无云端、无需 API Key。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, `npx -y ffmpeg-skill`，同时提供 MCP Server 与 Agent Skill。 |
+| [i2v.ai (官方)](https://github.com/i2v-ai/i2v-mcp) | i2v.ai 官方 MCP 服务器：一套接口覆盖 12 个图像模型与 16 个视频模型，支持文生图、文生视频与图生视频；每个付费任务在提交前先返回美元报价，并可设置 maxCostUsd 上限，Agent 可以先核价再决定是否执行。 | 官方实现 (i2v.ai) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, 远程端点 `https://i2v.ai/api/mcp` (Streamable HTTP, OAuth 2.1)、`npx -y @i2v-ai/cli mcp` (stdio), 14 个工具, 需要 API Key。 |
 
 ---
 
