@@ -333,6 +333,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![The One](https://the-zeroth.com/product/zh/matter-board-poster.webp)  
   - **Tips**：闭源，文档公开；用自己的 API Key 或 ChatGPT 登录不收费；支持 macOS 和 Windows，另有无界面的 Linux 服务器版。
 
+- **Enconvo**  
+  - **简介**：桌面 AI 智能体，内置 MCP 客户端，能操作电脑上的原生应用和你已登录的浏览器。  
+  - **功能**：在设置里添加 STDIO、HTTP 或 SSE 类型的 MCP Server，需要 OAuth 的 Server 首次连接时会打开登录页；可从 Claude Desktop、Codex CLI 的配置一键导入，也支持安装 `.mcpb` 包、分享安装链接和 `enconvo mcp add` 命令行添加；每个 Server 可全局开启，或只在某个应用里启用。  
+  - **链接**：[官网](https://enconvo.com) | [MCP 文档](https://docs.enconvo.ai/features/mcp)  
+  - **Tips**：闭源，文档公开；macOS 正式版，Windows、Linux 公测；免费使用，另有付费方案。
+
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
