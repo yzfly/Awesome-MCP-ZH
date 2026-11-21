@@ -1398,6 +1398,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [12306-train-mcp](https://github.com/boy-373/12306-train-mcp) | 中国铁路 12306 火车票查询：中文车站名查询车次、余票、时刻表（只读）。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/train-mcp/mcp`，无需 API Key，MIT。 |
 | [weather-mcp-china](https://github.com/boy-373/weather-mcp-china) | 全球天气查询 MCP：支持中文城市名与中文输出，提供当前天气与 1-7 天预报（Open-Meteo + wttr.in 双数据源）。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/weather-mcp/mcp`，无需 API Key，MIT。 |
 | [ip-location-mcp](https://github.com/boy-373/ip-location-mcp) | IPv4 归属地查询 MCP：中文输出国家/地区/城市、时区、运营商与 ASN（ip-api + ipwho.is 双数据源）。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/ip-mcp/mcp`，无需 API Key，MIT。 |
+| [AndrewCTF/velocity](https://github.com/AndrewCTF/velocity) | 自托管的实时态势感知平台：融合免费的 ADS-B 航班、AIS 船舶等公开数据源（无需 API Key），并保存自己的位置历史可回放；Agent 可按区域查询飞机、船只、GPS 干扰、异常与变化。 | 社区实现, Python 开发 🐍, 本地运行 🏠, AGPL-3.0, 94 个工具，`docker compose up` 后接入 `http://localhost:8000/mcp`（Streamable HTTP），或 stdio 入口 `osint-mcp`。 |
 
 ---
 
