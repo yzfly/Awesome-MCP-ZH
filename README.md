@@ -963,6 +963,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ---
 - [SpendShield](https://github.com/felixpg13-glitch/spendshield) - AI Agent 支付授权层(policy control plane): ALLOW/APPROVAL/DENY 三态决策 + 理由码, 策略生命周期, 防篡改审计链; 内置 MCP server(pip install spendshield)
+| [UnHideA 华尔街研报 MCP](https://unhidea.com/zh-hans/mcp) | 华尔街卖方机构研报 MCP 服务（覆盖高盛、大摩、摩根大通、花旗、美银、伯恩斯坦等），提供 14 个工具：研报检索、单公司多机构对照 `research_pack`、有出处评级/目标价历史、正反证据段落检索与时点回放快照。支持 OAuth 2.0 与个人密钥。 | 官方实现, 云服务 ☁️, Streamable HTTP 远程服务 `https://mcp.unhidea.com/mcp`, [文档仓](https://github.com/lijiumixin/unhidea-research-mcp)。 |
 
 ### 📁 文件系统与存储
 
