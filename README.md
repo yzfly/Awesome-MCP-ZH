@@ -1181,7 +1181,6 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Kling AI (China) Plugin](https://github.com/klingai-tech/claude-plugin-cn) | 可灵官方 China Remote MCP，附 Claude 插件接入方式；在兼容的 Agent 中生成/编辑图片、生成视频并查询任务。 | 官方实现 🎖️, 云服务 ☁️, Streamable HTTP + OAuth, 远程端点 https://klingai.com/mcp/plugin; China 与 Global 区域账号、灵感值和任务隔离；生成消耗 Kling 账户灵感值。[官方指南](https://klingai.com/app/mcp/guide) |
 ---
 
-
 ### 📕 社交媒体与内容创作 (小红书/RedNote)
 
 *(让 AI 能够进行社媒数据采集、内容发布、自动化互动及多账号管理)*
