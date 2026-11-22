@@ -1177,10 +1177,10 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Hermoso](https://github.com/hermoso-ai/hermoso) | Hermoso 官方 MCP 服务器、CLI 与 Agent Skills：AI 营销代理与 AI 广告生成器。调研 Meta、Google、LinkedIn 广告库中正在投放的广告；根据品牌官网和真实产品图生成图片、视频与 UGC 数字人广告；发布并定时到你已连接的社交账号；在 Meta Ads、Google Ads、TikTok Ads、LinkedIn Ads 等广告平台创建、修改和查看广告系列（新建的广告系列默认暂停）。 | 官方实现 (Hermoso) 🎖️, JavaScript 开发 📇, 云端/本地 🏠☁️, 远程 MCP: `https://app.hermoso.ai/mcp` (Streamable HTTP, OAuth 2.1), 本地: `npx -y hermoso mcp`, npm: `hermoso`, MIT（CLI 与 stdio 服务器；托管服务为商业服务）。 |
 | [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 给编码 Agent 一个本地视频编辑器：42 个基于 FFmpeg 的工具（剪辑、拼接、字幕、调色、转码等），带机器可读的调用约定，Agent 编辑后会自行检查输出结果；无云端、无需 API Key。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, `npx -y ffmpeg-skill`，同时提供 MCP Server 与 Agent Skill。 |
 
----
-
 | [Kling AI (Global) Plugin](https://github.com/klingai-tech/claude-plugin) | 可灵官方 Global Remote MCP，附 Claude 插件接入方式；在兼容的 Agent 中生成/编辑图片、生成视频并查询任务。 | 官方实现 🎖️, 云服务 ☁️, Streamable HTTP + OAuth, 远程端点 https://kling.ai/mcp/plugin; Global 与 China 区域账号、积分和任务隔离；生成消耗 Kling 账户积分。[官方指南](https://kling.ai/app/mcp/guide) |
 | [Kling AI (China) Plugin](https://github.com/klingai-tech/claude-plugin-cn) | 可灵官方 China Remote MCP，附 Claude 插件接入方式；在兼容的 Agent 中生成/编辑图片、生成视频并查询任务。 | 官方实现 🎖️, 云服务 ☁️, Streamable HTTP + OAuth, 远程端点 https://klingai.com/mcp/plugin; China 与 Global 区域账号、灵感值和任务隔离；生成消耗 Kling 账户灵感值。[官方指南](https://klingai.com/app/mcp/guide) |
+---
+
 
 ### 📕 社交媒体与内容创作 (小红书/RedNote)
 
