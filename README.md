@@ -418,6 +418,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                              | 备注                                                                                 |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------- |
+| [agy-fast](https://github.com/INK-Q/agy-fast) | 面向 Google Antigravity（CLI / Desktop 2.0 / IDE）的零依赖本地合规 MCP 加速插件：提供并发搜索（`batch_search`）、15 种语言符号大纲（`read_slices` / `quick_outline`）、跨文件原子编辑+内联校验（`apply_edits`）、并发构建测试（`run_checks`）与 `<50ms` 会话启动快照；10 天真实编码 A/B 实测轮次减少 33.7%、Token 折算额度降低 31.5%，且零影响原生 UI 与 Diff。 | 社区实现, Node.js / ESM 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 零运行期依赖, MIT, 中英文档。 |
 | [mcp-production-kit](https://github.com/A7mdMe/mcp-production-kit) | TypeScript MCP 服务器模板，提供系统指标查询、带目标地址检查的 HTTP 请求工具与内存状态存储，支持 stdio、SSE 和 Docker 部署。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT。 |
 | [Cortex](https://github.com/cortex-docs/cortex) | 从 OpenAPI、AsyncAPI、GraphQL、Protocol Buffer、OpenRPC 和 Markdown 生成可安装的 MCP 服务器，提供类型化 API 工具、接口规范、SDK 指南和项目文档。 | 官方实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, `npx @cortex-docs/mcp`。 |
 | [Bestax](https://github.com/allxsmith/bestax/tree/main/bestax-mcp) | 为编码 Agent 提供 Bestax（基于 Bulma v1 的 React 组件库）的组件 props、示例、CSS 变量和 Agent Skills，离线运行。 | 官方实现 (Bestax) 🎖️, TypeScript 开发 📇, 本地运行 🏠, MIT, 无需 API Key, `npx -y bestax-mcp@1`。 |
