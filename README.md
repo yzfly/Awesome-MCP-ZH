@@ -251,6 +251,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[官网](https://www.aionui.com) | [GitHub 仓库](https://github.com/iOfficeAI/AionUi)
   - **Tips**：跨平台（Windows、macOS、Linux）；适合想用图形界面管理多个 CLI Agent 与 MCP 服务器的用户。
 
+- **MyAgents**
+  - **简介**：本地优先的开源桌面 Agent 工作台，可按工作区管理多个 Agent 和定时任务。
+  - **功能**：在界面中为 Agent 配置 MCP 服务器并调用工具，支持 stdio、Streamable HTTP 和 SSE；集成 Claude Agent SDK、Codex 与 DeepSeek Harness，工作区可分别选择模型、Skill 与工具。
+  - **链接**：[官网](https://myagents.io/) | [GitHub 仓库](https://github.com/hAcKlyc/MyAgents) | [安装包](https://github.com/hAcKlyc/MyAgents/releases/tag/v0.5.14)
+  - **Tips**：客户端采用 AGPL-3.0-only，提供 macOS（Apple 芯片、Intel）和 Windows 安装包；模型账号与费用取决于所选供应商。
+
 - **vixl**
   - **简介**：开源、本地优先的桌面编程 Agent，自带密钥，没有 vixl 订阅。
   - **功能**：MCP 支持 stdio、HTTP 和 SSE。可接 Ollama 以及其它 OpenAI 兼容的本地服务。工作台含编辑器、终端和 Git。密钥存在系统钥匙串。
