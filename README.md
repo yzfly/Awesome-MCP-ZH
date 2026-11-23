@@ -1108,6 +1108,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) | 网文作者的本地章节体检工具集：16 个工具覆盖章节统计、风格基线自检、伏笔与剧情线登记、连贯性/OOC 审计、关键词与句式分析、本地语义检索；全离线运行，无需 API Key。 | 社区实现, TypeScript 📇, 本地运行 🏠, 跨平台 🍎🪟🐧 |
 | [JustFill MCP (justfill-mcp)](https://github.com/mrmaciej1/justfill-mcp) | 面向现有 PDF 表单（含扫描件与扁平 PDF）的 MCP 服务器：让 AI 检测并审阅字段布局，基于结构化 JSON 数据填充 PDF 并复用已审阅的表单模板；在线文档见 [justfill.app/mcp](https://justfill.app/mcp)。 | 官方实现 (JustFill) 🎖️, Python 开发 🐍, 云端/本地 ☁️🏠, 远程端点 `https://justfill.app/api/mcp` (OAuth) 或 `uvx justfill-mcp`, MIT, PDF 表单自动填充。 |
 | [Kept](https://github.com/keptinventory/kept) | 自托管的个人物品清单：记录你拥有的每件东西及其存放位置，内置 AI 助手与 MCP Server，可让 Agent 查询、登记和整理物品。 | 官方实现 🎖️, TypeScript 开发 📇, 自托管 🏠, AGPL-3.0, 支持 Docker 部署。 |
+| [dislop](https://github.com/dislop-ai/dislop) | 面向中英文 Markdown、Word（.docx）、PPT（.pptx）与网页 UI 的离线去 AI 味检查及改稿数字保真验证 MCP 服务器（Node 20+ / Python 3.10+ 双引擎），识别聊天残留客套话、空链接、二阶套话与改稿丢失的数字限定词。 | 官方实现 🎖️, JavaScript / Python 开发 📇🐍, 云端/本地 🏠☁️, 跨平台 🍎🪟🐧, Apache-2.0, `npx dislop mcp` / `uvx dislop mcp` 或远程 `https://dislop.com/mcp`。 |
 
 ---
 
