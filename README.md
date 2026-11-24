@@ -333,6 +333,14 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![The One](https://the-zeroth.com/product/zh/matter-board-poster.webp)  
   - **Tips**：闭源，文档公开；用自己的 API Key 或 ChatGPT 登录不收费；支持 macOS 和 Windows，另有无界面的 Linux 服务器版。
 
+- **EchoOS**  
+  - **简介**：面向后 App 时代的开源语音原生 MCP 执行系统，不到 1,000 行 Python 接通实时语音大模型（Qwen-Omni-Realtime / OpenAI Realtime）与远程 Streamable HTTP MCP。  
+  - **功能**：只读工具说完即执行、支持约 1 秒自然打断（服务端在收到 `speech_started` 后丢弃在途旧音频）；标记 `confirm: true` 的写操作由服务端冻结参数并交模型口头复述，需监测到用户再次开口发言才按原参数放行，防模型自问自答或篡改参数；通过 `tools.yaml` 逐工具白名单接入高德等远程 MCP 服务，不托管第三方本地进程。  
+  - **链接**：[GitHub](https://github.com/justDance-everybody/EchoOS) | [中文文档](https://github.com/justDance-everybody/EchoOS/blob/main/README.zh-CN.md) | [实测工程笔记](https://github.com/justDance-everybody/EchoOS/blob/main/docs/engineering-notes.md)  
+  - **截图**：  
+    ![EchoOS](https://raw.githubusercontent.com/justDance-everybody/EchoOS/main/docs/media/echo-hero.png)  
+  - **Tips**：MIT 开源，Python 3.11+ 本地或服务端运行（`uv sync && uv run echo-server`），内置 5 个免密钥参考工具开箱可测；支持浏览器访问，自带离线 `pytest` 与真模型评测 `eval/run.py`。
+
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
