@@ -1304,6 +1304,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Aelios](https://github.com/Aelios-project/Aelios) | 给 AI 加长期记忆的自部署网关：跑在你自己的 Cloudflare（Workers + D1 + Vectorize）上，对话即时捕获、夜间整理成长期记忆，换窗口、客户端、模型都能自动召回；自带 /mcp 记忆工具与可视化管理面板。 | 社区实现, TypeScript 开发 📇, 云端运行 ☁️, AGPL-3.0, 一键部署自托管。 |
 | [memgit](https://github.com/code4161/memgit) | 面向 Claude Code、Cursor、Codex 等 AI 编程工具的版本化共享记忆：导入 Claude Code 自带的记忆文件，每次修改都是一个检查点，可 diff 和回滚，BM25 召回，可选端到端加密的多机同步。 | 官方实现 🎖️, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, pip install memgit 或 npx -y memgit-mcp, 已发布到官方 MCP Registry (dev.memgit/memgit)。 |
 | [sessionwiki](https://github.com/necroz/sessionwiki) | 把 7 种编码 Agent（Claude Code、Codex CLI、Cursor、Gemini CLI、Copilot、ZCode、OpenCode）的会话记录自动编译成本地互链 Markdown 维基：LLM 为每个会话撰写摘要页，静态站点带会话图谱与全文搜索；MCP 服务器（15 个工具）让 Agent 先检索过去的决策与修复，避免重复劳动。ZCode 与 OpenCode 会话通过钩子和插件自动同步。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, PyPI: `uvx sessionwiki mcp`, 官方 MCP Registry, 无遥测。 |
+| [PADAM NOCTURNE](https://github.com/MaksimGalatin/padam-nocturne) | 面向 AI Agent 的本地主权长期记忆与 4 环智能体安全中心（单 SQLite 文件）：写入前自动脱敏 API 密钥/密码/钱包助记词，隔离提示词注入指令，对召回结果加随机边界围栏，支持混合检索（FTS5 + 本地向量）、单条擦除与可选 AES-256-GCM Arweave 存证。 | 官方实现 🎖️, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, PyPI: `uvx padam-nocturne` (v0.8.0), 官方 MCP Registry (`io.github.MaksimGalatin/padam-nocturne`), PADAM License 1.0。 |
 
 ---
 
