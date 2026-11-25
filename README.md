@@ -803,6 +803,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 ---
 
+- **[AIWget Official MCP Server](https://github.com/aiwget/aiwget-mcp)** - [AIWget](https://aiwget.com) 官方免鉴权远程 Streamable HTTP MCP 服务（`https://aiwget.com/api/mcp`），支持检索严选 B2B AI 工具目录、2026-11 企业 API TCO 实测计算、远程 MCP/RFC 9728 端点检测与 Ahrefs DR3/DR4 实时查询。
+
 ### 💬 通讯与协作 (Slack, Email, Calendar, Social, etc.)
 
 *(让 AI 能够收发消息、管理日程、参与团队协作等)*
