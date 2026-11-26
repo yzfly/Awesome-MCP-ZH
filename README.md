@@ -1576,6 +1576,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [OpenAny](https://openany.si) | 面向 Agent 的模型与 API 聚合市场：用一个 API Key 调用其接入的 AI 模型和第三方 API，预充值、按调用计费。 | 官方实现 🎖️, Go 开发 🏎️, 云服务 ☁️, 远程端点 `https://mcp.openany.si/mcp`（Streamable HTTP）, Bearer API Key, 源码 [openany-mcp](https://github.com/openanysi/openany-mcp), MIT |
 | [ev-diagnosis-mcp](https://github.com/1ouxilisi/ev-diagnosis-mcp) | 新能源汽车维修诊断：故障码查询、结构化诊断结论（原因按概率排序 / 检查顺序先不花钱后花钱 / 报价分档）、190 条中文实战维修经验、44 条车型通病映射。896 条标准 DTC 取自 ModelScope 公开数据集。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, 零依赖、纯本地数据、不联网。 |
 
+| [Nia Connectors](https://github.com/nia-teams/nia-connectors) | 本地 MCP 聚合网关与 Web 控制台：面向 Claude Code、Codex、Cursor、Antigravity 等客户端，将数百个服务（以中文服务为主）统一聚合在单一 Streamable HTTP 端点（`/mcp`）下；凭据采用 AES-256-GCM 本地加密保存，支持 API Key、MCP OAuth、本地 CLI 零注册使用，并提供可选一键 OAuth 授权。 | 社区实现, TypeScript/Node.js 开发 📇, 本地运行 🏠, MIT, 内置 `skills/nia-connectors/SKILL.md`。 |
 ---
 
 ### 更多 MCP Server 资源
@@ -1589,6 +1590,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 * [web目录](https://glama.ai/mcp/servers)。
 * [MCP.ing](https://mcp.ing) 一个资源丰富的 MCP Server库。
 * [MCP Registry](https://github.com/modelcontextprotocol/registry) 官方 MCP 注册中心，统一发现与发布 MCP Server 的元数据服务。
+* [Nia Connector Registry](https://github.com/nia-teams/nia-connector-registry) 面向 AI 工具的公开服务目录（以中文服务为主），提供双语元数据、连接配置与 `catalog.json` / `stats.json` 静态索引。
 * [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) 官方维护的 MCP 参考服务器集合，涵盖文件系统、Git、Fetch、记忆等众多示例，是学习和上手 MCP Server 的权威起点。
 
 ![mcp.ing](https://youjb.com/images/2025/04/25/mcp-ingb03704c206230a97.png)
@@ -1691,6 +1693,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 - [modelcontextprotocol/csharp-sdk](https://github.com/modelcontextprotocol/csharp-sdk) MCP 官方 C#/.NET SDK，与 Microsoft 合作维护。
 - [modelcontextprotocol/rust-sdk](https://github.com/modelcontextprotocol/rust-sdk) MCP 官方 Rust SDK (rmcp)，适合高性能场景。
 - [modelcontextprotocol/ext-apps](https://github.com/modelcontextprotocol/ext-apps) MCP Apps 协议官方规范与 SDK，标准化在 AI 聊天界面中嵌入、由 MCP 服务器提供的交互式 UI。
+- [@nia-teams/mcp-sdk](https://github.com/nia-teams/mcp-sdk) 面向 Nia Teams 的 TypeScript MCP 集成 SDK，提供工作负载鉴权、人工确认卡片和基于官方 ext-apps 的 Workspace Apps 接入。
 - [punkpeye/fastmcp](https://github.com/punkpeye/fastmcp) 构建 MCP 服务器的 TypeScript 框架，简洁 API 快速暴露工具/资源/提示词。
 - [agentfront/frontmcp](https://github.com/agentfront/frontmcp) 构建 MCP 服务器的 TypeScript 框架：基于 Zod 的类型化工具、依赖注入、鉴权、测试、Agent 与任务，支持 MCP 2026-07-28，可部署到 Node、Vercel、AWS Lambda 与 Cloudflare Workers。
 - [langchain-ai/langchain-mcp-adapters](https://github.com/langchain-ai/langchain-mcp-adapters) 官方适配器，将 MCP 工具无缝接入 LangChain / LangGraph Agent。
