@@ -1428,6 +1428,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [gjlmotea/studio-sidecar-mcp](https://github.com/gjlmotea/studio-sidecar-mcp) | Roblox Studio 内置 MCP 的补完层：打开尚未开启的 place、清理 StudioMCP 进程、以 PlaceId 防止写错游戏、突破 Luau 100k 输出上限，并通过 Open Cloud 上传或更新资源。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠 |
 | [yurineko73/Godot-MCP-Native](https://github.com/yurineko73/Godot-MCP-Native) | Godot 开源引擎的 MCP 插件，使用 Godot 原生 HTTP 实现 MCP Server，无需安装依赖、开箱即用，支持常见 Godot 引擎操作与多种 AI 工具调用。 | 社区实现, GDScript 开发, 本地运行 🏠, Godot 原生实现, 无依赖。 |
 | [HappyLifeOk/cc-3-8-x-mcp](https://github.com/HappyLifeOk/cc-3-8-x-mcp) | Cocos Creator 3.8.x 的 MCP 服务 + 离线 CLI，把编辑器的场景 / 资源 / 预览 / 构建 / 进程控制暴露给 AI 客户端，并附带 headless prefab 读写与命令行打包。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, Cocos Creator 引擎集成, Apache 2.0。 |
+| [ouba-studio/branching-story-mcp](https://github.com/ouba-studio/branching-story-mcp) | 面向互动小说 / 视觉小说的确定性分支剧情引擎 MCP 服务器：校验场景图、执行零漂移的状态转移（带可验证的 SHA-256 轨迹哈希）、检测对话记录中的记忆漂移，并可查询 2026 年十款 AI 故事应用剧情连续性基准（CC-BY-4.0，doi:10.7910/DVN/YEBHQR）。 | 官方实现 (Ouba Studio), Python 开发 🐍 (零第三方依赖), 本地 stdio 🏠, `uvx branching-story-mcp`, 无需 API Key / 网络。 |
 
 ---
 
