@@ -410,6 +410,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [unblockingapi/mcp](https://github.com/unblockingapi/mcp) | UnblockingAPI 官方 MCP 服务器：为 AI 代理抓取有反爬保护或重度依赖 JavaScript 的网页（按站点自动选择普通 HTTP 请求或真实浏览器），也可用已发布的模板将页面解析为结构化 JSON。 | 官方实现 🎖️, TypeScript 开发 📇, 云服务 ☁️, 本地 `npx -y @unblockingapi/mcp`（需 `UNBLOCKINGAPI_KEY`）或托管端点 `https://mcp.unblockingapi.com/mcp`，MIT 许可。 |
 | [Octocrawl](https://github.com/77777R7/Octocrawl) | 把公开网页转成 Markdown 或结构化 JSON 交给 AI 代理，每条结果附带证据记录（最终 URL、抓取时间、HTTP 状态、robots.txt 判定、内容哈希）；页面被拦截、为空或内容不对时，返回状态和原因，而不是当作正文。提供 scrape、map、crawl、batch_scrape 等工具。 | 官方实现 (Octocrawl) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, 免 Key 托管端点 `https://mcp.octocrawl.dev/mcp`（仅 scrape、map，每个 IP 每天 20 页）；本地先运行 `npx octocrawl serve`，再用 `npx -y @octocrawl/mcp` 接入，AGPL-3.0 许可。 |
 | [anomalyco/browse](https://github.com/anomalyco/browse) | 让 AI Agent 使用你自己的真实浏览器（已有标签页、登录状态与扩展）：MCP Server 搭配 Chromium 扩展，Agent 在独立标签组里用 Playwright 打开和操作页面、截图、读取内容。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT。 |
+| [Agent360dk/browser-mcp](https://github.com/Agent360dk/browser-mcp) | 通过 Chrome 扩展让 AI 代理操作你已登录的真实 Chrome；遇到双因素验证码、验证码或需要人做决定时，会在屏幕上询问你，然后继续。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, MIT, `npx -y @agent360/browser-mcp@latest` + Chrome 扩展。 |
 ---
 
 ### 💻 开发与代码执行
