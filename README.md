@@ -1002,6 +1002,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 | 名称                                                                 | 中文介绍                                                                                                 | 备注                                                                                                         |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- |
+| [fanqie-rank-scout](https://github.com/xiaomomini/fanqie-rank-scout) | 番茄小说公开榜单抓取：四大榜单 TOP10 与 74 个分类的在读中位数、在读/万字读者密度，用来判断网文题材还值不值得写；附每日更新的网页版数据页。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 零依赖零登录, CLI + MCP 双形态, MIT。 |
 | [Flint（microsoft/flint-chart）](https://github.com/microsoft/flint-chart) | 微软开源的可视化中间语言 + MCP Server：Agent 只需写简单、人可编辑的图表规格，即可稳定生成美观图表，附多套视觉主题。 | 官方实现 🎖️, TypeScript 开发 📇, 本地运行 🏠, MIT。 |
 | [Axiom](https://github.com/axiomhq/mcp-server-axiom)                 | Axiom 官方集成，用自然语言查询和分析 Axiom 日志、追踪等事件数据。                                           | 官方实现 (Axiom), Python 开发, Axiom 日志分析。                                                              |
 | [Talivia Agent Kit](https://github.com/talivia-group/agent) | Talivia 官方 MCP 服务器、CLI 与 Agent Skill，帮助 AI Agent 安装网站分析追踪、验证实时事件，并将引荐来源、营销活动与客户旅程关联到支付收入。 | 官方实现 (Talivia) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, 远程 MCP: `https://talivia.com/mcp`, npm: `@talivia/agent`。 |
