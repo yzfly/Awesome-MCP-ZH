@@ -333,6 +333,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![The One](https://the-zeroth.com/product/zh/matter-board-poster.webp)  
   - **Tips**：闭源，文档公开；用自己的 API Key 或 ChatGPT 登录不收费；支持 macOS 和 Windows，另有无界面的 Linux 服务器版。
 
+- **Mel – the agentic terminal**  
+  - **简介**：面向 macOS、Windows 和 Linux 的智能体终端（另有 VS Code 扩展），内置 MCP 客户端，由一组 AI 智能体完成编码、运行命令和代码审查。  
+  - **功能**：支持本地（stdio）和远程（Streamable HTTP）MCP 服务器；可在 Settings ▸ Connectors ▸ Custom server 添加，导入 `mcpServers` JSON，或编辑 `~/.mel/mcp.json` 和项目内的 `.mel/mcp.json`；每次 MCP 工具调用都会显示参数，等你批准后才执行。  
+  - **链接**：[官网](https://www.openmel.dev) | [MCP 文档](https://www.openmel.dev/docs/customize/mcp-servers)  
+  - **Tips**：闭源，文档公开；使用自己的 API Key 可免费使用，支持 Claude、GPT、Gemini、DeepSeek、Qwen 等多种模型。
+
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
