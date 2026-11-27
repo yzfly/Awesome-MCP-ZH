@@ -566,6 +566,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [ClawTouch MCP](https://github.com/tinqiao-oss/clawtouch-mcp) | 通过外接 USB HID 硬件（树莓派 Pico 2，固件开源）驱动真实鼠标键盘：移动、点击、拖拽、输入、组合键、滚动；另有窗口枚举与按窗口裁剪的截图。被控机不需要安装任何软件；`--mock` 模式可无硬件试用。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 需外接 HID 硬件, 跨平台 🪟🍎🐧（窗口相关功能以 Windows 最完整）。 |
 | [Sidehand](https://github.com/Blue-B/sidehand) | 让 AI Agent 在用户当前窗口后面读取和操作 Windows 应用：通过 UI Automation 把每个控件读成一行短文本，输入、点击、选择都不移动鼠标、不抢键盘和前台；自绘界面的应用用 Windows 自带 OCR 读取；多个 Agent 可同时操作不同应用。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, 仅 Windows 🪟, 源码公开（PolyForm Shield 1.0.0，非 OSI 开源许可）；`npx -y sidehand mcp` |
 | [Poki](https://github.com/JosssphZhou/poki) | 让 AI Agent 像人一样操作真实 iPhone：本地 MCP Server 与 Agent，无需越狱和额外硬件，可查看屏幕、点击、输入与滑动。 | 社区实现, Swift 开发, 本地运行 🏠, macOS + iPhone 🍎, AGPL-3.0。 |
+| [Wallrus](https://github.com/joexk1/wallrus) | 通过 MCP 检查 Three.js 场景、切换动态桌面壁纸，并截图查看壁纸的渲染结果。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, macOS 🍎 / Linux 🐧, MIT, `wallrus mcp`，[中文安装与演示](https://wallrus.pages.dev/zh/)。 |
 
 ---
 
