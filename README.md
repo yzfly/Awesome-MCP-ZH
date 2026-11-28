@@ -290,10 +290,10 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **Tips**：Apache-2.0 开源，提供简体中文等文档及 TypeScript / Python SDK。
 
 - **Knovum**  
-  - **简介**：源码可见的本地优先画布知识空间，内置 MCP 客户端。  
-  - **功能**：基于 Tauri 2 + Vue 3，提供 JSON Canvas 画布、SQLite 元数据、LanceDB 向量检索与本地语音转录，并可连接外部 MCP 工具。  
+  - **简介**：MIT 开源的本地优先画布知识空间，同时是 MCP 客户端与 MCP 服务端。  
+  - **功能**：基于 Tauri 2 + Vue 3，笔记、PDF、录音与网页剪藏放在同一张无限画布上；节点是带类型的知识对象（Claim、Evidence、Decision、Question、Concept、Experiment），引用可回溯到它取自的源内容版本。SQLite 存数据、LanceDB 做本地向量检索，语音转录与 OCR 在设备端完成。对外通过仅监听回环地址的 MCP server 暴露 Space 的读取与写入（写入走同一套校验后的原子变更集），也可以把外部 MCP server 接成 Agent 扩展。  
   - **链接**：[GitHub 仓库](https://github.com/madebyzan/knovum)  
-  - **Tips**：使用 Knovum Personal Noncommercial License，个人非商业用途之外需另行授权；支持 macOS 与 Windows，使用远程模型或工具时会按所选服务发送相关数据。
+  - **Tips**：许可是 MIT，商用不需要另行授权；画布支持 JSON Canvas 导入/导出，但内部存储不是 .canvas 文件；发行版内置每天最多一条的启动统计，默认开启、可在「设置 → 关于」关闭；选择远程模型或远程 MCP 服务时会按所选服务发送相应内容；目前只有 macOS 与 Windows 版，安装包尚未做 Apple 公证。
 
 
 - **CUGA**
