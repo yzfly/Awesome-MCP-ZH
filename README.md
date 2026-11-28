@@ -529,7 +529,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [reqlan](https://github.com/littletuna4/reqlan/tree/main/packages/mcp) | 需求图谱的 MCP 服务器：需求写成 `.rq` 文件里的具名条目（idea），用 `implemented in` / `proven by` 链接到实现文件和测试文件，代码和测试注释里的 `rq:` 标记指回具体条目；`reqlan check` 静态检查这些链接，当 `rq:` 标记指向的条目被改名、或被链接的测试文件被删除时，报错并返回退出码 1。提供 5 个工具：`click`（检索条目及其上下文）、`check`、`diff`（比较两个 git 版本间的条目）、`completion_status`、`prompt`。 | 官方实现 (reqlan) 🎖️, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, AGPL-3.0, 需将 `REQLAN_WORKSPACE` 设为工作区根目录, `npx -y @reqlan/mcp`。 |
 | [ipvolt Proxy Toolkit](https://github.com/ipvolt/proxy-toolkit-mcp) | 帮编码 Agent 配置和排查 HTTP 代理：检索经过审核的代理配置与排错指南，生成 curl、Python Requests、HTTPX、Playwright 配置模板（凭据保留为环境变量占位符），并根据状态码、异常和请求阶段诊断 407、429、超时等错误、给出下一步检查。适用于任意代理服务商。 | 官方实现 (ipvolt) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, 4 个工具, 无需 API Key, MIT, 远程端点 `https://mcp.ipvolt.com/mcp`（Streamable HTTP）, 本地 `npx -y @ipvolt/proxy-toolkit-mcp@0.1.0`（Node.js 24+，可选本地路由检查）。 |
 | [gemini-pro-mcp](https://github.com/Muzaqil555/gemini-pro-mcp) | 让 Claude Code、Codex 等编程 Agent 直接使用你的 Google AI Pro 订阅：通过 Antigravity CLI 调用 Gemini 做代码审查、读取本地文件和 Deep Research，还能启动 Jules 任务、操作 Gemini Notebooks、用 Google Flow 生成视频。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, `uvx gemini-pro-mcp setup` 一条命令接入, 浏览器类工具默认关闭, MIT。 |
-
+| [PromptBill](https://github.com/danielneuron/promptbill) | 零依赖、100% 本地优先的 AI 编程费用归因与客户账单 PDF 生成 MCP 服务器：解析 Claude Code、Codex CLI、Gemini CLI、Cline、Roo Code 本地日志按 Git 仓库统计并生成 PDF 1.4 / Xero / QuickBooks 账单（4 个工具：`promptbill_scan_usage`、`promptbill_repo_spend`、`promptbill_generate_invoice_pdf`、`promptbill_export_csv`）。Official MCP Registry: `io.github.danielneuron/promptbill`。 | TypeScript 📇, 本地运行 🏠, stdio, 无需密钥, MIT, `npx -y github:danielneuron/promptbill mcp` |
 
 ---
 
@@ -1368,6 +1368,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [元冰可 YBK](https://github.com/01men/ybkkasi) | AI 资产管理平台，内置 MCP Server，提供 MCP 服务、Skill、Agent 和应用台账，以及审批、部署、审计与成本管理工具。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT, 可通过 Docker Compose 自托管。 |
 | [Preloop](https://github.com/preloop/preloop) | 开源 AI 智能体控制平面与软件工厂：每一次工具调用和模型调用都会被允许、拒绝或交由人工审批，计入预算并记录；智能体可由工单、Webhook 和 CI 触发，在托管容器或自有 runner 中运行，以 Pull Request 交付成果。 | 官方实现 🎖️, Python 开发 🐍, 云端/本地 🏠☁️, MCP 代理与网关，远程端点 `https://preloop.ai/mcp/v1`（Streamable HTTP），Apache-2.0，可用 Docker Compose 或 Helm 自托管。 |
 | [Ironheights](https://github.com/Frank-Masciopinto/ironheights) | 在安装前检查 AI Agent 技能（任意含 `SKILL.md` 的文件夹：OpenClaw、Claude Code、Codex、Cursor 等）的安全扫描器。`ironheights mcp` 提供只读 MCP 服务器：`check_skill` 扫描本地文件夹或 ClawHub 技能（不执行任何文件），返回失败即阻断的 allow/blocked 判定、A–F 评级和带文件与行号的发现项（提示注入、隐藏文本、凭证读取、远程执行安装、持久化），并写入审计回执；另有 `verify_check`、`drift_status`（批准后变更检测）、`threatmodel_check`、`get_rule`。基于固定静态规则，项目仍处早期，评级干净不代表绝对安全。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, stdio, 无需密钥, Apache-2.0, `npx -y ironheights@0.23.0 mcp`。 |
+| [AuditDeck](https://github.com/danielneuron/auditdeck) | 零依赖、100% 本地优先的五维 Git 仓库技术审计与客户交付 PDF 报告生成 MCP 服务器：脱敏扫描密钥/.env、依赖锁文件、CI/测试、Git Bus-Factor 与交付文档（4 个工具：`auditdeck_audit_repo`、`auditdeck_scan_secrets`、`auditdeck_generate_pdf`、`auditdeck_export_report`）。Official MCP Registry: `io.github.danielneuron/auditdeck`。 | TypeScript 📇, 本地运行 🏠, stdio, 无需密钥, MIT, `npx -y github:danielneuron/auditdeck mcp` |
 
 ---
 
