@@ -8,7 +8,7 @@
 [![简体中文](https://img.shields.io/badge/中文文档-点击查看-orange)](README.md) 
 
 
-- [Insomnia Security MCP](https://github.com/vulnz/insomnia-mcp) - All-in-one offensive security, multi-language SAST/taint, live secret validation, SCA/SBOM, Web DAST, OSINT, 21,100+ 1-Day CVE verification, and 29-protocol network enumeration MCP server (160 tools; zero-install Streamable HTTP at `https://mcp.insom.ai/mcp` + `npx`/`uvx` bridge, 50 free credits).
+- [Insomnia Security MCP](https://github.com/CQR-Cybersecurity-LLC/insomnia-mcp) - All-in-one offensive security, multi-language SAST/taint, live secret validation, SCA/SBOM, Web DAST, OSINT, 21,100+ 1-Day CVE verification, and 29-protocol network enumeration MCP server (160 tools; zero-install Streamable HTTP at `https://mcp.insom.ai/mcp` + `npx`/`uvx` bridge, 50 free credits).
 - 作者：云中江树 （微信公众号：云中江树，微信：1796060717）
 
 - 如果国内的朋友想免费快速的体验MCP能力，推荐 Cherry Studio（客户端） + 阿里 Qwen (大模型）的组合，优势是免费、操作简单、LLM无需魔法、无需充值。
