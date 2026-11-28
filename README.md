@@ -333,6 +333,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
     ![The One](https://the-zeroth.com/product/zh/matter-board-poster.webp)  
   - **Tips**：闭源，文档公开；用自己的 API Key 或 ChatGPT 登录不收费；支持 macOS 和 Windows，另有无界面的 Linux 服务器版。
 
+- **MindPal**  
+  - **简介**：网页端的无代码 AI 智能体与工作流平台，内置 MCP 客户端，面向教练、顾问、代理机构和教育者。  
+  - **功能**：在工作区添加远程 MCP Server（例如 Zapier、Make 提供的 MCP 链接）后，智能体即可调用其中的工具，与网页搜索、图像生成和已连接的应用一起使用；智能体可组合成多步骤工作流，发布为聊天机器人或表单。MindPal 本身也提供远程 MCP Server（`https://mcp.mindpal.space/mcp`，OAuth 2.1），可在 Claude、ChatGPT 等助手里搭建和运行 MindPal 的智能体与工作流。  
+  - **链接**：[官网](https://mindpal.space) | [MCP 文档](https://docs.mindpal.space/mcp)  
+  - **Tips**：闭源商业产品，文档公开；网页版无需安装，有永久免费套餐；只连接远程 MCP Server，不支持本地 stdio。
+
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
