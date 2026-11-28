@@ -853,6 +853,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [team-telnyx/telnyx-mcp-server](https://github.com/team-telnyx/telnyx-mcp-server) | Telnyx 官方 MCP 服务器，用于构建 AI 驱动的通信应用。创建语音助手、发送短信、管理电话号码、集成实时消息。 | 官方实现 (Telnyx) 🎖️, Python 开发 🐍, 云服务 ☁️, 电话/短信/AI 语音助手。 |
 | [TweetAPI MCP](https://github.com/tweetapi/tweetapi-mcp) | TweetAPI 官方 MCP 服务器：只读获取 Twitter 公开数据（推文搜索、用户资料、关注者、列表、社区、Spaces），并可查询 TweetAPI 文档。 | 官方实现 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, MIT, 托管端点 StreamableHTTP + OAuth，也可本地 stdio 运行，33 个只读数据工具。 |
 | [userad/didlogic_mcp](https://github.com/UserAd/didlogic_mcp)          | DIDLogic MCP 服务器。增加管理 SIP 端点、号码和目的地的功能。                              | 社区实现, Python 开发 🐍, 云服务 ☁️, DIDLogic (VoIP) 集成。                               |
+| [Winly MCP](https://github.com/getwinly/winly-mcp) | Run your Instagram and Facebook DMs from Claude, ChatGPT or any AI agent. | 官方实现 🎖️, 云服务 ☁️, 远程端点 `https://app.sbccrm.com/bld/api/mcp`（Streamable HTTP，OAuth / API Key）。 |
 | [X (Twitter) (by vidhupv)](https://github.com/vidhupv/x-mcp)         | 直接通过 Claude 创建、管理和发布 X/Twitter 推文。                                            | 社区实现, Python 开发, Twitter 发推管理。                                                 |
 | [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) | X/Twitter 数据平台，提供远程 MCP、REST API、Webhooks、批量提取、账号监控与抽奖工作流。 | 官方实现 (Xquik) 🎖️, TypeScript 开发 📇, 云服务 ☁️, StreamableHTTP, 2 个 MCP 工具, 100+ REST API 端点。 |
 | [OpenPost](https://github.com/getopenpost/openpost) | 开源、可自托管的社交媒体发布平台，MCP 可查询工作区、准备多平台内容版本、复用媒体并在人工审核后排程或发布。 | 官方实现 🎖️, Go 开发 🏎️, 云端/本地 🏠☁️, Streamable HTTP + OAuth 2.0，也提供 stdio 代理。 |
